@@ -1,0 +1,1 @@
+alter table departements_produits ADD column yri_Not_PHYSICAL_ASSET_STOCK_department tinyint(1) AFTER description_departement_produit;

@@ -1,0 +1,5 @@
+ALTER TABLE yri_db_runtime_verif CHANGE column error_accepted_runtime_monitor_NAME error_accepted_runtime_monitor_NAME varchar(50);
+ALTER TABLE yri_db_runtime_verif CHANGE column error_accepted_runtime_monitor_name_ID error_accepted_runtime_monitor_name_ID varchar(25);
+ALTER TABLE yri_db_runtime_verif CHANGE column error_accepted_runtime_monitor_name_DESCRIPTION error_accepted_runtime_monitor_name_DESCRIPTION varchar(120);
+ALTER TABLE yri_db_runtime_verif ADD column methods multilinestring(1024) AFTER error_accepted_runtime_monitor_name_DESCRIPTION;
+ALTER TABLE yri_db_runtime_verif ADD column tainted multilinestring(1024) AFTER methods;

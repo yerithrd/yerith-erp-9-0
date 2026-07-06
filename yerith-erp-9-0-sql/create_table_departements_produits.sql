@@ -1,0 +1,1 @@
+create table departements_produits (id int primary key, nom_departement_produit varchar(50) NOT NULL, description_departement_produit varchar(256), yri_Not_PHYSICAL_ASSET_STOCK_department tinyint(1));

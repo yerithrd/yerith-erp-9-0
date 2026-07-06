@@ -1,0 +1,32 @@
+1. Set an application option so not to permit article sales
+   return after a period of time set by a user.
+
+2. LOAD databases data even if stocks table wasn't loaded now.
+
+3. incorporer des codes automatiquement generes provenant
+   de yri_sd_runtime_verif_lang; Ainsi la compilation
+   manuelle sera allegee !
+
+4. NE PLUS RE-INTIALISER DES CHAMPS TEXTUELS
+   DE RECHERCHE conditionnelles lorsque DE
+   RETOUR A LA PAGE; MAIS PLUTOT D'ABORD 
+   CONSERVER DES VALEURS PRE-ENTREES PAR 
+   l'utilisateur de l'interface.
+
+5. NE PLUS RE-INTIALISER DES CHAMPS TEXTUELS
+   DE RECHERCHE conditionnelles lorsque reactive;
+   MAIS PLUTOT D'ABORD CONSERVER DES VALEURS
+   PRE-ENTREES PAR l'utilisateur de l'interface.
+   
+6. PERMETTRE LA VENTE DE CERTAINS STOCKS EN TANT QUE
+   SERVICE A 1 CLIENT, SANS AVOIR A OBLIGE LE CLIENT
+   A PAYE TOUT LE MONTANT A L'AVANCE.
+   
+7. CREER 1 PAGE DE MODIFICATIONS DES DETAILS D'1 
+   MARCHANDISE.
+   
+8. CHANGER LES yerith-line-edit DES CHAMPS TEXTUELS
+   DE RECHERCHE EN yerith-qcombo-box.
+   
+   
+   

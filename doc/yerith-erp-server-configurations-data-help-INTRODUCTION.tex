@@ -1,0 +1,177 @@
+\chapter{Introduction}
+
+\YERITHCHAPINTRO{
+	\yremphsc{This chapter shows how to generate the
+	debian package named 'yerith-erp-9-0-standalone-configurations-data-ENGLISH.deb'
+	(\yrCOLORgold{or 'yerith-erp-9-0-standalone-configurations-data.deb'
+	as FRENCH-language version}) for configuring the 
+	ERP software \yeritherp.}
+}
+
+
+
+\vspace*{0.95em}
+
+
+
+\section{Prerequisite Software}
+
+%\vspace*{1em}
+
+\begin{table}[!htbp]
+\centering
+\captionof{table}{Prerequisite software.}
+\label{tab:prerequisite-software}
+\begin{tabularx}{\textwidth}{X|X}
+\hspace*{.2\textwidth} \textbf{Software}	&
+\hspace*{.2\textwidth} \textbf{Versions}	\\ \hline
+\end{tabularx}
+\begin{tabularx}{\textwidth}{>{\small}X | >{\small\hfill\arraybackslash}X}
+\gdebi				&
+$0.9.5.7+nmu5$		\\
+\end{tabularx}
+\end{table}
+
+
+
+\vspace*{0.95em}
+
+
+
+\begin{table}[!htbp]
+\centering
+\captionof{table}{Files required for installation of \yeritherp.}
+\yriLabelFORTABLEFigureWITHvspace{-0.79em}{tab:prerequisite-files}
+\begin{tabularx}{\textwidth}{|X|} 						\hline \xrowht{1em}
+\hspace*{.47\textwidth} \textbf{\uppercase{Files}}		\\ \hline \xrowht{0.72em}
+\YRFILEEXECUTABLE											\\ \hline \xrowht{0.72em}
+\YRFILEconfigurationdata									\\ \hline \xrowht{0.72em}
+\YRFILESYSTEMDAEMON										\\ \hline	
+\end{tabularx}
+\end{table}
+
+\vspace*{1em}
+
+Table~\ref{tab:prerequisite-files} illustrates files required
+for installing \yeritherp.
+
+
+\vspace*{0.95em}
+
+
+
+\section{A Package management file For \debianlinux}
+
+A software system and~/~or module could be installed easily
+for the \yrihttpstexturl{www.debian.org}{\debianlinux platform} 
+when its is packaged~(archived) as file type 
+'.deb'~(or debian package).
+
+\qquad
+Such a '.deb'-file contains files and binary executable
+and~/~or instructions on how to place them onto the file
+system of the computer where to install this software system,
+and~/~or program.
+
+
+
+\newpage
+
+
+
+\section{\yrCOLORDarkred{How to Download \yeritherp sample FOSS source code}}
+
+\begin{enumerate}[$1.)$]
+	\itemsep 0.42em
+	
+	\item From the website \yrihttpstexturl{www.github.com}{''www.github.com''}~:
+	
+	\qquad
+	From your bash shell command, type the following command~:
+		\vspace*{-0.15em}	
+		\begin{alltt}
+			\rootcommand{git clone https://www.github.com/yerithrd/yerith-erp-9-0}
+		\end{alltt}			
+\end{enumerate}
+
+
+
+\section{Set a BASH-path for \yeritherp commands}
+
+\begin{enumerate}[$1.)$]
+	
+	\itemsep 0.21em
+
+	\item \yremphsc{Open a ''bash--terminal''}
+	
+	\item \yremphsc{type following lines of Bash-shell code in 
+		your '/home/\$USER/.bashrc file'~:}
+		
+		\vspace*{-0.15em}	
+
+		\begin{verbatim}
+			export LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu
+			export GIT_EDITOR=vim
+			QT_SELECT=5
+			YERITH_ERP_3_0_HOME_FOLDER=${HOME}/yerith-erp-9-0
+			YERITH_ERP_3_0_PROPERTIES_CONFIGURATION_FOLDER=${YERITH_ERP_3_0_HOME_FOLDER}
+			YERITH_ERP_3_0_SYSTEM_DAEMON_HOME_FOLDER=$HOME/yerith-erp-9-0-system-daemon
+			PATH=${YERITH_ERP_3_0_HOME_FOLDER}/yerith-erp-9-0-development-scripts:${PATH}
+			PATH=${YERITH_ERP_3_0_HOME_FOLDER}/yerith-erp-9-0-development-scripts/ENGLISH:${PATH}
+			
+			export YERITH_ERP_3_0_PROPERTIES_CONFIGURATION_FOLDER
+
+			export YERITH_ERP_3_0_HOME_FOLDER
+			
+			export YERITH_ERP_3_0_SYSTEM_DAEMON_HOME_FOLDER			
+			
+			export PATH
+			
+		\end{verbatim}		
+		
+		\vspace*{-0.27em}		
+		
+		\yrCOLORDarkred{\yremphscBF{PLEASE, revert the BASH--settings 
+		afore given when re--installing your productive version of 
+		\yeritherp so to avoid collisions of BASH environment variables
+		specifications~!}}
+
+		
+\end{enumerate}
+
+
+
+\section{\yrCOLORDarkred{How to generate 'yerith-erp-9-0-standalone-configurations-data-ENGLISH.deb'}}
+ 
+\begin{enumerate}[$1.)$]
+	
+	\itemsep 0.21em
+
+	\item \yremphsc{Open a ''bash--terminal''}
+	
+	\item \yremphsc{type following command~:}
+		\vspace*{-0.15em}	
+		\begin{alltt}
+			\rootcommand{yerith-create-dpkg_yerith-erp-9-0-standalone-configurations-data-ENGLISH.sh}
+		\end{alltt}
+\end{enumerate}
+
+
+
+\section{\yrCOLORDarkred{How to generate 'yerith-erp-9-0-standalone-configurations-data.deb'}}
+ 
+\begin{enumerate}[$1.)$]
+	
+	\itemsep 0.21em
+
+	\item Open a ''bash--terminal''
+	
+	\item \yremphsc{type following command~:}
+		\vspace*{-0.15em}	
+		\begin{alltt}
+			\rootcommand{yerith-create-dpkg_yerith-erp-9-0-standalone-configurations-data.sh}
+		\end{alltt}
+\end{enumerate}
+
+
+

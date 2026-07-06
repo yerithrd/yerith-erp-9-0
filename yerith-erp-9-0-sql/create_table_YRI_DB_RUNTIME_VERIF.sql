@@ -1,0 +1,1 @@
+create table yri_db_runtime_verif (id int auto_increment primary key, error_accepted_runtime_monitor_NAME varchar(50) NOT NULL, error_accepted_runtime_monitor_name_ID varchar(25) NOT NULL, error_accepted_runtime_monitor_name_DESCRIPTION varchar(120), methods multilinestring(1024), tainted multilinestring(1024));

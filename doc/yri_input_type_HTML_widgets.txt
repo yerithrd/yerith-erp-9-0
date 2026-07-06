@@ -1,0 +1,9 @@
+
+
+
+<input type="button" value="yri_html_page_Widget_button" id="">											//Kind of a button widget.
+
+<input type="hidden" name="" value="????string?????.php"> //Kind of a hidden input widget for string values.
+<input type="submit" value="Go" id=""> 										//Kind of a button widget.
+<input type="password" name="" id="" value="" size="">		//Kind of an input widget for password string values.
+

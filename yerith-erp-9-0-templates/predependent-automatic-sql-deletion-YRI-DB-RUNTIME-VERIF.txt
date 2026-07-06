@@ -1,0 +1,9 @@
+Master_test_predependencies
+
+
+Sample: 
+1. deletion of a pay group 'paygroup_SAMPLE'
+2. automatic deletion of all employee group using 'paygroup_SAMPLE'
+3. automatic re-creation of all employee group.
+
+recovery_sql_query(groupes_demployes_hr, "DELETE from groupes_demployes_hr where groupe_de_paie_hr='paygroup_SAMPLE'")

@@ -1,0 +1,355 @@
+#!/bin/bash
+
+USAGE="$(basename $0) [-e] <-v [qsqlite3 | standalone | academic | client | server]>"
+
+
+# Declaration of english installation documentation folders
+ENGLISH_JH_NISSI_COMPENDIUM_PDF_FILE_PATH=
+ENGLISH_ERP_PRODUCT_COMPARISON_SHEET_PDF_FILE_PATH=
+ENGLISH_PRODUCT_SHEET_PDF_FILE_PATH=
+ENGLISH_WHITE_PAPERS_PDF_FILE_PATH=
+ENGLISH_BROCHURE_PDF_FILE_PATH=
+
+
+# Declaration of french installation documentation folders
+FRANCAIS_JH_NISSI_COMPENDIUM_PDF_CHEMIN=
+FRANCAIS_FICHE_DE_DONNEES_PDF_CHEMIN=
+FRANCAIS_COMPARAISON_ERP_PDF_CHEMIN=
+FRANCAIS_WHITE_PAPERS_PDF_CHEMIN=
+FRANCAIS_BROCHURE_PDF_CHEMIN=
+FRANCAIS_BROCHURE_DE_GESTION_COMMERCIALE_PDF_CHEMIN=
+FRANCAIS_MANUEL_DE_LUTILISATEUR_CHEMIN=
+
+
+function chown_and_grp_for_lintian ()
+{
+		FILE_OR_FOLDER="$1"
+
+		sudo chown -R root "${FILE_OR_FOLDER}"
+		sudo chgrp -R root "${FILE_OR_FOLDER}"
+}
+
+
+function CopyYERITHerpDocumentationINTOinstallationFolder_English ()
+{
+		FOLDER="$1"
+
+		chmod +r ${ENGLISH_JH_NISSI_COMPENDIUM_PDF_FILE_PATH} 
+
+		${CP} ${ENGLISH_JH_NISSI_COMPENDIUM_PDF_FILE_PATH} "${FOLDER}"
+		${CP} ${ENGLISH_ERP_PRODUCT_COMPARISON_SHEET_PDF_FILE_PATH} "${FOLDER}"
+		${CP} ${ENGLISH_PRODUCT_SHEET_PDF_FILE_PATH} "${FOLDER}"
+		${CP} ${ENGLISH_WHITE_PAPERS_PDF_FILE_PATH} "${FOLDER}"
+		${CP} ${ENGLISH_BROCHURE_PDF_FILE_PATH} "${FOLDER}"
+}
+
+
+function CopyYERITHerpDocumentationINTOinstallationFolder_French ()
+{
+		FOLDER="$1"
+
+		chmod +r ${FRANCAIS_JH_NISSI_COMPENDIUM_PDF_CHEMIN} 
+		
+		${CP} ${FRANCAIS_JH_NISSI_COMPENDIUM_PDF_CHEMIN} "${FOLDER}"
+		${CP} ${FRANCAIS_FICHE_DE_DONNEES_PDF_CHEMIN} "${FOLDER}"
+		${CP} ${FRANCAIS_COMPARAISON_ERP_PDF_CHEMIN} "${FOLDER}"
+		${CP} ${FRANCAIS_WHITE_PAPERS_PDF_CHEMIN} "${FOLDER}"
+		${CP} ${FRANCAIS_BROCHURE_PDF_CHEMIN} "${FOLDER}"
+		${CP} ${FRANCAIS_BROCHURE_DE_GESTION_COMMERCIALE_PDF_CHEMIN} "${FOLDER}"
+		${CP} ${FRANCAIS_MANUEL_DE_LUTILISATEUR_CHEMIN} "${FOLDER}"
+}
+
+
+# We don't want to have temporary files "*.bak"
+# within our '.deb' packages
+find . -name "*.bak" -delete
+
+if [ $# -lt 2 ]; then
+ echo "${USAGE}"
+ exit 1
+fi 
+
+yerithpos7VersionFlag=
+qsqlite3Flag=
+
+while getopts 's:c:ev:' OPTION
+do
+  case $OPTION in
+    s)	yerithpos7VersionFlag=1
+			  yerithpos7VersionVal="$OPTARG"
+       	echo "Creating .deb file, for ${yerithpos7VersionVal} version of Yerith-erp-9.0"
+        ;;
+
+    c)	yerithpos7VersionFlag=1
+			  yerithpos7VersionVal="$OPTARG"
+       	echo "Creating .deb file, for ${yerithpos7VersionVal} version of Yerith-erp-9.0"
+        ;;
+
+    v)	yerithpos7VersionFlag=1
+			  yerithpos7VersionVal="$OPTARG"
+       	echo "Creating .deb file, for ${yerithpos7VersionVal} version of Yerith-erp-9.0"
+        ;;
+    e)	qsqlite3Flag=1
+       	echo "Creating evaluation .deb file, using qsqlite3"
+        ;;
+    ?)	printf "$USAGE" >&2
+        exit 2
+	;;
+  esac
+done
+shift $(($OPTIND - 1))
+
+if [ ! "$yerithpos7VersionFlag" ]; then
+  echo "${USAGE}"
+	exit 3
+fi
+
+if [ "$yerithpos7VersionVal" == "client" ]; then
+	echo "yerithpos7VersionVal: client"
+elif [ "$yerithpos7VersionVal" == "server" ]; then
+	echo "yerithpos7VersionVal: server"
+elif [ "$yerithpos7VersionVal" == "standalone" ]; then
+	echo "yerithpos7VersionVal: standalone"
+elif [ "$yerithpos7VersionVal" == "academic" ]; then
+	echo "yerithpos7VersionVal: academic"
+else
+	echo "$(basename $0) | please, give a correct Yerith-erp-9.0 version"
+	echo "${USAGE}"	
+	exit 4
+fi
+
+set -x
+
+USR_SHARE="/usr/share"
+
+YERITH_ERP_3_0_USER_LOCAL_SETTINGS_FOLDER=".yerith_erp_9_0"
+
+YERITH_ERP_3_0_DEB_FILE_FOLDER="${YERITH_ERP_3_0_HOME_FOLDER}/$yerith-erp-9-0-deb-file-repository"
+
+YERITH_ERP_3_0_LICENSE_TYPE="${yerithpos7VersionVal}"
+
+YERITH_ERP_3_0_BINARY_NAME="yerith-erp-9-0-${YERITH_ERP_3_0_LICENSE_TYPE}"
+
+YERITH_ERP_3_0_BINARY_NAME_FOR_FILE="yerith-erp-9-0-${YERITH_ERP_3_0_LICENSE_TYPE}"
+
+YERITH_ERP_3_0_ENGLISH_TRANSLATION_FILE="${YERITH_ERP_3_0_HOME_FOLDER}/yerith-erp-9-0_english.qm"
+
+YERITH_ERP_3_0_DEB_FILE_NAME="${YERITH_ERP_3_0_HOME_FOLDER}/${YERITH_ERP_3_0_BINARY_NAME}.deb"
+
+YERITH_ERP_3_0_BINARY_FILE_PATH="${YERITH_ERP_3_0_HOME_FOLDER}/bin/${YERITH_ERP_3_0_BINARY_NAME}"
+
+
+TARGET_INSTALLATION_FOLDER="${YERITH_ERP_3_0_HOME_FOLDER}/${YERITH_ERP_3_0_BINARY_NAME}"
+
+if [ ! -d "${TARGET_INSTALLATION_FOLDER}" ]; then
+    echo "creating installation directory: ${TARGET_INSTALLATION_FOLDER}"
+    mkdir -p "${TARGET_INSTALLATION_FOLDER}"
+fi
+
+
+OPT_INSTALLATION_TARGET_DIR="${TARGET_INSTALLATION_FOLDER}/opt/${YERITH_ERP_3_0_BINARY_NAME}"
+
+mkdir -p "${OPT_INSTALLATION_TARGET_DIR}"
+
+TMP_INSTALLATION_TARGET_DIR="${TARGET_INSTALLATION_FOLDER}/tmp"
+
+mkdir -p "${TMP_INSTALLATION_TARGET_DIR}"
+
+TARGET_INSTALLATION_FOLDER_script="${OPT_INSTALLATION_TARGET_DIR}/bin"
+
+TARGET_INSTALLATION_FOLDER_BIN="${OPT_INSTALLATION_TARGET_DIR}/bin"
+
+mkdir -p "${TARGET_INSTALLATION_FOLDER_BIN}"
+
+TARGET_INSTALLATION_USER_LOCAL_SETTINGS_FOLDER="${OPT_INSTALLATION_TARGET_DIR}/${YERITH_ERP_3_0_USER_LOCAL_SETTINGS_FOLDER}"
+
+mkdir -p --mode=777 "${TARGET_INSTALLATION_USER_LOCAL_SETTINGS_FOLDER}"
+
+TARGET_INSTALLATION_FOLDER_DOC="${TARGET_INSTALLATION_FOLDER}${USR_SHARE}/doc/yerith-erp-9-0"
+
+mkdir -p "${TARGET_INSTALLATION_FOLDER_DOC}"
+
+TARGET_INSTALLATION_FOLDER_USR_BIN_FOLDER="${TARGET_INSTALLATION_FOLDER}/usr/bin"
+
+mkdir -p "${TARGET_INSTALLATION_FOLDER_USR_BIN_FOLDER}"
+
+
+
+YERITH_ERP_3_0_PROPERTIES_FILE_DIR=${OPT_INSTALLATION_TARGET_DIR}
+
+touch "$OPT_INSTALLATION_TARGET_DIR/yerith-erp-9-0.log"
+
+ECHO="echo"
+
+CP="cp"
+
+YERITH_ERP_3_0_DEB_PACKAGE_INFORMATION="Package: ${YERITH_ERP_3_0_BINARY_NAME}"
+
+mkdir "${TARGET_INSTALLATION_FOLDER}/DEBIAN"
+
+
+if [ ! "$qsqlite3Flag" ]; then
+	${CP} ${YERITH_ERP_3_0_HOME_FOLDER}/DEBIAN/control "${TARGET_INSTALLATION_FOLDER}/DEBIAN/control"
+	${CP} ${YERITH_ERP_3_0_HOME_FOLDER}/DEBIAN/postinst "${TARGET_INSTALLATION_FOLDER}/DEBIAN/postinst"
+	${CP} ${YERITH_ERP_3_0_HOME_FOLDER}/DEBIAN/postrm "${TARGET_INSTALLATION_FOLDER}/DEBIAN/postrm"
+else
+	${CP} ${YERITH_ERP_3_0_HOME_FOLDER}/DEBIAN/control_academic "${TARGET_INSTALLATION_FOLDER}/DEBIAN/control"
+fi
+
+
+${ECHO} -e "${YERITH_ERP_3_0_DEB_PACKAGE_INFORMATION}$(cat ${TARGET_INSTALLATION_FOLDER}/DEBIAN/control)" > ${TARGET_INSTALLATION_FOLDER}/DEBIAN/control
+
+
+YERITH_ERP_3_0_POSTRM_STR="#!/bin/bash
+sed -i '/YERITH_ERP_3_0_HOME_FOLDER/d' /etc/environment
+sed -i '/YERITH_ERP_3_0_SYSTEM_DAEMON_HOME_FOLDER/d' /etc/environment
+sed -i '/QT_SCALE_FACTOR/d' /etc/environment"
+
+${ECHO} -e "${YERITH_ERP_3_0_POSTRM_STR}$(cat ${TARGET_INSTALLATION_FOLDER}/DEBIAN/postrm)" > ${TARGET_INSTALLATION_FOLDER}/DEBIAN/postrm
+
+chmod 755 ${TARGET_INSTALLATION_FOLDER}/DEBIAN/postrm
+
+
+YERITH_ERP_3_0_POSTINST_STR="#!/bin/bash
+echo -e \"export YERITH_ERP_3_0_HOME_FOLDER=/opt/${YERITH_ERP_3_0_BINARY_NAME}\" >> /etc/environment
+echo -e \"export YERITH_ERP_3_0_SYSTEM_DAEMON_HOME_FOLDER=/opt/yerith-erp-9-0-system-daemon\" >> /etc/environment
+echo -e \"export QT_SCALE_FACTOR=1.32\" >> /etc/environment
+touch /opt/${YERITH_ERP_3_0_BINARY_NAME}/yerith-erp-9-0.log
+/opt/${YERITH_ERP_3_0_BINARY_NAME}/bin/yerith-erp-9-0-configure-mysql-server.sh
+/opt/${YERITH_ERP_3_0_BINARY_NAME}/bin/yerith-erp-9-0-standalone-setup-database-and-user.sh
+chmod go+w /opt/${YERITH_ERP_3_0_BINARY_NAME}/yerith-erp-9-0.log"
+
+${ECHO} -e "${YERITH_ERP_3_0_POSTINST_STR}$(cat ${TARGET_INSTALLATION_FOLDER}/DEBIAN/postinst)" > ${TARGET_INSTALLATION_FOLDER}/DEBIAN/postinst
+
+chmod 755 ${TARGET_INSTALLATION_FOLDER}/DEBIAN/postinst
+
+${ECHO} "*** YERITH *** ${YERITH_ERP_3_0_BINARY_FILE_PATH}"
+
+${CP} ${YERITH_ERP_3_0_HOME_FOLDER}/yerith-erp-9-0-deployment-configuration-scripts/yerith-erp-9-0-configure-mysql-server-set-root-pwd.exp \
+	${TMP_INSTALLATION_TARGET_DIR}
+
+${CP} ${YERITH_ERP_3_0_HOME_FOLDER}/yerith-erp-9-0-deployment-configuration-scripts/yerith-erp-9-0-configure-mysql-server.sh ${TARGET_INSTALLATION_FOLDER_script}
+
+${CP} ${YERITH_ERP_3_0_HOME_FOLDER}/yerith-erp-9-0-deployment-configuration-scripts/yerith-erp-9-0-standalone-setup-database-and-user.sh ${TARGET_INSTALLATION_FOLDER_script}
+
+${CP} ${YERITH_ERP_3_0_ENGLISH_TRANSLATION_FILE} ${TARGET_INSTALLATION_FOLDER_BIN}
+
+${CP} ${YERITH_ERP_3_0_BINARY_FILE_PATH} ${TARGET_INSTALLATION_FOLDER_BIN}
+
+${CP} ${YERITH_ERP_3_0_BINARY_FILE_PATH}.sh ${TARGET_INSTALLATION_FOLDER_BIN}
+
+${CP} ${YERITH_ERP_3_0_BINARY_FILE_PATH}.sh ${TARGET_INSTALLATION_FOLDER_USR_BIN_FOLDER}
+
+# ********************************************************************************** #
+
+YERITH_ERP_3_0_SCRIPT_INSTALL_ROOT_DIR="${YERITH_ERP_3_0_HOME_FOLDER}/yerith-erp-9-0-development-scripts"
+
+
+
+YERITH_ERP_3_0_DOCUMENTATION_FRANCAIS_ROOT_DIR="${YERITH_ERP_3_0_HOME_FOLDER}/../yerith-erp-9-0-documentation-francais"
+
+SOURCE_DOCUMENTATION_FRANCAIS_FICHE_DE_DONNEES_DIR="${YERITH_ERP_3_0_DOCUMENTATION_FRANCAIS_ROOT_DIR}/yerith-fiche-de-donnees"
+
+FRANCAIS_COMPARAISON_ERP_DIR="${YERITH_ERP_3_0_DOCUMENTATION_FRANCAIS_ROOT_DIR}/yerith-erp-document-comparaisons"
+
+SOURCE_DOCUMENTATION_FRANCAIS_WHITE_PAPERS_DIR="${YERITH_ERP_3_0_DOCUMENTATION_FRANCAIS_ROOT_DIR}/yerith-whitepapers"
+
+SOURCE_DOCUMENTATION_FRANCAIS_BROCHURE_DIR="${YERITH_ERP_3_0_DOCUMENTATION_FRANCAIS_ROOT_DIR}/yerith-brochure"
+
+SOURCE_DOCUMENTATION_FRANCAIS_BROCHURE_DE_GESTION_COMMERCIALE_DIR="${YERITH_ERP_3_2_DOCUMENTATION_FRANCAIS_ROOT_DIR}/yerith-gestion-commerciale-notions-elementaires"
+
+FRANCAIS_COMPARAISON_ERP_PDF_CHEMIN="${FRANCAIS_COMPARAISON_ERP_DIR}/yerith-erp-9-0-document-comparaisons.pdf"
+
+FRANCAIS_JH_NISSI_COMPENDIUM_PDF_CHEMIN="${YERITH_ERP_3_0_DOCUMENTATION_FRANCAIS_ROOT_DIR}/JH_NISSI_ERP_PGI_COMPENDIUM.pdf"
+
+FRANCAIS_FICHE_DE_DONNEES_PDF_CHEMIN="${SOURCE_DOCUMENTATION_FRANCAIS_FICHE_DE_DONNEES_DIR}/yerith-erp-9-0-fiche-de-donnees.pdf"
+
+FRANCAIS_WHITE_PAPERS_PDF_CHEMIN="${SOURCE_DOCUMENTATION_FRANCAIS_WHITE_PAPERS_DIR}/yerith-erp-*.pdf"
+
+FRANCAIS_BROCHURE_PDF_CHEMIN="${SOURCE_DOCUMENTATION_FRANCAIS_BROCHURE_DIR}/yerith-erp-9-0-brochure.pdf"
+
+FRANCAIS_BROCHURE_DE_GESTION_COMMERCIALE_PDF_CHEMIN="${SOURCE_DOCUMENTATION_FRANCAIS_BROCHURE_DE_GESTION_COMMERCIALE_DIR}/yerith-erp-9-0-brochure-gestion-commerciale-notions.pdf"
+
+FRANCAIS_MANUEL_DE_LUTILISATEUR_CHEMIN="${YERITH_ERP_3_0_DOCUMENTATION_FRANCAIS_ROOT_DIR}/yerith-erp-9-0-software-system-uses/*.pdf"
+
+
+
+YERITH_ERP_3_0_DOCUMENTATION_ENGLISH_ROOT_DIR="${YERITH_ERP_3_0_HOME_FOLDER}/../yerith-erp-9-0-documentation-english"
+
+SOURCE_DOCUMENTATION_ENGLISH_PRODUCT_SHEET_DIR="${YERITH_ERP_3_0_DOCUMENTATION_ENGLISH_ROOT_DIR}/yerith-product-sheet"
+
+ENGLISH_ERP_PRODUCT_COMPARISON_DIR="${YERITH_ERP_3_0_DOCUMENTATION_ENGLISH_ROOT_DIR}/yerith-erp-document-comparison"
+
+SOURCE_DOCUMENTATION_ENGLISH_WHITE_PAPERS_DIR="${YERITH_ERP_3_0_DOCUMENTATION_ENGLISH_ROOT_DIR}/yerith-whitepapers"
+
+SOURCE_DOCUMENTATION_ENGLISH_BROCHURE_DIR="${YERITH_ERP_3_0_DOCUMENTATION_ENGLISH_ROOT_DIR}/yerith-brochure"
+
+ENGLISH_JH_NISSI_COMPENDIUM_PDF_FILE_PATH="${YERITH_ERP_3_0_DOCUMENTATION_FRANCAIS_ROOT_DIR}/JH_NISSI_ERP_PGI_COMPENDIUM.pdf"
+
+ENGLISH_ERP_PRODUCT_COMPARISON_SHEET_PDF_FILE_PATH="${ENGLISH_ERP_PRODUCT_COMPARISON_DIR}/yerith-erp-document-comparison.pdf"
+
+ENGLISH_PRODUCT_SHEET_PDF_FILE_PATH="${SOURCE_DOCUMENTATION_ENGLISH_PRODUCT_SHEET_DIR}/yerith-erp-9-0-product-sheet.pdf"
+
+ENGLISH_WHITE_PAPERS_PDF_FILE_PATH="${SOURCE_DOCUMENTATION_ENGLISH_WHITE_PAPERS_DIR}/yerith-erp-*.pdf"
+
+ENGLISH_BROCHURE_PDF_FILE_PATH="${SOURCE_DOCUMENTATION_ENGLISH_BROCHURE_DIR}/yerith-erp-9-0-brochure-english.pdf"
+
+#ENGLISH_USER_MANUAL_FILE_PATH="${YERITH_ERP_3_0_DOCUMENTATION_ENGLISH_ROOT_DIR}/yerith-erp-9-0-users-guide.pdf"
+
+
+
+TARGET_INSTALLATION_FOLDER_DOC_English="${TARGET_INSTALLATION_FOLDER_DOC}/english"
+
+TARGET_INSTALLATION_FOLDER_DOC_French="${TARGET_INSTALLATION_FOLDER_DOC}/francais"
+
+
+mkdir -p "${TARGET_INSTALLATION_FOLDER_DOC_English}"
+
+mkdir -p "${TARGET_INSTALLATION_FOLDER_DOC_French}"
+
+
+CopyYERITHerpDocumentationINTOinstallationFolder_English "${TARGET_INSTALLATION_FOLDER_DOC_English}"
+
+CopyYERITHerpDocumentationINTOinstallationFolder_French "${TARGET_INSTALLATION_FOLDER_DOC_French}"
+
+# ********************************************************************************** #
+
+
+
+USR_SHARE_PIXMAPS="${USR_SHARE}/pixmaps"
+
+USR_SHARE_APPLICATIONS="${USR_SHARE}/applications"
+
+TARGET_INSTALLATION_FOLDER_USR_SHARE_PIXMAPS="${TARGET_INSTALLATION_FOLDER}${USR_SHARE_PIXMAPS}"
+
+mkdir -p "${TARGET_INSTALLATION_FOLDER_USR_SHARE_PIXMAPS}"
+
+TARGET_INSTALLATION_FOLDER_USR_SHARE_APPLICATIONS="${TARGET_INSTALLATION_FOLDER}${USR_SHARE_APPLICATIONS}"
+
+mkdir -p "${TARGET_INSTALLATION_FOLDER_USR_SHARE_APPLICATIONS}"
+
+LOGO_YERITH_ERP_3_0=${YERITH_ERP_3_0_HOME_FOLDER}/yerith-erp-9-0-images/yerith-erp-9-0.svg
+
+DESKTOP_FILE_YERITH_ERP_3_0=${YERITH_ERP_3_0_HOME_FOLDER}/yerith-erp-9-0-gnome-files-desktop/${YERITH_ERP_3_0_BINARY_NAME_FOR_FILE}.desktop
+
+sudo ${CP} ${DESKTOP_FILE_YERITH_ERP_3_0} ${TARGET_INSTALLATION_FOLDER_USR_SHARE_APPLICATIONS}
+
+sudo ${CP} ${LOGO_YERITH_ERP_3_0} ${TARGET_INSTALLATION_FOLDER_USR_SHARE_PIXMAPS}
+
+rm -f ${YERITH_ERP_3_0_DEB_FILE_NAME}
+
+TARGET_INSTALLATION_FOLDER_DEBIAN="${TARGET_INSTALLATION_FOLDER}/DEBIAN"
+
+TARGET_INSTALLATION_FOLDER_OPT="${TARGET_INSTALLATION_FOLDER}/opt"
+
+TARGET_INSTALLATION_FOLDER_USR="${TARGET_INSTALLATION_FOLDER}/usr"
+
+chown_and_grp_for_lintian "${TARGET_INSTALLATION_FOLDER_DEBIAN}"
+
+chown_and_grp_for_lintian "${TARGET_INSTALLATION_FOLDER_OPT}"
+
+chown_and_grp_for_lintian "${TARGET_INSTALLATION_FOLDER_USR}"
+
+
+
+dpkg-deb --verbose --build ${YERITH_ERP_3_0_HOME_FOLDER}/${YERITH_ERP_3_0_BINARY_NAME}
