@@ -4,6 +4,8 @@
 
 [ -f /etc/environment ] && . /etc/environment
 
+export QT_SCALE_FACTOR=${EXP_QT_SCALE_FACTOR}
+
 if [ $YERITH_ERP_3_0_HOME_FOLDER ]; then
     "$YERITH_ERP_3_0_HOME_FOLDER"/bin/yerith-erp-9-0-standalone-ENGLISH --gui --style cde
 else
@@ -12,3 +14,6 @@ else
 		in your '.bashrc' file, and, in, file: '.xsessionrc'),
 		before you could use yerith-erp-9.0 !"
 fi
+
+export QT_SCALE_FACTOR=
+

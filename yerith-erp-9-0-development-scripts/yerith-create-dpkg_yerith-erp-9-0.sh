@@ -202,8 +202,7 @@ ${ECHO} -e "${YERITH_ERP_3_0_DEB_PACKAGE_INFORMATION}$(cat ${TARGET_INSTALLATION
 
 YERITH_ERP_3_0_POSTRM_STR="#!/bin/bash
 sed -i '/YERITH_ERP_3_0_HOME_FOLDER/d' /etc/environment
-sed -i '/YERITH_ERP_3_0_SYSTEM_DAEMON_HOME_FOLDER/d' /etc/environment
-sed -i '/QT_SCALE_FACTOR/d' /etc/environment"
+sed -i '/YERITH_ERP_3_0_SYSTEM_DAEMON_HOME_FOLDER/d' /etc/environment"
 
 ${ECHO} -e "${YERITH_ERP_3_0_POSTRM_STR}$(cat ${TARGET_INSTALLATION_FOLDER}/DEBIAN/postrm)" > ${TARGET_INSTALLATION_FOLDER}/DEBIAN/postrm
 
@@ -213,7 +212,6 @@ chmod 755 ${TARGET_INSTALLATION_FOLDER}/DEBIAN/postrm
 YERITH_ERP_3_0_POSTINST_STR="#!/bin/bash
 echo -e \"export YERITH_ERP_3_0_HOME_FOLDER=/opt/${YERITH_ERP_3_0_BINARY_NAME}\" >> /etc/environment
 echo -e \"export YERITH_ERP_3_0_SYSTEM_DAEMON_HOME_FOLDER=/opt/yerith-erp-9-0-system-daemon\" >> /etc/environment
-echo -e \"export QT_SCALE_FACTOR=1.32\" >> /etc/environment
 touch /opt/${YERITH_ERP_3_0_BINARY_NAME}/yerith-erp-9-0.log
 /opt/${YERITH_ERP_3_0_BINARY_NAME}/bin/yerith-erp-9-0-configure-mysql-server.sh
 /opt/${YERITH_ERP_3_0_BINARY_NAME}/bin/yerith-erp-9-0-standalone-setup-database-and-user.sh
