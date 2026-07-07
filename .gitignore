@@ -25,3 +25,4 @@ ui_*
 *.out 
 *.toc
 *.layout
+*.cbp
