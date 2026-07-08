@@ -31,13 +31,13 @@ YERITH_RUNTIME_VERIFIER::YERITH_RUNTIME_VERIFIER()
 	QString systemYerithService = "yri.db-runtime.verif";
 
 
-	com::yerith::rd::IYRIruntimeverification	*a_YRI_DB_RUNTIME_VERIF_tainted_analysis =
-			new com::yerith::rd::IYRIruntimeverification(systemYerithService,
-														"/YERITH_QVGE_sample_TaintAnalysis",
-														QDBusConnection::systemBus(),
-														this);
-
-    _YRI_DB_RUNTIME_VERIF_instances.append(a_YRI_DB_RUNTIME_VERIF_tainted_analysis);
+//	com::yerith::rd::IYRIruntimeverification	*a_YRI_DB_RUNTIME_VERIF_tainted_analysis =
+//			new com::yerith::rd::IYRIruntimeverification(systemYerithService,
+//														"/YERITH_QVGE_sample_TaintAnalysis",
+//														QDBusConnection::systemBus(),
+//														this);
+//
+//    _YRI_DB_RUNTIME_VERIF_instances.append(a_YRI_DB_RUNTIME_VERIF_tainted_analysis);
 
 
 	com::yerith::rd::IYRIruntimeverification	*a_YRI_DB_RUNTIME_VERIF_instance_Cancellation_matter_1 =
@@ -58,13 +58,13 @@ YERITH_RUNTIME_VERIFIER::YERITH_RUNTIME_VERIFIER()
     _YRI_DB_RUNTIME_VERIF_instances.append(a_YRI_DB_RUNTIME_VERIF_instance_Paper_sample_1);
 
 
-	com::yerith::rd::IYRIruntimeverification	*a_YRI_DB_RUNTIME_VERIF_instance =
-			new com::yerith::rd::IYRIruntimeverification(systemYerithService,
-														"/yri_sd_runtime_verif_language_EXAMPLE_realcase",
-														QDBusConnection::systemBus(),
-														this);
-
-    _YRI_DB_RUNTIME_VERIF_instances.append(a_YRI_DB_RUNTIME_VERIF_instance);
+//	com::yerith::rd::IYRIruntimeverification	*a_YRI_DB_RUNTIME_VERIF_instance =
+//			new com::yerith::rd::IYRIruntimeverification(systemYerithService,
+//														"/yri_sd_runtime_verif_language_EXAMPLE_realcase",
+//														QDBusConnection::systemBus(),
+//														this);
+//
+//    _YRI_DB_RUNTIME_VERIF_instances.append(a_YRI_DB_RUNTIME_VERIF_instance);
 
 
 //	com::yerith::rd::IYRIruntimeverification	*a_YRI_DB_RUNTIME_VERIF_instance_1 =
