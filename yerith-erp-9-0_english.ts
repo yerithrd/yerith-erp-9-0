@@ -261,290 +261,290 @@ Program executing directory: &quot;%2&quot;.</translation>
         <translation>Save the modified general configuration ?</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="617"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="619"/>
         <source>YERITH-ERP-9.0-CLIENT</source>
         <translation>YERITH-ERP-9.0-CLIENT</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="700"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="702"/>
         <source>YERITH-ERP-9.0-PLATINUM-academic_evaluation</source>
         <oldsource>YERITH-ERP-9.0-ACADEMIC_EVALUATION</oldsource>
         <translation></translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="713"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="715"/>
         <source>DIVERS</source>
         <translation>DIVERSE</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="971"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="973"/>
         <source>Mlle</source>
         <translation>Mrs.</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="974"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="976"/>
         <source>Mme</source>
         <translation>Ms.</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="983"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="985"/>
         <source>titre indéfini</source>
         <translation>undefined title</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1006"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1008"/>
         <source>manager</source>
         <oldsource>business manager</oldsource>
         <translation>business manager</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1022"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1024"/>
         <source>role indéfini</source>
         <translation>undefined role</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1038"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1040"/>
         <source>vente</source>
         <translation>sale</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1042"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1044"/>
         <source>charge financière</source>
         <translation>FINANCIAL EXPENSE</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1054"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1056"/>
         <source>achat de marchandises</source>
         <translation>merchandise purchase</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1034"/>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1058"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1036"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1060"/>
         <source>indéfini</source>
         <translation>UNDEFINED</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="965"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="967"/>
         <source>Dr.</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="968"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="970"/>
         <source>Me.</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="977"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="979"/>
         <source>M.</source>
         <translation>Mr.</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="980"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="982"/>
         <source>Prof.</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="987"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="989"/>
         <location filename="src/windows/yerith-erp-entrer-window.cpp" line="1300"/>
         <source>m</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="990"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="992"/>
         <location filename="src/windows/yerith-erp-entrer-window.cpp" line="1285"/>
         <source>Kg</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="993"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="995"/>
         <location filename="src/windows/yerith-erp-entrer-window.cpp" line="1290"/>
         <source>g</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="996"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="998"/>
         <location filename="src/windows/yerith-erp-entrer-window.cpp" line="1295"/>
         <source>l</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="999"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1001"/>
         <source>mesure indéfinie</source>
         <translation>undefined measure unit</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1026"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1028"/>
         <source>crédit (entrée d&apos;argent)</source>
         <translation>credit (money entry)</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1030"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1032"/>
         <source>débit (sortie d&apos;argent)</source>
         <translation>debit (money outgoing)</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1046"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1048"/>
         <source>achat de matériels (immo.)</source>
         <translation>Asset purchase</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1050"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1052"/>
         <source>Payement des ressources humaines</source>
         <translation>Human resource payment</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1062"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1064"/>
         <source>vente (comptant)</source>
         <translation>sale (cash)</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1066"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1068"/>
         <source>vente (AVANCE DE CASH)</source>
         <oldsource>vente (compte client AVANCE DE CASH)</oldsource>
         <translation>SALE (CASH ADVANCED)</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1070"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1072"/>
         <source>vente (compte client)</source>
         <translation>sale (client)</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1073"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1075"/>
         <source>vente indéfini</source>
         <translation>undefined sale</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1079"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1081"/>
         <source>versement (AVANCE DE CASH)</source>
         <translation>payment (CASH ADVANCE)</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1111"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1113"/>
         <source>décaissement (comptant)</source>
         <translation>cash (withdrawal)</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1115"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1117"/>
         <source>décaissement (cheque)</source>
         <translation>cheque (withdrawal)</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1119"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1121"/>
         <source>décaissement (téléphone)</source>
         <translation>mobile phone account (withdrawal)</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1123"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1125"/>
         <source>décaissement (bancaire)</source>
         <translation>bank account branch (withdrawal)</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1127"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1129"/>
         <source>décaissement (virement bancaire)</source>
         <translation>bank account transfer (withdrawal)</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1131"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1133"/>
         <source>décaissement (salaire)</source>
         <translation>payment (salary)</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1135"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1137"/>
         <source>décaissement (retour achat)</source>
         <oldsource>décaissement (retour achat d&apos;1 cli.)</oldsource>
         <translation>canceled client purchase</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1139"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1141"/>
         <source>décaissement indéfini</source>
         <translation>invalid (withdrawal)</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1446"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1448"/>
         <source>Le département &apos;%1&apos;</source>
         <translation>Department &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="4501"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="4503"/>
         <source>%1 - Connection par adresse IP !</source>
         <translation>%1 - connection via IP address !</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="5387"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="5389"/>
         <source>No CSV data</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="5388"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="5390"/>
         <source>No CSV data to save out !</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="5400"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="5402"/>
         <source>Bad deployment</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="5401"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="5403"/>
         <source>Table bad deployment !</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="5529"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="5531"/>
         <source>MAUVAIS DÉPLOIEMENT</source>
         <translation>WRONG DEPLOYMENT</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="5530"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="5532"/>
         <source>MAUVAIS DÉPLOIEMENT du tableau!</source>
         <translation>USER TABLE HEADER WRONG DEPLOYMENT!</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1103"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1105"/>
         <source>versement (charge financière (annulée))</source>
         <oldsource>versement (retour achat (annulé))</oldsource>
         <translation>canceled FINANCIAL EXPENSE</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1107"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1109"/>
         <source>versement indéfini</source>
         <translation>undefined client payment</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1218"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1220"/>
         <source>L&apos;entreprise cliente &apos;%1&apos;</source>
         <translation>Client company &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1322"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1324"/>
         <source>L&apos;entreprise fournisseur &apos;%1&apos;</source>
         <translation>Supplier &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1441"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1443"/>
         <source>Le département de produits &apos;%1&apos;</source>
         <translation>The product department &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1609"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1611"/>
         <source>1 département de produits &apos;%1&apos; N&apos;EXISTE PAS !</source>
         <translation>a product department &apos;%1&apos; DOESN&apos;T EXISTS !</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1668"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1670"/>
         <source>La catégorie &apos;%1&apos;</source>
         <translation>Category &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1229"/>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1333"/>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1459"/>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1679"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1231"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1335"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1461"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1681"/>
         <source> n&apos;a pas pu être créer !</source>
         <translation> couldn&apos;t be created !</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="594"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="596"/>
         <source>YERITH-ERP-9.0-PLATINUM-client
 (VERSION du YERITH_BUILD_DATE à YERITH_BUILD_DATE_TIMESTAMP)
 
@@ -610,7 +610,7 @@ acknowledgments: ONDRӖJ LHOTÁK-sexist ! (University of Waterloo in Canada) !</
         <translation></translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="677"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="679"/>
         <source>YERITH-ERP-9.0-PLATINUM-academic_evaluation
 (VERSION du YERITH_BUILD_DATE à YERITH_BUILD_DATE_TIMESTAMP)
 
@@ -676,34 +676,34 @@ acknowledgments: ONDRӖJ LHOTÁK-sexist ! (University of Waterloo in Canada) !</
         <translation></translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1143"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1145"/>
         <source>décaissement (fidélité clients)</source>
         <translation>LOYALTY PAYMENT</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="2111"/>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="2304"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="2113"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="2306"/>
         <source>La désignation de la catégorie ne doit pas être vide !</source>
         <translation>Category designation must be non empty !</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="2116"/>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="2310"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="2118"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="2312"/>
         <source>création d&apos;une catégorie</source>
         <translation>category creation</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="2357"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="2359"/>
         <source>Le service &apos;%1 (%2)&apos;</source>
         <translation>Service &apos;%1 (%2)&apos;</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="2676"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="2678"/>
         <source>Cannot open file</source>
         <translation>Le fichier ne peut pas être ouvert</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="2677"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="2679"/>
         <source>Unable to open file establish a database connection.
 This example needs SQLite support. Please read the Qt SQL driver documentation for information how to build it.
 
@@ -711,45 +711,45 @@ Click Cancel to exit.</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="3640"/>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="3660"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="3642"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="3662"/>
         <source>Un(e) %1 [&apos;%2&apos;] existe déjà dans la base de données !</source>
         <oldsource>Une %1 nommé(e) &apos;%2&apos; existe déjà dans la base de données !</oldsource>
         <translation>A %1 [&apos;%2&apos;] already exists in database !</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="3646"/>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="3666"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="3648"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="3668"/>
         <source>%1 déjà existant(e)</source>
         <translation>%1 already exists</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="3780"/>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="3795"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="3782"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="3797"/>
         <source>Une entreprise avec la référence régistre du commerce &apos;%1&apos; existe déjà dans la base de données !</source>
         <translation>A company with trade registry reference &apos;%1&apos; already exists in database !</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="4034"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="4036"/>
         <source>	[ factures pdf au format: &apos;%1&apos; ]</source>
         <translation>	[ pdf receipt size: &apos;%1&apos; ]</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="5147"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="5149"/>
         <source>dont total TVA: &amp; &amp; %1\\ 
 </source>
         <translation>with total ATC: &amp; &amp; %1\\ 
 </translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="5149"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="5151"/>
         <source>Montant re\c{c}u: &amp; &amp; %1\\ 
 </source>
         <translation>Received amount: &amp; &amp; %1\\ 
 </translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="5152"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="5154"/>
         <source>Montant remi: &amp; &amp; %1\ 
 </source>
         <translation>Due amount: &amp; &amp; %1\ 
@@ -761,43 +761,43 @@ Click Cancel to exit.</source>
         <translation>Company info</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="4475"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="4477"/>
         <source>La localisation %1 n&apos;a pas d&apos;adresse IP enregistrée !</source>
         <translation>Site %1 doesn&apos;t have a registered IP address !</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="4478"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="4480"/>
         <source>%1 - pas d&apos;adresse IP !</source>
         <translation>%1 - no IP address !</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="4494"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="4496"/>
         <source>La localisation &apos;%1&apos; est déjà connectée par l&apos;adresse IP loopback (&apos;%2&apos;) !</source>
         <oldsource>La localisation &apos;&apos;%1&apos;&apos; est déjà connectée par l&apos;adresse IP loopback (&apos;%2&apos;) !</oldsource>
         <translation>Site &apos;%1&apos; is already connected through the loopback IP address (&apos;%2&apos;) !</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="4526"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="4528"/>
         <source>Connecter à la localisation %1 !</source>
         <translation>Connect site %1 !</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="4530"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="4532"/>
         <source>%1 - Connection à la localisation !</source>
         <translation>%1 - Connection to site !</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="4542"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="4544"/>
         <source>Impossible de se connecter à la localisation %1 !</source>
         <translation>Connection to site %1 cannot be established !</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="4546"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="4548"/>
         <source>%1 - Pas de connection à la localisation !</source>
         <translation>%1 - no connection to site !</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="4577"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="4579"/>
         <source>Impossible de se connecter au serveur &apos;%1&apos; de base de données !
 Contacter l&apos;administrateur de yerith
 
@@ -855,7 +855,7 @@ Press m &apos;Cancel&apos; to exit %2</translation>
         <translation>Discount (%)</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="2973"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="2975"/>
         <source>Images (*.png *.xpm *.jpg *.jpeg *.gif *.PNG *.XPM *.JPG *.JPEG *.GIF)</source>
         <translation></translation>
     </message>
@@ -1972,12 +1972,12 @@ Contacter l&apos;administrateur de Yerith</oldsource>
         <translation>DELETION OF A FINANCIAL EXPENSE</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="3579"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="3581"/>
         <source>La LIGNE BUDGÉTAIRE &apos;%1&apos; est inexistante dans la base de donnée!</source>
         <translation>BUDGET LINE &apos;%1&apos; IS INEXISTENT IN DATABASE !</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="3585"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="3587"/>
         <source>suppression d&apos;une charge financière - LIGNE BUDGÉTAIRE</source>
         <translation>DELETION OF A FINANCIAL EXPENSE - budget line</translation>
     </message>
@@ -2072,7 +2072,6 @@ Contacter l&apos;administrateur de Yerith</oldsource>
         <location filename="src/windows/supplier/yerith-erp-fournisseurs-window.cpp" line="977"/>
         <location filename="src/windows/yerith-erp-alertes-window.cpp" line="561"/>
         <location filename="src/windows/yerith-erp-charges-financieres-window.cpp" line="455"/>
-        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="2476"/>
         <location filename="src/windows/yerith-erp-paiements-window.cpp" line="807"/>
         <location filename="src/windows/yerith-erp-recherche-conditionnelle-window.cpp" line="317"/>
         <location filename="src/windows/yerith-erp-recherche-conditionnelle-window.cpp" line="319"/>
@@ -2713,18 +2712,18 @@ by exiting this program window ?</translation>
         <translation>administration ~ create ~ FINANCIAL EXPENSES</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1003"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1005"/>
         <source>administrateur</source>
         <translation>administrator</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1010"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1012"/>
         <source>gestionnaire de (d&apos;immobilisation) stock</source>
         <oldsource>gestionnaire de stock</oldsource>
         <translation>ASSET - stock manager</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1019"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1021"/>
         <source>vendeur</source>
         <translation>seller</translation>
     </message>
@@ -3726,7 +3725,7 @@ client PHONE NUMBER: &quot;%5&quot;.</translation>
         <translation>no sale cancelation</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1016"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1018"/>
         <source>caissier</source>
         <translation>cashier</translation>
     </message>
@@ -3860,13 +3859,13 @@ client PHONE NUMBER: &quot;%5&quot;.</translation>
         <translation>keyword to search for (memo)</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="5514"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="5516"/>
         <location filename="src/windows/stocks/yerith-erp-mouvements_de_stocks-window.cpp" line="1082"/>
         <source>pas de données à exporter au format csv</source>
         <translation>there are no data to export in csv format</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="5515"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="5517"/>
         <location filename="src/windows/stocks/yerith-erp-mouvements_de_stocks-window.cpp" line="1084"/>
         <source>Il n&apos;y a pas de données à exporter au format csv !</source>
         <oldsource>Il n&apos;y a pas de données à exporter au format csv!</oldsource>
@@ -3879,10 +3878,10 @@ client PHONE NUMBER: &quot;%5&quot;.</translation>
     </message>
     <message>
         <location filename="src/admin/yerith-erp-admin-window.cpp" line="4023"/>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1252"/>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1359"/>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1483"/>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1703"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1254"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1361"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1485"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1705"/>
         <location filename="src/windows/stocks/yerith-erp-marchandises-window.cpp" line="1720"/>
         <location filename="src/windows/stocks/yerith-erp-modifier-window.cpp" line="572"/>
         <location filename="src/windows/stocks/yerith-erp-sortir-window.cpp" line="2923"/>
@@ -3891,24 +3890,24 @@ client PHONE NUMBER: &quot;%5&quot;.</translation>
         <translation>success</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="3716"/>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="3732"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="3718"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="3734"/>
         <source>Une entreprise nommée &apos;%1&apos; existe déjà dans la base de données !</source>
         <translation>A company named &apos;%1&apos; already exists in database !</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="3722"/>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="3737"/>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="3786"/>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="3800"/>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="3849"/>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="3863"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="3724"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="3739"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="3788"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="3802"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="3851"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="3865"/>
         <source>compte client déjà existant</source>
         <translation>client already exist</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="3844"/>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="3858"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="3846"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="3860"/>
         <source>Une entreprise avec la référence &apos;%1&apos; existe déjà dans la base de données !</source>
         <translation>A company with reference &apos;%1&apos; already exists in database !</translation>
     </message>
@@ -3960,11 +3959,11 @@ by exiting this program window ?</translation>
     </message>
     <message>
         <location filename="src/admin/yerith-erp-admin-window.cpp" line="4033"/>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1234"/>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1338"/>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1464"/>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1615"/>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1684"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1236"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1340"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1466"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1617"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1686"/>
         <location filename="src/windows/stocks/yerith-erp-marchandises-window.cpp" line="1732"/>
         <location filename="src/windows/stocks/yerith-erp-modifier-window.cpp" line="509"/>
         <location filename="src/windows/stocks/yerith-erp-modifier-window.cpp" line="580"/>
@@ -3992,20 +3991,20 @@ by exiting this program window ?</translation>
         <translation></translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="2255"/>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="2371"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="2257"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="2373"/>
         <source>enregistrement de l&apos;article type dans la liste des marchandises</source>
         <translation>saving of article type in merchandise list</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="2270"/>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="2387"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="2272"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="2389"/>
         <source> n&apos;a pas pu être enregistré dans la liste des marchandises !</source>
         <translation> couldn&apos;t be successfully saved in merhandise list !</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="2276"/>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="2393"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="2278"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="2395"/>
         <source>échec de l&apos;enregistrement de l&apos;article type dans la liste des marchandises</source>
         <translation>failing to save article type in merchandise list</translation>
     </message>
@@ -4024,7 +4023,7 @@ Continuer avec l&apos;enregistrement des données du stock (service) ?</source>
 Continue with update of the stock (service) ?</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="2243"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="2245"/>
         <location filename="src/windows/yerith-erp-entrer-window.cpp" line="5435"/>
         <source>Le stock &apos;%1&apos;</source>
         <translation>Stock &apos;%1&apos;</translation>
@@ -4040,8 +4039,8 @@ Continue with update of the stock (service) ?</translation>
         <translation>Batch quantity must be greater to zero !</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="2249"/>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="2365"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="2251"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="2367"/>
         <source> a été enregistré dans la liste des marchandises !</source>
         <translation> has been saved to the merchandise list !</translation>
     </message>
@@ -5031,29 +5030,29 @@ Please contact an administrator of %1</translation>
         <translation>Tax (%1)</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.hpp" line="2029"/>
+        <location filename="src/utils/yerith-erp-utils.hpp" line="2031"/>
         <source>Il y&apos;a eu</source>
         <translation>There is</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.hpp" line="2030"/>
+        <location filename="src/utils/yerith-erp-utils.hpp" line="2032"/>
         <source> %1 résultat(s) à votre filtre !</source>
         <oldsource> %1 résultat à votre filtre !</oldsource>
         <translation> %1 result(s) to your filter !</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.hpp" line="2035"/>
+        <location filename="src/utils/yerith-erp-utils.hpp" line="2037"/>
         <source>Il ny&apos;a eu aucun résultat à votre filtre !</source>
         <oldsource>Il ny&apos;a eu aucun résultat à votre filtre!</oldsource>
         <translation>There is no associated data to your filter !</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.hpp" line="2092"/>
+        <location filename="src/utils/yerith-erp-utils.hpp" line="2094"/>
         <source>OUI</source>
         <translation>Yes</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.hpp" line="2092"/>
+        <location filename="src/utils/yerith-erp-utils.hpp" line="2094"/>
         <source>NON</source>
         <translation>No</translation>
     </message>
@@ -5374,7 +5373,7 @@ by exiting this program window ?</translation>
         <translation>There are no data to print-out!</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1013"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1015"/>
         <source>magasinier</source>
         <translation>storekeeper</translation>
     </message>
@@ -5712,10 +5711,10 @@ Please contact an administrator</translation>
     </message>
     <message>
         <location filename="src/admin/creer/creer-localisation.cpp" line="211"/>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1248"/>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1354"/>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1478"/>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1698"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1250"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1356"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1480"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1700"/>
         <source> a été créer avec succès !</source>
         <translation> has been created !</translation>
     </message>
@@ -6429,27 +6428,27 @@ In text field &apos;COMPANY (site)&apos; !</translation>
         <translation>keyword to search for (email, representant, and client company description)</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1083"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1085"/>
         <source>versement (comptant)</source>
         <translation>cash (payment)</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1087"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1089"/>
         <source>versement (cheque)</source>
         <translation>cheque (payment)</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1091"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1093"/>
         <source>versement (téléphone)</source>
         <translation>mobile money (payment)</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1095"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1097"/>
         <source>versement (bancaire)</source>
         <translation>cash (bank account)</translation>
     </message>
     <message>
-        <location filename="src/utils/yerith-erp-utils.cpp" line="1099"/>
+        <location filename="src/utils/yerith-erp-utils.cpp" line="1101"/>
         <source>versement (virement bancaire)</source>
         <translation>money transfer (payment)</translation>
     </message>
@@ -7641,141 +7640,141 @@ by exiting this program window ?</translation>
         <translation>client loyalty program service</translation>
     </message>
     <message>
-        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="46"/>
+        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="45"/>
         <source>comptabilité</source>
         <translation>financial accounting</translation>
     </message>
     <message>
-        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1325"/>
-        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1514"/>
-        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1670"/>
+        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1364"/>
+        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1553"/>
+        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1709"/>
         <source>TYPE D&apos;OPÉRATION COMMERCIALE inconnue</source>
         <translation>Undefined commercial operation</translation>
     </message>
     <message>
-        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1671"/>
+        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1710"/>
         <source>TYPE D&apos;OPÉRATION COMMERCIALE inconnue !</source>
         <translation>Undefined commercial operation !</translation>
     </message>
     <message>
-        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1373"/>
-        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1562"/>
-        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1715"/>
-        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1853"/>
+        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1412"/>
+        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1601"/>
+        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1754"/>
+        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1892"/>
         <source>Le type d&apos;opération commerciale &apos;%1&apos; </source>
         <translation>Commercial operation type &apos;%1&apos; </translation>
     </message>
     <message>
-        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1326"/>
-        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1515"/>
+        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1365"/>
+        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1554"/>
         <source>TYPE D&apos;OPÉRATION COMMERCIALE inconnue: (%1) !</source>
         <translation>Undefined commercial operation: (%1) !</translation>
     </message>
     <message>
-        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1382"/>
+        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1421"/>
         <source>n&apos;a pas pu être dissocié Du Compte BanCAIRE intitulée &quot;%1&quot;</source>
         <translation>couldn&apos;t be disassociated from Banking aCCOUNT titlED &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1387"/>
+        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1426"/>
         <source>échec - DISSOCIATION OPÉRATION, Compte BanCAIRE</source>
         <translation>failure - DISASSOCIATE commercial operation type, banking account</translation>
     </message>
     <message>
-        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1399"/>
+        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1438"/>
         <source>à été dissocié Du Compte BanCAIRE intitulée &quot;%1&quot;</source>
         <translation>was disassociated from BANKING Account &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1404"/>
+        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1443"/>
         <source>succès - DISSOCIATION OPÉRATION, Compte BanCAIRE</source>
         <translation>success - DISASSOCIATE commercial operation type, BANKING Account</translation>
     </message>
     <message>
-        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1571"/>
+        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1610"/>
         <source>n&apos;a pas pu être dissocié à la ligne bugétaire intitulée &quot;%1&quot;</source>
         <translation>couldn&apos;t be disassociated to budget line &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1576"/>
+        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1615"/>
         <source>échec - DISSOCIATION OPÉRATION, ligne budgétaire</source>
         <translation>failure - DISASSOCIATE commercial operation type, budget line</translation>
     </message>
     <message>
-        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1588"/>
+        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1627"/>
         <source>à été dissocié à la ligne bugétaire intitulée &quot;%1&quot;</source>
         <translation>was disassociated to budget line &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1593"/>
+        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1632"/>
         <source>succès - DISSOCIATION OPÉRATION, ligne budgétaire</source>
         <translation>success - DISASSOCIATE commercial operation type, budget line</translation>
     </message>
     <message>
-        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1725"/>
+        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1764"/>
         <source>n&apos;a pas pu être associé à la ligne bugétaire intitulée &quot;%1&quot;</source>
         <translation>couldn&apos;t be assigned to budget line &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1730"/>
+        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1769"/>
         <source>échec - ASSIGNATION OPÉRATION, ligne budgétaire</source>
         <translation>failure - ASSIGNING commercial operation type, budget line</translation>
     </message>
     <message>
-        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1760"/>
+        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1799"/>
         <source>à été associé à la ligne bugétaire intitulée &quot;%1&quot;</source>
         <translation>has been assigned to budget line &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1765"/>
+        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1804"/>
         <source>succès - ASSIGNATION OPÉRATION, ligne budgétaire</source>
         <translation>success - ASSIGNING commercial operation type, budget line</translation>
     </message>
     <message>
-        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1807"/>
+        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1846"/>
         <source>TYPE D&apos;OPÉRATION COMMERCIALE entrees inconnue</source>
         <translation>Undefined INCOME commercial operation</translation>
     </message>
     <message>
-        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1808"/>
+        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1847"/>
         <source>TYPE D&apos;OPÉRATION COMMERCIALE entrees inconnue !</source>
         <translation>Undefined INCOME commercial operation !</translation>
     </message>
     <message>
-        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1863"/>
+        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1902"/>
         <source>n&apos;a pas pu être associé à la COMPTE BANCAIRE intitulée &quot;%1&quot;</source>
         <translation>couldn&apos;t be assigned to BANK ACCOUNT &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1868"/>
+        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1907"/>
         <source>échec - ASSIGNATION OPÉRATION, COMPTE BANCAIRE</source>
         <translation>failure - ASSIGNING commercial operation type, bank account</translation>
     </message>
     <message>
-        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1898"/>
+        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1937"/>
         <source>à été associé au Compte bancaire Entrées intitulée &quot;%1&quot;</source>
         <oldsource>à été associé au Compte bancaire Entréesintitulée &quot;%1&quot;</oldsource>
         <translation>has been assigned to INCOME Banking Account titled &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1903"/>
+        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="1942"/>
         <source>succès - ASSIGNATION OPÉRATION, compte bancaire Entrées</source>
         <translation>success - ASSIGNING commercial operation type, INCOME Banking ACCOUNT</translation>
     </message>
     <message>
-        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="2227"/>
+        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="2253"/>
         <source>Yerith-pgi-9.0-PLATINUM - comptabilité - Lignes budgétaires</source>
         <oldsource>Yerith-pgi-9.0 - comptabilité - Lignes budgétaires</oldsource>
         <translation>Yerith-erp-9.0-PLATINUM - financial accounting - budgets lines</translation>
     </message>
     <message>
-        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="2266"/>
+        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="2292"/>
         <source>Yerith-pgi-9.0-PLATINUM - comptabilité - type d&apos;opérations commerciales</source>
         <oldsource>Yerith-pgi-9.0 - comptabilité - type d&apos;opérations commerciales</oldsource>
         <translation>Yerith-erp-9.0-PLATINUM - financial accounting - commercial operations types</translation>
     </message>
     <message>
-        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="2473"/>
+        <location filename="src/windows/yerith-erp-comptabilite-window.cpp" line="2459"/>
         <source>terme à rechercher (description de la Ligne budgétaire)</source>
         <translation>keyword to search for (BUDGET LINE DESCRIPTION)</translation>
     </message>
@@ -11254,36 +11253,36 @@ stock (service)
         <translation>Yerith-erp-9.0 ~ administration window</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-window.ui" line="79260"/>
-        <location filename="ui/yerith-erp-admin-window.ui" line="79263"/>
+        <location filename="ui/yerith-erp-admin-window.ui" line="78575"/>
+        <location filename="ui/yerith-erp-admin-window.ui" line="78578"/>
         <source>Go</source>
         <translation></translation>
     </message>
     <message>
         <location filename="ui/yerith-erp-admin-window.ui" line="928"/>
-        <location filename="ui/yerith-erp-admin-window.ui" line="79200"/>
-        <location filename="ui/yerith-erp-admin-window.ui" line="79203"/>
+        <location filename="ui/yerith-erp-admin-window.ui" line="78515"/>
+        <location filename="ui/yerith-erp-admin-window.ui" line="78518"/>
         <source>Lister</source>
         <translation>List</translation>
     </message>
     <message>
         <location filename="ui/yerith-erp-admin-window.ui" line="1391"/>
-        <location filename="ui/yerith-erp-admin-window.ui" line="79215"/>
-        <location filename="ui/yerith-erp-admin-window.ui" line="79218"/>
+        <location filename="ui/yerith-erp-admin-window.ui" line="78530"/>
+        <location filename="ui/yerith-erp-admin-window.ui" line="78533"/>
         <source>Créer</source>
         <translation>Create</translation>
     </message>
     <message>
         <location filename="ui/yerith-erp-admin-window.ui" line="1854"/>
-        <location filename="ui/yerith-erp-admin-window.ui" line="79245"/>
-        <location filename="ui/yerith-erp-admin-window.ui" line="79248"/>
+        <location filename="ui/yerith-erp-admin-window.ui" line="78560"/>
+        <location filename="ui/yerith-erp-admin-window.ui" line="78563"/>
         <source>Supprimer</source>
         <translation>Delete</translation>
     </message>
     <message>
         <location filename="ui/yerith-erp-admin-window.ui" line="2317"/>
-        <location filename="ui/yerith-erp-admin-window.ui" line="79230"/>
-        <location filename="ui/yerith-erp-admin-window.ui" line="79233"/>
+        <location filename="ui/yerith-erp-admin-window.ui" line="78545"/>
+        <location filename="ui/yerith-erp-admin-window.ui" line="78548"/>
         <source>Modifier</source>
         <translation>Modify</translation>
     </message>
@@ -11768,8 +11767,8 @@ stock (service)
     </message>
     <message>
         <location filename="ui/yerith-erp-admin-window.ui" line="46246"/>
-        <location filename="ui/yerith-erp-admin-window.ui" line="79461"/>
-        <location filename="ui/yerith-erp-admin-window.ui" line="79464"/>
+        <location filename="ui/yerith-erp-admin-window.ui" line="78776"/>
+        <location filename="ui/yerith-erp-admin-window.ui" line="78779"/>
         <source>Open page in firefox-mozilla brower</source>
         <translation></translation>
     </message>
@@ -11779,8 +11778,8 @@ stock (service)
         <translation></translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-window.ui" line="79443"/>
-        <location filename="ui/yerith-erp-admin-window.ui" line="79446"/>
+        <location filename="ui/yerith-erp-admin-window.ui" line="78758"/>
+        <location filename="ui/yerith-erp-admin-window.ui" line="78761"/>
         <source>Lancer interface Database.</source>
         <translation>START db management Interface.</translation>
     </message>
@@ -11813,13 +11812,13 @@ stock (service)
         <translation></translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-window.ui" line="79410"/>
+        <location filename="ui/yerith-erp-admin-window.ui" line="78725"/>
         <source>TRADUIRE EN FRANÇAIS</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-window.ui" line="79425"/>
-        <location filename="ui/yerith-erp-admin-window.ui" line="79428"/>
+        <location filename="ui/yerith-erp-admin-window.ui" line="78740"/>
+        <location filename="ui/yerith-erp-admin-window.ui" line="78743"/>
         <source>Lancer developpement web.</source>
         <translation>START web dev.</translation>
     </message>
@@ -11834,65 +11833,55 @@ stock (service)
         <translation></translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-window.ui" line="76214"/>
-        <source>Human Resources (HR) payments automated daemon service</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="ui/yerith-erp-admin-window.ui" line="76240"/>
-        <source>regular payment service seconds interval</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="ui/yerith-erp-admin-window.ui" line="79298"/>
-        <location filename="ui/yerith-erp-admin-window.ui" line="79301"/>
+        <location filename="ui/yerith-erp-admin-window.ui" line="78613"/>
+        <location filename="ui/yerith-erp-admin-window.ui" line="78616"/>
         <source>Guide PRATIQUE de l&apos;utilisateur (PDF)</source>
         <translation>USER GUIDE (pdf)</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-window.ui" line="79313"/>
-        <location filename="ui/yerith-erp-admin-window.ui" line="79316"/>
+        <location filename="ui/yerith-erp-admin-window.ui" line="78628"/>
+        <location filename="ui/yerith-erp-admin-window.ui" line="78631"/>
         <source>Rafraîchir le statut</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-window.ui" line="79325"/>
-        <location filename="ui/yerith-erp-admin-window.ui" line="79328"/>
+        <location filename="ui/yerith-erp-admin-window.ui" line="78640"/>
+        <location filename="ui/yerith-erp-admin-window.ui" line="78643"/>
         <source>Print a dynamic analysis report analytics</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-window.ui" line="79345"/>
+        <location filename="ui/yerith-erp-admin-window.ui" line="78660"/>
         <source>START YRI-DB-RUNTIME-VERIF</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-window.ui" line="79348"/>
+        <location filename="ui/yerith-erp-admin-window.ui" line="78663"/>
         <source> START YRI-DB-RUNTIME-VERIF</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-window.ui" line="79394"/>
+        <location filename="ui/yerith-erp-admin-window.ui" line="78709"/>
         <source>EN</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-window.ui" line="79397"/>
+        <location filename="ui/yerith-erp-admin-window.ui" line="78712"/>
         <source>TRANSlate onto English</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-window.ui" line="79407"/>
+        <location filename="ui/yerith-erp-admin-window.ui" line="78722"/>
         <source>FR</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-window.ui" line="79365"/>
+        <location filename="ui/yerith-erp-admin-window.ui" line="78680"/>
         <source>AUGMENTER LA POLICE DU TABLEAU</source>
         <translation>INCREASE FONT SIZE OF TABLE</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-window.ui" line="79382"/>
+        <location filename="ui/yerith-erp-admin-window.ui" line="78697"/>
         <source>diminuer la police du tableau</source>
         <translation>decrease table font size</translation>
     </message>
@@ -12229,70 +12218,70 @@ stock (service)
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;H hours = H x 3600 seconds !&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-window.ui" line="77221"/>
+        <location filename="ui/yerith-erp-admin-window.ui" line="76536"/>
         <source>YERITH-ERP-9.0</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-window.ui" line="77694"/>
+        <location filename="ui/yerith-erp-admin-window.ui" line="77009"/>
         <source>Aide</source>
         <oldsource>Aide</oldsource>
         <translation>Help</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-window.ui" line="78157"/>
+        <location filename="ui/yerith-erp-admin-window.ui" line="77472"/>
         <source>Actions</source>
         <oldsource>Actions</oldsource>
         <translation>Functions</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-window.ui" line="78620"/>
+        <location filename="ui/yerith-erp-admin-window.ui" line="77935"/>
         <source>Outils</source>
         <oldsource>Outils</oldsource>
         <translation>Tools</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-window.ui" line="79095"/>
+        <location filename="ui/yerith-erp-admin-window.ui" line="78410"/>
         <source>toolBar</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-window.ui" line="79128"/>
+        <location filename="ui/yerith-erp-admin-window.ui" line="78443"/>
         <source>À propos</source>
         <oldsource>À propos</oldsource>
         <translation>About Yerith-erp-9.0</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-window.ui" line="79144"/>
+        <location filename="ui/yerith-erp-admin-window.ui" line="78459"/>
         <source>Changer d&apos;utilisateur</source>
         <oldsource>Changer d&apos;utilisateur</oldsource>
         <translation>Sign in</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-window.ui" line="79160"/>
+        <location filename="ui/yerith-erp-admin-window.ui" line="78475"/>
         <source>Déconnecter l&apos;utilisateur</source>
         <oldsource>Déconnecter l&apos;utilisateur</oldsource>
         <translation>Sign out</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-window.ui" line="79176"/>
+        <location filename="ui/yerith-erp-admin-window.ui" line="78491"/>
         <source>Appeler l&apos;aide</source>
         <translation>Help</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-window.ui" line="79188"/>
+        <location filename="ui/yerith-erp-admin-window.ui" line="78503"/>
         <source>Fermeture</source>
         <oldsource>Fermeture</oldsource>
         <translation>Close</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-window.ui" line="79274"/>
+        <location filename="ui/yerith-erp-admin-window.ui" line="78589"/>
         <source>Menu principal</source>
         <oldsource>Menu principal</oldsource>
         <translation>Main menu</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-window.ui" line="79286"/>
+        <location filename="ui/yerith-erp-admin-window.ui" line="78601"/>
         <source>Qui suis je ?</source>
         <oldsource>Qui suis je ?</oldsource>
         <translation>Who am I?</translation>
@@ -13470,17 +13459,9 @@ Client Account</translation>
         <translation>Yerith-erp-9.0 -financial accounting</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="15309"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="11941"/>
         <source># lignes</source>
         <translation># rows</translation>
-    </message>
-    <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="8577"/>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="9545"/>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="15805"/>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="20189"/>
-        <source>dd/MM/yyyy</source>
-        <translation></translation>
     </message>
     <message>
         <location filename="ui/yerith-erp-comptabilite-window.ui" line="3857"/>
@@ -13488,89 +13469,62 @@ Client Account</translation>
         <translation>Assign Withdrawal budget line</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="19228"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="14337"/>
         <source>LAST PAGE NR</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="19696"/>
-        <source>réinitialiser filtre</source>
-        <translation>reset filter</translation>
-    </message>
-    <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="20581"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="14725"/>
         <source>/</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="20969"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="15113"/>
         <source>CURRENT PAGE NR</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="22303"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="16447"/>
         <source>réinitialiser</source>
         <translation>reset</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="9049"/>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="23791"/>
-        <source>Fin</source>
-        <translation>End</translation>
-    </message>
-    <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="13907"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="11029"/>
         <source>déboursé (débité) *</source>
         <oldsource>déboursé (débité)</oldsource>
         <translation>paid-out (debited) *</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="13030"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="10152"/>
         <source>LIGNES BUDGÉTAIRES - comptes comptables</source>
         <oldsource>comptes d&apos;opérations comptables</oldsource>
         <translation>Budget Line - financial operation type accounts</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="21835"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="15979"/>
         <source># lignes budgétaires</source>
         <translation># budgets lines</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="24661"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="18343"/>
         <source>encaissé (crédité) *</source>
         <oldsource>encaissé (crédité)</oldsource>
         <translation>paid-in (credited) *</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="25129"/>
-        <source>filtrer</source>
-        <translation>filter</translation>
-    </message>
-    <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="8081"/>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="25597"/>
-        <source>Début</source>
-        <translation>Begin</translation>
-    </message>
-    <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="26087"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="18833"/>
         <source>Allant de 1 à 999.</source>
         <translation>From 1 to 999.</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="27045"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="19791"/>
         <source>VALIDER COMPTABILITÉ</source>
         <translation>VALIDATE FIN. ACCOUNTING</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="27510"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="20259"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;CHECKED: exact string match&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Unchecked: like string match.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation></translation>
-    </message>
-    <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="27990"/>
-        <source>filtres</source>
-        <translation>filters</translation>
     </message>
     <message>
         <location filename="ui/yerith-erp-comptabilite-window.ui" line="1015"/>
@@ -13618,7 +13572,7 @@ Client Account</translation>
     </message>
     <message>
         <location filename="ui/yerith-erp-comptabilite-window.ui" line="2345"/>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="13011"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="10133"/>
         <source>Supprimer un article</source>
         <translation>Remove stock</translation>
     </message>
@@ -13646,162 +13600,157 @@ Client Account</translation>
         <translation>Assets purchases</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="9964"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="8025"/>
         <source>Ressources Humaines Salaires</source>
         <translation>Human Resources Salaries</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="11427"/>
-        <source>Charges financieres (dettes)</source>
-        <translation>FINANCIAL EXPENSES (Debt)</translation>
-    </message>
-    <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="11566"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="8688"/>
         <source>compte bancaire (entrées)</source>
         <oldsource>compte d&apos;opération (entrées)</oldsource>
         <translation>banking account (Income)</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="12551"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="9673"/>
         <source>Associer compte bancaire (entrées)</source>
         <oldsource>Associer compte d&apos;opération (entrées)</oldsource>
         <translation>Assign banking account (INCOME)</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="28465"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="20743"/>
         <source>Aide</source>
         <translation>Help</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="28932"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="21210"/>
         <source>Actions</source>
         <translation>Functions</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="29396"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="21674"/>
         <source>Outils</source>
         <translation>Tools</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="29904"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="22182"/>
         <source>toolBar</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="29935"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="22213"/>
         <source>À propos</source>
         <translation>About Yerith-erp-9.0</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="29951"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="22229"/>
         <source>Changer d&apos;utilisateur</source>
         <translation>Sign in</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="29963"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="22241"/>
         <source>Fermeture</source>
         <translation>Close</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="29975"/>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="29978"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="22253"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="22256"/>
         <source>Menu principal</source>
         <translation>Main menu</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="29994"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="22272"/>
         <source>Déconnecter l&apos;utilisateur</source>
         <translation>Sign out</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="30010"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="22288"/>
         <source>Message d&apos;aide</source>
         <translation>User tip</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="30022"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="22300"/>
         <source>Informations sur l&apos;entreprise</source>
         <translation>Company info</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="30034"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="22312"/>
         <source>Qui suis je ?</source>
         <translation>Who am I ?</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="30050"/>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="30053"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="22328"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="22331"/>
         <source>Imprimer les comptes bancaires affichés</source>
         <oldsource>Imprimer la fiche des stocks</oldsource>
         <translation>Print all visible bank accounts</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="30070"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="22348"/>
         <source>Exporter au format csv</source>
         <translation>Export as csv file</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="30085"/>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="30088"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="22363"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="22366"/>
         <source>Sélectionner les  champs (base de données) visible</source>
         <translation>Select &apos;visible&apos; database table fields</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="30103"/>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="30106"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="22381"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="22384"/>
         <source>Réinitialiser les  champs (base de données) visible</source>
         <translation>Reset &apos;visible&apos; database table fields</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="30121"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="22399"/>
         <source>Administration</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="30138"/>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="30141"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="22416"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="22419"/>
         <source>Paramétrer les impressions PDF</source>
         <translation>Parameterize PDF printing</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="30156"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="22434"/>
         <source>AUGMENTER LA POLICE DU TABLEAU</source>
         <translation>INCREASE FONT SIZE OF TABLE</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="30171"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="22449"/>
         <source>diminuer la police du tableau</source>
         <translation>decrease table font size</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="30186"/>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="30189"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="22464"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="22467"/>
         <source>IMPRIMER 1 LISTE D&apos;opérations commerciales jusqu&apos;au sélectionné</source>
         <translation>PRINT COMMERCIAL OPERATION Type list till selected operation type</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="30214"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="22492"/>
         <source>FR</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="30217"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="22495"/>
         <source>TRADUIRE EN FRANÇAIS</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="30227"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="22505"/>
         <source>EN</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="30230"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="22508"/>
         <source>TRANSlate onto English</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="30199"/>
-        <location filename="ui/yerith-erp-comptabilite-window.ui" line="30202"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="22477"/>
+        <location filename="ui/yerith-erp-comptabilite-window.ui" line="22480"/>
         <source>Tableaux de BORDS</source>
         <translation>Business Analytics</translation>
     </message>
@@ -17658,8 +17607,8 @@ Transférer</oldsource>
         <translation>ASSET, stock, service image</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-entrer-window.ui" line="24177"/>
-        <location filename="ui/yerith-erp-entrer-window.ui" line="24180"/>
+        <location filename="ui/yerith-erp-entrer-window.ui" line="24179"/>
+        <location filename="ui/yerith-erp-entrer-window.ui" line="24182"/>
         <source>Supprimer l&apos;image de cette immobilisation / stock / service</source>
         <oldsource>Supprimer l&apos;image de ce stock</oldsource>
         <translation>Delete ASSET, stock, service image</translation>
@@ -17715,7 +17664,7 @@ Transférer</oldsource>
         <translation></translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-entrer-window.ui" line="20531"/>
+        <location filename="ui/yerith-erp-entrer-window.ui" line="20533"/>
         <source>prix d&apos;achat</source>
         <translation>purchase price</translation>
     </message>
@@ -17742,7 +17691,7 @@ Transférer</oldsource>
     </message>
     <message>
         <location filename="ui/yerith-erp-entrer-window.ui" line="11498"/>
-        <location filename="ui/yerith-erp-entrer-window.ui" line="20672"/>
+        <location filename="ui/yerith-erp-entrer-window.ui" line="20674"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -17833,133 +17782,133 @@ p, li { white-space: pre-wrap; }
         <translation>SELL service to client</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-entrer-window.ui" line="22625"/>
+        <location filename="ui/yerith-erp-entrer-window.ui" line="22627"/>
         <source>Aide</source>
         <oldsource>Aide</oldsource>
         <translation>Help</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-entrer-window.ui" line="23084"/>
+        <location filename="ui/yerith-erp-entrer-window.ui" line="23086"/>
         <source>Actions</source>
         <oldsource>Actions</oldsource>
         <translation>Functions</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-entrer-window.ui" line="23551"/>
+        <location filename="ui/yerith-erp-entrer-window.ui" line="23553"/>
         <source>Outils</source>
         <oldsource>Outils</oldsource>
         <translation>Tools</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-entrer-window.ui" line="24024"/>
+        <location filename="ui/yerith-erp-entrer-window.ui" line="24026"/>
         <source>toolBar</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-entrer-window.ui" line="24048"/>
+        <location filename="ui/yerith-erp-entrer-window.ui" line="24050"/>
         <source>À propos</source>
         <translation>About Yerith-erp-9.0</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-entrer-window.ui" line="24064"/>
+        <location filename="ui/yerith-erp-entrer-window.ui" line="24066"/>
         <source>Changer d&apos;utilisateur</source>
         <translation>Sign in</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-entrer-window.ui" line="24076"/>
-        <location filename="ui/yerith-erp-entrer-window.ui" line="24079"/>
+        <location filename="ui/yerith-erp-entrer-window.ui" line="24078"/>
+        <location filename="ui/yerith-erp-entrer-window.ui" line="24081"/>
         <source>Afficher les immobilisations ou les stocks</source>
         <oldsource>Afficher les stocks</oldsource>
         <translation>VIEW ASSETS AND STOCKS</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-entrer-window.ui" line="24091"/>
+        <location filename="ui/yerith-erp-entrer-window.ui" line="24093"/>
         <source>Fermeture</source>
         <translation>Close</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-entrer-window.ui" line="24103"/>
-        <location filename="ui/yerith-erp-entrer-window.ui" line="24106"/>
+        <location filename="ui/yerith-erp-entrer-window.ui" line="24105"/>
+        <location filename="ui/yerith-erp-entrer-window.ui" line="24108"/>
         <source>Menu principal</source>
         <translation>Main menu</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-entrer-window.ui" line="24122"/>
+        <location filename="ui/yerith-erp-entrer-window.ui" line="24124"/>
         <source>Message d&apos;aide</source>
         <translation>User tip</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-entrer-window.ui" line="24125"/>
+        <location filename="ui/yerith-erp-entrer-window.ui" line="24127"/>
         <source>Appeler l&apos;aide</source>
         <translation>Help</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-entrer-window.ui" line="24141"/>
-        <location filename="ui/yerith-erp-entrer-window.ui" line="24144"/>
+        <location filename="ui/yerith-erp-entrer-window.ui" line="24143"/>
+        <location filename="ui/yerith-erp-entrer-window.ui" line="24146"/>
         <source>Déconnecter l&apos;utilisateur</source>
         <translation>Sign out</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-entrer-window.ui" line="24162"/>
-        <location filename="ui/yerith-erp-entrer-window.ui" line="24165"/>
+        <location filename="ui/yerith-erp-entrer-window.ui" line="24164"/>
+        <location filename="ui/yerith-erp-entrer-window.ui" line="24167"/>
         <source>Alertes</source>
         <translation>Alerts</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-entrer-window.ui" line="24197"/>
+        <location filename="ui/yerith-erp-entrer-window.ui" line="24199"/>
         <source>Administration</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-entrer-window.ui" line="24209"/>
+        <location filename="ui/yerith-erp-entrer-window.ui" line="24211"/>
         <source>Informations sur l&apos;entreprise</source>
         <translation>Company info</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-entrer-window.ui" line="24221"/>
+        <location filename="ui/yerith-erp-entrer-window.ui" line="24223"/>
         <source>Qui suis je ?</source>
         <translation>Who am I?</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-entrer-window.ui" line="24233"/>
-        <location filename="ui/yerith-erp-entrer-window.ui" line="24236"/>
-        <location filename="ui/yerith-erp-entrer-window.ui" line="24239"/>
+        <location filename="ui/yerith-erp-entrer-window.ui" line="24235"/>
+        <location filename="ui/yerith-erp-entrer-window.ui" line="24238"/>
+        <location filename="ui/yerith-erp-entrer-window.ui" line="24241"/>
         <source>Sortir un(e) immobilisation / stock</source>
         <oldsource>Sortir un stock</oldsource>
         <translation>Check out ASSET, stock</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-entrer-window.ui" line="24251"/>
-        <location filename="ui/yerith-erp-entrer-window.ui" line="24254"/>
+        <location filename="ui/yerith-erp-entrer-window.ui" line="24253"/>
+        <location filename="ui/yerith-erp-entrer-window.ui" line="24256"/>
         <source>Enregister ce(tte) immobilisation / stock / service</source>
         <translation>SAVE AN ASSET / A STOCK / A SERVICE</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-entrer-window.ui" line="24266"/>
-        <location filename="ui/yerith-erp-entrer-window.ui" line="24269"/>
+        <location filename="ui/yerith-erp-entrer-window.ui" line="24268"/>
+        <location filename="ui/yerith-erp-entrer-window.ui" line="24271"/>
         <source>Annuler l&apos;entrée de l&apos;immobilisation / stock / service</source>
         <oldsource>Annuler l&apos;entrée en stock</oldsource>
         <translation>Cancel ASSET, stock, OR SERVICE insertion</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-entrer-window.ui" line="24286"/>
+        <location filename="ui/yerith-erp-entrer-window.ui" line="24288"/>
         <source>START YRI-DB-RUNTIME-VERIF</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-entrer-window.ui" line="24289"/>
+        <location filename="ui/yerith-erp-entrer-window.ui" line="24291"/>
         <source> START YRI-DB-RUNTIME-VERIF</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-entrer-window.ui" line="24306"/>
-        <location filename="ui/yerith-erp-entrer-window.ui" line="24309"/>
+        <location filename="ui/yerith-erp-entrer-window.ui" line="24308"/>
+        <location filename="ui/yerith-erp-entrer-window.ui" line="24311"/>
         <source>Rendre invisible tous les autres actions possibles</source>
         <translation>Hide all other choices</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-entrer-window.ui" line="24324"/>
-        <location filename="ui/yerith-erp-entrer-window.ui" line="24327"/>
+        <location filename="ui/yerith-erp-entrer-window.ui" line="24326"/>
+        <location filename="ui/yerith-erp-entrer-window.ui" line="24329"/>
         <source>Rendre visible toutes les actions possibles</source>
         <translation>Show all action choices</translation>
     </message>
