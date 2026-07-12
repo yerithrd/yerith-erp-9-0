@@ -1401,12 +1401,12 @@ compiler_moc_header_clean:
 moc/moc_YRIruntimeverification_adaptor.cpp: src/YRIruntimeverification_adaptor.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/YRIruntimeverification_adaptor.h -o moc/moc_YRIruntimeverification_adaptor.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/YRIruntimeverification_adaptor.h -o moc/moc_YRIruntimeverification_adaptor.cpp
 
 moc/moc_IYRIruntimeverificationAdaptor_interface.cpp: src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/IYRIruntimeverificationAdaptor_interface.h -o moc/moc_IYRIruntimeverificationAdaptor_interface.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/IYRIruntimeverificationAdaptor_interface.h -o moc/moc_IYRIruntimeverificationAdaptor_interface.cpp
 
 moc/moc_yerith-erp-windows.cpp: src/yerith-erp-windows.hpp \
 		src/windows/yerith-erp-main-window.hpp \
@@ -1614,7 +1614,7 @@ moc/moc_yerith-erp-windows.cpp: src/yerith-erp-windows.hpp \
 		src/utils/yerith-erp-info-entreprise.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/yerith-erp-windows.hpp -o moc/moc_yerith-erp-windows.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/yerith-erp-windows.hpp -o moc/moc_yerith-erp-windows.cpp
 
 moc/moc_yerith-erp-Budget_Lines-import.cpp: src/imports/yerith-erp-Budget_Lines-import.hpp \
 		src/imports/yerith-erp-ALL-common-import.hpp \
@@ -1646,7 +1646,7 @@ moc/moc_yerith-erp-Budget_Lines-import.cpp: src/imports/yerith-erp-Budget_Lines-
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/imports/yerith-erp-Budget_Lines-import.hpp -o moc/moc_yerith-erp-Budget_Lines-import.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/imports/yerith-erp-Budget_Lines-import.hpp -o moc/moc_yerith-erp-Budget_Lines-import.cpp
 
 moc/moc_yerith-erp-ALL-common-import.cpp: src/imports/yerith-erp-ALL-common-import.hpp \
 		src/imports/yerith-erp-database-table-import-info.hpp \
@@ -1677,7 +1677,7 @@ moc/moc_yerith-erp-ALL-common-import.cpp: src/imports/yerith-erp-ALL-common-impo
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/imports/yerith-erp-ALL-common-import.hpp -o moc/moc_yerith-erp-ALL-common-import.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/imports/yerith-erp-ALL-common-import.hpp -o moc/moc_yerith-erp-ALL-common-import.cpp
 
 moc/moc_yerith-erp-bank-account-info-raw-import.cpp: src/imports/yerith-erp-bank-account-info-raw-import.hpp \
 		src/imports/yerith-erp-ALL-common-import.hpp \
@@ -1709,7 +1709,7 @@ moc/moc_yerith-erp-bank-account-info-raw-import.cpp: src/imports/yerith-erp-bank
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/imports/yerith-erp-bank-account-info-raw-import.hpp -o moc/moc_yerith-erp-bank-account-info-raw-import.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/imports/yerith-erp-bank-account-info-raw-import.hpp -o moc/moc_yerith-erp-bank-account-info-raw-import.cpp
 
 moc/moc_yerith-erp-marchandise-import.cpp: src/imports/yerith-erp-marchandise-import.hpp \
 		src/imports/yerith-erp-stock-import.hpp \
@@ -1742,7 +1742,7 @@ moc/moc_yerith-erp-marchandise-import.cpp: src/imports/yerith-erp-marchandise-im
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/imports/yerith-erp-marchandise-import.hpp -o moc/moc_yerith-erp-marchandise-import.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/imports/yerith-erp-marchandise-import.hpp -o moc/moc_yerith-erp-marchandise-import.cpp
 
 moc/moc_yerith-erp-stock-import.cpp: src/imports/yerith-erp-stock-import.hpp \
 		src/imports/yerith-erp-ALL-common-import.hpp \
@@ -1774,7 +1774,7 @@ moc/moc_yerith-erp-stock-import.cpp: src/imports/yerith-erp-stock-import.hpp \
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/imports/yerith-erp-stock-import.hpp -o moc/moc_yerith-erp-stock-import.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/imports/yerith-erp-stock-import.hpp -o moc/moc_yerith-erp-stock-import.cpp
 
 moc/moc_yerith-erp-xml-parser-QLIST___widget-element.cpp: src/web_systems/yerith-erp-xml-parser-QLIST___widget-element.hpp \
 		src/utils/yerith-erp-utils.hpp \
@@ -1804,7 +1804,7 @@ moc/moc_yerith-erp-xml-parser-QLIST___widget-element.cpp: src/web_systems/yerith
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/web_systems/yerith-erp-xml-parser-QLIST___widget-element.hpp -o moc/moc_yerith-erp-xml-parser-QLIST___widget-element.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/web_systems/yerith-erp-xml-parser-QLIST___widget-element.hpp -o moc/moc_yerith-erp-xml-parser-QLIST___widget-element.cpp
 
 moc/moc_yerith-erp-xml-parser-widget-element.cpp: src/web_systems/yerith-erp-xml-parser-widget-element.hpp \
 		src/utils/yerith-erp-utils.hpp \
@@ -1834,7 +1834,7 @@ moc/moc_yerith-erp-xml-parser-widget-element.cpp: src/web_systems/yerith-erp-xml
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/web_systems/yerith-erp-xml-parser-widget-element.hpp -o moc/moc_yerith-erp-xml-parser-widget-element.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/web_systems/yerith-erp-xml-parser-widget-element.hpp -o moc/moc_yerith-erp-xml-parser-widget-element.cpp
 
 moc/moc_yerith-erp-xml-parser-widget-MAIN_WINDOW-element.cpp: src/web_systems/yerith-erp-xml-parser-widget-MAIN_WINDOW-element.hpp \
 		src/web_systems/yerith-erp-xml-parser-widget-element.hpp \
@@ -1865,7 +1865,7 @@ moc/moc_yerith-erp-xml-parser-widget-MAIN_WINDOW-element.cpp: src/web_systems/ye
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/web_systems/yerith-erp-xml-parser-widget-MAIN_WINDOW-element.hpp -o moc/moc_yerith-erp-xml-parser-widget-MAIN_WINDOW-element.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/web_systems/yerith-erp-xml-parser-widget-MAIN_WINDOW-element.hpp -o moc/moc_yerith-erp-xml-parser-widget-MAIN_WINDOW-element.cpp
 
 moc/moc_yerith-erp-xml-parser-widget-PUSH_BUTTON-element.cpp: src/web_systems/yerith-erp-xml-parser-widget-PUSH_BUTTON-element.hpp \
 		src/web_systems/yerith-erp-xml-parser-widget-element.hpp \
@@ -1896,7 +1896,7 @@ moc/moc_yerith-erp-xml-parser-widget-PUSH_BUTTON-element.cpp: src/web_systems/ye
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/web_systems/yerith-erp-xml-parser-widget-PUSH_BUTTON-element.hpp -o moc/moc_yerith-erp-xml-parser-widget-PUSH_BUTTON-element.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/web_systems/yerith-erp-xml-parser-widget-PUSH_BUTTON-element.hpp -o moc/moc_yerith-erp-xml-parser-widget-PUSH_BUTTON-element.cpp
 
 moc/moc_yerith-erp-table-view_WITH_TABWIDGET_AS_DIRECT_PARENT_movable_section.cpp: src/widgets/table-view/yerith-erp-table-view_WITH_TABWIDGET_AS_DIRECT_PARENT_movable_section.hpp \
 		src/widgets/table-view/yerith-erp-table-view-with-pagination.hpp \
@@ -1927,7 +1927,7 @@ moc/moc_yerith-erp-table-view_WITH_TABWIDGET_AS_DIRECT_PARENT_movable_section.cp
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-table-view_WITH_TABWIDGET_AS_DIRECT_PARENT_movable_section.hpp -o moc/moc_yerith-erp-table-view_WITH_TABWIDGET_AS_DIRECT_PARENT_movable_section.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-table-view_WITH_TABWIDGET_AS_DIRECT_PARENT_movable_section.hpp -o moc/moc_yerith-erp-table-view_WITH_TABWIDGET_AS_DIRECT_PARENT_movable_section.cpp
 
 moc/moc_yerith-erp-push-button-PASSWORD.cpp: src/widgets/yerith-erp-push-button-PASSWORD.hpp \
 		src/widgets/yerith-erp-push-button.hpp \
@@ -1963,7 +1963,7 @@ moc/moc_yerith-erp-push-button-PASSWORD.cpp: src/widgets/yerith-erp-push-button-
 		src/widgets/yerith-erp-line-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/yerith-erp-push-button-PASSWORD.hpp -o moc/moc_yerith-erp-push-button-PASSWORD.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/yerith-erp-push-button-PASSWORD.hpp -o moc/moc_yerith-erp-push-button-PASSWORD.cpp
 
 moc/moc_yerith-erp-progress-bar.cpp: src/widgets/yerith-erp-progress-bar.hpp \
 		src/utils/yerith-erp-utils.hpp \
@@ -1993,7 +1993,7 @@ moc/moc_yerith-erp-progress-bar.cpp: src/widgets/yerith-erp-progress-bar.hpp \
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/yerith-erp-progress-bar.hpp -o moc/moc_yerith-erp-progress-bar.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/yerith-erp-progress-bar.hpp -o moc/moc_yerith-erp-progress-bar.cpp
 
 moc/moc_yerith-erp-admin-verif-logging-table-widget.cpp: src/widgets/widgets-table/yerith-erp-admin-verif-logging-table-widget.hpp \
 		src/widgets/widgets-table/yerith-erp-table-widget.hpp \
@@ -2026,7 +2026,7 @@ moc/moc_yerith-erp-admin-verif-logging-table-widget.cpp: src/widgets/widgets-tab
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/widgets-table/yerith-erp-admin-verif-logging-table-widget.hpp -o moc/moc_yerith-erp-admin-verif-logging-table-widget.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/widgets-table/yerith-erp-admin-verif-logging-table-widget.hpp -o moc/moc_yerith-erp-admin-verif-logging-table-widget.cpp
 
 moc/moc_yerith-erp-creer-un-groupe-de-clients-table-widget.cpp: src/widgets/widgets-table/yerith-erp-creer-un-groupe-de-clients-table-widget.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -2060,7 +2060,7 @@ moc/moc_yerith-erp-creer-un-groupe-de-clients-table-widget.cpp: src/widgets/widg
 		src/widgets/widgets-table/yerith-erp-table-widget.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/widgets-table/yerith-erp-creer-un-groupe-de-clients-table-widget.hpp -o moc/moc_yerith-erp-creer-un-groupe-de-clients-table-widget.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/widgets-table/yerith-erp-creer-un-groupe-de-clients-table-widget.hpp -o moc/moc_yerith-erp-creer-un-groupe-de-clients-table-widget.cpp
 
 moc/moc_yerith-erp-groupes-dun-EMPLOYE-table-widget.cpp: src/widgets/widgets-table/yerith-erp-groupes-dun-EMPLOYE-table-widget.hpp \
 		src/widgets/widgets-table/yerith-erp-table-widget.hpp \
@@ -2093,7 +2093,7 @@ moc/moc_yerith-erp-groupes-dun-EMPLOYE-table-widget.cpp: src/widgets/widgets-tab
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/widgets-table/yerith-erp-groupes-dun-EMPLOYE-table-widget.hpp -o moc/moc_yerith-erp-groupes-dun-EMPLOYE-table-widget.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/widgets-table/yerith-erp-groupes-dun-EMPLOYE-table-widget.hpp -o moc/moc_yerith-erp-groupes-dun-EMPLOYE-table-widget.cpp
 
 moc/moc_yerith-erp-groupes-dun-client-table-widget.cpp: src/widgets/widgets-table/yerith-erp-groupes-dun-client-table-widget.hpp \
 		src/widgets/widgets-table/yerith-erp-table-widget.hpp \
@@ -2126,7 +2126,7 @@ moc/moc_yerith-erp-groupes-dun-client-table-widget.cpp: src/widgets/widgets-tabl
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/widgets-table/yerith-erp-groupes-dun-client-table-widget.hpp -o moc/moc_yerith-erp-groupes-dun-client-table-widget.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/widgets-table/yerith-erp-groupes-dun-client-table-widget.hpp -o moc/moc_yerith-erp-groupes-dun-client-table-widget.cpp
 
 moc/moc_yerith-erp-COMPTABILITE-table-widget.cpp: src/widgets/widgets-table/yerith-erp-COMPTABILITE-table-widget.hpp \
 		src/widgets/widgets-table/yerith-erp-table-widget.hpp \
@@ -2159,7 +2159,7 @@ moc/moc_yerith-erp-COMPTABILITE-table-widget.cpp: src/widgets/widgets-table/yeri
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/widgets-table/yerith-erp-COMPTABILITE-table-widget.hpp -o moc/moc_yerith-erp-COMPTABILITE-table-widget.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/widgets-table/yerith-erp-COMPTABILITE-table-widget.hpp -o moc/moc_yerith-erp-COMPTABILITE-table-widget.cpp
 
 moc/moc_yerith-erp-point-de-vente-table-widget.cpp: src/widgets/widgets-table/yerith-erp-point-de-vente-table-widget.hpp \
 		src/widgets/widgets-table/yerith-erp-table-widget.hpp \
@@ -2192,7 +2192,7 @@ moc/moc_yerith-erp-point-de-vente-table-widget.cpp: src/widgets/widgets-table/ye
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/widgets-table/yerith-erp-point-de-vente-table-widget.hpp -o moc/moc_yerith-erp-point-de-vente-table-widget.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/widgets-table/yerith-erp-point-de-vente-table-widget.hpp -o moc/moc_yerith-erp-point-de-vente-table-widget.cpp
 
 moc/moc_yerith-erp-table-widget.cpp: src/widgets/widgets-table/yerith-erp-table-widget.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -2224,7 +2224,7 @@ moc/moc_yerith-erp-table-widget.cpp: src/widgets/widgets-table/yerith-erp-table-
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/widgets-table/yerith-erp-table-widget.hpp -o moc/moc_yerith-erp-table-widget.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/widgets-table/yerith-erp-table-widget.hpp -o moc/moc_yerith-erp-table-widget.cpp
 
 moc/moc_yerith-erp-table-view-with-pagination.cpp: src/widgets/table-view/yerith-erp-table-view-with-pagination.hpp \
 		src/utils/yerith-erp-utils.hpp \
@@ -2254,7 +2254,7 @@ moc/moc_yerith-erp-table-view-with-pagination.cpp: src/widgets/table-view/yerith
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-table-view-with-pagination.hpp -o moc/moc_yerith-erp-table-view-with-pagination.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-table-view-with-pagination.hpp -o moc/moc_yerith-erp-table-view-with-pagination.cpp
 
 moc/moc_yerith-erp-table-view.cpp: src/widgets/table-view/yerith-erp-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -2271,7 +2271,7 @@ moc/moc_yerith-erp-table-view.cpp: src/widgets/table-view/yerith-erp-table-view.
 		src/utils/yerith-erp-sqltable-model.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-table-view.hpp -o moc/moc_yerith-erp-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-table-view.hpp -o moc/moc_yerith-erp-table-view.cpp
 
 moc/moc_yerith-erp-comptes-doperations-comptabilite-table-view.cpp: src/widgets/table-view/yerith-erp-comptes-doperations-comptabilite-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -2303,7 +2303,7 @@ moc/moc_yerith-erp-comptes-doperations-comptabilite-table-view.cpp: src/widgets/
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-comptes-doperations-comptabilite-table-view.hpp -o moc/moc_yerith-erp-comptes-doperations-comptabilite-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-comptes-doperations-comptabilite-table-view.hpp -o moc/moc_yerith-erp-comptes-doperations-comptabilite-table-view.cpp
 
 moc/moc_yerith-erp-paiements-table-view.cpp: src/widgets/table-view/yerith-erp-paiements-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -2335,7 +2335,7 @@ moc/moc_yerith-erp-paiements-table-view.cpp: src/widgets/table-view/yerith-erp-p
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-paiements-table-view.hpp -o moc/moc_yerith-erp-paiements-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-paiements-table-view.hpp -o moc/moc_yerith-erp-paiements-table-view.cpp
 
 moc/moc_yerith-erp-stocks-table-view.cpp: src/widgets/table-view/yerith-erp-stocks-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -2366,7 +2366,7 @@ moc/moc_yerith-erp-stocks-table-view.cpp: src/widgets/table-view/yerith-erp-stoc
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-stocks-table-view.hpp -o moc/moc_yerith-erp-stocks-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-stocks-table-view.hpp -o moc/moc_yerith-erp-stocks-table-view.cpp
 
 moc/moc_yerith-erp-ventes-table-view.cpp: src/widgets/table-view/yerith-erp-ventes-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -2398,7 +2398,7 @@ moc/moc_yerith-erp-ventes-table-view.cpp: src/widgets/table-view/yerith-erp-vent
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-ventes-table-view.hpp -o moc/moc_yerith-erp-ventes-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-ventes-table-view.hpp -o moc/moc_yerith-erp-ventes-table-view.cpp
 
 moc/moc_yerith-erp-mouvements_de_stocks-table-view.cpp: src/widgets/table-view/yerith-erp-mouvements_de_stocks-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -2430,7 +2430,7 @@ moc/moc_yerith-erp-mouvements_de_stocks-table-view.cpp: src/widgets/table-view/y
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-mouvements_de_stocks-table-view.hpp -o moc/moc_yerith-erp-mouvements_de_stocks-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-mouvements_de_stocks-table-view.hpp -o moc/moc_yerith-erp-mouvements_de_stocks-table-view.cpp
 
 moc/moc_yerith-erp-GROUPES-DE-PAIE-HR-table-view.cpp: src/widgets/table-view/yerith-erp-GROUPES-DE-PAIE-HR-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -2461,7 +2461,7 @@ moc/moc_yerith-erp-GROUPES-DE-PAIE-HR-table-view.cpp: src/widgets/table-view/yer
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-GROUPES-DE-PAIE-HR-table-view.hpp -o moc/moc_yerith-erp-GROUPES-DE-PAIE-HR-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-GROUPES-DE-PAIE-HR-table-view.hpp -o moc/moc_yerith-erp-GROUPES-DE-PAIE-HR-table-view.cpp
 
 moc/moc_yerith-erp-fournisseurs-table-view.cpp: src/widgets/table-view/yerith-erp-fournisseurs-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -2492,7 +2492,7 @@ moc/moc_yerith-erp-fournisseurs-table-view.cpp: src/widgets/table-view/yerith-er
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-fournisseurs-table-view.hpp -o moc/moc_yerith-erp-fournisseurs-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-fournisseurs-table-view.hpp -o moc/moc_yerith-erp-fournisseurs-table-view.cpp
 
 moc/moc_yerith-erp-programmes-de-fidelite-clients-table-view.cpp: src/widgets/table-view/yerith-erp-programmes-de-fidelite-clients-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -2523,7 +2523,7 @@ moc/moc_yerith-erp-programmes-de-fidelite-clients-table-view.cpp: src/widgets/ta
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-programmes-de-fidelite-clients-table-view.hpp -o moc/moc_yerith-erp-programmes-de-fidelite-clients-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-programmes-de-fidelite-clients-table-view.hpp -o moc/moc_yerith-erp-programmes-de-fidelite-clients-table-view.cpp
 
 moc/moc_yerith-erp-groupes-de-clients-table-view.cpp: src/widgets/table-view/yerith-erp-groupes-de-clients-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -2554,7 +2554,7 @@ moc/moc_yerith-erp-groupes-de-clients-table-view.cpp: src/widgets/table-view/yer
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-groupes-de-clients-table-view.hpp -o moc/moc_yerith-erp-groupes-de-clients-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-groupes-de-clients-table-view.hpp -o moc/moc_yerith-erp-groupes-de-clients-table-view.cpp
 
 moc/moc_yerith-erp-clients-table-view.cpp: src/widgets/table-view/yerith-erp-clients-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -2585,7 +2585,7 @@ moc/moc_yerith-erp-clients-table-view.cpp: src/widgets/table-view/yerith-erp-cli
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-clients-table-view.hpp -o moc/moc_yerith-erp-clients-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-clients-table-view.hpp -o moc/moc_yerith-erp-clients-table-view.cpp
 
 moc/moc_yerith-erp-alertes-table-view.cpp: src/widgets/table-view/yerith-erp-alertes-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -2617,7 +2617,7 @@ moc/moc_yerith-erp-alertes-table-view.cpp: src/widgets/table-view/yerith-erp-ale
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-alertes-table-view.hpp -o moc/moc_yerith-erp-alertes-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-alertes-table-view.hpp -o moc/moc_yerith-erp-alertes-table-view.cpp
 
 moc/moc_yerith-erp-CHARGES-FINANCIERES-table-view.cpp: src/widgets/table-view/yerith-erp-CHARGES-FINANCIERES-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -2648,7 +2648,7 @@ moc/moc_yerith-erp-CHARGES-FINANCIERES-table-view.cpp: src/widgets/table-view/ye
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-CHARGES-FINANCIERES-table-view.hpp -o moc/moc_yerith-erp-CHARGES-FINANCIERES-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-CHARGES-FINANCIERES-table-view.hpp -o moc/moc_yerith-erp-CHARGES-FINANCIERES-table-view.cpp
 
 moc/moc_yerith-erp-achats-table-view.cpp: src/widgets/table-view/yerith-erp-achats-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -2679,7 +2679,7 @@ moc/moc_yerith-erp-achats-table-view.cpp: src/widgets/table-view/yerith-erp-acha
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-achats-table-view.hpp -o moc/moc_yerith-erp-achats-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-achats-table-view.hpp -o moc/moc_yerith-erp-achats-table-view.cpp
 
 moc/moc_yerith-erp-marchandises-table-view.cpp: src/widgets/table-view/yerith-erp-marchandises-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -2710,7 +2710,7 @@ moc/moc_yerith-erp-marchandises-table-view.cpp: src/widgets/table-view/yerith-er
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-marchandises-table-view.hpp -o moc/moc_yerith-erp-marchandises-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-marchandises-table-view.hpp -o moc/moc_yerith-erp-marchandises-table-view.cpp
 
 moc/moc_yerith-erp-line-edit.cpp: src/widgets/yerith-erp-line-edit.hpp \
 		src/utils/yerith-erp-utils.hpp \
@@ -2740,7 +2740,7 @@ moc/moc_yerith-erp-line-edit.cpp: src/widgets/yerith-erp-line-edit.hpp \
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/yerith-erp-line-edit.hpp -o moc/moc_yerith-erp-line-edit.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/yerith-erp-line-edit.hpp -o moc/moc_yerith-erp-line-edit.cpp
 
 moc/moc_yerith-erp-push-button.cpp: src/widgets/yerith-erp-push-button.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -2775,7 +2775,7 @@ moc/moc_yerith-erp-push-button.cpp: src/widgets/yerith-erp-push-button.hpp \
 		src/widgets/yerith-erp-line-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/yerith-erp-push-button.hpp -o moc/moc_yerith-erp-push-button.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/yerith-erp-push-button.hpp -o moc/moc_yerith-erp-push-button.cpp
 
 moc/moc_yerith-erp-text-edit.cpp: src/widgets/yerith-erp-text-edit.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -2805,7 +2805,7 @@ moc/moc_yerith-erp-text-edit.cpp: src/widgets/yerith-erp-text-edit.hpp \
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/yerith-erp-text-edit.hpp -o moc/moc_yerith-erp-text-edit.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/yerith-erp-text-edit.hpp -o moc/moc_yerith-erp-text-edit.cpp
 
 moc/moc_yerith-erp-combo-box.cpp: src/widgets/yerith-erp-combo-box.hpp \
 		src/utils/yerith-erp-utils.hpp \
@@ -2835,7 +2835,7 @@ moc/moc_yerith-erp-combo-box.cpp: src/widgets/yerith-erp-combo-box.hpp \
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/yerith-erp-combo-box.hpp -o moc/moc_yerith-erp-combo-box.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/yerith-erp-combo-box.hpp -o moc/moc_yerith-erp-combo-box.cpp
 
 moc/moc_yerith-erp-spinbox.cpp: src/widgets/yerith-erp-spinbox.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -2865,7 +2865,7 @@ moc/moc_yerith-erp-spinbox.cpp: src/widgets/yerith-erp-spinbox.hpp \
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/yerith-erp-spinbox.hpp -o moc/moc_yerith-erp-spinbox.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/yerith-erp-spinbox.hpp -o moc/moc_yerith-erp-spinbox.cpp
 
 moc/moc_yerith-erp-datetime-edit.cpp: src/widgets/yerith-erp-datetime-edit.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -2900,7 +2900,7 @@ moc/moc_yerith-erp-datetime-edit.cpp: src/widgets/yerith-erp-datetime-edit.hpp \
 		src/widgets/yerith-erp-line-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/yerith-erp-datetime-edit.hpp -o moc/moc_yerith-erp-datetime-edit.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/yerith-erp-datetime-edit.hpp -o moc/moc_yerith-erp-datetime-edit.cpp
 
 moc/moc_yerith-erp-qcheckbox.cpp: src/widgets/yerith-erp-qcheckbox.hpp \
 		src/utils/yerith-erp-utils.hpp \
@@ -2930,7 +2930,7 @@ moc/moc_yerith-erp-qcheckbox.cpp: src/widgets/yerith-erp-qcheckbox.hpp \
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/yerith-erp-qcheckbox.hpp -o moc/moc_yerith-erp-qcheckbox.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/yerith-erp-qcheckbox.hpp -o moc/moc_yerith-erp-qcheckbox.cpp
 
 moc/moc_yerith-erp-select-db-qcheckbox.cpp: src/widgets/yerith-erp-select-db-qcheckbox.hpp \
 		src/widgets/yerith-erp-qcheckbox.hpp \
@@ -2961,7 +2961,7 @@ moc/moc_yerith-erp-select-db-qcheckbox.cpp: src/widgets/yerith-erp-select-db-qch
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/yerith-erp-select-db-qcheckbox.hpp -o moc/moc_yerith-erp-select-db-qcheckbox.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/yerith-erp-select-db-qcheckbox.hpp -o moc/moc_yerith-erp-select-db-qcheckbox.cpp
 
 moc/moc_yerith-erp-IMPRESSION_DE_DOCUMENT-dialog.cpp: src/dialogs/yerith-erp-IMPRESSION_DE_DOCUMENT-dialog.hpp \
 		ui_yerith-erp-imprimer-dialog.h \
@@ -2994,7 +2994,7 @@ moc/moc_yerith-erp-IMPRESSION_DE_DOCUMENT-dialog.cpp: src/dialogs/yerith-erp-IMP
 		src/dialogs/yerith-erp-dialog-commons.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/dialogs/yerith-erp-IMPRESSION_DE_DOCUMENT-dialog.hpp -o moc/moc_yerith-erp-IMPRESSION_DE_DOCUMENT-dialog.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/dialogs/yerith-erp-IMPRESSION_DE_DOCUMENT-dialog.hpp -o moc/moc_yerith-erp-IMPRESSION_DE_DOCUMENT-dialog.cpp
 
 moc/moc_yerith-erp-dialog-commons.cpp: src/dialogs/yerith-erp-dialog-commons.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -3009,7 +3009,7 @@ moc/moc_yerith-erp-dialog-commons.cpp: src/dialogs/yerith-erp-dialog-commons.hpp
 		src/include/yerith-erp-9-0-definition-colour-rgb.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/dialogs/yerith-erp-dialog-commons.hpp -o moc/moc_yerith-erp-dialog-commons.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/dialogs/yerith-erp-dialog-commons.hpp -o moc/moc_yerith-erp-dialog-commons.cpp
 
 moc/moc_yerith-erp-generic-select-db-field-dialog.cpp: src/dialogs/yerith-erp-generic-select-db-field-dialog.hpp \
 		ui_yerith-erp-changer-utilisateur-dialog.h \
@@ -3047,7 +3047,7 @@ moc/moc_yerith-erp-generic-select-db-field-dialog.cpp: src/dialogs/yerith-erp-ge
 		src/dialogs/yerith-erp-dialog-commons.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/dialogs/yerith-erp-generic-select-db-field-dialog.hpp -o moc/moc_yerith-erp-generic-select-db-field-dialog.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/dialogs/yerith-erp-generic-select-db-field-dialog.hpp -o moc/moc_yerith-erp-generic-select-db-field-dialog.cpp
 
 moc/moc_yerith-erp-changer-utilisateur-dialog.cpp: src/dialogs/yerith-erp-changer-utilisateur-dialog.hpp \
 		ui_yerith-erp-changer-utilisateur-dialog.h \
@@ -3086,7 +3086,7 @@ moc/moc_yerith-erp-changer-utilisateur-dialog.cpp: src/dialogs/yerith-erp-change
 		src/dialogs/yerith-erp-dialog-commons.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/dialogs/yerith-erp-changer-utilisateur-dialog.hpp -o moc/moc_yerith-erp-changer-utilisateur-dialog.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/dialogs/yerith-erp-changer-utilisateur-dialog.hpp -o moc/moc_yerith-erp-changer-utilisateur-dialog.cpp
 
 moc/moc_yerith-erp-pointdevente-methode-paiement-carte-credit-dialog.cpp: src/dialogs/yerith-erp-pointdevente-methode-paiement-carte-credit-dialog.hpp \
 		ui_yerith-erp-pointdevente-methode-paiement-carte-credit-dialog.h \
@@ -3124,7 +3124,7 @@ moc/moc_yerith-erp-pointdevente-methode-paiement-carte-credit-dialog.cpp: src/di
 		src/dialogs/yerith-erp-dialog-commons.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/dialogs/yerith-erp-pointdevente-methode-paiement-carte-credit-dialog.hpp -o moc/moc_yerith-erp-pointdevente-methode-paiement-carte-credit-dialog.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/dialogs/yerith-erp-pointdevente-methode-paiement-carte-credit-dialog.hpp -o moc/moc_yerith-erp-pointdevente-methode-paiement-carte-credit-dialog.cpp
 
 moc/moc_yerith-erp-pointdevente-methode-paiement-comptant-entree-dialog.cpp: src/dialogs/yerith-erp-pointdevente-methode-paiement-comptant-entree-dialog.hpp \
 		ui_yerith-erp-pointdevente-methode-paiement-comptant-entree-dialog.h \
@@ -3162,7 +3162,7 @@ moc/moc_yerith-erp-pointdevente-methode-paiement-comptant-entree-dialog.cpp: src
 		src/dialogs/yerith-erp-dialog-commons.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/dialogs/yerith-erp-pointdevente-methode-paiement-comptant-entree-dialog.hpp -o moc/moc_yerith-erp-pointdevente-methode-paiement-comptant-entree-dialog.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/dialogs/yerith-erp-pointdevente-methode-paiement-comptant-entree-dialog.hpp -o moc/moc_yerith-erp-pointdevente-methode-paiement-comptant-entree-dialog.cpp
 
 moc/moc_yerith-erp-pointdevente-methode-paiement-dialog.cpp: src/dialogs/yerith-erp-pointdevente-methode-paiement-dialog.hpp \
 		ui_yerith-erp-pointdevente-methode-paiement-dialog.h \
@@ -3200,7 +3200,7 @@ moc/moc_yerith-erp-pointdevente-methode-paiement-dialog.cpp: src/dialogs/yerith-
 		src/dialogs/yerith-erp-dialog-commons.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/dialogs/yerith-erp-pointdevente-methode-paiement-dialog.hpp -o moc/moc_yerith-erp-pointdevente-methode-paiement-dialog.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/dialogs/yerith-erp-pointdevente-methode-paiement-dialog.hpp -o moc/moc_yerith-erp-pointdevente-methode-paiement-dialog.cpp
 
 moc/moc_yerith-erp-creer-groupe-de-clients-window.cpp: src/windows/crm/creer/yerith-erp-creer-groupe-de-clients-window.hpp \
 		ui_yerith-erp-creer-groupe-de-clients-window.h \
@@ -3243,7 +3243,7 @@ moc/moc_yerith-erp-creer-groupe-de-clients-window.cpp: src/windows/crm/creer/yer
 		src/widgets/yerith-erp-text-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/creer/yerith-erp-creer-groupe-de-clients-window.hpp -o moc/moc_yerith-erp-creer-groupe-de-clients-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/creer/yerith-erp-creer-groupe-de-clients-window.hpp -o moc/moc_yerith-erp-creer-groupe-de-clients-window.cpp
 
 moc/moc_yerith-erp-creer-un-programme-de-fidelite-clients-window.cpp: src/windows/crm/creer/yerith-erp-creer-un-programme-de-fidelite-clients-window.hpp \
 		ui_yerith-erp-creer-un-programme-de-fidelite-clients-window.h \
@@ -3282,7 +3282,7 @@ moc/moc_yerith-erp-creer-un-programme-de-fidelite-clients-window.cpp: src/window
 		src/widgets/yerith-erp-text-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/creer/yerith-erp-creer-un-programme-de-fidelite-clients-window.hpp -o moc/moc_yerith-erp-creer-un-programme-de-fidelite-clients-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/creer/yerith-erp-creer-un-programme-de-fidelite-clients-window.hpp -o moc/moc_yerith-erp-creer-un-programme-de-fidelite-clients-window.cpp
 
 moc/moc_yerith-erp-creer-compte-client-window.cpp: src/windows/crm/creer/yerith-erp-creer-compte-client-window.hpp \
 		ui_yerith-erp-creer-compte-client-window.h \
@@ -3320,7 +3320,7 @@ moc/moc_yerith-erp-creer-compte-client-window.cpp: src/windows/crm/creer/yerith-
 		src/widgets/yerith-erp-text-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/creer/yerith-erp-creer-compte-client-window.hpp -o moc/moc_yerith-erp-creer-compte-client-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/creer/yerith-erp-creer-compte-client-window.hpp -o moc/moc_yerith-erp-creer-compte-client-window.cpp
 
 moc/moc_yerith-erp-modifier-compte-client-window.cpp: src/windows/crm/modifier/yerith-erp-modifier-compte-client-window.hpp \
 		ui_yerith-erp-modifier-compte-client-window.h \
@@ -3359,7 +3359,7 @@ moc/moc_yerith-erp-modifier-compte-client-window.cpp: src/windows/crm/modifier/y
 		src/widgets/yerith-erp-text-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/modifier/yerith-erp-modifier-compte-client-window.hpp -o moc/moc_yerith-erp-modifier-compte-client-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/modifier/yerith-erp-modifier-compte-client-window.hpp -o moc/moc_yerith-erp-modifier-compte-client-window.cpp
 
 moc/moc_yerith-erp-details-dun-groupe-de-clients-window.cpp: src/windows/crm/details/yerith-erp-details-dun-groupe-de-clients-window.hpp \
 		ui_yerith-erp-details-dun-groupe-de-clients-window.h \
@@ -3402,7 +3402,7 @@ moc/moc_yerith-erp-details-dun-groupe-de-clients-window.cpp: src/windows/crm/det
 		src/widgets/yerith-erp-text-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/details/yerith-erp-details-dun-groupe-de-clients-window.hpp -o moc/moc_yerith-erp-details-dun-groupe-de-clients-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/details/yerith-erp-details-dun-groupe-de-clients-window.hpp -o moc/moc_yerith-erp-details-dun-groupe-de-clients-window.cpp
 
 moc/moc_yerith-erp-clients-detail-window.cpp: src/windows/crm/details/yerith-erp-clients-detail-window.hpp \
 		ui_yerith-erp-clients-detail-window.h \
@@ -3441,7 +3441,7 @@ moc/moc_yerith-erp-clients-detail-window.cpp: src/windows/crm/details/yerith-erp
 		src/widgets/yerith-erp-text-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/details/yerith-erp-clients-detail-window.hpp -o moc/moc_yerith-erp-clients-detail-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/details/yerith-erp-clients-detail-window.hpp -o moc/moc_yerith-erp-clients-detail-window.cpp
 
 moc/moc_yerith-erp-details-dun-programme-de-fidelite-clients-window.cpp: src/windows/crm/details/yerith-erp-details-dun-programme-de-fidelite-clients-window.hpp \
 		ui_yerith-erp-details-dun-programme-de-fidelite-clients-window.h \
@@ -3484,7 +3484,7 @@ moc/moc_yerith-erp-details-dun-programme-de-fidelite-clients-window.cpp: src/win
 		src/widgets/yerith-erp-text-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/details/yerith-erp-details-dun-programme-de-fidelite-clients-window.hpp -o moc/moc_yerith-erp-details-dun-programme-de-fidelite-clients-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/details/yerith-erp-details-dun-programme-de-fidelite-clients-window.hpp -o moc/moc_yerith-erp-details-dun-programme-de-fidelite-clients-window.cpp
 
 moc/moc_yerith-erp-programmes-de-fidelite-clients-window.cpp: src/windows/crm/yerith-erp-programmes-de-fidelite-clients-window.hpp \
 		ui_yerith-erp-programmes-de-fidelite-clients-window.h \
@@ -3524,7 +3524,7 @@ moc/moc_yerith-erp-programmes-de-fidelite-clients-window.cpp: src/windows/crm/ye
 		src/widgets/yerith-erp-push-button.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/yerith-erp-programmes-de-fidelite-clients-window.hpp -o moc/moc_yerith-erp-programmes-de-fidelite-clients-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/yerith-erp-programmes-de-fidelite-clients-window.hpp -o moc/moc_yerith-erp-programmes-de-fidelite-clients-window.cpp
 
 moc/moc_yerith-erp-groupes-de-clients-window.cpp: src/windows/crm/yerith-erp-groupes-de-clients-window.hpp \
 		ui_yerith-erp-groupes-de-clients-window.h \
@@ -3564,7 +3564,7 @@ moc/moc_yerith-erp-groupes-de-clients-window.cpp: src/windows/crm/yerith-erp-gro
 		src/widgets/yerith-erp-push-button.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/yerith-erp-groupes-de-clients-window.hpp -o moc/moc_yerith-erp-groupes-de-clients-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/yerith-erp-groupes-de-clients-window.hpp -o moc/moc_yerith-erp-groupes-de-clients-window.cpp
 
 moc/moc_yerith-erp-groupes-dun-client-window.cpp: src/windows/crm/yerith-erp-groupes-dun-client-window.hpp \
 		ui_yerith-erp-groupes-dun-client-window.h \
@@ -3606,7 +3606,7 @@ moc/moc_yerith-erp-groupes-dun-client-window.cpp: src/windows/crm/yerith-erp-gro
 		src/windows/yerith-erp-qtable-widget-window-commons.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/yerith-erp-groupes-dun-client-window.hpp -o moc/moc_yerith-erp-groupes-dun-client-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/yerith-erp-groupes-dun-client-window.hpp -o moc/moc_yerith-erp-groupes-dun-client-window.cpp
 
 moc/moc_yerith-erp-clients-window.cpp: src/windows/crm/yerith-erp-clients-window.hpp \
 		ui_yerith-erp-clients-window.h \
@@ -3645,7 +3645,7 @@ moc/moc_yerith-erp-clients-window.cpp: src/windows/crm/yerith-erp-clients-window
 		src/utils/windows/yerith-erp-abstract-class-yerithsearch-window.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/yerith-erp-clients-window.hpp -o moc/moc_yerith-erp-clients-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/yerith-erp-clients-window.hpp -o moc/moc_yerith-erp-clients-window.cpp
 
 moc/moc_yerith-erp-payer-compte-client-window.cpp: src/windows/crm/yerith-erp-payer-compte-client-window.hpp \
 		ui_yerith-erp-payer-compte-client-window.h \
@@ -3684,7 +3684,7 @@ moc/moc_yerith-erp-payer-compte-client-window.cpp: src/windows/crm/yerith-erp-pa
 		src/widgets/yerith-erp-text-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/yerith-erp-payer-compte-client-window.hpp -o moc/moc_yerith-erp-payer-compte-client-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/yerith-erp-payer-compte-client-window.hpp -o moc/moc_yerith-erp-payer-compte-client-window.cpp
 
 moc/moc_yerith-erp-tableau-des-transactions-du-client-window.cpp: src/windows/crm/yerith-erp-tableau-des-transactions-du-client-window.hpp \
 		ui_yerith-erp-tableau-des-transactions-du-client-window.h \
@@ -3892,7 +3892,7 @@ moc/moc_yerith-erp-tableau-des-transactions-du-client-window.cpp: src/windows/cr
 		src/utils/yerith-erp-info-entreprise.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/yerith-erp-tableau-des-transactions-du-client-window.hpp -o moc/moc_yerith-erp-tableau-des-transactions-du-client-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/yerith-erp-tableau-des-transactions-du-client-window.hpp -o moc/moc_yerith-erp-tableau-des-transactions-du-client-window.cpp
 
 moc/moc_yerith-erp-entrer-window.cpp: src/windows/yerith-erp-entrer-window.hpp \
 		ui_yerith-erp-entrer-window.h \
@@ -3936,7 +3936,7 @@ moc/moc_yerith-erp-entrer-window.cpp: src/windows/yerith-erp-entrer-window.hpp \
 		src/widgets/yerith-erp-text-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-entrer-window.hpp -o moc/moc_yerith-erp-entrer-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-entrer-window.hpp -o moc/moc_yerith-erp-entrer-window.cpp
 
 moc/moc_yerith-erp-mouvements_de_stocks-window.cpp: src/windows/stocks/yerith-erp-mouvements_de_stocks-window.hpp \
 		ui_yerith-erp-mouvements_de_stocks-window.h \
@@ -3978,7 +3978,7 @@ moc/moc_yerith-erp-mouvements_de_stocks-window.cpp: src/windows/stocks/yerith-er
 		src/widgets/yerith-erp-push-button.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/stocks/yerith-erp-mouvements_de_stocks-window.hpp -o moc/moc_yerith-erp-mouvements_de_stocks-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/stocks/yerith-erp-mouvements_de_stocks-window.hpp -o moc/moc_yerith-erp-mouvements_de_stocks-window.cpp
 
 moc/moc_yerith-erp-modifier-window.cpp: src/windows/stocks/yerith-erp-modifier-window.hpp \
 		ui_yerith-erp-modifier-window.h \
@@ -4018,7 +4018,7 @@ moc/moc_yerith-erp-modifier-window.cpp: src/windows/stocks/yerith-erp-modifier-w
 		src/widgets/yerith-erp-text-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/stocks/yerith-erp-modifier-window.hpp -o moc/moc_yerith-erp-modifier-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/stocks/yerith-erp-modifier-window.hpp -o moc/moc_yerith-erp-modifier-window.cpp
 
 moc/moc_yerith-erp-marchandises-window.cpp: src/windows/stocks/yerith-erp-marchandises-window.hpp \
 		ui_yerith-erp-marchandises-window.h \
@@ -4058,7 +4058,7 @@ moc/moc_yerith-erp-marchandises-window.cpp: src/windows/stocks/yerith-erp-marcha
 		src/widgets/yerith-erp-qcheckbox.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/stocks/yerith-erp-marchandises-window.hpp -o moc/moc_yerith-erp-marchandises-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/stocks/yerith-erp-marchandises-window.hpp -o moc/moc_yerith-erp-marchandises-window.cpp
 
 moc/moc_yerith-erp-sortir-liststocks-window.cpp: src/windows/stocks/yerith-erp-sortir-liststocks-window.hpp \
 		ui_yerith-erp-sortir-liststocks-window.h \
@@ -4096,7 +4096,7 @@ moc/moc_yerith-erp-sortir-liststocks-window.cpp: src/windows/stocks/yerith-erp-s
 		src/widgets/yerith-erp-line-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/stocks/yerith-erp-sortir-liststocks-window.hpp -o moc/moc_yerith-erp-sortir-liststocks-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/stocks/yerith-erp-sortir-liststocks-window.hpp -o moc/moc_yerith-erp-sortir-liststocks-window.cpp
 
 moc/moc_yerith-erp-sortir-window.cpp: src/windows/stocks/yerith-erp-sortir-window.hpp \
 		ui_yerith-erp-sortir-window.h \
@@ -4138,7 +4138,7 @@ moc/moc_yerith-erp-sortir-window.cpp: src/windows/stocks/yerith-erp-sortir-windo
 		src/widgets/yerith-erp-text-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/stocks/yerith-erp-sortir-window.hpp -o moc/moc_yerith-erp-sortir-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/stocks/yerith-erp-sortir-window.hpp -o moc/moc_yerith-erp-sortir-window.cpp
 
 moc/moc_yerith-erp-historique-du-stock-window.cpp: src/windows/stocks/yerith-erp-historique-du-stock-window.hpp \
 		ui_yerith-erp-historique-du-stock-window.h \
@@ -4346,7 +4346,7 @@ moc/moc_yerith-erp-historique-du-stock-window.cpp: src/windows/stocks/yerith-erp
 		src/utils/yerith-erp-info-entreprise.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/stocks/yerith-erp-historique-du-stock-window.hpp -o moc/moc_yerith-erp-historique-du-stock-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/stocks/yerith-erp-historique-du-stock-window.hpp -o moc/moc_yerith-erp-historique-du-stock-window.cpp
 
 moc/moc_yerith-erp-stock-detail-window.cpp: src/windows/stocks/yerith-erp-stock-detail-window.hpp \
 		ui_yerith-erp-stock-detail-window.h \
@@ -4387,7 +4387,7 @@ moc/moc_yerith-erp-stock-detail-window.cpp: src/windows/stocks/yerith-erp-stock-
 		src/utils/windows/yerith-erp-abstract-class-detail-view-window.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/stocks/yerith-erp-stock-detail-window.hpp -o moc/moc_yerith-erp-stock-detail-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/stocks/yerith-erp-stock-detail-window.hpp -o moc/moc_yerith-erp-stock-detail-window.cpp
 
 moc/moc_yerith-erp-stocks-window.cpp: src/windows/stocks/yerith-erp-stocks-window.hpp \
 		ui_yerith-erp-stocks-window.h \
@@ -4427,7 +4427,7 @@ moc/moc_yerith-erp-stocks-window.cpp: src/windows/stocks/yerith-erp-stocks-windo
 		src/widgets/yerith-erp-push-button.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/stocks/yerith-erp-stocks-window.hpp -o moc/moc_yerith-erp-stocks-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/stocks/yerith-erp-stocks-window.hpp -o moc/moc_yerith-erp-stocks-window.cpp
 
 moc/moc_yerith-erp-charges-financieres-window.cpp: src/windows/yerith-erp-charges-financieres-window.hpp \
 		ui_yerith-erp-charges-financieres-window.h \
@@ -4467,7 +4467,7 @@ moc/moc_yerith-erp-charges-financieres-window.cpp: src/windows/yerith-erp-charge
 		src/widgets/yerith-erp-push-button.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-charges-financieres-window.hpp -o moc/moc_yerith-erp-charges-financieres-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-charges-financieres-window.hpp -o moc/moc_yerith-erp-charges-financieres-window.cpp
 
 moc/moc_yerith-erp-charges-financieres-detail-window.cpp: src/windows/yerith-erp-charges-financieres-detail-window.hpp \
 		ui_yerith-erp-charges-financieres-detail-window.h \
@@ -4506,7 +4506,7 @@ moc/moc_yerith-erp-charges-financieres-detail-window.cpp: src/windows/yerith-erp
 		src/widgets/yerith-erp-text-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-charges-financieres-detail-window.hpp -o moc/moc_yerith-erp-charges-financieres-detail-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-charges-financieres-detail-window.hpp -o moc/moc_yerith-erp-charges-financieres-detail-window.cpp
 
 moc/moc_yerith-erp-achats-detail-window.cpp: src/windows/purchase/yerith-erp-achats-detail-window.hpp \
 		ui_yerith-erp-achats-detail-window.h \
@@ -4544,7 +4544,7 @@ moc/moc_yerith-erp-achats-detail-window.cpp: src/windows/purchase/yerith-erp-ach
 		src/widgets/yerith-erp-push-button.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/purchase/yerith-erp-achats-detail-window.hpp -o moc/moc_yerith-erp-achats-detail-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/purchase/yerith-erp-achats-detail-window.hpp -o moc/moc_yerith-erp-achats-detail-window.cpp
 
 moc/moc_yerith-erp-achats-window.cpp: src/windows/purchase/yerith-erp-achats-window.hpp \
 		ui_yerith-erp-achats-window.h \
@@ -4585,7 +4585,7 @@ moc/moc_yerith-erp-achats-window.cpp: src/windows/purchase/yerith-erp-achats-win
 		src/widgets/yerith-erp-radio-button.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/purchase/yerith-erp-achats-window.hpp -o moc/moc_yerith-erp-achats-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/purchase/yerith-erp-achats-window.hpp -o moc/moc_yerith-erp-achats-window.cpp
 
 moc/moc_yerith-erp-pointdevente-window.cpp: src/windows/pos/yerith-erp-pointdevente-window.hpp \
 		ui_yerith-erp-pointdevente-window.h \
@@ -4633,7 +4633,7 @@ moc/moc_yerith-erp-pointdevente-window.cpp: src/windows/pos/yerith-erp-pointdeve
 		src/utils/credit-card/yerith-erp-carte-credit-info.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/pos/yerith-erp-pointdevente-window.hpp -o moc/moc_yerith-erp-pointdevente-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/pos/yerith-erp-pointdevente-window.hpp -o moc/moc_yerith-erp-pointdevente-window.cpp
 
 moc/moc_yerith-erp-pointdevente-liststocks-window.cpp: src/windows/pos/yerith-erp-pointdevente-liststocks-window.hpp \
 		ui_yerith-erp-pointdevente-liststocks-window.h \
@@ -4841,7 +4841,7 @@ moc/moc_yerith-erp-pointdevente-liststocks-window.cpp: src/windows/pos/yerith-er
 		src/utils/yerith-erp-info-entreprise.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/pos/yerith-erp-pointdevente-liststocks-window.hpp -o moc/moc_yerith-erp-pointdevente-liststocks-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/pos/yerith-erp-pointdevente-liststocks-window.hpp -o moc/moc_yerith-erp-pointdevente-liststocks-window.cpp
 
 moc/moc_yerith-erp-calcul-salaire-EMPLOYE-window.cpp: src/windows/supplier/yerith-erp-calcul-salaire-EMPLOYE-window.hpp \
 		src/windows/yerith-erp-window-commons.hpp \
@@ -4877,7 +4877,7 @@ moc/moc_yerith-erp-calcul-salaire-EMPLOYE-window.cpp: src/windows/supplier/yerit
 		src/utils/yerith-erp-payment-processing-information.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-calcul-salaire-EMPLOYE-window.hpp -o moc/moc_yerith-erp-calcul-salaire-EMPLOYE-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-calcul-salaire-EMPLOYE-window.hpp -o moc/moc_yerith-erp-calcul-salaire-EMPLOYE-window.cpp
 
 moc/moc_yerith-erp-tableau-des-transactions-du-fournisseur-window.cpp: src/windows/supplier/yerith-erp-tableau-des-transactions-du-fournisseur-window.hpp \
 		ui_yerith-erp-tableau-des-transactions-du-fournisseur-window.h \
@@ -4913,7 +4913,7 @@ moc/moc_yerith-erp-tableau-des-transactions-du-fournisseur-window.cpp: src/windo
 		src/widgets/yerith-erp-line-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-tableau-des-transactions-du-fournisseur-window.hpp -o moc/moc_yerith-erp-tableau-des-transactions-du-fournisseur-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-tableau-des-transactions-du-fournisseur-window.hpp -o moc/moc_yerith-erp-tableau-des-transactions-du-fournisseur-window.cpp
 
 moc/moc_yerith-erp-modifier-fournisseur-window.cpp: src/windows/supplier/yerith-erp-modifier-fournisseur-window.hpp \
 		ui_yerith-erp-modifier-fournisseur-window.h \
@@ -4951,7 +4951,7 @@ moc/moc_yerith-erp-modifier-fournisseur-window.cpp: src/windows/supplier/yerith-
 		src/widgets/yerith-erp-text-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-modifier-fournisseur-window.hpp -o moc/moc_yerith-erp-modifier-fournisseur-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-modifier-fournisseur-window.hpp -o moc/moc_yerith-erp-modifier-fournisseur-window.cpp
 
 moc/moc_yerith-erp-DETAILS-DUN-GROUPE-DE-PAIE-hr-window.cpp: src/windows/supplier/yerith-erp-DETAILS-DUN-GROUPE-DE-PAIE-hr-window.hpp \
 		ui_yerith-erp-DETAILS-DUN-GROUPE-DE-PAIE-hr-window.h \
@@ -4994,7 +4994,7 @@ moc/moc_yerith-erp-DETAILS-DUN-GROUPE-DE-PAIE-hr-window.cpp: src/windows/supplie
 		src/widgets/yerith-erp-text-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-DETAILS-DUN-GROUPE-DE-PAIE-hr-window.hpp -o moc/moc_yerith-erp-DETAILS-DUN-GROUPE-DE-PAIE-hr-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-DETAILS-DUN-GROUPE-DE-PAIE-hr-window.hpp -o moc/moc_yerith-erp-DETAILS-DUN-GROUPE-DE-PAIE-hr-window.cpp
 
 moc/moc_yerith-erp-DETAILS-DUN-GROUPE-DEMPLOYES-hr-window.cpp: src/windows/supplier/yerith-erp-DETAILS-DUN-GROUPE-DEMPLOYES-hr-window.hpp \
 		ui_yerith-erp-DETAILS-DUN-GROUPE-DEMPLOYES-hr-window.h \
@@ -5037,7 +5037,7 @@ moc/moc_yerith-erp-DETAILS-DUN-GROUPE-DEMPLOYES-hr-window.cpp: src/windows/suppl
 		src/widgets/yerith-erp-text-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-DETAILS-DUN-GROUPE-DEMPLOYES-hr-window.hpp -o moc/moc_yerith-erp-DETAILS-DUN-GROUPE-DEMPLOYES-hr-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-DETAILS-DUN-GROUPE-DEMPLOYES-hr-window.hpp -o moc/moc_yerith-erp-DETAILS-DUN-GROUPE-DEMPLOYES-hr-window.cpp
 
 moc/moc_yerith-erp-GROUPES-dun-employe-hr-window.cpp: src/windows/supplier/yerith-erp-GROUPES-dun-employe-hr-window.hpp \
 		ui_yerith-erp-GROUPES-dun-employe-hr-window.h \
@@ -5080,7 +5080,7 @@ moc/moc_yerith-erp-GROUPES-dun-employe-hr-window.cpp: src/windows/supplier/yerit
 		src/windows/yerith-erp-qtable-widget-window-commons.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-GROUPES-dun-employe-hr-window.hpp -o moc/moc_yerith-erp-GROUPES-dun-employe-hr-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-GROUPES-dun-employe-hr-window.hpp -o moc/moc_yerith-erp-GROUPES-dun-employe-hr-window.cpp
 
 moc/moc_yerith-erp-creer-GROUPE-DE-PAIE-hr-window.cpp: src/windows/supplier/yerith-erp-creer-GROUPE-DE-PAIE-hr-window.hpp \
 		ui_yerith-erp-creer-GROUPE-DE-PAIE-hr-window.h \
@@ -5119,7 +5119,7 @@ moc/moc_yerith-erp-creer-GROUPE-DE-PAIE-hr-window.cpp: src/windows/supplier/yeri
 		src/widgets/yerith-erp-text-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-creer-GROUPE-DE-PAIE-hr-window.hpp -o moc/moc_yerith-erp-creer-GROUPE-DE-PAIE-hr-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-creer-GROUPE-DE-PAIE-hr-window.hpp -o moc/moc_yerith-erp-creer-GROUPE-DE-PAIE-hr-window.cpp
 
 moc/moc_yerith-erp-creer-groupe-DEMPLOYES-hr-window.cpp: src/windows/supplier/yerith-erp-creer-groupe-DEMPLOYES-hr-window.hpp \
 		ui_yerith-erp-creer-groupe-DEMPLOYES-hr-window.h \
@@ -5162,7 +5162,7 @@ moc/moc_yerith-erp-creer-groupe-DEMPLOYES-hr-window.cpp: src/windows/supplier/ye
 		src/widgets/yerith-erp-text-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-creer-groupe-DEMPLOYES-hr-window.hpp -o moc/moc_yerith-erp-creer-groupe-DEMPLOYES-hr-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-creer-groupe-DEMPLOYES-hr-window.hpp -o moc/moc_yerith-erp-creer-groupe-DEMPLOYES-hr-window.cpp
 
 moc/moc_yerith-erp-GROUPES-DEMPLOYES-hr-window.cpp: src/windows/supplier/yerith-erp-GROUPES-DEMPLOYES-hr-window.hpp \
 		ui_yerith-erp-GROUPES-DEMPLOYES-hr-window.h \
@@ -5202,7 +5202,7 @@ moc/moc_yerith-erp-GROUPES-DEMPLOYES-hr-window.cpp: src/windows/supplier/yerith-
 		src/widgets/yerith-erp-push-button.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-GROUPES-DEMPLOYES-hr-window.hpp -o moc/moc_yerith-erp-GROUPES-DEMPLOYES-hr-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-GROUPES-DEMPLOYES-hr-window.hpp -o moc/moc_yerith-erp-GROUPES-DEMPLOYES-hr-window.cpp
 
 moc/moc_yerith-erp-GROUPES-DE-PAIE-hr-window.cpp: src/windows/supplier/yerith-erp-GROUPES-DE-PAIE-hr-window.hpp \
 		ui_yerith-erp-GROUPES-DE-PAIE-hr-window.h \
@@ -5242,7 +5242,7 @@ moc/moc_yerith-erp-GROUPES-DE-PAIE-hr-window.cpp: src/windows/supplier/yerith-er
 		src/widgets/yerith-erp-push-button.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-GROUPES-DE-PAIE-hr-window.hpp -o moc/moc_yerith-erp-GROUPES-DE-PAIE-hr-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-GROUPES-DE-PAIE-hr-window.hpp -o moc/moc_yerith-erp-GROUPES-DE-PAIE-hr-window.cpp
 
 moc/moc_yerith-erp-fournisseurs-window.cpp: src/windows/supplier/yerith-erp-fournisseurs-window.hpp \
 		ui_yerith-erp-fournisseurs-window.h \
@@ -5282,7 +5282,7 @@ moc/moc_yerith-erp-fournisseurs-window.cpp: src/windows/supplier/yerith-erp-four
 		src/widgets/yerith-erp-radio-button.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-fournisseurs-window.hpp -o moc/moc_yerith-erp-fournisseurs-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-fournisseurs-window.hpp -o moc/moc_yerith-erp-fournisseurs-window.cpp
 
 moc/moc_yerith-erp-creer-fournisseur-window.cpp: src/windows/supplier/yerith-erp-creer-fournisseur-window.hpp \
 		ui_yerith-erp-creer-fournisseur-window.h \
@@ -5320,7 +5320,7 @@ moc/moc_yerith-erp-creer-fournisseur-window.cpp: src/windows/supplier/yerith-erp
 		src/widgets/yerith-erp-text-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-creer-fournisseur-window.hpp -o moc/moc_yerith-erp-creer-fournisseur-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-creer-fournisseur-window.hpp -o moc/moc_yerith-erp-creer-fournisseur-window.cpp
 
 moc/moc_yerith-erp-fournisseur-details-window.cpp: src/windows/supplier/yerith-erp-fournisseur-details-window.hpp \
 		ui_yerith-erp-fournisseur-details-window.h \
@@ -5360,7 +5360,7 @@ moc/moc_yerith-erp-fournisseur-details-window.cpp: src/windows/supplier/yerith-e
 		src/utils/yerith-erp-map-COMPLEX-ITEM.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-fournisseur-details-window.hpp -o moc/moc_yerith-erp-fournisseur-details-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-fournisseur-details-window.hpp -o moc/moc_yerith-erp-fournisseur-details-window.cpp
 
 moc/moc_yerith-erp-comptabilite-window.cpp: src/windows/yerith-erp-comptabilite-window.hpp \
 		ui_yerith-erp-comptabilite-window.h \
@@ -5405,7 +5405,7 @@ moc/moc_yerith-erp-comptabilite-window.cpp: src/windows/yerith-erp-comptabilite-
 		src/windows/yerith-erp-qtable-widget-window-commons.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-comptabilite-window.hpp -o moc/moc_yerith-erp-comptabilite-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-comptabilite-window.hpp -o moc/moc_yerith-erp-comptabilite-window.cpp
 
 moc/moc_yerith-erp-recherche-conditionnelle-window.cpp: src/windows/yerith-erp-recherche-conditionnelle-window.hpp \
 		ui_yerith-erp-recherche-conditionnelle-window.h \
@@ -5613,7 +5613,7 @@ moc/moc_yerith-erp-recherche-conditionnelle-window.cpp: src/windows/yerith-erp-r
 		src/utils/yerith-erp-info-entreprise.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-recherche-conditionnelle-window.hpp -o moc/moc_yerith-erp-recherche-conditionnelle-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-recherche-conditionnelle-window.hpp -o moc/moc_yerith-erp-recherche-conditionnelle-window.cpp
 
 moc/moc_yerith-erp-qtable-widget-window-commons.cpp: src/windows/yerith-erp-qtable-widget-window-commons.hpp \
 		src/windows/yerith-erp-window-commons.hpp \
@@ -5651,7 +5651,7 @@ moc/moc_yerith-erp-qtable-widget-window-commons.cpp: src/windows/yerith-erp-qtab
 		src/utils/yerith-erp-article-vente-info.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-qtable-widget-window-commons.hpp -o moc/moc_yerith-erp-qtable-widget-window-commons.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-qtable-widget-window-commons.hpp -o moc/moc_yerith-erp-qtable-widget-window-commons.cpp
 
 moc/moc_yerith-erp-window-commons.cpp: src/windows/yerith-erp-window-commons.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -5685,7 +5685,7 @@ moc/moc_yerith-erp-window-commons.cpp: src/windows/yerith-erp-window-commons.hpp
 		src/widgets/yerith-erp-line-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-window-commons.hpp -o moc/moc_yerith-erp-window-commons.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-window-commons.hpp -o moc/moc_yerith-erp-window-commons.cpp
 
 moc/moc_yerith-erp-main-window.cpp: src/windows/yerith-erp-main-window.hpp \
 		ui_yerith-erp-main-window.h \
@@ -5722,7 +5722,7 @@ moc/moc_yerith-erp-main-window.cpp: src/windows/yerith-erp-main-window.hpp \
 		src/widgets/yerith-erp-line-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-main-window.hpp -o moc/moc_yerith-erp-main-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-main-window.hpp -o moc/moc_yerith-erp-main-window.cpp
 
 moc/moc_yerith-erp-alertes-window.cpp: src/windows/yerith-erp-alertes-window.hpp \
 		ui_yerith-erp-alertes-window.h \
@@ -5765,7 +5765,7 @@ moc/moc_yerith-erp-alertes-window.cpp: src/windows/yerith-erp-alertes-window.hpp
 		src/widgets/yerith-erp-text-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-alertes-window.hpp -o moc/moc_yerith-erp-alertes-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-alertes-window.hpp -o moc/moc_yerith-erp-alertes-window.cpp
 
 moc/moc_yerith-erp-tableaux-de-bord-window.cpp: src/windows/yerith-erp-tableaux-de-bord-window.hpp \
 		ui_yerith-erp-tableaux-de-bord-window.h \
@@ -5804,7 +5804,7 @@ moc/moc_yerith-erp-tableaux-de-bord-window.cpp: src/windows/yerith-erp-tableaux-
 		src/widgets/yerith-erp-qcheckbox.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-tableaux-de-bord-window.hpp -o moc/moc_yerith-erp-tableaux-de-bord-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-tableaux-de-bord-window.hpp -o moc/moc_yerith-erp-tableaux-de-bord-window.cpp
 
 moc/moc_yerith-erp-paiements-window.cpp: src/windows/yerith-erp-paiements-window.hpp \
 		ui_yerith-erp-paiements-window.h \
@@ -5847,7 +5847,7 @@ moc/moc_yerith-erp-paiements-window.cpp: src/windows/yerith-erp-paiements-window
 		src/widgets/yerith-erp-text-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-paiements-window.hpp -o moc/moc_yerith-erp-paiements-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-paiements-window.hpp -o moc/moc_yerith-erp-paiements-window.cpp
 
 moc/moc_yerith-erp-ventes-window.cpp: src/windows/yerith-erp-ventes-window.hpp \
 		ui_yerith-erp-ventes-window.h \
@@ -5889,7 +5889,7 @@ moc/moc_yerith-erp-ventes-window.cpp: src/windows/yerith-erp-ventes-window.hpp \
 		src/widgets/yerith-erp-push-button.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-ventes-window.hpp -o moc/moc_yerith-erp-ventes-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-ventes-window.hpp -o moc/moc_yerith-erp-ventes-window.cpp
 
 moc/moc_yerith-erp-test-yerith-erp-utils.cpp: src/tests/utils/yerith-erp-test-yerith-erp-utils.hpp \
 		src/include/yerith-erp-9-0-definition-oo-class-operators.hpp \
@@ -5923,7 +5923,7 @@ moc/moc_yerith-erp-test-yerith-erp-utils.cpp: src/tests/utils/yerith-erp-test-ye
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/tests/utils/yerith-erp-test-yerith-erp-utils.hpp -o moc/moc_yerith-erp-test-yerith-erp-utils.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/tests/utils/yerith-erp-test-yerith-erp-utils.hpp -o moc/moc_yerith-erp-test-yerith-erp-utils.cpp
 
 moc/moc_yerith-erp-test-yerith-erp-table-view.cpp: src/tests/yerith-erp-test-yerith-erp-table-view.hpp \
 		src/include/yerith-erp-9-0-definition-oo-class-operators.hpp \
@@ -5957,12 +5957,12 @@ moc/moc_yerith-erp-test-yerith-erp-table-view.cpp: src/tests/yerith-erp-test-yer
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/tests/yerith-erp-test-yerith-erp-table-view.hpp -o moc/moc_yerith-erp-test-yerith-erp-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/tests/yerith-erp-test-yerith-erp-table-view.hpp -o moc/moc_yerith-erp-test-yerith-erp-table-view.cpp
 
 moc/moc_yerith-erp-test-yerith-erp-windows.cpp: src/tests/yerith-erp-test-yerith-erp-windows.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/tests/yerith-erp-test-yerith-erp-windows.hpp -o moc/moc_yerith-erp-test-yerith-erp-windows.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/tests/yerith-erp-test-yerith-erp-windows.hpp -o moc/moc_yerith-erp-test-yerith-erp-windows.cpp
 
 moc/moc_yerith-erp-test-import-csv-file-data.cpp: src/tests/utils/yerith-erp-test-import-csv-file-data.hpp \
 		src/tests/utils/yerith-erp-test-utils.hpp \
@@ -5996,7 +5996,7 @@ moc/moc_yerith-erp-test-import-csv-file-data.cpp: src/tests/utils/yerith-erp-tes
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/tests/utils/yerith-erp-test-import-csv-file-data.hpp -o moc/moc_yerith-erp-test-import-csv-file-data.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/tests/utils/yerith-erp-test-import-csv-file-data.hpp -o moc/moc_yerith-erp-test-import-csv-file-data.cpp
 
 moc/moc_yerith-erp-test-utils.cpp: src/tests/utils/yerith-erp-test-utils.hpp \
 		src/imports/yerith-erp-stock-import.hpp \
@@ -6029,7 +6029,7 @@ moc/moc_yerith-erp-test-utils.cpp: src/tests/utils/yerith-erp-test-utils.hpp \
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/tests/utils/yerith-erp-test-utils.hpp -o moc/moc_yerith-erp-test-utils.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/tests/utils/yerith-erp-test-utils.hpp -o moc/moc_yerith-erp-test-utils.cpp
 
 moc/moc_yerith-erp-users.cpp: src/users/yerith-erp-users.hpp \
 		src/users/yerith-erp-user-settings.hpp \
@@ -6066,7 +6066,7 @@ moc/moc_yerith-erp-users.cpp: src/users/yerith-erp-users.hpp \
 		src/widgets/yerith-erp-line-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/users/yerith-erp-users.hpp -o moc/moc_yerith-erp-users.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/users/yerith-erp-users.hpp -o moc/moc_yerith-erp-users.cpp
 
 moc/moc_yerith-erp-user-vendeur.cpp: src/users/yerith-erp-user-vendeur.hpp \
 		src/users/yerith-erp-users.hpp \
@@ -6104,7 +6104,7 @@ moc/moc_yerith-erp-user-vendeur.cpp: src/users/yerith-erp-user-vendeur.hpp \
 		src/widgets/yerith-erp-line-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/users/yerith-erp-user-vendeur.hpp -o moc/moc_yerith-erp-user-vendeur.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/users/yerith-erp-user-vendeur.hpp -o moc/moc_yerith-erp-user-vendeur.cpp
 
 moc/moc_yerith-erp-user-gestionaire-des-stocks.cpp: src/users/yerith-erp-user-gestionaire-des-stocks.hpp \
 		src/users/yerith-erp-users.hpp \
@@ -6142,7 +6142,7 @@ moc/moc_yerith-erp-user-gestionaire-des-stocks.cpp: src/users/yerith-erp-user-ge
 		src/widgets/yerith-erp-line-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/users/yerith-erp-user-gestionaire-des-stocks.hpp -o moc/moc_yerith-erp-user-gestionaire-des-stocks.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/users/yerith-erp-user-gestionaire-des-stocks.hpp -o moc/moc_yerith-erp-user-gestionaire-des-stocks.cpp
 
 moc/moc_yerith-erp-user-manager.cpp: src/users/yerith-erp-user-manager.hpp \
 		src/users/yerith-erp-users.hpp \
@@ -6180,7 +6180,7 @@ moc/moc_yerith-erp-user-manager.cpp: src/users/yerith-erp-user-manager.hpp \
 		src/widgets/yerith-erp-line-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/users/yerith-erp-user-manager.hpp -o moc/moc_yerith-erp-user-manager.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/users/yerith-erp-user-manager.hpp -o moc/moc_yerith-erp-user-manager.cpp
 
 moc/moc_yerith-erp-user-magasinier.cpp: src/users/yerith-erp-user-magasinier.hpp \
 		src/users/yerith-erp-users.hpp \
@@ -6218,7 +6218,7 @@ moc/moc_yerith-erp-user-magasinier.cpp: src/users/yerith-erp-user-magasinier.hpp
 		src/widgets/yerith-erp-line-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/users/yerith-erp-user-magasinier.hpp -o moc/moc_yerith-erp-user-magasinier.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/users/yerith-erp-user-magasinier.hpp -o moc/moc_yerith-erp-user-magasinier.cpp
 
 moc/moc_yerith-erp-user-caissier.cpp: src/users/yerith-erp-user-caissier.hpp \
 		src/users/yerith-erp-users.hpp \
@@ -6256,7 +6256,7 @@ moc/moc_yerith-erp-user-caissier.cpp: src/users/yerith-erp-user-caissier.hpp \
 		src/widgets/yerith-erp-line-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/users/yerith-erp-user-caissier.hpp -o moc/moc_yerith-erp-user-caissier.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/users/yerith-erp-user-caissier.hpp -o moc/moc_yerith-erp-user-caissier.cpp
 
 moc/moc_yerith-erp-user-administrateur.cpp: src/users/yerith-erp-user-administrateur.hpp \
 		src/users/yerith-erp-users.hpp \
@@ -6294,18 +6294,18 @@ moc/moc_yerith-erp-user-administrateur.cpp: src/users/yerith-erp-user-administra
 		src/widgets/yerith-erp-line-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/users/yerith-erp-user-administrateur.hpp -o moc/moc_yerith-erp-user-administrateur.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/users/yerith-erp-user-administrateur.hpp -o moc/moc_yerith-erp-user-administrateur.cpp
 
 moc/moc_yerith_dynamic_taint_analysis_directives.cpp: src/dbus/yerith_dynamic_taint_analysis_directives.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/dbus/yerith_dynamic_taint_analysis_directives.hpp -o moc/moc_yerith_dynamic_taint_analysis_directives.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/dbus/yerith_dynamic_taint_analysis_directives.hpp -o moc/moc_yerith_dynamic_taint_analysis_directives.cpp
 
 moc/moc_YERITH_RUNTIME_VERIFIER.cpp: src/dbus/YERITH_RUNTIME_VERIFIER.hpp \
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/dbus/YERITH_RUNTIME_VERIFIER.hpp -o moc/moc_YERITH_RUNTIME_VERIFIER.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/dbus/YERITH_RUNTIME_VERIFIER.hpp -o moc/moc_YERITH_RUNTIME_VERIFIER.cpp
 
 moc/moc_yerith-erp-CANCEL-Modification-TIMING-Object.cpp: src/utils/yerith-erp-CANCEL-Modification-TIMING-Object.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -6335,7 +6335,7 @@ moc/moc_yerith-erp-CANCEL-Modification-TIMING-Object.cpp: src/utils/yerith-erp-C
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/utils/yerith-erp-CANCEL-Modification-TIMING-Object.hpp -o moc/moc_yerith-erp-CANCEL-Modification-TIMING-Object.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/utils/yerith-erp-CANCEL-Modification-TIMING-Object.hpp -o moc/moc_yerith-erp-CANCEL-Modification-TIMING-Object.cpp
 
 moc/moc_yerith-erp-key-emitter.cpp: src/utils/virtual-keyboard/yerith-erp-key-emitter.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -6350,7 +6350,7 @@ moc/moc_yerith-erp-key-emitter.cpp: src/utils/virtual-keyboard/yerith-erp-key-em
 		src/include/yerith-erp-9-0-definition-colour-rgb.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/utils/virtual-keyboard/yerith-erp-key-emitter.hpp -o moc/moc_yerith-erp-key-emitter.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/utils/virtual-keyboard/yerith-erp-key-emitter.hpp -o moc/moc_yerith-erp-key-emitter.cpp
 
 moc/moc_yerith-erp-spell-numbers.cpp: src/utils/yerith-erp-spell-numbers.hpp \
 		src/utils/yerith-erp-utils.hpp \
@@ -6380,7 +6380,7 @@ moc/moc_yerith-erp-spell-numbers.cpp: src/utils/yerith-erp-spell-numbers.hpp \
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/utils/yerith-erp-spell-numbers.hpp -o moc/moc_yerith-erp-spell-numbers.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/utils/yerith-erp-spell-numbers.hpp -o moc/moc_yerith-erp-spell-numbers.cpp
 
 moc/moc_yerith-erp-utils.cpp: src/utils/yerith-erp-utils.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -6410,7 +6410,7 @@ moc/moc_yerith-erp-utils.cpp: src/utils/yerith-erp-utils.hpp \
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/utils/yerith-erp-utils.hpp -o moc/moc_yerith-erp-utils.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/utils/yerith-erp-utils.hpp -o moc/moc_yerith-erp-utils.cpp
 
 moc/moc_yerith-erp-print_yerith_latex_util_pdf.cpp: src/utils/print_latex_pdf/yerith-erp-print_yerith_latex_util_pdf.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -6445,7 +6445,7 @@ moc/moc_yerith-erp-print_yerith_latex_util_pdf.cpp: src/utils/print_latex_pdf/ye
 		src/widgets/yerith-erp-line-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/utils/print_latex_pdf/yerith-erp-print_yerith_latex_util_pdf.hpp -o moc/moc_yerith-erp-print_yerith_latex_util_pdf.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/utils/print_latex_pdf/yerith-erp-print_yerith_latex_util_pdf.hpp -o moc/moc_yerith-erp-print_yerith_latex_util_pdf.cpp
 
 moc/moc_yerith-erp-qtable-widget-admin-window-commons.cpp: src/admin/yerith-erp-qtable-widget-admin-window-commons.hpp \
 		src/admin/yerith-erp-admin-windows-commons.hpp \
@@ -6487,7 +6487,7 @@ moc/moc_yerith-erp-qtable-widget-admin-window-commons.cpp: src/admin/yerith-erp-
 		src/utils/yerith-erp-article-vente-info.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/yerith-erp-qtable-widget-admin-window-commons.hpp -o moc/moc_yerith-erp-qtable-widget-admin-window-commons.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/yerith-erp-qtable-widget-admin-window-commons.hpp -o moc/moc_yerith-erp-qtable-widget-admin-window-commons.cpp
 
 moc/moc_yerith-erp-admin-windows-commons.cpp: src/admin/yerith-erp-admin-windows-commons.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -6525,7 +6525,7 @@ moc/moc_yerith-erp-admin-windows-commons.cpp: src/admin/yerith-erp-admin-windows
 		src/utils/print_latex_pdf/yerith-erp-print_yerith_latex_util_pdf.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/yerith-erp-admin-windows-commons.hpp -o moc/moc_yerith-erp-admin-windows-commons.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/yerith-erp-admin-windows-commons.hpp -o moc/moc_yerith-erp-admin-windows-commons.cpp
 
 moc/moc_yerith-erp-admin-window.cpp: src/admin/yerith-erp-admin-window.hpp \
 		ui_yerith-erp-admin-window.h \
@@ -6733,7 +6733,7 @@ moc/moc_yerith-erp-admin-window.cpp: src/admin/yerith-erp-admin-window.hpp \
 		src/utils/yerith-erp-info-entreprise.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/yerith-erp-admin-window.hpp -o moc/moc_yerith-erp-admin-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/yerith-erp-admin-window.hpp -o moc/moc_yerith-erp-admin-window.cpp
 
 moc/moc_yerith-erp-admin-search-form.cpp: src/admin/yerith-erp-admin-search-form.hpp \
 		ui_yerith-erp-admin-search-form.h \
@@ -6771,7 +6771,7 @@ moc/moc_yerith-erp-admin-search-form.cpp: src/admin/yerith-erp-admin-search-form
 		src/admin/admin-actions-subjects.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/yerith-erp-admin-search-form.hpp -o moc/moc_yerith-erp-admin-search-form.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/yerith-erp-admin-search-form.hpp -o moc/moc_yerith-erp-admin-search-form.cpp
 
 moc/moc_yerith-erp-ADMIN-UPPER-TABLE-VIEW-CLASS.cpp: src/admin/widgets/table-view/yerith-erp-ADMIN-UPPER-TABLE-VIEW-CLASS.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -6803,7 +6803,7 @@ moc/moc_yerith-erp-ADMIN-UPPER-TABLE-VIEW-CLASS.cpp: src/admin/widgets/table-vie
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/widgets/table-view/yerith-erp-ADMIN-UPPER-TABLE-VIEW-CLASS.hpp -o moc/moc_yerith-erp-ADMIN-UPPER-TABLE-VIEW-CLASS.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/widgets/table-view/yerith-erp-ADMIN-UPPER-TABLE-VIEW-CLASS.hpp -o moc/moc_yerith-erp-ADMIN-UPPER-TABLE-VIEW-CLASS.cpp
 
 moc/moc_yerith-erp_web_SYSTEM_discovered_Widgets-table-view.cpp: src/admin/widgets/table-view/yerith-erp_web_SYSTEM_discovered_Widgets-table-view.hpp \
 		src/widgets/widgets-table/yerith-erp-table-widget.hpp \
@@ -6837,7 +6837,7 @@ moc/moc_yerith-erp_web_SYSTEM_discovered_Widgets-table-view.cpp: src/admin/widge
 		src/web_systems/yerith-erp-xml-parser-widget-element.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/widgets/table-view/yerith-erp_web_SYSTEM_discovered_Widgets-table-view.hpp -o moc/moc_yerith-erp_web_SYSTEM_discovered_Widgets-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/widgets/table-view/yerith-erp_web_SYSTEM_discovered_Widgets-table-view.hpp -o moc/moc_yerith-erp_web_SYSTEM_discovered_Widgets-table-view.cpp
 
 moc/moc_yerith-erp-financial-expense-table-view.cpp: src/admin/widgets/table-view/yerith-erp-financial-expense-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -6870,7 +6870,7 @@ moc/moc_yerith-erp-financial-expense-table-view.cpp: src/admin/widgets/table-vie
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/widgets/table-view/yerith-erp-financial-expense-table-view.hpp -o moc/moc_yerith-erp-financial-expense-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/widgets/table-view/yerith-erp-financial-expense-table-view.hpp -o moc/moc_yerith-erp-financial-expense-table-view.cpp
 
 moc/moc_yerith-erp-product-department-table-view.cpp: src/admin/widgets/table-view/yerith-erp-product-department-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -6903,7 +6903,7 @@ moc/moc_yerith-erp-product-department-table-view.cpp: src/admin/widgets/table-vi
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/widgets/table-view/yerith-erp-product-department-table-view.hpp -o moc/moc_yerith-erp-product-department-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/widgets/table-view/yerith-erp-product-department-table-view.hpp -o moc/moc_yerith-erp-product-department-table-view.cpp
 
 moc/moc_yerith-erp-alert-table-view.cpp: src/admin/widgets/table-view/yerith-erp-alert-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -6936,7 +6936,7 @@ moc/moc_yerith-erp-alert-table-view.cpp: src/admin/widgets/table-view/yerith-erp
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/widgets/table-view/yerith-erp-alert-table-view.hpp -o moc/moc_yerith-erp-alert-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/widgets/table-view/yerith-erp-alert-table-view.hpp -o moc/moc_yerith-erp-alert-table-view.cpp
 
 moc/moc_yerith-erp-site-table-view.cpp: src/admin/widgets/table-view/yerith-erp-site-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -6969,7 +6969,7 @@ moc/moc_yerith-erp-site-table-view.cpp: src/admin/widgets/table-view/yerith-erp-
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/widgets/table-view/yerith-erp-site-table-view.hpp -o moc/moc_yerith-erp-site-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/widgets/table-view/yerith-erp-site-table-view.hpp -o moc/moc_yerith-erp-site-table-view.cpp
 
 moc/moc_yerith-erp-user-table-view.cpp: src/admin/widgets/table-view/yerith-erp-user-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -7002,7 +7002,7 @@ moc/moc_yerith-erp-user-table-view.cpp: src/admin/widgets/table-view/yerith-erp-
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/widgets/table-view/yerith-erp-user-table-view.hpp -o moc/moc_yerith-erp-user-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/widgets/table-view/yerith-erp-user-table-view.hpp -o moc/moc_yerith-erp-user-table-view.cpp
 
 moc/moc_yerith-erp-category-table-view.cpp: src/admin/widgets/table-view/yerith-erp-category-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -7035,7 +7035,7 @@ moc/moc_yerith-erp-category-table-view.cpp: src/admin/widgets/table-view/yerith-
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/widgets/table-view/yerith-erp-category-table-view.hpp -o moc/moc_yerith-erp-category-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/widgets/table-view/yerith-erp-category-table-view.hpp -o moc/moc_yerith-erp-category-table-view.cpp
 
 moc/moc_yerith-erp-bank-account-table-view.cpp: src/admin/widgets/table-view/yerith-erp-bank-account-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -7068,7 +7068,7 @@ moc/moc_yerith-erp-bank-account-table-view.cpp: src/admin/widgets/table-view/yer
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/widgets/table-view/yerith-erp-bank-account-table-view.hpp -o moc/moc_yerith-erp-bank-account-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/widgets/table-view/yerith-erp-bank-account-table-view.hpp -o moc/moc_yerith-erp-bank-account-table-view.cpp
 
 moc/moc_yerith-erp-admin-create-window.cpp: src/admin/creer/yerith-erp-admin-create-window.hpp \
 		ui_yerith-erp-admin-create-window.h \
@@ -7114,7 +7114,7 @@ moc/moc_yerith-erp-admin-create-window.cpp: src/admin/creer/yerith-erp-admin-cre
 		src/utils/print_latex_pdf/yerith-erp-print_yerith_latex_util_pdf.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/creer/yerith-erp-admin-create-window.hpp -o moc/moc_yerith-erp-admin-create-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/creer/yerith-erp-admin-create-window.hpp -o moc/moc_yerith-erp-admin-create-window.cpp
 
 moc/moc_yerith-erp-admin-lister-window.cpp: src/admin/lister/yerith-erp-admin-lister-window.hpp \
 		ui_yerith-erp-admin-lister-window.h \
@@ -7166,7 +7166,7 @@ moc/moc_yerith-erp-admin-lister-window.cpp: src/admin/lister/yerith-erp-admin-li
 		src/admin/admin-actions-subjects.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/lister/yerith-erp-admin-lister-window.hpp -o moc/moc_yerith-erp-admin-lister-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/lister/yerith-erp-admin-lister-window.hpp -o moc/moc_yerith-erp-admin-lister-window.cpp
 
 moc/moc_yerith-erp-admin-detail-window.cpp: src/admin/detail/yerith-erp-admin-detail-window.hpp \
 		ui_yerith-erp-admin-detail-window.h \
@@ -7212,7 +7212,7 @@ moc/moc_yerith-erp-admin-detail-window.cpp: src/admin/detail/yerith-erp-admin-de
 		src/admin/admin-actions-subjects.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/detail/yerith-erp-admin-detail-window.hpp -o moc/moc_yerith-erp-admin-detail-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/detail/yerith-erp-admin-detail-window.hpp -o moc/moc_yerith-erp-admin-detail-window.cpp
 
 moc/moc_yerith-erp-admin-modifier-window.cpp: src/admin/modifier/yerith-erp-admin-modifier-window.hpp \
 		ui_yerith-erp-admin-modifier-window.h \
@@ -7259,7 +7259,7 @@ moc/moc_yerith-erp-admin-modifier-window.cpp: src/admin/modifier/yerith-erp-admi
 		src/admin/admin-actions-subjects.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/10 -I/usr/include/x86_64-linux-gnu/c++/10 -I/usr/include/c++/10/backward -I/usr/lib/gcc/x86_64-linux-gnu/10/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/modifier/yerith-erp-admin-modifier-window.hpp -o moc/moc_yerith-erp-admin-modifier-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/modifier/yerith-erp-admin-modifier-window.hpp -o moc/moc_yerith-erp-admin-modifier-window.cpp
 
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:
