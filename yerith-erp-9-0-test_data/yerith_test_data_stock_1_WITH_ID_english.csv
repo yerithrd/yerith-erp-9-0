@@ -1,5 +1,11 @@
 id;reference;historique_stock_actif;nom_departement_produit;designation;categorie;prix_dachat;prix_unitaire;montant_tva;prix_vente;quantite_totale;date_entree;date_peremption
-0;"1231"; "1"; "yerith departement 1"; "test_yerith_1"; "test_yerith_categorie_1"; "150.00"; "201.00"; "0.00"; "201.00"; "7997"; "01.12.2021"; "01.06.2029"
-1;"1231"; "1"; "yerith departement 1"; "test_yerith_1"; "test_yerith_categorie_1"; "150.00"; "201.00"; "0.00"; "206.00"; "19000"; "01.04.2022"; "01.07.2029"
-2;"12312"; "1"; "yerith departement 2"; "test_yerith_2"; "test_yerith_categorie_2"; "150,12"; "201.00"; "0.00"; "201.00"; "79879"; "01.12.2021"; "01.06.2029"
-3;"1231"; "1"; "yerith departement 1"; "test_yerith_1"; "test_yerith_categorie_1"; "150.00"; "201.00"; "0.00"; "201.00"; "12000"; "01.05.2022"; "01.12.2029"
+0;1231;1;yerith departement 1;test_yerith_1;test_yerith_categorie_1;150;201;0;201;7997;01.12.2021;01.06.2029
+1;1231;1;yerith departement 1;test_yerith_1;test_yerith_categorie_1;150;201;0;206;19000;01.04.2022;01.07.2029
+2;12312;1;yerith departement 2;test_yerith_2;test_yerith_categorie_2;150,12;201;0;201;79879;01.12.2021;01.06.2029
+3;1231;1;yerith departement 1;test_yerith_1;test_yerith_categorie_1;150;201;0;201;12000;01.05.2022;01.12.2029
+4;567;1;BOISSONS;Top fanta;gazeuse;400;500;0;500;700;14.07.2026;14.07.2027
+5;789;1;BOISSONS;Top orange;gazeuse;400;500;0;500;700;14.07.2026;14.07.2027
+6;987;1;BOISSONS;Top grenadine;gazeuse;400;500;0;500;700;14.07.2026;14.07.2027
+7;765;1;BOISSONS;Top pamplemousse;gazeuse;400;500;0;500;700;14.07.2026;14.07.2027
+8;9997865;1;BOISSONS;Top cola;gazeuse;500;700;0;700;1000;14.07.2026;14.07.2027
+9;T520;1;LAPTOP;Lenovo T520;Lenovo;100000;130000;0;130000;3;14.07.2026;14.07.2029
