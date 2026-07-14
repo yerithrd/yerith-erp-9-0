@@ -149,6 +149,8 @@ YerithWindowsCommons::~YerithWindowsCommons()
 
 void YerithWindowsCommons::initializations()
 {
+    setWindowFlags(windowFlags() | Qt::WindowStaysOnTopHint);
+
     connect(YerithUtils::GET_a_yerith_utils_object_Instance_NOW(),
     		SIGNAL(Signal___QFileDialog___currentChanged()),
     		this,
