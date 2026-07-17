@@ -101,7 +101,7 @@ public slots:
         YerithQMessageBox::information(this,
                                        QObject::tr("aide"),
                                        QObject::tr
-                                       ("Sélectionner un marchandise dans le tableau "
+                                       ("Sélectionner une marchandise dans le tableau "
                                         "de marchandises, ensuite cliquer "
                                         "sur l'opération que vous souhaitez réaliser !"));
     }

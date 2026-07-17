@@ -813,7 +813,7 @@ Press m &apos;Cancel&apos; to exit %2</translation>
         <location filename="src/admin/yerith-erp-admin-windows-commons.cpp" line="160"/>
         <location filename="src/utils/yerith-erp-database-table-column.cpp" line="592"/>
         <location filename="src/windows/yerith-erp-ventes-window.cpp" line="408"/>
-        <location filename="src/windows/yerith-erp-window-commons.cpp" line="1486"/>
+        <location filename="src/windows/yerith-erp-window-commons.cpp" line="1488"/>
         <source>Catégorie</source>
         <translation>Category</translation>
     </message>
@@ -1918,7 +1918,7 @@ Contacter l&apos;administrateur de Yerith</oldsource>
         <location filename="src/windows/crm/yerith-erp-groupes-de-clients-window.cpp" line="614"/>
         <location filename="src/windows/crm/yerith-erp-programmes-de-fidelite-clients-window.cpp" line="569"/>
         <location filename="src/windows/crm/yerith-erp-programmes-de-fidelite-clients-window.cpp" line="694"/>
-        <location filename="src/windows/stocks/yerith-erp-marchandises-window.cpp" line="1676"/>
+        <location filename="src/windows/stocks/yerith-erp-marchandises-window.cpp" line="1670"/>
         <location filename="src/windows/stocks/yerith-erp-modifier-window.cpp" line="1233"/>
         <location filename="src/windows/supplier/yerith-erp-GROUPES-DE-PAIE-hr-window.cpp" line="557"/>
         <location filename="src/windows/supplier/yerith-erp-GROUPES-DE-PAIE-hr-window.cpp" line="659"/>
@@ -2025,7 +2025,7 @@ Contacter l&apos;administrateur de Yerith</oldsource>
     </message>
     <message>
         <location filename="src/windows/purchase/yerith-erp-achats-window.cpp" line="312"/>
-        <location filename="src/windows/stocks/yerith-erp-marchandises-window.cpp" line="919"/>
+        <location filename="src/windows/stocks/yerith-erp-marchandises-window.cpp" line="913"/>
         <location filename="src/windows/stocks/yerith-erp-mouvements_de_stocks-window.cpp" line="595"/>
         <location filename="src/windows/stocks/yerith-erp-stocks-window.cpp" line="699"/>
         <location filename="src/windows/supplier/yerith-erp-fournisseurs-window.cpp" line="843"/>
@@ -2041,7 +2041,7 @@ Contacter l&apos;administrateur de Yerith</oldsource>
         <location filename="src/windows/crm/yerith-erp-groupes-de-clients-window.cpp" line="1115"/>
         <location filename="src/windows/crm/yerith-erp-programmes-de-fidelite-clients-window.cpp" line="1013"/>
         <location filename="src/windows/purchase/yerith-erp-achats-window.cpp" line="314"/>
-        <location filename="src/windows/stocks/yerith-erp-marchandises-window.cpp" line="921"/>
+        <location filename="src/windows/stocks/yerith-erp-marchandises-window.cpp" line="915"/>
         <location filename="src/windows/stocks/yerith-erp-mouvements_de_stocks-window.cpp" line="597"/>
         <location filename="src/windows/stocks/yerith-erp-stocks-window.cpp" line="701"/>
         <location filename="src/windows/supplier/yerith-erp-GROUPES-DE-PAIE-hr-window.cpp" line="955"/>
@@ -2064,7 +2064,7 @@ Contacter l&apos;administrateur de Yerith</oldsource>
         <location filename="src/windows/crm/yerith-erp-groupes-de-clients-window.cpp" line="425"/>
         <location filename="src/windows/crm/yerith-erp-programmes-de-fidelite-clients-window.cpp" line="430"/>
         <location filename="src/windows/purchase/yerith-erp-achats-window.cpp" line="444"/>
-        <location filename="src/windows/stocks/yerith-erp-marchandises-window.cpp" line="1068"/>
+        <location filename="src/windows/stocks/yerith-erp-marchandises-window.cpp" line="1062"/>
         <location filename="src/windows/stocks/yerith-erp-mouvements_de_stocks-window.cpp" line="817"/>
         <location filename="src/windows/stocks/yerith-erp-stocks-window.cpp" line="975"/>
         <location filename="src/windows/supplier/yerith-erp-GROUPES-DE-PAIE-hr-window.cpp" line="436"/>
@@ -2107,26 +2107,26 @@ Contacter l&apos;administrateur de Yerith</oldsource>
         <translation>Merchandise / SERVICES</translation>
     </message>
     <message>
-        <location filename="src/windows/stocks/yerith-erp-marchandises-window.cpp" line="1386"/>
+        <location filename="src/windows/stocks/yerith-erp-marchandises-window.cpp" line="1380"/>
         <source>SUPPRIMER TOUTES LES MARCHANDISES SÉLECTIONÉES (sans confirmation de suppression) ?</source>
         <translation>DELETE ALL selected MERCHANDISES wih no confirmation of deletion ?</translation>
     </message>
     <message>
+        <location filename="src/windows/stocks/yerith-erp-marchandises-window.cpp" line="1386"/>
         <location filename="src/windows/stocks/yerith-erp-marchandises-window.cpp" line="1392"/>
-        <location filename="src/windows/stocks/yerith-erp-marchandises-window.cpp" line="1398"/>
         <location filename="src/windows/stocks/yerith-erp-stocks-window.cpp" line="1862"/>
         <location filename="src/windows/stocks/yerith-erp-stocks-window.cpp" line="1868"/>
         <source>suppression de plusieurs</source>
         <translation>multiple deletion</translation>
     </message>
     <message>
-        <location filename="src/windows/stocks/yerith-erp-marchandises-window.cpp" line="1400"/>
+        <location filename="src/windows/stocks/yerith-erp-marchandises-window.cpp" line="1394"/>
         <source>ANNULATION DES SUPPRESSIONS DES MARCHANDISES SÉLECTIONÉES !</source>
         <translation>CANCELATION OF DELETION of all selected merchandises !</translation>
     </message>
     <message>
-        <location filename="src/windows/stocks/yerith-erp-marchandises-window.cpp" line="1481"/>
-        <location filename="src/windows/stocks/yerith-erp-marchandises-window.cpp" line="1636"/>
+        <location filename="src/windows/stocks/yerith-erp-marchandises-window.cpp" line="1475"/>
+        <location filename="src/windows/stocks/yerith-erp-marchandises-window.cpp" line="1630"/>
         <source>AU MINIMUM ENCORE 1 STOCK EXISTANT dans la tableau des stocks !
 DONC, PAS DE SUPPRESSION DE LA
 MARCHANDISE &apos;%1&apos; POSSIBLE !</source>
@@ -2138,30 +2138,30 @@ SO DELETION OF MERCHANDISE &apos;%1&apos;
 IS NOT POSSIBLE !</translation>
     </message>
     <message>
-        <location filename="src/windows/stocks/yerith-erp-marchandises-window.cpp" line="1491"/>
-        <location filename="src/windows/stocks/yerith-erp-marchandises-window.cpp" line="1648"/>
+        <location filename="src/windows/stocks/yerith-erp-marchandises-window.cpp" line="1485"/>
+        <location filename="src/windows/stocks/yerith-erp-marchandises-window.cpp" line="1642"/>
         <source>suppression - STOCK ENCORE EXISTANT</source>
         <translation>removal - STILL EXISTANT STOCK</translation>
     </message>
     <message>
-        <location filename="src/windows/stocks/yerith-erp-marchandises-window.cpp" line="1669"/>
+        <location filename="src/windows/stocks/yerith-erp-marchandises-window.cpp" line="1663"/>
         <source>Poursuivre avec la suppression de la marchandise &apos;%1&apos; ?</source>
         <oldsource>Poursuivre avec la suppression de l&apos;article &quot;%1&quot; ?</oldsource>
         <translation>Continue with deletion of merchandise &apos;%1&apos;?</translation>
     </message>
     <message>
-        <location filename="src/windows/stocks/yerith-erp-marchandises-window.cpp" line="1710"/>
+        <location filename="src/windows/stocks/yerith-erp-marchandises-window.cpp" line="1704"/>
         <source>La marchandise &apos;%1&apos; a été supprimée.</source>
         <translation>Merchandise &apos;%1&apos; has been deleted !</translation>
     </message>
     <message>
-        <location filename="src/windows/stocks/yerith-erp-marchandises-window.cpp" line="1727"/>
+        <location filename="src/windows/stocks/yerith-erp-marchandises-window.cpp" line="1721"/>
         <source>L&apos;article &quot;%1&quot; ne pouvait pas être supprimé !</source>
         <translation>Article &quot;%1&quot; couldn&apos;t be deleted !</translation>
     </message>
     <message>
-        <location filename="src/windows/stocks/yerith-erp-marchandises-window.cpp" line="1883"/>
-        <location filename="src/windows/stocks/yerith-erp-marchandises-window.cpp" line="1910"/>
+        <location filename="src/windows/stocks/yerith-erp-marchandises-window.cpp" line="1877"/>
+        <location filename="src/windows/stocks/yerith-erp-marchandises-window.cpp" line="1904"/>
         <source>NON TERMINÉES</source>
         <translation>NON FINISHED</translation>
     </message>
@@ -2403,49 +2403,49 @@ depending on language you would like to use !
 depending on language you would like to use !</translation>
     </message>
     <message>
-        <location filename="src/windows/yerith-erp-window-commons.cpp" line="1403"/>
-        <location filename="src/windows/yerith-erp-window-commons.cpp" line="1552"/>
+        <location filename="src/windows/yerith-erp-window-commons.cpp" line="1405"/>
+        <location filename="src/windows/yerith-erp-window-commons.cpp" line="1554"/>
         <source>%1[*] - sélectionner des colones visibles (&apos;%2&apos; colones)</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="src/windows/yerith-erp-window-commons.cpp" line="2264"/>
+        <location filename="src/windows/yerith-erp-window-commons.cpp" line="2266"/>
         <source>Lundi</source>
         <oldsource>lundi</oldsource>
         <translation>MONDAY</translation>
     </message>
     <message>
-        <location filename="src/windows/yerith-erp-window-commons.cpp" line="2266"/>
+        <location filename="src/windows/yerith-erp-window-commons.cpp" line="2268"/>
         <source>Mardi</source>
         <oldsource>mardi</oldsource>
         <translation>TUESDAY</translation>
     </message>
     <message>
-        <location filename="src/windows/yerith-erp-window-commons.cpp" line="2268"/>
+        <location filename="src/windows/yerith-erp-window-commons.cpp" line="2270"/>
         <source>Mercredi</source>
         <oldsource>mercredi</oldsource>
         <translation>WEDNESDAY</translation>
     </message>
     <message>
-        <location filename="src/windows/yerith-erp-window-commons.cpp" line="2270"/>
+        <location filename="src/windows/yerith-erp-window-commons.cpp" line="2272"/>
         <source>Jeudi</source>
         <oldsource>jeudi</oldsource>
         <translation>THURSDAY</translation>
     </message>
     <message>
-        <location filename="src/windows/yerith-erp-window-commons.cpp" line="2272"/>
+        <location filename="src/windows/yerith-erp-window-commons.cpp" line="2274"/>
         <source>Vendredi</source>
         <oldsource>vendredi</oldsource>
         <translation>FRIDAY</translation>
     </message>
     <message>
-        <location filename="src/windows/yerith-erp-window-commons.cpp" line="2274"/>
+        <location filename="src/windows/yerith-erp-window-commons.cpp" line="2276"/>
         <source>Samedi</source>
         <oldsource>samedi</oldsource>
         <translation>SATHURDAY</translation>
     </message>
     <message>
-        <location filename="src/windows/yerith-erp-window-commons.cpp" line="2276"/>
+        <location filename="src/windows/yerith-erp-window-commons.cpp" line="2278"/>
         <source>Dimanche</source>
         <oldsource>dimanche</oldsource>
         <translation>SUNDAY</translation>
@@ -3882,7 +3882,7 @@ client PHONE NUMBER: &quot;%5&quot;.</translation>
         <location filename="src/utils/yerith-erp-utils.cpp" line="1361"/>
         <location filename="src/utils/yerith-erp-utils.cpp" line="1485"/>
         <location filename="src/utils/yerith-erp-utils.cpp" line="1705"/>
-        <location filename="src/windows/stocks/yerith-erp-marchandises-window.cpp" line="1720"/>
+        <location filename="src/windows/stocks/yerith-erp-marchandises-window.cpp" line="1714"/>
         <location filename="src/windows/stocks/yerith-erp-modifier-window.cpp" line="572"/>
         <location filename="src/windows/stocks/yerith-erp-sortir-window.cpp" line="2923"/>
         <location filename="src/windows/yerith-erp-ventes-window.cpp" line="1465"/>
@@ -3964,7 +3964,7 @@ by exiting this program window ?</translation>
         <location filename="src/utils/yerith-erp-utils.cpp" line="1466"/>
         <location filename="src/utils/yerith-erp-utils.cpp" line="1617"/>
         <location filename="src/utils/yerith-erp-utils.cpp" line="1686"/>
-        <location filename="src/windows/stocks/yerith-erp-marchandises-window.cpp" line="1732"/>
+        <location filename="src/windows/stocks/yerith-erp-marchandises-window.cpp" line="1726"/>
         <location filename="src/windows/stocks/yerith-erp-modifier-window.cpp" line="509"/>
         <location filename="src/windows/stocks/yerith-erp-modifier-window.cpp" line="580"/>
         <location filename="src/windows/yerith-erp-ventes-window.cpp" line="1630"/>
@@ -5065,7 +5065,7 @@ Please contact an administrator of %1</translation>
         <translation>There is currently no stock listed !</translation>
     </message>
     <message>
-        <location filename="src/windows/stocks/yerith-erp-marchandises-window.cpp" line="1065"/>
+        <location filename="src/windows/stocks/yerith-erp-marchandises-window.cpp" line="1059"/>
         <location filename="src/windows/stocks/yerith-erp-stocks-window.cpp" line="972"/>
         <source>terme à rechercher (description de l&apos;article (ou service))</source>
         <oldsource>terme à rechercher (désignation, et description de l&apos;article (ou service))</oldsource>
@@ -6640,7 +6640,7 @@ In text field &apos;COMPANY (site)&apos; !</translation>
     </message>
     <message>
         <location filename="src/admin/yerith-erp-admin-windows-commons.cpp" line="472"/>
-        <location filename="src/windows/yerith-erp-window-commons.cpp" line="2599"/>
+        <location filename="src/windows/yerith-erp-window-commons.cpp" line="2601"/>
         <source>qui suis je ?</source>
         <translation>who am I ?</translation>
     </message>
@@ -7259,11 +7259,8 @@ by exiting this program window ?</translation>
     </message>
     <message>
         <location filename="src/windows/stocks/yerith-erp-marchandises-window.hpp" line="104"/>
-        <source>Sélectionner un marchandise dans le tableau de marchandises, ensuite cliquer sur l&apos;opération que vous souhaitez réaliser !</source>
-        <oldsource>1) Sélectionner un marchandise dans le tableau de marchandises, ensuite cliquer sur l&apos;opération que vous souhaitez réaliser !
-
-2) La valeur d&apos;inventaire d&apos;une marchandise (VI) est calculée comme suit:
- [VI = prix_dachat * quantite_en_stock] !</oldsource>
+        <source>Sélectionner une marchandise dans le tableau de marchandises, ensuite cliquer sur l&apos;opération que vous souhaitez réaliser !</source>
+        <oldsource>Sélectionner un marchandise dans le tableau de marchandises, ensuite cliquer sur l&apos;opération que vous souhaitez réaliser !</oldsource>
         <translation>Select merchandise in merchandise table then press on the action button you would like to achieve !</translation>
     </message>
     <message>
@@ -7796,14 +7793,14 @@ by exiting this program window ?</translation>
     <message>
         <location filename="src/dialogs/yerith-erp-IMPRESSION_DE_DOCUMENT-dialog.cpp" line="231"/>
         <location filename="src/dialogs/yerith-erp-IMPRESSION_DE_DOCUMENT-dialog.cpp" line="340"/>
-        <location filename="src/windows/yerith-erp-window-commons.cpp" line="2463"/>
+        <location filename="src/windows/yerith-erp-window-commons.cpp" line="2465"/>
         <source>IMPRESSION, NUMÉRO DE PAGES</source>
         <translation>PRINTING, PAGE NUMBERING</translation>
     </message>
     <message>
         <location filename="src/dialogs/yerith-erp-IMPRESSION_DE_DOCUMENT-dialog.cpp" line="232"/>
         <location filename="src/dialogs/yerith-erp-IMPRESSION_DE_DOCUMENT-dialog.cpp" line="341"/>
-        <location filename="src/windows/yerith-erp-window-commons.cpp" line="2464"/>
+        <location filename="src/windows/yerith-erp-window-commons.cpp" line="2466"/>
         <source>La numéro de la page de départ doit être inférieur au numéro de la page terminale</source>
         <translation>starting page number  must be inferior to ending PAGE NUMBER</translation>
     </message>
@@ -9717,8 +9714,8 @@ stock (service)
         <location filename="ui/yerith-erp-admin-detail-window.ui" line="15659"/>
         <location filename="ui/yerith-erp-admin-detail-window.ui" line="16845"/>
         <location filename="ui/yerith-erp-admin-detail-window.ui" line="19751"/>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="21597"/>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="23733"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="21678"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="23814"/>
         <source>Retour</source>
         <translation>Back</translation>
     </message>
@@ -9730,7 +9727,7 @@ stock (service)
     </message>
     <message>
         <location filename="ui/yerith-erp-admin-detail-window.ui" line="2011"/>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="22556"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="22637"/>
         <source>période de temps</source>
         <translation>time frame</translation>
     </message>
@@ -9740,9 +9737,9 @@ stock (service)
         <location filename="ui/yerith-erp-admin-detail-window.ui" line="3910"/>
         <location filename="ui/yerith-erp-admin-detail-window.ui" line="9738"/>
         <location filename="ui/yerith-erp-admin-detail-window.ui" line="16360"/>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="21112"/>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="22575"/>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="22602"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="21193"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="22656"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="22683"/>
         <source>dd/MM/yyyy</source>
         <translation></translation>
     </message>
@@ -9754,13 +9751,13 @@ stock (service)
     </message>
     <message>
         <location filename="ui/yerith-erp-admin-detail-window.ui" line="2097"/>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="22629"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="22710"/>
         <source>début</source>
         <translation>begin</translation>
     </message>
     <message>
         <location filename="ui/yerith-erp-admin-detail-window.ui" line="2120"/>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="22652"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="22733"/>
         <source>fin</source>
         <translation>end</translation>
     </message>
@@ -9798,7 +9795,7 @@ stock (service)
     </message>
     <message>
         <location filename="ui/yerith-erp-admin-detail-window.ui" line="16223"/>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="20952"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="21033"/>
         <source>nom</source>
         <translation>name</translation>
     </message>
@@ -9809,7 +9806,7 @@ stock (service)
     </message>
     <message>
         <location filename="ui/yerith-erp-admin-detail-window.ui" line="1463"/>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="22500"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="22581"/>
         <source>désignation de l&apos;article</source>
         <translation>item designation</translation>
     </message>
@@ -9824,49 +9821,49 @@ stock (service)
         <translation>stock quantity</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="20975"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="21056"/>
         <source>quartier</source>
         <translation>location</translation>
     </message>
     <message>
         <location filename="ui/yerith-erp-admin-detail-window.ui" line="17484"/>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="20998"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="21079"/>
         <source>ville</source>
         <translation>city</translation>
     </message>
     <message>
         <location filename="ui/yerith-erp-admin-detail-window.ui" line="17524"/>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="21132"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="21213"/>
         <source>pays</source>
         <translation>country</translation>
     </message>
     <message>
         <location filename="ui/yerith-erp-admin-detail-window.ui" line="16269"/>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="21634"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="21715"/>
         <source>numéro de téléphone 1</source>
         <translation>phone number (1)</translation>
     </message>
     <message>
         <location filename="ui/yerith-erp-admin-detail-window.ui" line="17347"/>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="21657"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="21738"/>
         <source>numéro de téléphone 2</source>
         <translation>phone number (2)</translation>
     </message>
     <message>
         <location filename="ui/yerith-erp-admin-detail-window.ui" line="17404"/>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="21776"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="21857"/>
         <source>émail @</source>
         <translation>e-mail</translation>
     </message>
     <message>
         <location filename="ui/yerith-erp-admin-detail-window.ui" line="17444"/>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="21899"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="21980"/>
         <source>boîte postale</source>
         <translation>postal code (or p.o. box)</translation>
     </message>
     <message>
         <location filename="ui/yerith-erp-admin-detail-window.ui" line="17564"/>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="21956"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="22037"/>
         <source>province / état</source>
         <translation>province / state</translation>
     </message>
@@ -9957,13 +9954,13 @@ stock (service)
         <translation>title</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="20933"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="21014"/>
         <source>Données de la localisation</source>
         <oldsource>Données du fournisseur</oldsource>
         <translation>Site data</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="20418"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="20499"/>
         <source>Localisation</source>
         <translation>Site</translation>
     </message>
@@ -10135,178 +10132,178 @@ stock (service)
         <translation>department description</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="20408"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="20489"/>
         <source>Est 1 département AUTRE que des stocks/objets physiques</source>
         <oldsource>Est 1 département de stocks/objets physiques</oldsource>
         <translation>is NOT a physical stock/OBJECT department</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="21021"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="21102"/>
         <source>date d&apos;ouverture</source>
         <translation>opening date</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="21698"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="21779"/>
         <source>description du lieu</source>
         <translation>site business information</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="21736"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="21817"/>
         <source>numéro unique</source>
         <translation>unique identifier</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="21833"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="21914"/>
         <source>adresse IP</source>
         <translation>ip address</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="21876"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="21957"/>
         <source>base de données</source>
         <translation>database</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="21966"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="22047"/>
         <source>Remise</source>
         <translation>Discount</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="22481"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="22562"/>
         <source>Données de la remise</source>
         <translation>Discount data</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="22540"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="22621"/>
         <source>désignation de la remise</source>
         <translation>discount description</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="22676"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="22757"/>
         <source>pourcentage de la remise</source>
         <translation>discount percentage</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="22700"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="22781"/>
         <source>notes sur la remise</source>
         <translation>notes on discount</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="22772"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="22853"/>
         <source>montant de la remise</source>
         <translation>discounted amount</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="24199"/>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="28014"/>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="28017"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="24280"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="28095"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="28098"/>
         <source>Créer</source>
         <translation>Create</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="24662"/>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="28029"/>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="28032"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="24743"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="28110"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="28113"/>
         <source>Modifier</source>
         <translation>Modify</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="25125"/>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="27999"/>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="28002"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="25206"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="28080"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="28083"/>
         <source>Lister</source>
         <translation>List</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="25588"/>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="28044"/>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="28047"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="25669"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="28125"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="28128"/>
         <source>Supprimer</source>
         <translation>Delete</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="26050"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="26131"/>
         <source>Administration</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="26515"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="26596"/>
         <source>Aide</source>
         <oldsource>Aide</oldsource>
         <translation>Help</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="26966"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="27047"/>
         <source>Actions</source>
         <oldsource>Actions</oldsource>
         <translation>Functions</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="27915"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="27996"/>
         <source>À propos</source>
         <oldsource>À propos</oldsource>
         <translation>About Yerith-erp-9.0</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="27931"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="28012"/>
         <source>Changer d&apos;utilisateur</source>
         <oldsource>Changer d&apos;utilisateur</oldsource>
         <translation>Sign in</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="27947"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="28028"/>
         <source>Déconnecter l&apos;utilisateur</source>
         <oldsource>Déconnecter l&apos;utilisateur</oldsource>
         <translation>Sign out</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="27973"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="28054"/>
         <source>Fermeture</source>
         <oldsource>Fermeture</oldsource>
         <translation>Close</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="28074"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="28155"/>
         <source>Menu principal</source>
         <oldsource>Menu principal</oldsource>
         <translation>Main menu</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="28086"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="28167"/>
         <source>Qui suis je ?</source>
         <oldsource>Qui suis je ?</oldsource>
         <translation>Who am I?</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="28102"/>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="28105"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="28183"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="28186"/>
         <source>Imprimer le bon de commande</source>
         <translation>Print order sheet</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="27425"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="27506"/>
         <source>Outils</source>
         <oldsource>Outils</oldsource>
         <translation>Tools</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="27893"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="27974"/>
         <source>toolBar</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="27963"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="28044"/>
         <source>Appeler l&apos;aide</source>
         <translation>Help</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="27985"/>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="27988"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="28066"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="28069"/>
         <source>Courrier</source>
         <translation>E-mail</translation>
     </message>
     <message>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="28059"/>
-        <location filename="ui/yerith-erp-admin-detail-window.ui" line="28062"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="28140"/>
+        <location filename="ui/yerith-erp-admin-detail-window.ui" line="28143"/>
         <source>Menu de l&apos;administration</source>
         <oldsource>Menu de l&apos;administration</oldsource>
         <translation>Administration menu</translation>
