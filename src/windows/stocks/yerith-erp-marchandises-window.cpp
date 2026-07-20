@@ -885,7 +885,7 @@ bool YerithMarchandisesWindow::slot_filter_empty_product_stock()
     {
         setCurrentlyFiltered(true);
 
-        emit SIGNAL_INCREMENT_PROGRESS_BAR(78);
+        emit SIGNAL_INCREMENT_PROGRESS_BAR(95);
 
         lister_les_elements_du_tableau(*_curMarchandisesTableModel);
 
