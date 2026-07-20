@@ -660,90 +660,43 @@ bool YerithMarchandisesWindow::slot_filtrer_non_empty_product_stock()
 
     emit SIGNAL_INCREMENT_PROGRESS_BAR(5);
 
-    QString cur_select_stmt =
-                    _curMarchandisesTableModel->yerithSelectStatement();
-
-    QString SELECT__FILTERING__NON_EMPTY_PRODUCT_STOCKS =
-                    QString(" (SELECT DISTINCT stocks.reference, "
-                            "stocks.designation FROM stocks WHERE %1 > 0) T "
-                            "INNER JOIN marchandises ON marchandises.%2 = T.%3").arg
-                    (YerithDatabaseTableColumn::QUANTITE_TOTALE,
-                     YerithDatabaseTableColumn::DESIGNATION,
-                     YerithDatabaseTableColumn::DESIGNATION);
-
-//      QDEBUG_STRING_OUTPUT_2("SELECT__FILTERING__NON_EMPTY_PRODUCT_STOCKS",
-//                                                 SELECT__FILTERING__NON_EMPTY_PRODUCT_STOCKS);
-
-    int from_index = cur_select_stmt.indexOf("from", 0, Qt::CaseInsensitive);
-
-    cur_select_stmt.remove(from_index, cur_select_stmt.length());
-
-    QStringList cur_select_stmt_string_list_splitted =
-                    cur_select_stmt.split(',');
+    QString filter_string = QString(
+        "EXISTS (SELECT 1 FROM %1 AS stocks "
+        "WHERE stocks.%2 = marchandises.%2 "
+        "AND stocks.%3 = marchandises.%3 "
+        "AND stocks.%4 = marchandises.%4 "
+        "AND stocks.%5 > 0)")
+        .arg(YerithDatabase::STOCKS,
+             YerithDatabaseTableColumn::NOM_DEPARTEMENT_PRODUIT,
+             YerithDatabaseTableColumn::CATEGORIE,
+             YerithDatabaseTableColumn::DESIGNATION,
+             YerithDatabaseTableColumn::QUANTITE_TOTALE);
 
     emit SIGNAL_INCREMENT_PROGRESS_BAR(12);
 
-    cur_select_stmt.clear();
+    _current_filtering_non_empty_stock_SQL_QUERY = filter_string;
 
-    QString a_cur_element_split;
-
-    uint cur_select_stmt_string_list_splitted__SIZE =
-                    cur_select_stmt_string_list_splitted.size();
-
-    for (uint k = 0; k < cur_select_stmt_string_list_splitted__SIZE; ++k)
-    {
-        a_cur_element_split =
-                        cur_select_stmt_string_list_splitted.at(k).trimmed();
-
-        if (0 == k)
-        {
-            QStringList select_splitted =
-                            a_cur_element_split.split(YerithUtils::EMPTY_SPACE_REGEXP);
-
-            cur_select_stmt.append(QString("SELECT %1.%2, ").arg
-                                   (YerithDatabase::MARCHANDISES,
-                                    select_splitted.at(1)));
-        }
-        else if (k < cur_select_stmt_string_list_splitted__SIZE - 1)
-        {
-            cur_select_stmt.append(QString("%1.%2, ").arg
-                                   (YerithDatabase::MARCHANDISES,
-                                    a_cur_element_split));
-        }
-        else if (k < cur_select_stmt_string_list_splitted__SIZE)
-        {
-            cur_select_stmt.append(QString("%1.%2 FROM ").arg
-                                   (YerithDatabase::MARCHANDISES,
-                                    a_cur_element_split));
-        }
-    }
-
-    emit SIGNAL_INCREMENT_PROGRESS_BAR(92);
-
-    cur_select_stmt.append(SELECT__FILTERING__NON_EMPTY_PRODUCT_STOCKS);
-
-    _current_filtering_non_empty_stock_SQL_QUERY = cur_select_stmt;
-
+    _curMarchandisesTableModel->yerithSetFilter_WITH_where_clause(filter_string);
 
     int resultRows =
-                    _curMarchandisesTableModel->yerithSetQueryRowCount(cur_select_stmt);
-
-
-//      QDEBUG_STRING_OUTPUT_2("_curMarchandisesTableModel", _curMarchandisesTableModel->query().lastQuery());
-
+                    _curMarchandisesTableModel->easySelect("src/windows/stocks/yerith-erp-marchandises-window.cpp", 700);
 
     if (resultRows >= 0)
     {
         textChangedSearchLineEditsQCompleters();
 
         YERITH_set_windowName_TRANSLATED(YerithMainWindow::get_TRANSLATED_WindowName("les marchandises NON TERMINÉES"),
-        								 _curMarchandisesTableModel);
+                                         _curMarchandisesTableModel);
 
         MACRO_TO_DISABLE_PAGE_FIRST_NEXT_PREVIOUS_LAST_PUSH_BUTTONS;
 
         setCurrentlyFiltered(true);
 
-        emit SIGNAL_INCREMENT_PROGRESS_BAR(100);
+        emit SIGNAL_INCREMENT_PROGRESS_BAR(78);
+
+        lister_les_elements_du_tableau(*_curMarchandisesTableModel);
+
+        emit SIGNAL_INCREMENT_PROGRESS_BAR(98);
 
         QThread::sleep(0.7);
 
@@ -760,13 +713,9 @@ bool YerithMarchandisesWindow::slot_filtrer_non_empty_product_stock()
     else
     {
         YERITH_set_windowName_TRANSLATED(YerithMainWindow::get_TRANSLATED_WindowName("les marchandises"),
-        								 _curMarchandisesTableModel);
+                                         _curMarchandisesTableModel);
 
-        emit SIGNAL_INCREMENT_PROGRESS_BAR(100);
-
-        QThread::sleep(0.7);
-
-        YERITH_QMESSAGE_BOX_AUCUN_RESULTAT_FILTRE(this, "non terminées");
+        emit SIGNAL_INCREMENT_PROGRESS_BAR(98);
     }
 
     return false;
@@ -779,92 +728,23 @@ bool YerithMarchandisesWindow::slot_filter_empty_product_stock()
 
     QThread::sleep(1);
 
-    //This is clear from the way our project is organized
-    QStandardItemModel *stdItemModel =
-                    (QStandardItemModel *) tableView_marchandises->model();
-
-    if (0 == stdItemModel)
-    {
-        YERITH_QMESSAGE_BOX_AUCUN_RESULTAT_FILTRE(this,
-                                                  "marchandises - filtrer");
-
-        return false;
-    }
-
     emit SIGNAL_INCREMENT_PROGRESS_BAR(12);
 
     _curMarchandisesTableModel->resetFilter("src/windows/stocks/yerith-erp-marchandises-window.cpp");
 
     afficherMarchandises();
 
-    QString filter_string;
-
-    QStringList filter_string_list;
-
-    QStringList splittedData;
-
-    QString data;
-
-    QString nom_departement_str;
-    QString categorie_str;
-    QString designation_str;
-
-
-//      QDEBUG_STRING_OUTPUT_2("stdItemModel->rowCount()", QString::number(stdItemModel->rowCount()));
-
-    QStandardItem *anItem = 0;
-
-    for (int k = 0; k < stdItemModel->rowCount(); ++k)
-    {
-        anItem = stdItemModel->item(k, 0);
-
-        if (0 != anItem)
-        {
-            if (YerithUtils::YERITH_WHITE_COLOR_FOR_EMPTY_MERCHANDISE_FILTERING
-                    == anItem->foreground().color())
-            {
-                data = anItem->accessibleText();
-
-//                              QDEBUG_STRING_OUTPUT_2("data", data);
-
-                splittedData = data.split("|");
-
-                if (splittedData.size() > 1)
-                {
-                    nom_departement_str = splittedData.at(0);
-                    categorie_str = splittedData.at(1);
-                    designation_str = splittedData.at(2);
-
-                    filter_string_list.append(QString
-                                              ("(nom_departement_produit = '%1' AND categorie = '%2' AND designation = '%3')").
-                                              arg(nom_departement_str,
-                                                  categorie_str,
-                                                  designation_str));
-
-                    if (k + 1 < stdItemModel->rowCount())
-                    {
-                        filter_string_list.append(" OR ");
-                    }
-                }
-            }
-        }
-    }
-
-
-    if (filter_string_list.isEmpty())
-    {
-        YERITH_QMESSAGE_BOX_AUCUN_RESULTAT_FILTRE(this, "terminées");
-
-        return false;
-    }
-
-    if (YerithUtils::isEqualCaseInsensitive
-            (filter_string_list.last(), " OR "))
-    {
-        filter_string_list.removeLast();
-    }
-
-    filter_string = filter_string_list.join(" ");
+    QString filter_string = QString(
+        "NOT EXISTS (SELECT 1 FROM %1 AS stocks "
+        "WHERE stocks.%2 = marchandises.%2 "
+        "AND stocks.%3 = marchandises.%3 "
+        "AND stocks.%4 = marchandises.%4 "
+        "AND stocks.%5 > 0)")
+        .arg(YerithDatabase::STOCKS,
+             YerithDatabaseTableColumn::NOM_DEPARTEMENT_PRODUIT,
+             YerithDatabaseTableColumn::CATEGORIE,
+             YerithDatabaseTableColumn::DESIGNATION,
+             YerithDatabaseTableColumn::QUANTITE_TOTALE);
 
     emit SIGNAL_INCREMENT_PROGRESS_BAR(93);
 
@@ -885,7 +765,7 @@ bool YerithMarchandisesWindow::slot_filter_empty_product_stock()
     {
         setCurrentlyFiltered(true);
 
-        emit SIGNAL_INCREMENT_PROGRESS_BAR(95);
+        emit SIGNAL_INCREMENT_PROGRESS_BAR(78);
 
         lister_les_elements_du_tableau(*_curMarchandisesTableModel);
 
@@ -1789,35 +1669,46 @@ void YerithMarchandisesWindow::lister_les_elements_du_tableau(YerithSqlTableMode
                                                               &
                                                               aYerithSqlTableModel)
 {
+    QString effectiveFilter = aYerithSqlTableModel.filter().trimmed();
+
+    if (effectiveFilter.isEmpty())
+    {
+        effectiveFilter = _searchFilter.trimmed();
+    }
+    else if (!_searchFilter.isEmpty())
+    {
+        effectiveFilter = QString("(%1) AND (%2)").arg(effectiveFilter,
+                                                       _searchFilter.trimmed());
+    }
+
     if (!checkBox_services->isChecked())
     {
-        if (!_searchFilter.isEmpty())
+        if (!effectiveFilter.isEmpty())
         {
-            _searchFilter.append(QString(" AND (%2 = '0')").arg
-                                 (YerithDatabaseTableColumn::IS_SERVICE));
+            effectiveFilter.append(QString(" AND (%1 = '0')").arg
+                                   (YerithDatabaseTableColumn::IS_SERVICE));
         }
         else
         {
-            _searchFilter.append(QString(" (%2 = '0')").arg
-                                 (YerithDatabaseTableColumn::IS_SERVICE));
+            effectiveFilter.append(QString("(%1 = '0')").arg
+                                   (YerithDatabaseTableColumn::IS_SERVICE));
         }
     }
     else
     {
-        if (!_searchFilter.isEmpty())
+        if (!effectiveFilter.isEmpty())
         {
-            _searchFilter.append(QString(" AND (%2 = '1')").arg
-                                 (YerithDatabaseTableColumn::IS_SERVICE));
+            effectiveFilter.append(QString(" AND (%1 = '1')").arg
+                                   (YerithDatabaseTableColumn::IS_SERVICE));
         }
         else
         {
-            _searchFilter.append(QString(" (%2 = '1')").arg
-                                 (YerithDatabaseTableColumn::IS_SERVICE));
+            effectiveFilter.append(QString("(%1 = '1')").arg
+                                   (YerithDatabaseTableColumn::IS_SERVICE));
         }
     }
 
-
-    aYerithSqlTableModel.setFilter(_searchFilter);
+    aYerithSqlTableModel.setFilter(effectiveFilter);
 
     tableView_marchandises->queryYerithTableViewCurrentPageContentRow
     (aYerithSqlTableModel);
