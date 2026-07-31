@@ -1762,18 +1762,6 @@ QString YerithMarchandisesWindow::get_latex_template_print_pdf_content()
     	_latex_template_print_pdf_content = YerithUtils::FR_template_marchandises_tex;
     }
 
-    if (!IS__CURRENTLY__CHECKING__NON__EMPTY__STOCKS())
-    {
-        _latex_template_print_pdf_content.replace
-        ("YERITHMARCHANDISESNONTERMINEES", YerithUtils::EMPTY_STRING);
-    }
-    else
-    {
-        _latex_template_print_pdf_content.replace
-        ("YERITHMARCHANDISESNONTERMINEES",
-         QObject::tr("NON TERMINÉES"));
-    }
-
     return _latex_template_print_pdf_content;
 }
 
@@ -1787,18 +1775,6 @@ bool YerithMarchandisesWindow::imprimer_pdf_document()
     else
     {
     	_latex_template_print_pdf_content = YerithUtils::FR_template_marchandises_tex;
-    }
-
-    if (!IS__CURRENTLY__CHECKING__NON__EMPTY__STOCKS())
-    {
-        _latex_template_print_pdf_content.replace
-        ("YERITHMARCHANDISESNONTERMINEES", YerithUtils::EMPTY_STRING);
-    }
-    else
-    {
-        _latex_template_print_pdf_content.replace
-        ("YERITHMARCHANDISESNONTERMINEES",
-         QObject::tr("NON TERMINÉES"));
     }
 
     return YerithWindowsCommons::imprimer_pdf_document();
