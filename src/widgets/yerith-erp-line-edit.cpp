@@ -32,8 +32,6 @@ YerithLineEdit::YerithLineEdit(QWidget *parent /* = 0 */)
     :QLineEdit(parent),
     _widget_Modified(false),
     _parent_windows(0),
-    _cleaned_Sanitized_DATA_by_now(false),
-    _already_yri_db_runtime_VERIF_sent(false),
     _LABEL_qpalette_Initialized(false),
     _show_ASSET(true),
     _firstTimeStyleSheetCheck(true),
@@ -52,12 +50,6 @@ YerithLineEdit::YerithLineEdit(QWidget *parent /* = 0 */)
                     QString("QInputDialog {background-color: rgb(%1); color: rgb(%2);}").arg
                     (COLOUR_RGB_STRING_YERITH_DARK_GREEN_47_67_67,
                      COLOUR_RGB_STRING_YERITH_WHITE_255_255_255);
-
-    connect(this,
-            SIGNAL(textChanged(const QString &)),
-            this,
-            SLOT(yri_db_runtime_verif_RESET_sent_in_VALUE_tainted(const QString &)));
-
 
     connect(this,
             SIGNAL(textChanged(const QString &)),
@@ -321,32 +313,6 @@ void YerithLineEdit::isInputValid()
 QString YerithLineEdit::text(int truncate_pos /* = -1 */)
 {
     QString a_truncated_string(QLineEdit::text().trimmed());
-
-
-    if (! is_cleaned_Sanitized_DATA_by_now() &&
-        ! _already_yri_db_runtime_VERIF_sent &&
-        0 != _parent_windows                 &&
-        ! a_truncated_string.isEmpty())
-    {
-        YerithERPWindows *all_windows = _parent_windows->getAllWindows();
-
-        //QString time_stamp = DBUS_CURRENT_TIME_WITH_MILLISECONDS;
-
-        QString event_to_send =
-                QString("%1*%2*%3")
-                    .arg(YerithUtils::___dbus___YERITH_TRUNCATE_STRING_ACCORDING_TO_SETTING(a_truncated_string),
-                         YerithUtils::___dbus___YERITH_TRUNCATE_STRING_ACCORDING_TO_SETTING(objectName()),
-                         YerithUtils::___dbus___YERITH_TRUNCATE_STRING_ACCORDING_TO_SETTING(_parent_windows->objectName()));
-
-
-        YERITH_RUNTIME_VERIFIER_instrumentation_INSERT (QString("%1#in").arg(event_to_send),
-                                                        "src/widgets/yerith-erp-line-edit.cpp",
-                                                         341,
-                                                         all_windows);
-
-        yri_db_runtime_verif_SET_sent_in_VALUE_tainted();
-    }
-
 
     if (truncate_pos < 0 || a_truncated_string.length() <= truncate_pos)
     {

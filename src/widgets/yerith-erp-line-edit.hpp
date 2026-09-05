@@ -176,12 +176,6 @@ public:
     }
 
 
-    virtual inline bool is_cleaned_Sanitized_DATA_by_now()
-    {
-        return _cleaned_Sanitized_DATA_by_now;
-    }
-
-
     virtual inline bool is_widget_modified()
     {
         return _widget_Modified;
@@ -210,27 +204,6 @@ protected:
 
 public slots:
 
-    virtual inline void yri_db_runtime_verif__cleaned_Sanitized_DATA_by_now()
-    {
-        _cleaned_Sanitized_DATA_by_now = true;
-    }
-
-    virtual inline void yri_db_runtime_verif_RESET__unclean_DATA_by_now()
-    {
-        _cleaned_Sanitized_DATA_by_now = false;
-    }
-
-
-    virtual inline void yri_db_runtime_verif_SET_sent_in_VALUE_tainted()
-    {
-        _already_yri_db_runtime_VERIF_sent = true;
-    }
-
-    virtual inline void yri_db_runtime_verif_RESET_sent_in_VALUE_tainted(const QString &new_text)
-    {
-        _already_yri_db_runtime_VERIF_sent = false;
-    }
-
 
     virtual inline void set_this_line_edit_Widget_Modified(const QString &new_text)
     {
@@ -251,10 +224,6 @@ protected:
 
 
 private:
-
-    bool _cleaned_Sanitized_DATA_by_now;
-
-    bool _already_yri_db_runtime_VERIF_sent;
 
     bool _LABEL_qpalette_Initialized;
 
