@@ -1549,8 +1549,12 @@ void YerithEntrerWindow::calculate_and_display_benefit_buying_price_percentage()
 
            // lineEdit_prix_vente->setText(QString::number(prix_vente, 'f', 2));
 
-            lineEdit_pourcentage_prix_dachat_prix_de_vente
-                ->setText(STRING_pourcentage_benefice_prix_dachat);
+            // We don't manipulate percentage benefit bacause VAT was added.
+            if (! _INSIDE___handleTVACheckBox)
+            {
+                lineEdit_pourcentage_prix_dachat_prix_de_vente
+                    ->setText(STRING_pourcentage_benefice_prix_dachat);
+            }
         }
         else
         {
@@ -1578,8 +1582,12 @@ void YerithEntrerWindow::calculate_and_display_benefit_buying_price_percentage()
             lineEdit_prix_vente->setText(QString::number(prix_vente, 'f', 2));
         }
 
-        lineEdit_pourcentage_prix_dachat_prix_de_vente
-            ->setText(STRING_pourcentage_benefice_prix_dachat);
+        // We don't manipulate percentage benefit bacause VAT was added.
+        if (! _INSIDE___handleTVACheckBox)
+        {
+            lineEdit_pourcentage_prix_dachat_prix_de_vente
+                ->setText(STRING_pourcentage_benefice_prix_dachat);
+        }
     }
 }
 
@@ -1663,8 +1671,12 @@ void YerithEntrerWindow::calculate_and_display_benefit_buying_price_percentage_E
                 STRING_pourcentage_benefice_prix_dachat_gros = "0.00";
             }
 
-            lineEdit_pourcentage_prix_dachat_prix_de_vente_en_gros
-                ->setText(STRING_pourcentage_benefice_prix_dachat_gros);
+            // We don't manipulate percentage benefit bacause VAT was added.
+            if (! _INSIDE___handleTVACheckBox)
+            {
+                lineEdit_pourcentage_prix_dachat_prix_de_vente_en_gros
+                    ->setText(STRING_pourcentage_benefice_prix_dachat_gros);
+            }
         }
         else
         {
@@ -1698,8 +1710,12 @@ void YerithEntrerWindow::calculate_and_display_benefit_buying_price_percentage_E
                 ->setText(QString::number(prix_vente_en_gros, 'f', 2));
         }
 
-        lineEdit_pourcentage_prix_dachat_prix_de_vente_en_gros
-            ->setText(STRING_pourcentage_benefice_prix_dachat_gros);
+        // We don't manipulate percentage benefit bacause VAT was added.
+        if (! _INSIDE___handleTVACheckBox)
+        {
+            lineEdit_pourcentage_prix_dachat_prix_de_vente_en_gros
+                ->setText(STRING_pourcentage_benefice_prix_dachat_gros);
+        }
     }
 }
 
