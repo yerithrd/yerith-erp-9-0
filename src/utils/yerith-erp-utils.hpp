@@ -1820,8 +1820,11 @@ private:
 
 
 
-#define STOP_Performing_MODIFICATIONS_handler()                                        \
-    _Cancel_MODIFICATION_request_Object->Set_Currently_performing_modifications(false);
+#define STOP_Performing_MODIFICATIONS_handler()                                            \
+   if (0 != _Cancel_MODIFICATION_request_Object)                                           \
+   {                                                                                       \
+       _Cancel_MODIFICATION_request_Object->Set_Currently_performing_modifications(false); \
+   }
 
 
 
