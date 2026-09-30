@@ -2,7 +2,7 @@
  * yri-db-runtime-verif-qmap.hpp
  *
  * THIS is ring-buffer implemented as a QMAP.
- * THE original version comes for YRI-DB-RUNTIME-VERIF
+ * THE original version comes from YRI-DB-RUNTIME-VERIF
  * project.
  *
  *      Author: Pr. Prof. Dr.-Ing. Xavier Noundou
