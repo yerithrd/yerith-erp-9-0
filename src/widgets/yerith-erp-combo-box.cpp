@@ -145,7 +145,7 @@ void YerithComboBox::Set_widget_modified(bool widget_Modified)
 
     if (0 != _parent_windows)
     {
-        _parent_windows->set_yerith_WindowModified(true);
+        _parent_windows->set_yerith_WindowModified(widget_Modified);
     }
 }
 

@@ -848,6 +848,13 @@ void YerithEntrerWindow::reset_window_widgets_modification_Bit()
     lineEdit_prix_vente_en_gros->Set_widget_modified(false);
     comboBox_localisation_produit->Set_widget_modified(false);
 
+
+    radioButton_inserer_une_IMMOBILISATION->Set_widget_modified(false);
+    radioButton_inserer_un_stock->Set_widget_modified(false);
+    radioButton_INSERER_UNE_CHARGE_FINANCIERE->Set_widget_modified(false);
+    radioButton_service_vente_de_service_au_client->Set_widget_modified(false);
+
+
     comboBox_nom_departement_produit->Set_widget_modified(false);
     comboBox_categorie_produit->Set_widget_modified(false);
     comboBox_nom_entreprise_fournisseur->Set_widget_modified(false);
@@ -2197,6 +2204,8 @@ void YerithEntrerWindow::Handle___Departement_de_produits___Via___RADIOBUTTONS()
 
 void YerithEntrerWindow::handle_checkBox_INSERT_ASSET(bool checked)
 {
+    radioButton_inserer_une_IMMOBILISATION->Set_widget_modified(true);
+
     radioButton_inserer_une_IMMOBILISATION->setChecked(checked);
 
     if (radioButton_inserer_une_IMMOBILISATION->isChecked())
@@ -2281,6 +2290,8 @@ void YerithEntrerWindow::handle_checkBox_INSERT_ASSET(bool checked)
 
 void YerithEntrerWindow::handle_checkBox_INSERT_STOCK(bool checked)
 {
+    radioButton_inserer_un_stock->Set_widget_modified(true);
+
     radioButton_inserer_un_stock->setChecked(checked);
 
     if (radioButton_inserer_un_stock->isChecked())
@@ -2365,6 +2376,8 @@ void YerithEntrerWindow::handle_checkBox_INSERT_STOCK(bool checked)
 
 void YerithEntrerWindow::handle_checkBox_INSERER_UNE_CHARGE_FINANCIERE(bool checked)
 {
+    radioButton_INSERER_UNE_CHARGE_FINANCIERE->Set_widget_modified(true);
+
     radioButton_INSERER_UNE_CHARGE_FINANCIERE->setChecked(checked);
 
     radioButton_INSERER_UNE_CHARGE_FINANCIERE->setPalette(YerithUtils::YERITH_BLUE_PALETTE);
@@ -2461,6 +2474,8 @@ void YerithEntrerWindow::handle_checkBox_INSERER_UNE_CHARGE_FINANCIERE(bool chec
 
 void YerithEntrerWindow::handle_checkBox_service_vente(bool checked)
 {
+    radioButton_service_vente_de_service_au_client->Set_widget_modified(true);
+
     if (radioButton_service_vente_de_service_au_client->isChecked())
     {
     	comboBox_categorie_produit->clear();
