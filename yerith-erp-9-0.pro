@@ -21,6 +21,7 @@ DEFINES += ${YERITH_VERSION}
 
 #include(yerith-erp-9-0-qtvirtualkeyboard-deployment.pri)
 
+#CONFIG += console 
 CONFIG += precompile_header 
 CONFIG += qt 
 CONFIG += moc 
