@@ -888,6 +888,9 @@ public:
     }
 
 
+    bool CANCEL_RENDERING_request();
+
+
     inline void set_Previously_Requested___Window_Frame(YerithWindowsCommons *previously_Requested___Window_Frame)
     {
         _Previously_Requested___Window_Frame = previously_Requested___Window_Frame;
@@ -897,14 +900,29 @@ public:
     void Set_next_Requested___Window_Frame(YerithWindowsCommons *Next_Requested___Window_Frame);
 
 
+    static YerithWindowsCommons   *_Previously_Requested___Window_Frame;
+
+    static YerithWindowsCommons   *_next_Requested___Window_Frame;
+
+    static YerithWindowsCommons   *_CURRENTLY_Now_Requested___Window_Frame;
+
+
+    /*
+     * A value with a NULL (0) pointer means FALSE.
+     */
+    static YRIDBRUNTIMEVERIF_QMap  *_next_Requested___Window_Frame__TO__CANCEL_REQUEST;
+
+    static YRIDBRUNTIMEVERIF_QMap  *____index_TO_WindowFrame;
+
+
+    static uint _YERITH_object_UOID__Count;
+
 protected:
 
     virtual inline void reset_window_widgets_modification_Bit()
     {
     }
 
-
-    static bool CANCEL_RENDERING_request();
 
     bool ___a_Window_MODIED_bit_bool;
 
@@ -923,24 +941,7 @@ protected:
     bool _Succeeded___INSERTION_to_DB_Tables_Bit;
 
 
-    static uint _YERITH_object_UOID__Count;
-
     uint        _YERITH_object_UOID;
-
-
-    static YerithWindowsCommons   *_Previously_Requested___Window_Frame;
-
-    static YerithWindowsCommons   *_next_Requested___Window_Frame;
-
-    static YerithWindowsCommons   *_CURRENTLY_Now_Requested___Window_Frame;
-
-
-    /*
-     * A value with a NULL (0) pointer means FALSE.
-     */
-    static YRIDBRUNTIMEVERIF_QMap  *_next_Requested___Window_Frame__TO__CANCEL_REQUEST;
-
-    static YRIDBRUNTIMEVERIF_QMap  *____index_TO_WindowFrame;
 
 
     QSemaphore *_WRITE_READ_YERITH_SEMAPHORE_APPLY_USER_SETTING_FILE_PROPERTIES;

@@ -3091,6 +3091,24 @@ int YerithWindowsCommons::Get__Timer__RemainingTime()
 }
 
 
+bool YerithWindowsCommons::CANCEL_RENDERING_request()
+{
+    if (0 != YerithWindowsCommons::_next_Requested___Window_Frame)
+    {
+        if (0 != YerithWindowsCommons::_next_Requested___Window_Frame__TO__CANCEL_REQUEST)
+        {
+            uint next_Requested___Window_Frame_Get_YERITH_object_UOID = YerithWindowsCommons::_next_Requested___Window_Frame->Get_YERITH_object_UOID();
+
+            YerithWindowsCommons::_next_Requested___Window_Frame__TO__CANCEL_REQUEST->yri_insert_item(next_Requested___Window_Frame_Get_YERITH_object_UOID, 0);
+
+            return true;
+        }
+    }
+
+    return false;
+}
+
+
 void YerithWindowsCommons::Set_next_Requested___Window_Frame(YerithWindowsCommons *Next_Requested___Window_Frame)
 {
     _Previously_Requested___Window_Frame = this;
@@ -3099,16 +3117,6 @@ void YerithWindowsCommons::Set_next_Requested___Window_Frame(YerithWindowsCommon
 }
 
 
-
-bool YerithWindowsCommons::CANCEL_RENDERING_request()
-{
-    if (0 != YerithWindowsCommons::_next_Requested___Window_Frame)
-    {
-        YerithWindowsCommons::_next_Requested___Window_Frame__TO__CANCEL_REQUEST
-            ->yri_insert_item(YerithWindowsCommons::_next_Requested___Window_Frame->Get_YERITH_object_UOID(),
-                              0);
-    }
-}
 
 
 
