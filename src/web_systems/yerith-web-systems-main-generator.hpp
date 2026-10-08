@@ -69,8 +69,9 @@ public:
     virtual inline bool add_An___XmlWidgetElementsFOR_HTML_web_generation
                             (Yerith_ERP_Xml_Parser_Widget_Element *an_erp_xml_parser_Widget_Element)
     {
-        add_An___XmlWidgetElementsFOR_HTML_web_generation(_current_processed_UI_File___full_path,
-                                                          an_erp_xml_parser_Widget_Element);
+        return
+            add_An___XmlWidgetElementsFOR_HTML_web_generation(_current_processed_UI_File___full_path,
+                                                              an_erp_xml_parser_Widget_Element);
     }
 
 
@@ -135,7 +136,7 @@ private:
     Yerith_ERP_Xml_Parser___QLIST__Of___Widget_ElementS *get_All___XmlWidgetElementsFOR_HTML_web_generation
                                                                 (QString an_user_interface_file)
     {
-        _yri_file___TO___XmlWidgetElementsFOR_HTML_web_generation.value(an_user_interface_file);
+        return _yri_file___TO___XmlWidgetElementsFOR_HTML_web_generation.value(an_user_interface_file);
     }
 
 

@@ -49,14 +49,15 @@ public:
 
     virtual inline int addArticle(Yerith_ERP_Xml_Parser_Widget_Element &a_yerith_ERP_Xml_Parser_Widget_Element)
     {
-        addArticle(a_yerith_ERP_Xml_Parser_Widget_Element._a_widget_xml_tag_name,
-                   a_yerith_ERP_Xml_Parser_Widget_Element._a_widget_xml_class_name,
-                   a_yerith_ERP_Xml_Parser_Widget_Element._a_widget_xml_name,
-                   a_yerith_ERP_Xml_Parser_Widget_Element._a_widget_xml_tag_name_VALUE_str,
-                   a_yerith_ERP_Xml_Parser_Widget_Element.Get___geometry_X_axis_position(),
-                   a_yerith_ERP_Xml_Parser_Widget_Element.Get___geometry_Y_axis_position(),
-                   a_yerith_ERP_Xml_Parser_Widget_Element.Get___geometry_WIDTH(),
-                   a_yerith_ERP_Xml_Parser_Widget_Element.Get___geometry_HEIGHT());
+        return
+            addArticle(a_yerith_ERP_Xml_Parser_Widget_Element._a_widget_xml_tag_name,
+                       a_yerith_ERP_Xml_Parser_Widget_Element._a_widget_xml_class_name,
+                       a_yerith_ERP_Xml_Parser_Widget_Element._a_widget_xml_name,
+                       a_yerith_ERP_Xml_Parser_Widget_Element._a_widget_xml_tag_name_VALUE_str,
+                       a_yerith_ERP_Xml_Parser_Widget_Element.Get___geometry_X_axis_position(),
+                       a_yerith_ERP_Xml_Parser_Widget_Element.Get___geometry_Y_axis_position(),
+                       a_yerith_ERP_Xml_Parser_Widget_Element.Get___geometry_WIDTH(),
+                       a_yerith_ERP_Xml_Parser_Widget_Element.Get___geometry_HEIGHT());
     }
 
 
