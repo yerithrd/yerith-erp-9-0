@@ -102,7 +102,7 @@ QString Yerith_ERP_Xml_Parser_Widget_Element::generate_SPEC_HTML_DSL_code()
     if (YerithUtils::isEqualCaseInsensitive("YerithComboBox", _a_widget_xml_class_name) ||
         YerithUtils::isEqualCaseInsensitive("QComboBox", _a_widget_xml_class_name) )
     {
-        spec_html_dsl_PARAMETERS = QString("'%1', ''")
+        spec_html_dsl_PARAMETERS = QString("'%1'; ''")
                                     .arg(_a_widget_xml_name);
 
         spec_html_dsl_KEYWORD = "yri_html_page_Widget_combo_box";
@@ -110,7 +110,7 @@ QString Yerith_ERP_Xml_Parser_Widget_Element::generate_SPEC_HTML_DSL_code()
     else if (YerithUtils::isEqualCaseInsensitive("YerithERPQCheckBox", _a_widget_xml_class_name)    ||
             YerithUtils::isEqualCaseInsensitive("QCheckBox", _a_widget_xml_class_name))
     {
-        spec_html_dsl_PARAMETERS = QString("'%1', '%2'")
+        spec_html_dsl_PARAMETERS = QString("'%1'; '%2'")
                                     .arg(_a_widget_xml_name,
                                          _a_widget_xml_tag_name_VALUE_str);
 
@@ -119,7 +119,7 @@ QString Yerith_ERP_Xml_Parser_Widget_Element::generate_SPEC_HTML_DSL_code()
     else if (YerithUtils::isEqualCaseInsensitive("YerithLineEdit", _a_widget_xml_class_name) ||
              YerithUtils::isEqualCaseInsensitive("QLineEdit", _a_widget_xml_class_name))
     {
-        spec_html_dsl_PARAMETERS = QString("'%1', ''")
+        spec_html_dsl_PARAMETERS = QString("'%1'; ''")
                                     .arg(_a_widget_xml_name);
 
         spec_html_dsl_KEYWORD = "yri_html_page_Widget_input_text";
