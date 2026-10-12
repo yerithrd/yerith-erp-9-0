@@ -96,7 +96,38 @@ Yerith_ERP_Xml_Parser___Main_Parser::handle_XML_TAG_Element(QString     tag_name
         }
 
 
-        if (is_geometry_property_Name)
+        if (YerithUtils::isEqualCaseInsensitive(A_property_name,
+                                                YERITH_WEB_SYSTEMS_MAIN_GENERATOR::PARSER_string_text_keyword))
+        {
+            current_token_TEXT = _yri_An_xml_stream_Reader->text().toString().trimmed();
+
+            next_token___WIDGET_Property_class->_a_widget_xml_name = next_property_NAME;
+
+            if (! A_property_Class.isEmpty())
+            {
+                a_tmp_str = Get_LAST_RETURNED_WIDGET_ELEMENT___a_widget_xml_class_name
+                                    (yri_current_Widget_START_element_attributes,
+                                     A_property_Class);
+            }
+            else
+            {
+                a_tmp_str = _yri_web_systems_main_generator_POINTER
+                                ->Get_LAST_RETURNED_WIDGET_ELEMENT___a_widget_xml_name();
+            }
+
+//            QDEBUG_STRING_OUTPUT_1(QString("A_property_name: (%1) | %2")
+//                                     .arg(A_property_name,
+//                                          BOOL_TO_STRING(is_geometry_property_Name)));
+
+            next_token___WIDGET_Property_class->_a_widget_xml_name = a_tmp_str;
+
+            next_token___WIDGET_Property_class->_a_widget_xml_tag_name_VALUE_str = current_token_TEXT;
+
+//            QDEBUG_STRING_OUTPUT_2("a_tmp_str", a_tmp_str);
+//
+//            QDEBUG_STRING_OUTPUT_2("current_token_TEXT", current_token_TEXT);
+        }
+        else if (is_geometry_property_Name)
         {
             current_token_TEXT = _yri_An_xml_stream_Reader->text().toString().trimmed();
 

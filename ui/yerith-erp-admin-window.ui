@@ -41241,9 +41241,9 @@
        <widget class="YerithLineEdit" name="lineEdit_fichier_ui_web_design_tool_a_importer">
         <property name="geometry">
          <rect>
-          <x>208</x>
+          <x>224</x>
           <y>5</y>
-          <width>354</width>
+          <width>338</width>
           <height>18</height>
          </rect>
         </property>
@@ -41729,7 +41729,7 @@
          <rect>
           <x>1</x>
           <y>4</y>
-          <width>203</width>
+          <width>220</width>
           <height>18</height>
          </rect>
         </property>
@@ -43584,9 +43584,9 @@
        <widget class="YerithLineEdit" name="lineEdit_fichier_ui_web_design_tool_Repertoire_dexportation_web_code_sources">
         <property name="geometry">
          <rect>
-          <x>208</x>
+          <x>224</x>
           <y>25</y>
-          <width>354</width>
+          <width>338</width>
           <height>18</height>
          </rect>
         </property>
@@ -46249,9 +46249,9 @@
        <widget class="YerithLineEdit" name="lineEdit_yerithwebdsl_COMPILER_full_path">
         <property name="geometry">
          <rect>
-          <x>208</x>
+          <x>224</x>
           <y>45</y>
-          <width>354</width>
+          <width>338</width>
           <height>18</height>
          </rect>
         </property>
@@ -47210,7 +47210,7 @@
          <rect>
           <x>1</x>
           <y>44</y>
-          <width>203</width>
+          <width>220</width>
           <height>18</height>
          </rect>
         </property>
@@ -47678,7 +47678,7 @@
          <rect>
           <x>1</x>
           <y>24</y>
-          <width>203</width>
+          <width>220</width>
           <height>18</height>
          </rect>
         </property>

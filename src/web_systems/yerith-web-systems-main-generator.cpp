@@ -357,6 +357,28 @@ int YERITH_WEB_SYSTEMS_MAIN_GENERATOR::
                                                     YerithUtils::EMPTY_STRING,
                                                     YERITH_WEB_SYSTEMS_MAIN_GENERATOR::PARSER_geometry_keyword);
                 }
+                else if (YerithUtils::isEqualCaseInsensitive(YERITH_WEB_SYSTEMS_MAIN_GENERATOR::PARSER_string_text_keyword, next_token_NAME))
+                {
+//                    QDEBUG_STRING_OUTPUT_2("PARSER_string_text_keyword", _last_returned_Widget_Element->_a_widget_xml_tag_name);//widget
+                    if (0 != _last_returned_Widget_Element &&
+                        YerithUtils::isEqualCaseInsensitive(YERITH_WEB_SYSTEMS_MAIN_GENERATOR::PARSER_property_keyword,
+                                                            _last_returned_Widget_SUB_Element->_a_widget_xml_tag_name))
+                    {
+//                        QDEBUG_STRING_OUTPUT_2("2.) PARSER_string_text_keyword", _last_returned_Widget_SUB_Element->_a_widget_xml_tag_name);//property
+                        _last_returned_Widget_SUB_Element =
+                            handle_Widget_XML_TAG_Element_parser_Instance
+                                .handle_XML_TAG_Element(next_token_NAME,
+                                                        YERITH_WEB_SYSTEMS_MAIN_GENERATOR::PARSER_string_text_keyword);
+
+                        if (0 != _last_returned_Widget_SUB_Element)
+                        {
+                            _last_returned_Widget_Element->_a_widget_xml_tag_name_VALUE_str =
+                                _last_returned_Widget_SUB_Element->_a_widget_xml_tag_name_VALUE_str;
+
+                            setCurrentStart_Element(_last_returned_Widget_SUB_Element);
+                        }
+                    }
+                }
                 else if (YerithUtils::isEqualCaseInsensitive(YERITH_WEB_SYSTEMS_MAIN_GENERATOR::PARSER_X_geometry_keyword, next_token_NAME))
                 {
                     if (0 != _last_returned_Widget_Element &&
@@ -461,10 +483,12 @@ int YERITH_WEB_SYSTEMS_MAIN_GENERATOR::
             }
             else
             {
-                _last_returned_Widget_Element
-                    ->print_With_Developer_string_added
-                        (QString("handle_XML_TAG_Element - det. : %1")
-                            .arg(next_token_NAME));
+//                _last_returned_Widget_Element
+//                    ->print_With_Developer_string_added
+//                        (QString("handle_XML_TAG_Element - det. : %1")
+//                            .arg(next_token_NAME));
+
+                qDebug() << "SPEC HTML DSL: " << _last_returned_Widget_Element->generate_SPEC_HTML_DSL_code();
             }
         }
     }

@@ -12,6 +12,8 @@
 
 static const QString PARSER_widget_keyword;
 
+static const QString PARSER_text_keyword;
+
 static const QString PARSER_name_keyword;
 
 static const QString PARSER_class_keyword;
@@ -19,6 +21,9 @@ static const QString PARSER_class_keyword;
 static const QString PARSER_property_keyword;
 
 static const QString PARSER_geometry_keyword;
+
+
+static const QString PARSER_string_text_keyword;
 
 
 static const QString PARSER_X_geometry_keyword;

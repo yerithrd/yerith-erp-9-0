@@ -57,6 +57,7 @@ public:
 
     virtual QString toString();
 
+    virtual QString generate_SPEC_HTML_DSL_code();
 
     virtual inline void print_With_Developer_string__No_Geometry_added(QString a_developer_string_added)
     {

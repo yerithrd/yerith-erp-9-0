@@ -74,3 +74,77 @@ QString Yerith_ERP_Xml_Parser_Widget_Element::toString()
                         Get___geometry_HEIGHT());
     }
 }
+
+
+QString Yerith_ERP_Xml_Parser_Widget_Element::generate_SPEC_HTML_DSL_code()
+{
+    QString spec_html_dsl_code;
+
+    if (_a_widget_xml_tag_name.isEmpty())
+    {
+        return "";
+    }
+
+
+    QString spec_html_dsl_KEYWORD;
+    QString spec_html_dsl_PARAMETERS;
+
+
+
+    if (YerithUtils::isEqualCaseInsensitive("YerithPushButton", _a_widget_xml_class_name) ||
+        YerithUtils::isEqualCaseInsensitive("QPushButton", _a_widget_xml_class_name) )
+    {
+        spec_html_dsl_PARAMETERS = QString("'%1'")
+                                    .arg(_a_widget_xml_tag_name_VALUE_str);
+
+        spec_html_dsl_KEYWORD = "yri_html_page_Widget_button";
+    }
+    if (YerithUtils::isEqualCaseInsensitive("YerithComboBox", _a_widget_xml_class_name) ||
+        YerithUtils::isEqualCaseInsensitive("QComboBox", _a_widget_xml_class_name) )
+    {
+        spec_html_dsl_PARAMETERS = QString("'%1', ''")
+                                    .arg(_a_widget_xml_name);
+
+        spec_html_dsl_KEYWORD = "yri_html_page_Widget_combo_box";
+    }
+    else if (YerithUtils::isEqualCaseInsensitive("YerithERPQCheckBox", _a_widget_xml_class_name)    ||
+            YerithUtils::isEqualCaseInsensitive("QCheckBox", _a_widget_xml_class_name))
+    {
+        spec_html_dsl_PARAMETERS = QString("'%1', '%2'")
+                                    .arg(_a_widget_xml_name,
+                                         _a_widget_xml_tag_name_VALUE_str);
+
+        spec_html_dsl_KEYWORD = "yri_html_page_Widget_check_box";
+    }
+    else if (YerithUtils::isEqualCaseInsensitive("YerithLineEdit", _a_widget_xml_class_name) ||
+             YerithUtils::isEqualCaseInsensitive("QLineEdit", _a_widget_xml_class_name))
+    {
+        spec_html_dsl_PARAMETERS = QString("'%1', ''")
+                                    .arg(_a_widget_xml_name);
+
+        spec_html_dsl_KEYWORD = "yri_html_page_Widget_input_text";
+    }
+    else if (YerithUtils::isEqualCaseInsensitive("QLabel", _a_widget_xml_class_name))
+    {
+        spec_html_dsl_PARAMETERS = QString("'%1'")
+                                    .arg(_a_widget_xml_tag_name_VALUE_str);
+
+        spec_html_dsl_KEYWORD = "yri_html_page_Widget_label_text";
+    }
+
+
+    QString type_And_ATTRIBUTES = QString("%1 (%2)   ")
+                                    .arg(spec_html_dsl_KEYWORD,
+                                         spec_html_dsl_PARAMETERS);
+
+    QString geometry = QString("{ '%1'; '%2'; '%3'; '%4' };")
+                        .arg(Get___geometry_X_axis_position(),
+                             Get___geometry_Y_axis_position(),
+                             Get___geometry_WIDTH(),
+                             Get___geometry_HEIGHT());
+
+    spec_html_dsl_code = type_And_ATTRIBUTES + geometry;
+
+
+    return spec_html_dsl_code;
+}

@@ -9,6 +9,9 @@
 const QString YERITH_WEB_SYSTEMS_MAIN_GENERATOR::PARSER_widget_keyword = "widget";
 
 
+const QString YERITH_WEB_SYSTEMS_MAIN_GENERATOR::PARSER_text_keyword = "text";
+
+
 const QString YERITH_WEB_SYSTEMS_MAIN_GENERATOR::PARSER_name_keyword = "name";
 
 
@@ -20,6 +23,9 @@ const QString YERITH_WEB_SYSTEMS_MAIN_GENERATOR::PARSER_property_keyword = "prop
 
 const QString YERITH_WEB_SYSTEMS_MAIN_GENERATOR::PARSER_geometry_keyword = "geometry";
 
+
+
+const QString YERITH_WEB_SYSTEMS_MAIN_GENERATOR::PARSER_string_text_keyword = "string";
 
 
 const QString YERITH_WEB_SYSTEMS_MAIN_GENERATOR::PARSER_X_geometry_keyword = "x";
