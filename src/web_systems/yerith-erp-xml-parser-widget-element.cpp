@@ -14,7 +14,8 @@
 
 bool Yerith_ERP_Xml_Parser_Widget_Element::is_Single_XML_TAG_Content_Value_STRING()
 {
-    if (YerithUtils::isEqualCaseInsensitive(_a_widget_xml_tag_name_VALUE_str, YERITH_WEB_SYSTEMS_MAIN_GENERATOR::PARSER_X_geometry_keyword)     ||
+    if (YerithUtils::isEqualCaseInsensitive(_a_widget_xml_tag_name_VALUE_str, YERITH_WEB_SYSTEMS_MAIN_GENERATOR::PARSER_string_text_keyword)    ||
+        YerithUtils::isEqualCaseInsensitive(_a_widget_xml_tag_name_VALUE_str, YERITH_WEB_SYSTEMS_MAIN_GENERATOR::PARSER_X_geometry_keyword)     ||
         YerithUtils::isEqualCaseInsensitive(_a_widget_xml_tag_name_VALUE_str, YERITH_WEB_SYSTEMS_MAIN_GENERATOR::PARSER_Y_geometry_keyword)     ||
         YerithUtils::isEqualCaseInsensitive(_a_widget_xml_tag_name_VALUE_str, YERITH_WEB_SYSTEMS_MAIN_GENERATOR::PARSER_WIDTH_geometry_keyword) ||
         YerithUtils::isEqualCaseInsensitive(_a_widget_xml_tag_name_VALUE_str, YERITH_WEB_SYSTEMS_MAIN_GENERATOR::PARSER_HEIGHT_geometry_keyword))
@@ -91,7 +92,15 @@ QString Yerith_ERP_Xml_Parser_Widget_Element::generate_SPEC_HTML_DSL_code()
 
 
 
-    if (YerithUtils::isEqualCaseInsensitive("YerithPushButton", _a_widget_xml_class_name) ||
+    if (YerithUtils::isEqualCaseInsensitive("YerithDateTimeEdit", _a_widget_xml_class_name) ||
+        YerithUtils::isEqualCaseInsensitive("QDateTimeEdit", _a_widget_xml_class_name) )
+    {
+        spec_html_dsl_PARAMETERS = QString("'%1'; ''")
+                                    .arg(_a_widget_xml_name);
+
+        spec_html_dsl_KEYWORD = "yri_html_page_Widget_date_time_edit";
+    }
+    else if (YerithUtils::isEqualCaseInsensitive("YerithPushButton", _a_widget_xml_class_name) ||
         YerithUtils::isEqualCaseInsensitive("QPushButton", _a_widget_xml_class_name) )
     {
         spec_html_dsl_PARAMETERS = QString("'%1'")
@@ -99,7 +108,7 @@ QString Yerith_ERP_Xml_Parser_Widget_Element::generate_SPEC_HTML_DSL_code()
 
         spec_html_dsl_KEYWORD = "yri_html_page_Widget_button";
     }
-    if (YerithUtils::isEqualCaseInsensitive("YerithComboBox", _a_widget_xml_class_name) ||
+    else if (YerithUtils::isEqualCaseInsensitive("YerithComboBox", _a_widget_xml_class_name) ||
         YerithUtils::isEqualCaseInsensitive("QComboBox", _a_widget_xml_class_name) )
     {
         spec_html_dsl_PARAMETERS = QString("'%1'; ''")
