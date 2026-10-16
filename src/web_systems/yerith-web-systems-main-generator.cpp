@@ -284,6 +284,29 @@ int YERITH_WEB_SYSTEMS_MAIN_GENERATOR::
     }
 
 
+    bool spec_html_dsl_CODE_FILE_writable = false;
+
+    QString cur__SPEC_HTML_DSL_code_STRING;
+
+    QString current_processed___full_path__spec_html_dsl =
+            QString("%1.spec_html_dsl")
+                .arg(_current_processed_UI_File___full_path);
+
+    QFile current_processed_UI_File___full_path__spec_html_dsl(current_processed___full_path__spec_html_dsl);
+
+    if (!current_processed_UI_File___full_path__spec_html_dsl.open(QFile::WriteOnly))
+	{
+        spec_html_dsl_CODE_FILE_writable = false;
+
+		QDEBUG_STRING_OUTPUT_2("Couldn't create file",
+                               current_processed___full_path__spec_html_dsl);
+	}
+	else
+	{
+        spec_html_dsl_CODE_FILE_writable = true;
+	}
+
+
     _yri_An_xml_stream_Reader = new QXmlStreamReader;
 
 
@@ -471,6 +494,23 @@ int YERITH_WEB_SYSTEMS_MAIN_GENERATOR::
         if (true == last_sub_element_Visited                                            &&
             0 != _last_returned_Widget_SUB_Element                                      &&
             0 != _last_returned_Widget_Element                                          &&
+            YerithUtils::isEqualCaseInsensitive(PARSER_widget_keyword, next_token_NAME))
+        {
+            if (spec_html_dsl_CODE_FILE_writable)
+            {
+                cur__SPEC_HTML_DSL_code_STRING = _last_returned_Widget_Element->generate_SPEC_HTML_DSL_code();
+
+                cur__SPEC_HTML_DSL_code_STRING = cur__SPEC_HTML_DSL_code_STRING + "\n";
+
+                current_processed_UI_File___full_path__spec_html_dsl
+                    .write(cur__SPEC_HTML_DSL_code_STRING.toUtf8());
+            }
+        }
+
+
+        if (true == last_sub_element_Visited                                            &&
+            0 != _last_returned_Widget_SUB_Element                                      &&
+            0 != _last_returned_Widget_Element                                          &&
             YerithUtils::isEqualCaseInsensitive(PARSER_widget_keyword, next_token_NAME) &&
             YerithERPConfig::Show_yri_web_system_Ouput_also_in_Console)
         {
@@ -488,7 +528,7 @@ int YERITH_WEB_SYSTEMS_MAIN_GENERATOR::
 //                        (QString("handle_XML_TAG_Element - det. : %1")
 //                            .arg(next_token_NAME));
 
-                qDebug() << "SPEC HTML DSL: " << _last_returned_Widget_Element->generate_SPEC_HTML_DSL_code();
+                qDebug() << "SPEC HTML DSL: " << cur__SPEC_HTML_DSL_code_STRING;
             }
         }
     }
@@ -513,6 +553,10 @@ int YERITH_WEB_SYSTEMS_MAIN_GENERATOR::
                                 _yri_An_xml_stream_Reader->errorString());
     }
 
+    if (spec_html_dsl_CODE_FILE_writable)
+    {
+        current_processed_UI_File___full_path__spec_html_dsl.close();
+    }
 
     emit _all_windows->_adminWindow->SIGNAL_INCREMENT_PROGRESS_BAR(88);
 

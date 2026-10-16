@@ -110,9 +110,11 @@ public slots:
     {
         return
             YerithUtils::isEqualCaseInsensitive(a_PARSER_processing_KeyWord, PARSER_widget_keyword)         ||
+            YerithUtils::isEqualCaseInsensitive(a_PARSER_processing_KeyWord, PARSER_text_keyword)           ||
             YerithUtils::isEqualCaseInsensitive(a_PARSER_processing_KeyWord, PARSER_name_keyword)           ||
             YerithUtils::isEqualCaseInsensitive(a_PARSER_processing_KeyWord, PARSER_class_keyword)          ||
             YerithUtils::isEqualCaseInsensitive(a_PARSER_processing_KeyWord, PARSER_geometry_keyword)       ||
+            YerithUtils::isEqualCaseInsensitive(a_PARSER_processing_KeyWord, PARSER_string_text_keyword)    ||
             YerithUtils::isEqualCaseInsensitive(a_PARSER_processing_KeyWord, PARSER_X_geometry_keyword)     ||
             YerithUtils::isEqualCaseInsensitive(a_PARSER_processing_KeyWord, PARSER_Y_geometry_keyword)     ||
             YerithUtils::isEqualCaseInsensitive(a_PARSER_processing_KeyWord, PARSER_WIDTH_geometry_keyword) ||
