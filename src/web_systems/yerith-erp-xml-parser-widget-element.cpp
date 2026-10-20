@@ -92,7 +92,41 @@ QString Yerith_ERP_Xml_Parser_Widget_Element::generate_SPEC_HTML_DSL_code()
 
 
 
-    if (YerithUtils::isEqualCaseInsensitive("YerithDateTimeEdit", _a_widget_xml_class_name) ||
+    if (YerithUtils::isEqualCaseInsensitive("YerithERPSiteTableView", _a_widget_xml_class_name) ||
+        YerithUtils::isEqualCaseInsensitive("YerithERPProductDepartmentTableView", _a_widget_xml_class_name) ||
+        YerithUtils::isEqualCaseInsensitive("YerithERPUserTableView", _a_widget_xml_class_name) ||
+        YerithUtils::isEqualCaseInsensitive("YerithERPBankAccountTableView", _a_widget_xml_class_name) ||
+        YerithUtils::isEqualCaseInsensitive("YerithERPCategoryTableView", _a_widget_xml_class_name) ||
+        YerithUtils::isEqualCaseInsensitive("YerithERPFinancialExpenseTableView", _a_widget_xml_class_name) ||
+        YerithUtils::isEqualCaseInsensitive("YerithERPAlertTableView", _a_widget_xml_class_name) ||
+        YerithUtils::isEqualCaseInsensitive("YerithERPAlertesTableView", _a_widget_xml_class_name) ||
+        YerithUtils::isEqualCaseInsensitive("YerithERPComptes_doperations_comptabilites_TableView", _a_widget_xml_class_name) ||
+        YerithUtils::isEqualCaseInsensitive("YerithERPAchatsTableView", _a_widget_xml_class_name) ||
+        YerithUtils::isEqualCaseInsensitive("YerithERPClientsTableView", _a_widget_xml_class_name) ||
+        YerithUtils::isEqualCaseInsensitive("YerithERPProgrammesDeFideliteClientsTableView", _a_widget_xml_class_name) ||
+        YerithUtils::isEqualCaseInsensitive("YerithERPGroupesDePaieHRTableView", _a_widget_xml_class_name) ||
+        YerithUtils::isEqualCaseInsensitive("YerithERPFournisseursTableView", _a_widget_xml_class_name) ||
+        YerithUtils::isEqualCaseInsensitive("YerithERPGroupesDeClientsTableView", _a_widget_xml_class_name) ||
+        YerithUtils::isEqualCaseInsensitive("YerithERP_CHARGES_FINANCIERES_TableView", _a_widget_xml_class_name) ||
+        YerithUtils::isEqualCaseInsensitive("YerithERPVentesTableView", _a_widget_xml_class_name) ||
+        YerithUtils::isEqualCaseInsensitive("YerithERPPaiementsTableView", _a_widget_xml_class_name) ||
+        YerithUtils::isEqualCaseInsensitive("YerithERPStocksTableView", _a_widget_xml_class_name) ||
+        YerithUtils::isEqualCaseInsensitive("YerithERPMarchandisesTableView", _a_widget_xml_class_name) )
+    {
+        spec_html_dsl_PARAMETERS = QString("'%1'; ''")
+                                    .arg(_a_widget_xml_name);
+
+        spec_html_dsl_KEYWORD = "yri_html_page_Widget_table_view";
+    }
+    else if (YerithUtils::isEqualCaseInsensitive("YerithTableView", _a_widget_xml_class_name) ||
+             YerithUtils::isEqualCaseInsensitive("QTableView", _a_widget_xml_class_name) )
+    {
+        spec_html_dsl_PARAMETERS = QString("'%1'; ''")
+                                    .arg(_a_widget_xml_name);
+
+        spec_html_dsl_KEYWORD = "yri_html_page_Widget_table_view";
+    }
+    else if (YerithUtils::isEqualCaseInsensitive("YerithDateTimeEdit", _a_widget_xml_class_name) ||
         YerithUtils::isEqualCaseInsensitive("QDateTimeEdit", _a_widget_xml_class_name) )
     {
         spec_html_dsl_PARAMETERS = QString("'%1'; ''")

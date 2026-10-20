@@ -286,6 +286,8 @@ int YERITH_WEB_SYSTEMS_MAIN_GENERATOR::
 
     bool spec_html_dsl_CODE_FILE_writable = false;
 
+    QString cur__SPEC_HTML_DSL_code;
+
     QString cur__SPEC_HTML_DSL_code_STRING;
 
     QString current_processed___full_path__spec_html_dsl =
@@ -498,12 +500,14 @@ int YERITH_WEB_SYSTEMS_MAIN_GENERATOR::
         {
             if (spec_html_dsl_CODE_FILE_writable)
             {
-                cur__SPEC_HTML_DSL_code_STRING = _last_returned_Widget_Element->generate_SPEC_HTML_DSL_code();
+                cur__SPEC_HTML_DSL_code = _last_returned_Widget_Element->generate_SPEC_HTML_DSL_code();
 
-                cur__SPEC_HTML_DSL_code_STRING = cur__SPEC_HTML_DSL_code_STRING + "\n";
+                cur__SPEC_HTML_DSL_code_STRING = cur__SPEC_HTML_DSL_code_STRING +
+                                                 cur__SPEC_HTML_DSL_code +
+                                                 "\n";
 
-                current_processed_UI_File___full_path__spec_html_dsl
-                    .write(cur__SPEC_HTML_DSL_code_STRING.toUtf8());
+//                current_processed_UI_File___full_path__spec_html_dsl
+//                    .write(cur__SPEC_HTML_DSL_code_STRING.toUtf8());
             }
         }
 
@@ -528,9 +532,16 @@ int YERITH_WEB_SYSTEMS_MAIN_GENERATOR::
 //                        (QString("handle_XML_TAG_Element - det. : %1")
 //                            .arg(next_token_NAME));
 
-                qDebug() << "SPEC HTML DSL: " << cur__SPEC_HTML_DSL_code_STRING;
+                qDebug() << "SPEC HTML DSL: " << cur__SPEC_HTML_DSL_code;
             }
         }
+    }
+
+
+    if (spec_html_dsl_CODE_FILE_writable)
+    {
+        current_processed_UI_File___full_path__spec_html_dsl
+                .write(cur__SPEC_HTML_DSL_code_STRING.toUtf8());
     }
 
 

@@ -37,7 +37,7 @@ MOVE          = mv -f
 TAR           = tar -cf
 COMPRESS      = gzip -9f
 DISTNAME      = yerith-erp-9-01.0.0
-DISTDIR = /home/yerith-erp-pgi/yerith-erp-9-0/obj/yerith-erp-9-01.0.0
+DISTDIR = /home/jhnissi/yerith-erp-9-0/obj/yerith-erp-9-01.0.0
 LINK          = g++
 LFLAGS        = -Wl,-O1
 LIBS          = $(SUBLIBS) /usr/lib/x86_64-linux-gnu/libQt5Widgets.so /usr/lib/x86_64-linux-gnu/libQt5Quick.so /usr/lib/x86_64-linux-gnu/libQt5Gui.so /usr/lib/x86_64-linux-gnu/libQt5Xml.so /usr/lib/x86_64-linux-gnu/libQt5Sql.so /usr/lib/x86_64-linux-gnu/libQt5QmlModels.so /usr/lib/x86_64-linux-gnu/libQt5Qml.so /usr/lib/x86_64-linux-gnu/libQt5Network.so /usr/lib/x86_64-linux-gnu/libQt5DBus.so /usr/lib/x86_64-linux-gnu/libQt5Core.so -lGL -lpthread   
@@ -1392,12 +1392,12 @@ compiler_moc_header_clean:
 moc/moc_YRIruntimeverification_adaptor.cpp: src/YRIruntimeverification_adaptor.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/YRIruntimeverification_adaptor.h -o moc/moc_YRIruntimeverification_adaptor.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/YRIruntimeverification_adaptor.h -o moc/moc_YRIruntimeverification_adaptor.cpp
 
 moc/moc_IYRIruntimeverificationAdaptor_interface.cpp: src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/IYRIruntimeverificationAdaptor_interface.h -o moc/moc_IYRIruntimeverificationAdaptor_interface.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/IYRIruntimeverificationAdaptor_interface.h -o moc/moc_IYRIruntimeverificationAdaptor_interface.cpp
 
 moc/moc_yerith-erp-windows.cpp: src/yerith-erp-windows.hpp \
 		src/windows/yerith-erp-main-window.hpp \
@@ -1605,7 +1605,7 @@ moc/moc_yerith-erp-windows.cpp: src/yerith-erp-windows.hpp \
 		src/utils/yerith-erp-info-entreprise.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/yerith-erp-windows.hpp -o moc/moc_yerith-erp-windows.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/yerith-erp-windows.hpp -o moc/moc_yerith-erp-windows.cpp
 
 moc/moc_yerith-erp-Budget_Lines-import.cpp: src/imports/yerith-erp-Budget_Lines-import.hpp \
 		src/imports/yerith-erp-ALL-common-import.hpp \
@@ -1637,7 +1637,7 @@ moc/moc_yerith-erp-Budget_Lines-import.cpp: src/imports/yerith-erp-Budget_Lines-
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/imports/yerith-erp-Budget_Lines-import.hpp -o moc/moc_yerith-erp-Budget_Lines-import.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/imports/yerith-erp-Budget_Lines-import.hpp -o moc/moc_yerith-erp-Budget_Lines-import.cpp
 
 moc/moc_yerith-erp-ALL-common-import.cpp: src/imports/yerith-erp-ALL-common-import.hpp \
 		src/imports/yerith-erp-database-table-import-info.hpp \
@@ -1668,7 +1668,7 @@ moc/moc_yerith-erp-ALL-common-import.cpp: src/imports/yerith-erp-ALL-common-impo
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/imports/yerith-erp-ALL-common-import.hpp -o moc/moc_yerith-erp-ALL-common-import.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/imports/yerith-erp-ALL-common-import.hpp -o moc/moc_yerith-erp-ALL-common-import.cpp
 
 moc/moc_yerith-erp-bank-account-info-raw-import.cpp: src/imports/yerith-erp-bank-account-info-raw-import.hpp \
 		src/imports/yerith-erp-ALL-common-import.hpp \
@@ -1700,7 +1700,7 @@ moc/moc_yerith-erp-bank-account-info-raw-import.cpp: src/imports/yerith-erp-bank
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/imports/yerith-erp-bank-account-info-raw-import.hpp -o moc/moc_yerith-erp-bank-account-info-raw-import.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/imports/yerith-erp-bank-account-info-raw-import.hpp -o moc/moc_yerith-erp-bank-account-info-raw-import.cpp
 
 moc/moc_yerith-erp-marchandise-import.cpp: src/imports/yerith-erp-marchandise-import.hpp \
 		src/imports/yerith-erp-stock-import.hpp \
@@ -1733,7 +1733,7 @@ moc/moc_yerith-erp-marchandise-import.cpp: src/imports/yerith-erp-marchandise-im
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/imports/yerith-erp-marchandise-import.hpp -o moc/moc_yerith-erp-marchandise-import.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/imports/yerith-erp-marchandise-import.hpp -o moc/moc_yerith-erp-marchandise-import.cpp
 
 moc/moc_yerith-erp-stock-import.cpp: src/imports/yerith-erp-stock-import.hpp \
 		src/imports/yerith-erp-ALL-common-import.hpp \
@@ -1765,7 +1765,7 @@ moc/moc_yerith-erp-stock-import.cpp: src/imports/yerith-erp-stock-import.hpp \
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/imports/yerith-erp-stock-import.hpp -o moc/moc_yerith-erp-stock-import.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/imports/yerith-erp-stock-import.hpp -o moc/moc_yerith-erp-stock-import.cpp
 
 moc/moc_yerith-erp-xml-parser-QLIST___widget-element.cpp: src/web_systems/yerith-erp-xml-parser-QLIST___widget-element.hpp \
 		src/utils/yerith-erp-utils.hpp \
@@ -1795,7 +1795,7 @@ moc/moc_yerith-erp-xml-parser-QLIST___widget-element.cpp: src/web_systems/yerith
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/web_systems/yerith-erp-xml-parser-QLIST___widget-element.hpp -o moc/moc_yerith-erp-xml-parser-QLIST___widget-element.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/web_systems/yerith-erp-xml-parser-QLIST___widget-element.hpp -o moc/moc_yerith-erp-xml-parser-QLIST___widget-element.cpp
 
 moc/moc_yerith-erp-xml-parser-widget-element.cpp: src/web_systems/yerith-erp-xml-parser-widget-element.hpp \
 		src/utils/yerith-erp-utils.hpp \
@@ -1825,7 +1825,7 @@ moc/moc_yerith-erp-xml-parser-widget-element.cpp: src/web_systems/yerith-erp-xml
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/web_systems/yerith-erp-xml-parser-widget-element.hpp -o moc/moc_yerith-erp-xml-parser-widget-element.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/web_systems/yerith-erp-xml-parser-widget-element.hpp -o moc/moc_yerith-erp-xml-parser-widget-element.cpp
 
 moc/moc_yerith-erp-xml-parser-widget-MAIN_WINDOW-element.cpp: src/web_systems/yerith-erp-xml-parser-widget-MAIN_WINDOW-element.hpp \
 		src/web_systems/yerith-erp-xml-parser-widget-element.hpp \
@@ -1856,7 +1856,7 @@ moc/moc_yerith-erp-xml-parser-widget-MAIN_WINDOW-element.cpp: src/web_systems/ye
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/web_systems/yerith-erp-xml-parser-widget-MAIN_WINDOW-element.hpp -o moc/moc_yerith-erp-xml-parser-widget-MAIN_WINDOW-element.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/web_systems/yerith-erp-xml-parser-widget-MAIN_WINDOW-element.hpp -o moc/moc_yerith-erp-xml-parser-widget-MAIN_WINDOW-element.cpp
 
 moc/moc_yerith-erp-xml-parser-widget-PUSH_BUTTON-element.cpp: src/web_systems/yerith-erp-xml-parser-widget-PUSH_BUTTON-element.hpp \
 		src/web_systems/yerith-erp-xml-parser-widget-element.hpp \
@@ -1887,7 +1887,7 @@ moc/moc_yerith-erp-xml-parser-widget-PUSH_BUTTON-element.cpp: src/web_systems/ye
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/web_systems/yerith-erp-xml-parser-widget-PUSH_BUTTON-element.hpp -o moc/moc_yerith-erp-xml-parser-widget-PUSH_BUTTON-element.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/web_systems/yerith-erp-xml-parser-widget-PUSH_BUTTON-element.hpp -o moc/moc_yerith-erp-xml-parser-widget-PUSH_BUTTON-element.cpp
 
 moc/moc_yerith-erp-table-view_WITH_TABWIDGET_AS_DIRECT_PARENT_movable_section.cpp: src/widgets/table-view/yerith-erp-table-view_WITH_TABWIDGET_AS_DIRECT_PARENT_movable_section.hpp \
 		src/widgets/table-view/yerith-erp-table-view-with-pagination.hpp \
@@ -1918,7 +1918,7 @@ moc/moc_yerith-erp-table-view_WITH_TABWIDGET_AS_DIRECT_PARENT_movable_section.cp
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-table-view_WITH_TABWIDGET_AS_DIRECT_PARENT_movable_section.hpp -o moc/moc_yerith-erp-table-view_WITH_TABWIDGET_AS_DIRECT_PARENT_movable_section.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-table-view_WITH_TABWIDGET_AS_DIRECT_PARENT_movable_section.hpp -o moc/moc_yerith-erp-table-view_WITH_TABWIDGET_AS_DIRECT_PARENT_movable_section.cpp
 
 moc/moc_yerith-erp-push-button-PASSWORD.cpp: src/widgets/yerith-erp-push-button-PASSWORD.hpp \
 		src/widgets/yerith-erp-push-button.hpp \
@@ -1954,7 +1954,7 @@ moc/moc_yerith-erp-push-button-PASSWORD.cpp: src/widgets/yerith-erp-push-button-
 		src/widgets/yerith-erp-line-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/yerith-erp-push-button-PASSWORD.hpp -o moc/moc_yerith-erp-push-button-PASSWORD.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/yerith-erp-push-button-PASSWORD.hpp -o moc/moc_yerith-erp-push-button-PASSWORD.cpp
 
 moc/moc_yerith-erp-progress-bar.cpp: src/widgets/yerith-erp-progress-bar.hpp \
 		src/utils/yerith-erp-utils.hpp \
@@ -1984,7 +1984,7 @@ moc/moc_yerith-erp-progress-bar.cpp: src/widgets/yerith-erp-progress-bar.hpp \
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/yerith-erp-progress-bar.hpp -o moc/moc_yerith-erp-progress-bar.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/yerith-erp-progress-bar.hpp -o moc/moc_yerith-erp-progress-bar.cpp
 
 moc/moc_yerith-erp-admin-verif-logging-table-widget.cpp: src/widgets/widgets-table/yerith-erp-admin-verif-logging-table-widget.hpp \
 		src/widgets/widgets-table/yerith-erp-table-widget.hpp \
@@ -2017,7 +2017,7 @@ moc/moc_yerith-erp-admin-verif-logging-table-widget.cpp: src/widgets/widgets-tab
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/widgets-table/yerith-erp-admin-verif-logging-table-widget.hpp -o moc/moc_yerith-erp-admin-verif-logging-table-widget.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/widgets-table/yerith-erp-admin-verif-logging-table-widget.hpp -o moc/moc_yerith-erp-admin-verif-logging-table-widget.cpp
 
 moc/moc_yerith-erp-creer-un-groupe-de-clients-table-widget.cpp: src/widgets/widgets-table/yerith-erp-creer-un-groupe-de-clients-table-widget.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -2051,7 +2051,7 @@ moc/moc_yerith-erp-creer-un-groupe-de-clients-table-widget.cpp: src/widgets/widg
 		src/widgets/widgets-table/yerith-erp-table-widget.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/widgets-table/yerith-erp-creer-un-groupe-de-clients-table-widget.hpp -o moc/moc_yerith-erp-creer-un-groupe-de-clients-table-widget.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/widgets-table/yerith-erp-creer-un-groupe-de-clients-table-widget.hpp -o moc/moc_yerith-erp-creer-un-groupe-de-clients-table-widget.cpp
 
 moc/moc_yerith-erp-groupes-dun-EMPLOYE-table-widget.cpp: src/widgets/widgets-table/yerith-erp-groupes-dun-EMPLOYE-table-widget.hpp \
 		src/widgets/widgets-table/yerith-erp-table-widget.hpp \
@@ -2084,7 +2084,7 @@ moc/moc_yerith-erp-groupes-dun-EMPLOYE-table-widget.cpp: src/widgets/widgets-tab
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/widgets-table/yerith-erp-groupes-dun-EMPLOYE-table-widget.hpp -o moc/moc_yerith-erp-groupes-dun-EMPLOYE-table-widget.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/widgets-table/yerith-erp-groupes-dun-EMPLOYE-table-widget.hpp -o moc/moc_yerith-erp-groupes-dun-EMPLOYE-table-widget.cpp
 
 moc/moc_yerith-erp-groupes-dun-client-table-widget.cpp: src/widgets/widgets-table/yerith-erp-groupes-dun-client-table-widget.hpp \
 		src/widgets/widgets-table/yerith-erp-table-widget.hpp \
@@ -2117,7 +2117,7 @@ moc/moc_yerith-erp-groupes-dun-client-table-widget.cpp: src/widgets/widgets-tabl
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/widgets-table/yerith-erp-groupes-dun-client-table-widget.hpp -o moc/moc_yerith-erp-groupes-dun-client-table-widget.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/widgets-table/yerith-erp-groupes-dun-client-table-widget.hpp -o moc/moc_yerith-erp-groupes-dun-client-table-widget.cpp
 
 moc/moc_yerith-erp-COMPTABILITE-table-widget.cpp: src/widgets/widgets-table/yerith-erp-COMPTABILITE-table-widget.hpp \
 		src/widgets/widgets-table/yerith-erp-table-widget.hpp \
@@ -2150,7 +2150,7 @@ moc/moc_yerith-erp-COMPTABILITE-table-widget.cpp: src/widgets/widgets-table/yeri
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/widgets-table/yerith-erp-COMPTABILITE-table-widget.hpp -o moc/moc_yerith-erp-COMPTABILITE-table-widget.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/widgets-table/yerith-erp-COMPTABILITE-table-widget.hpp -o moc/moc_yerith-erp-COMPTABILITE-table-widget.cpp
 
 moc/moc_yerith-erp-point-de-vente-table-widget.cpp: src/widgets/widgets-table/yerith-erp-point-de-vente-table-widget.hpp \
 		src/widgets/widgets-table/yerith-erp-table-widget.hpp \
@@ -2183,7 +2183,7 @@ moc/moc_yerith-erp-point-de-vente-table-widget.cpp: src/widgets/widgets-table/ye
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/widgets-table/yerith-erp-point-de-vente-table-widget.hpp -o moc/moc_yerith-erp-point-de-vente-table-widget.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/widgets-table/yerith-erp-point-de-vente-table-widget.hpp -o moc/moc_yerith-erp-point-de-vente-table-widget.cpp
 
 moc/moc_yerith-erp-table-widget.cpp: src/widgets/widgets-table/yerith-erp-table-widget.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -2215,7 +2215,7 @@ moc/moc_yerith-erp-table-widget.cpp: src/widgets/widgets-table/yerith-erp-table-
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/widgets-table/yerith-erp-table-widget.hpp -o moc/moc_yerith-erp-table-widget.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/widgets-table/yerith-erp-table-widget.hpp -o moc/moc_yerith-erp-table-widget.cpp
 
 moc/moc_yerith-erp-table-view-with-pagination.cpp: src/widgets/table-view/yerith-erp-table-view-with-pagination.hpp \
 		src/utils/yerith-erp-utils.hpp \
@@ -2245,7 +2245,7 @@ moc/moc_yerith-erp-table-view-with-pagination.cpp: src/widgets/table-view/yerith
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-table-view-with-pagination.hpp -o moc/moc_yerith-erp-table-view-with-pagination.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-table-view-with-pagination.hpp -o moc/moc_yerith-erp-table-view-with-pagination.cpp
 
 moc/moc_yerith-erp-table-view.cpp: src/widgets/table-view/yerith-erp-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -2262,7 +2262,7 @@ moc/moc_yerith-erp-table-view.cpp: src/widgets/table-view/yerith-erp-table-view.
 		src/utils/yerith-erp-sqltable-model.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-table-view.hpp -o moc/moc_yerith-erp-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-table-view.hpp -o moc/moc_yerith-erp-table-view.cpp
 
 moc/moc_yerith-erp-comptes-doperations-comptabilite-table-view.cpp: src/widgets/table-view/yerith-erp-comptes-doperations-comptabilite-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -2294,7 +2294,7 @@ moc/moc_yerith-erp-comptes-doperations-comptabilite-table-view.cpp: src/widgets/
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-comptes-doperations-comptabilite-table-view.hpp -o moc/moc_yerith-erp-comptes-doperations-comptabilite-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-comptes-doperations-comptabilite-table-view.hpp -o moc/moc_yerith-erp-comptes-doperations-comptabilite-table-view.cpp
 
 moc/moc_yerith-erp-paiements-table-view.cpp: src/widgets/table-view/yerith-erp-paiements-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -2326,7 +2326,7 @@ moc/moc_yerith-erp-paiements-table-view.cpp: src/widgets/table-view/yerith-erp-p
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-paiements-table-view.hpp -o moc/moc_yerith-erp-paiements-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-paiements-table-view.hpp -o moc/moc_yerith-erp-paiements-table-view.cpp
 
 moc/moc_yerith-erp-stocks-table-view.cpp: src/widgets/table-view/yerith-erp-stocks-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -2357,7 +2357,7 @@ moc/moc_yerith-erp-stocks-table-view.cpp: src/widgets/table-view/yerith-erp-stoc
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-stocks-table-view.hpp -o moc/moc_yerith-erp-stocks-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-stocks-table-view.hpp -o moc/moc_yerith-erp-stocks-table-view.cpp
 
 moc/moc_yerith-erp-ventes-table-view.cpp: src/widgets/table-view/yerith-erp-ventes-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -2389,7 +2389,7 @@ moc/moc_yerith-erp-ventes-table-view.cpp: src/widgets/table-view/yerith-erp-vent
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-ventes-table-view.hpp -o moc/moc_yerith-erp-ventes-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-ventes-table-view.hpp -o moc/moc_yerith-erp-ventes-table-view.cpp
 
 moc/moc_yerith-erp-mouvements_de_stocks-table-view.cpp: src/widgets/table-view/yerith-erp-mouvements_de_stocks-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -2421,7 +2421,7 @@ moc/moc_yerith-erp-mouvements_de_stocks-table-view.cpp: src/widgets/table-view/y
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-mouvements_de_stocks-table-view.hpp -o moc/moc_yerith-erp-mouvements_de_stocks-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-mouvements_de_stocks-table-view.hpp -o moc/moc_yerith-erp-mouvements_de_stocks-table-view.cpp
 
 moc/moc_yerith-erp-GROUPES-DE-PAIE-HR-table-view.cpp: src/widgets/table-view/yerith-erp-GROUPES-DE-PAIE-HR-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -2452,7 +2452,7 @@ moc/moc_yerith-erp-GROUPES-DE-PAIE-HR-table-view.cpp: src/widgets/table-view/yer
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-GROUPES-DE-PAIE-HR-table-view.hpp -o moc/moc_yerith-erp-GROUPES-DE-PAIE-HR-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-GROUPES-DE-PAIE-HR-table-view.hpp -o moc/moc_yerith-erp-GROUPES-DE-PAIE-HR-table-view.cpp
 
 moc/moc_yerith-erp-fournisseurs-table-view.cpp: src/widgets/table-view/yerith-erp-fournisseurs-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -2483,7 +2483,7 @@ moc/moc_yerith-erp-fournisseurs-table-view.cpp: src/widgets/table-view/yerith-er
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-fournisseurs-table-view.hpp -o moc/moc_yerith-erp-fournisseurs-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-fournisseurs-table-view.hpp -o moc/moc_yerith-erp-fournisseurs-table-view.cpp
 
 moc/moc_yerith-erp-programmes-de-fidelite-clients-table-view.cpp: src/widgets/table-view/yerith-erp-programmes-de-fidelite-clients-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -2514,7 +2514,7 @@ moc/moc_yerith-erp-programmes-de-fidelite-clients-table-view.cpp: src/widgets/ta
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-programmes-de-fidelite-clients-table-view.hpp -o moc/moc_yerith-erp-programmes-de-fidelite-clients-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-programmes-de-fidelite-clients-table-view.hpp -o moc/moc_yerith-erp-programmes-de-fidelite-clients-table-view.cpp
 
 moc/moc_yerith-erp-groupes-de-clients-table-view.cpp: src/widgets/table-view/yerith-erp-groupes-de-clients-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -2545,7 +2545,7 @@ moc/moc_yerith-erp-groupes-de-clients-table-view.cpp: src/widgets/table-view/yer
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-groupes-de-clients-table-view.hpp -o moc/moc_yerith-erp-groupes-de-clients-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-groupes-de-clients-table-view.hpp -o moc/moc_yerith-erp-groupes-de-clients-table-view.cpp
 
 moc/moc_yerith-erp-clients-table-view.cpp: src/widgets/table-view/yerith-erp-clients-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -2576,7 +2576,7 @@ moc/moc_yerith-erp-clients-table-view.cpp: src/widgets/table-view/yerith-erp-cli
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-clients-table-view.hpp -o moc/moc_yerith-erp-clients-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-clients-table-view.hpp -o moc/moc_yerith-erp-clients-table-view.cpp
 
 moc/moc_yerith-erp-alertes-table-view.cpp: src/widgets/table-view/yerith-erp-alertes-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -2608,7 +2608,7 @@ moc/moc_yerith-erp-alertes-table-view.cpp: src/widgets/table-view/yerith-erp-ale
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-alertes-table-view.hpp -o moc/moc_yerith-erp-alertes-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-alertes-table-view.hpp -o moc/moc_yerith-erp-alertes-table-view.cpp
 
 moc/moc_yerith-erp-CHARGES-FINANCIERES-table-view.cpp: src/widgets/table-view/yerith-erp-CHARGES-FINANCIERES-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -2639,7 +2639,7 @@ moc/moc_yerith-erp-CHARGES-FINANCIERES-table-view.cpp: src/widgets/table-view/ye
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-CHARGES-FINANCIERES-table-view.hpp -o moc/moc_yerith-erp-CHARGES-FINANCIERES-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-CHARGES-FINANCIERES-table-view.hpp -o moc/moc_yerith-erp-CHARGES-FINANCIERES-table-view.cpp
 
 moc/moc_yerith-erp-achats-table-view.cpp: src/widgets/table-view/yerith-erp-achats-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -2670,7 +2670,7 @@ moc/moc_yerith-erp-achats-table-view.cpp: src/widgets/table-view/yerith-erp-acha
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-achats-table-view.hpp -o moc/moc_yerith-erp-achats-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-achats-table-view.hpp -o moc/moc_yerith-erp-achats-table-view.cpp
 
 moc/moc_yerith-erp-marchandises-table-view.cpp: src/widgets/table-view/yerith-erp-marchandises-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -2701,7 +2701,7 @@ moc/moc_yerith-erp-marchandises-table-view.cpp: src/widgets/table-view/yerith-er
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-marchandises-table-view.hpp -o moc/moc_yerith-erp-marchandises-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/table-view/yerith-erp-marchandises-table-view.hpp -o moc/moc_yerith-erp-marchandises-table-view.cpp
 
 moc/moc_yerith-erp-line-edit.cpp: src/widgets/yerith-erp-line-edit.hpp \
 		src/utils/yerith-erp-utils.hpp \
@@ -2731,7 +2731,7 @@ moc/moc_yerith-erp-line-edit.cpp: src/widgets/yerith-erp-line-edit.hpp \
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/yerith-erp-line-edit.hpp -o moc/moc_yerith-erp-line-edit.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/yerith-erp-line-edit.hpp -o moc/moc_yerith-erp-line-edit.cpp
 
 moc/moc_yerith-erp-push-button.cpp: src/widgets/yerith-erp-push-button.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -2766,7 +2766,7 @@ moc/moc_yerith-erp-push-button.cpp: src/widgets/yerith-erp-push-button.hpp \
 		src/widgets/yerith-erp-line-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/yerith-erp-push-button.hpp -o moc/moc_yerith-erp-push-button.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/yerith-erp-push-button.hpp -o moc/moc_yerith-erp-push-button.cpp
 
 moc/moc_yerith-erp-text-edit.cpp: src/widgets/yerith-erp-text-edit.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -2796,7 +2796,7 @@ moc/moc_yerith-erp-text-edit.cpp: src/widgets/yerith-erp-text-edit.hpp \
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/yerith-erp-text-edit.hpp -o moc/moc_yerith-erp-text-edit.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/yerith-erp-text-edit.hpp -o moc/moc_yerith-erp-text-edit.cpp
 
 moc/moc_yerith-erp-combo-box.cpp: src/widgets/yerith-erp-combo-box.hpp \
 		src/utils/yerith-erp-utils.hpp \
@@ -2826,7 +2826,7 @@ moc/moc_yerith-erp-combo-box.cpp: src/widgets/yerith-erp-combo-box.hpp \
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/yerith-erp-combo-box.hpp -o moc/moc_yerith-erp-combo-box.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/yerith-erp-combo-box.hpp -o moc/moc_yerith-erp-combo-box.cpp
 
 moc/moc_yerith-erp-spinbox.cpp: src/widgets/yerith-erp-spinbox.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -2856,7 +2856,7 @@ moc/moc_yerith-erp-spinbox.cpp: src/widgets/yerith-erp-spinbox.hpp \
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/yerith-erp-spinbox.hpp -o moc/moc_yerith-erp-spinbox.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/yerith-erp-spinbox.hpp -o moc/moc_yerith-erp-spinbox.cpp
 
 moc/moc_yerith-erp-datetime-edit.cpp: src/widgets/yerith-erp-datetime-edit.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -2891,7 +2891,7 @@ moc/moc_yerith-erp-datetime-edit.cpp: src/widgets/yerith-erp-datetime-edit.hpp \
 		src/widgets/yerith-erp-line-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/yerith-erp-datetime-edit.hpp -o moc/moc_yerith-erp-datetime-edit.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/yerith-erp-datetime-edit.hpp -o moc/moc_yerith-erp-datetime-edit.cpp
 
 moc/moc_yerith-erp-qcheckbox.cpp: src/widgets/yerith-erp-qcheckbox.hpp \
 		src/utils/yerith-erp-utils.hpp \
@@ -2921,7 +2921,7 @@ moc/moc_yerith-erp-qcheckbox.cpp: src/widgets/yerith-erp-qcheckbox.hpp \
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/yerith-erp-qcheckbox.hpp -o moc/moc_yerith-erp-qcheckbox.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/yerith-erp-qcheckbox.hpp -o moc/moc_yerith-erp-qcheckbox.cpp
 
 moc/moc_yerith-erp-select-db-qcheckbox.cpp: src/widgets/yerith-erp-select-db-qcheckbox.hpp \
 		src/widgets/yerith-erp-qcheckbox.hpp \
@@ -2952,7 +2952,7 @@ moc/moc_yerith-erp-select-db-qcheckbox.cpp: src/widgets/yerith-erp-select-db-qch
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/yerith-erp-select-db-qcheckbox.hpp -o moc/moc_yerith-erp-select-db-qcheckbox.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/widgets/yerith-erp-select-db-qcheckbox.hpp -o moc/moc_yerith-erp-select-db-qcheckbox.cpp
 
 moc/moc_yerith-erp-IMPRESSION_DE_DOCUMENT-dialog.cpp: src/dialogs/yerith-erp-IMPRESSION_DE_DOCUMENT-dialog.hpp \
 		ui_yerith-erp-imprimer-dialog.h \
@@ -2985,7 +2985,7 @@ moc/moc_yerith-erp-IMPRESSION_DE_DOCUMENT-dialog.cpp: src/dialogs/yerith-erp-IMP
 		src/dialogs/yerith-erp-dialog-commons.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/dialogs/yerith-erp-IMPRESSION_DE_DOCUMENT-dialog.hpp -o moc/moc_yerith-erp-IMPRESSION_DE_DOCUMENT-dialog.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/dialogs/yerith-erp-IMPRESSION_DE_DOCUMENT-dialog.hpp -o moc/moc_yerith-erp-IMPRESSION_DE_DOCUMENT-dialog.cpp
 
 moc/moc_yerith-erp-dialog-commons.cpp: src/dialogs/yerith-erp-dialog-commons.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -3000,7 +3000,7 @@ moc/moc_yerith-erp-dialog-commons.cpp: src/dialogs/yerith-erp-dialog-commons.hpp
 		src/include/yerith-erp-9-0-definition-colour-rgb.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/dialogs/yerith-erp-dialog-commons.hpp -o moc/moc_yerith-erp-dialog-commons.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/dialogs/yerith-erp-dialog-commons.hpp -o moc/moc_yerith-erp-dialog-commons.cpp
 
 moc/moc_yerith-erp-generic-select-db-field-dialog.cpp: src/dialogs/yerith-erp-generic-select-db-field-dialog.hpp \
 		ui_yerith-erp-changer-utilisateur-dialog.h \
@@ -3038,7 +3038,7 @@ moc/moc_yerith-erp-generic-select-db-field-dialog.cpp: src/dialogs/yerith-erp-ge
 		src/dialogs/yerith-erp-dialog-commons.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/dialogs/yerith-erp-generic-select-db-field-dialog.hpp -o moc/moc_yerith-erp-generic-select-db-field-dialog.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/dialogs/yerith-erp-generic-select-db-field-dialog.hpp -o moc/moc_yerith-erp-generic-select-db-field-dialog.cpp
 
 moc/moc_yerith-erp-changer-utilisateur-dialog.cpp: src/dialogs/yerith-erp-changer-utilisateur-dialog.hpp \
 		ui_yerith-erp-changer-utilisateur-dialog.h \
@@ -3077,7 +3077,7 @@ moc/moc_yerith-erp-changer-utilisateur-dialog.cpp: src/dialogs/yerith-erp-change
 		src/dialogs/yerith-erp-dialog-commons.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/dialogs/yerith-erp-changer-utilisateur-dialog.hpp -o moc/moc_yerith-erp-changer-utilisateur-dialog.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/dialogs/yerith-erp-changer-utilisateur-dialog.hpp -o moc/moc_yerith-erp-changer-utilisateur-dialog.cpp
 
 moc/moc_yerith-erp-pointdevente-methode-paiement-carte-credit-dialog.cpp: src/dialogs/yerith-erp-pointdevente-methode-paiement-carte-credit-dialog.hpp \
 		ui_yerith-erp-pointdevente-methode-paiement-carte-credit-dialog.h \
@@ -3115,7 +3115,7 @@ moc/moc_yerith-erp-pointdevente-methode-paiement-carte-credit-dialog.cpp: src/di
 		src/dialogs/yerith-erp-dialog-commons.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/dialogs/yerith-erp-pointdevente-methode-paiement-carte-credit-dialog.hpp -o moc/moc_yerith-erp-pointdevente-methode-paiement-carte-credit-dialog.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/dialogs/yerith-erp-pointdevente-methode-paiement-carte-credit-dialog.hpp -o moc/moc_yerith-erp-pointdevente-methode-paiement-carte-credit-dialog.cpp
 
 moc/moc_yerith-erp-pointdevente-methode-paiement-comptant-entree-dialog.cpp: src/dialogs/yerith-erp-pointdevente-methode-paiement-comptant-entree-dialog.hpp \
 		ui_yerith-erp-pointdevente-methode-paiement-comptant-entree-dialog.h \
@@ -3153,7 +3153,7 @@ moc/moc_yerith-erp-pointdevente-methode-paiement-comptant-entree-dialog.cpp: src
 		src/dialogs/yerith-erp-dialog-commons.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/dialogs/yerith-erp-pointdevente-methode-paiement-comptant-entree-dialog.hpp -o moc/moc_yerith-erp-pointdevente-methode-paiement-comptant-entree-dialog.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/dialogs/yerith-erp-pointdevente-methode-paiement-comptant-entree-dialog.hpp -o moc/moc_yerith-erp-pointdevente-methode-paiement-comptant-entree-dialog.cpp
 
 moc/moc_yerith-erp-pointdevente-methode-paiement-dialog.cpp: src/dialogs/yerith-erp-pointdevente-methode-paiement-dialog.hpp \
 		ui_yerith-erp-pointdevente-methode-paiement-dialog.h \
@@ -3191,7 +3191,7 @@ moc/moc_yerith-erp-pointdevente-methode-paiement-dialog.cpp: src/dialogs/yerith-
 		src/dialogs/yerith-erp-dialog-commons.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/dialogs/yerith-erp-pointdevente-methode-paiement-dialog.hpp -o moc/moc_yerith-erp-pointdevente-methode-paiement-dialog.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/dialogs/yerith-erp-pointdevente-methode-paiement-dialog.hpp -o moc/moc_yerith-erp-pointdevente-methode-paiement-dialog.cpp
 
 moc/moc_yerith-erp-creer-groupe-de-clients-window.cpp: src/windows/crm/creer/yerith-erp-creer-groupe-de-clients-window.hpp \
 		ui_yerith-erp-creer-groupe-de-clients-window.h \
@@ -3234,7 +3234,7 @@ moc/moc_yerith-erp-creer-groupe-de-clients-window.cpp: src/windows/crm/creer/yer
 		src/widgets/yerith-erp-text-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/creer/yerith-erp-creer-groupe-de-clients-window.hpp -o moc/moc_yerith-erp-creer-groupe-de-clients-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/creer/yerith-erp-creer-groupe-de-clients-window.hpp -o moc/moc_yerith-erp-creer-groupe-de-clients-window.cpp
 
 moc/moc_yerith-erp-creer-un-programme-de-fidelite-clients-window.cpp: src/windows/crm/creer/yerith-erp-creer-un-programme-de-fidelite-clients-window.hpp \
 		ui_yerith-erp-creer-un-programme-de-fidelite-clients-window.h \
@@ -3273,7 +3273,7 @@ moc/moc_yerith-erp-creer-un-programme-de-fidelite-clients-window.cpp: src/window
 		src/widgets/yerith-erp-text-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/creer/yerith-erp-creer-un-programme-de-fidelite-clients-window.hpp -o moc/moc_yerith-erp-creer-un-programme-de-fidelite-clients-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/creer/yerith-erp-creer-un-programme-de-fidelite-clients-window.hpp -o moc/moc_yerith-erp-creer-un-programme-de-fidelite-clients-window.cpp
 
 moc/moc_yerith-erp-creer-compte-client-window.cpp: src/windows/crm/creer/yerith-erp-creer-compte-client-window.hpp \
 		ui_yerith-erp-creer-compte-client-window.h \
@@ -3311,7 +3311,7 @@ moc/moc_yerith-erp-creer-compte-client-window.cpp: src/windows/crm/creer/yerith-
 		src/widgets/yerith-erp-text-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/creer/yerith-erp-creer-compte-client-window.hpp -o moc/moc_yerith-erp-creer-compte-client-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/creer/yerith-erp-creer-compte-client-window.hpp -o moc/moc_yerith-erp-creer-compte-client-window.cpp
 
 moc/moc_yerith-erp-modifier-compte-client-window.cpp: src/windows/crm/modifier/yerith-erp-modifier-compte-client-window.hpp \
 		ui_yerith-erp-modifier-compte-client-window.h \
@@ -3350,7 +3350,7 @@ moc/moc_yerith-erp-modifier-compte-client-window.cpp: src/windows/crm/modifier/y
 		src/widgets/yerith-erp-text-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/modifier/yerith-erp-modifier-compte-client-window.hpp -o moc/moc_yerith-erp-modifier-compte-client-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/modifier/yerith-erp-modifier-compte-client-window.hpp -o moc/moc_yerith-erp-modifier-compte-client-window.cpp
 
 moc/moc_yerith-erp-details-dun-groupe-de-clients-window.cpp: src/windows/crm/details/yerith-erp-details-dun-groupe-de-clients-window.hpp \
 		ui_yerith-erp-details-dun-groupe-de-clients-window.h \
@@ -3393,7 +3393,7 @@ moc/moc_yerith-erp-details-dun-groupe-de-clients-window.cpp: src/windows/crm/det
 		src/widgets/yerith-erp-text-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/details/yerith-erp-details-dun-groupe-de-clients-window.hpp -o moc/moc_yerith-erp-details-dun-groupe-de-clients-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/details/yerith-erp-details-dun-groupe-de-clients-window.hpp -o moc/moc_yerith-erp-details-dun-groupe-de-clients-window.cpp
 
 moc/moc_yerith-erp-clients-detail-window.cpp: src/windows/crm/details/yerith-erp-clients-detail-window.hpp \
 		ui_yerith-erp-clients-detail-window.h \
@@ -3432,7 +3432,7 @@ moc/moc_yerith-erp-clients-detail-window.cpp: src/windows/crm/details/yerith-erp
 		src/widgets/yerith-erp-text-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/details/yerith-erp-clients-detail-window.hpp -o moc/moc_yerith-erp-clients-detail-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/details/yerith-erp-clients-detail-window.hpp -o moc/moc_yerith-erp-clients-detail-window.cpp
 
 moc/moc_yerith-erp-details-dun-programme-de-fidelite-clients-window.cpp: src/windows/crm/details/yerith-erp-details-dun-programme-de-fidelite-clients-window.hpp \
 		ui_yerith-erp-details-dun-programme-de-fidelite-clients-window.h \
@@ -3475,7 +3475,7 @@ moc/moc_yerith-erp-details-dun-programme-de-fidelite-clients-window.cpp: src/win
 		src/widgets/yerith-erp-text-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/details/yerith-erp-details-dun-programme-de-fidelite-clients-window.hpp -o moc/moc_yerith-erp-details-dun-programme-de-fidelite-clients-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/details/yerith-erp-details-dun-programme-de-fidelite-clients-window.hpp -o moc/moc_yerith-erp-details-dun-programme-de-fidelite-clients-window.cpp
 
 moc/moc_yerith-erp-programmes-de-fidelite-clients-window.cpp: src/windows/crm/yerith-erp-programmes-de-fidelite-clients-window.hpp \
 		ui_yerith-erp-programmes-de-fidelite-clients-window.h \
@@ -3515,7 +3515,7 @@ moc/moc_yerith-erp-programmes-de-fidelite-clients-window.cpp: src/windows/crm/ye
 		src/widgets/yerith-erp-push-button.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/yerith-erp-programmes-de-fidelite-clients-window.hpp -o moc/moc_yerith-erp-programmes-de-fidelite-clients-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/yerith-erp-programmes-de-fidelite-clients-window.hpp -o moc/moc_yerith-erp-programmes-de-fidelite-clients-window.cpp
 
 moc/moc_yerith-erp-groupes-de-clients-window.cpp: src/windows/crm/yerith-erp-groupes-de-clients-window.hpp \
 		ui_yerith-erp-groupes-de-clients-window.h \
@@ -3555,7 +3555,7 @@ moc/moc_yerith-erp-groupes-de-clients-window.cpp: src/windows/crm/yerith-erp-gro
 		src/widgets/yerith-erp-push-button.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/yerith-erp-groupes-de-clients-window.hpp -o moc/moc_yerith-erp-groupes-de-clients-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/yerith-erp-groupes-de-clients-window.hpp -o moc/moc_yerith-erp-groupes-de-clients-window.cpp
 
 moc/moc_yerith-erp-groupes-dun-client-window.cpp: src/windows/crm/yerith-erp-groupes-dun-client-window.hpp \
 		ui_yerith-erp-groupes-dun-client-window.h \
@@ -3597,7 +3597,7 @@ moc/moc_yerith-erp-groupes-dun-client-window.cpp: src/windows/crm/yerith-erp-gro
 		src/windows/yerith-erp-qtable-widget-window-commons.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/yerith-erp-groupes-dun-client-window.hpp -o moc/moc_yerith-erp-groupes-dun-client-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/yerith-erp-groupes-dun-client-window.hpp -o moc/moc_yerith-erp-groupes-dun-client-window.cpp
 
 moc/moc_yerith-erp-clients-window.cpp: src/windows/crm/yerith-erp-clients-window.hpp \
 		ui_yerith-erp-clients-window.h \
@@ -3636,7 +3636,7 @@ moc/moc_yerith-erp-clients-window.cpp: src/windows/crm/yerith-erp-clients-window
 		src/utils/windows/yerith-erp-abstract-class-yerithsearch-window.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/yerith-erp-clients-window.hpp -o moc/moc_yerith-erp-clients-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/yerith-erp-clients-window.hpp -o moc/moc_yerith-erp-clients-window.cpp
 
 moc/moc_yerith-erp-payer-compte-client-window.cpp: src/windows/crm/yerith-erp-payer-compte-client-window.hpp \
 		ui_yerith-erp-payer-compte-client-window.h \
@@ -3675,7 +3675,7 @@ moc/moc_yerith-erp-payer-compte-client-window.cpp: src/windows/crm/yerith-erp-pa
 		src/widgets/yerith-erp-text-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/yerith-erp-payer-compte-client-window.hpp -o moc/moc_yerith-erp-payer-compte-client-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/yerith-erp-payer-compte-client-window.hpp -o moc/moc_yerith-erp-payer-compte-client-window.cpp
 
 moc/moc_yerith-erp-tableau-des-transactions-du-client-window.cpp: src/windows/crm/yerith-erp-tableau-des-transactions-du-client-window.hpp \
 		ui_yerith-erp-tableau-des-transactions-du-client-window.h \
@@ -3883,7 +3883,7 @@ moc/moc_yerith-erp-tableau-des-transactions-du-client-window.cpp: src/windows/cr
 		src/utils/yerith-erp-info-entreprise.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/yerith-erp-tableau-des-transactions-du-client-window.hpp -o moc/moc_yerith-erp-tableau-des-transactions-du-client-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/crm/yerith-erp-tableau-des-transactions-du-client-window.hpp -o moc/moc_yerith-erp-tableau-des-transactions-du-client-window.cpp
 
 moc/moc_yerith-erp-entrer-window.cpp: src/windows/yerith-erp-entrer-window.hpp \
 		ui_yerith-erp-entrer-window.h \
@@ -3927,7 +3927,7 @@ moc/moc_yerith-erp-entrer-window.cpp: src/windows/yerith-erp-entrer-window.hpp \
 		src/widgets/yerith-erp-text-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-entrer-window.hpp -o moc/moc_yerith-erp-entrer-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-entrer-window.hpp -o moc/moc_yerith-erp-entrer-window.cpp
 
 moc/moc_yerith-erp-mouvements_de_stocks-window.cpp: src/windows/stocks/yerith-erp-mouvements_de_stocks-window.hpp \
 		ui_yerith-erp-mouvements_de_stocks-window.h \
@@ -3969,7 +3969,7 @@ moc/moc_yerith-erp-mouvements_de_stocks-window.cpp: src/windows/stocks/yerith-er
 		src/widgets/yerith-erp-push-button.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/stocks/yerith-erp-mouvements_de_stocks-window.hpp -o moc/moc_yerith-erp-mouvements_de_stocks-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/stocks/yerith-erp-mouvements_de_stocks-window.hpp -o moc/moc_yerith-erp-mouvements_de_stocks-window.cpp
 
 moc/moc_yerith-erp-modifier-window.cpp: src/windows/stocks/yerith-erp-modifier-window.hpp \
 		ui_yerith-erp-modifier-window.h \
@@ -4009,7 +4009,7 @@ moc/moc_yerith-erp-modifier-window.cpp: src/windows/stocks/yerith-erp-modifier-w
 		src/widgets/yerith-erp-text-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/stocks/yerith-erp-modifier-window.hpp -o moc/moc_yerith-erp-modifier-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/stocks/yerith-erp-modifier-window.hpp -o moc/moc_yerith-erp-modifier-window.cpp
 
 moc/moc_yerith-erp-marchandises-window.cpp: src/windows/stocks/yerith-erp-marchandises-window.hpp \
 		ui_yerith-erp-marchandises-window.h \
@@ -4049,7 +4049,7 @@ moc/moc_yerith-erp-marchandises-window.cpp: src/windows/stocks/yerith-erp-marcha
 		src/widgets/yerith-erp-qcheckbox.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/stocks/yerith-erp-marchandises-window.hpp -o moc/moc_yerith-erp-marchandises-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/stocks/yerith-erp-marchandises-window.hpp -o moc/moc_yerith-erp-marchandises-window.cpp
 
 moc/moc_yerith-erp-sortir-liststocks-window.cpp: src/windows/stocks/yerith-erp-sortir-liststocks-window.hpp \
 		ui_yerith-erp-sortir-liststocks-window.h \
@@ -4087,7 +4087,7 @@ moc/moc_yerith-erp-sortir-liststocks-window.cpp: src/windows/stocks/yerith-erp-s
 		src/widgets/yerith-erp-line-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/stocks/yerith-erp-sortir-liststocks-window.hpp -o moc/moc_yerith-erp-sortir-liststocks-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/stocks/yerith-erp-sortir-liststocks-window.hpp -o moc/moc_yerith-erp-sortir-liststocks-window.cpp
 
 moc/moc_yerith-erp-sortir-window.cpp: src/windows/stocks/yerith-erp-sortir-window.hpp \
 		ui_yerith-erp-sortir-window.h \
@@ -4129,7 +4129,7 @@ moc/moc_yerith-erp-sortir-window.cpp: src/windows/stocks/yerith-erp-sortir-windo
 		src/widgets/yerith-erp-text-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/stocks/yerith-erp-sortir-window.hpp -o moc/moc_yerith-erp-sortir-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/stocks/yerith-erp-sortir-window.hpp -o moc/moc_yerith-erp-sortir-window.cpp
 
 moc/moc_yerith-erp-historique-du-stock-window.cpp: src/windows/stocks/yerith-erp-historique-du-stock-window.hpp \
 		ui_yerith-erp-historique-du-stock-window.h \
@@ -4337,7 +4337,7 @@ moc/moc_yerith-erp-historique-du-stock-window.cpp: src/windows/stocks/yerith-erp
 		src/utils/yerith-erp-info-entreprise.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/stocks/yerith-erp-historique-du-stock-window.hpp -o moc/moc_yerith-erp-historique-du-stock-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/stocks/yerith-erp-historique-du-stock-window.hpp -o moc/moc_yerith-erp-historique-du-stock-window.cpp
 
 moc/moc_yerith-erp-stock-detail-window.cpp: src/windows/stocks/yerith-erp-stock-detail-window.hpp \
 		ui_yerith-erp-stock-detail-window.h \
@@ -4378,7 +4378,7 @@ moc/moc_yerith-erp-stock-detail-window.cpp: src/windows/stocks/yerith-erp-stock-
 		src/utils/windows/yerith-erp-abstract-class-detail-view-window.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/stocks/yerith-erp-stock-detail-window.hpp -o moc/moc_yerith-erp-stock-detail-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/stocks/yerith-erp-stock-detail-window.hpp -o moc/moc_yerith-erp-stock-detail-window.cpp
 
 moc/moc_yerith-erp-stocks-window.cpp: src/windows/stocks/yerith-erp-stocks-window.hpp \
 		ui_yerith-erp-stocks-window.h \
@@ -4418,7 +4418,7 @@ moc/moc_yerith-erp-stocks-window.cpp: src/windows/stocks/yerith-erp-stocks-windo
 		src/widgets/yerith-erp-push-button.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/stocks/yerith-erp-stocks-window.hpp -o moc/moc_yerith-erp-stocks-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/stocks/yerith-erp-stocks-window.hpp -o moc/moc_yerith-erp-stocks-window.cpp
 
 moc/moc_yerith-erp-charges-financieres-window.cpp: src/windows/yerith-erp-charges-financieres-window.hpp \
 		ui_yerith-erp-charges-financieres-window.h \
@@ -4458,7 +4458,7 @@ moc/moc_yerith-erp-charges-financieres-window.cpp: src/windows/yerith-erp-charge
 		src/widgets/yerith-erp-push-button.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-charges-financieres-window.hpp -o moc/moc_yerith-erp-charges-financieres-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-charges-financieres-window.hpp -o moc/moc_yerith-erp-charges-financieres-window.cpp
 
 moc/moc_yerith-erp-charges-financieres-detail-window.cpp: src/windows/yerith-erp-charges-financieres-detail-window.hpp \
 		ui_yerith-erp-charges-financieres-detail-window.h \
@@ -4497,7 +4497,7 @@ moc/moc_yerith-erp-charges-financieres-detail-window.cpp: src/windows/yerith-erp
 		src/widgets/yerith-erp-text-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-charges-financieres-detail-window.hpp -o moc/moc_yerith-erp-charges-financieres-detail-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-charges-financieres-detail-window.hpp -o moc/moc_yerith-erp-charges-financieres-detail-window.cpp
 
 moc/moc_yerith-erp-achats-detail-window.cpp: src/windows/purchase/yerith-erp-achats-detail-window.hpp \
 		ui_yerith-erp-achats-detail-window.h \
@@ -4535,7 +4535,7 @@ moc/moc_yerith-erp-achats-detail-window.cpp: src/windows/purchase/yerith-erp-ach
 		src/widgets/yerith-erp-push-button.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/purchase/yerith-erp-achats-detail-window.hpp -o moc/moc_yerith-erp-achats-detail-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/purchase/yerith-erp-achats-detail-window.hpp -o moc/moc_yerith-erp-achats-detail-window.cpp
 
 moc/moc_yerith-erp-achats-window.cpp: src/windows/purchase/yerith-erp-achats-window.hpp \
 		ui_yerith-erp-achats-window.h \
@@ -4576,7 +4576,7 @@ moc/moc_yerith-erp-achats-window.cpp: src/windows/purchase/yerith-erp-achats-win
 		src/widgets/yerith-erp-radio-button.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/purchase/yerith-erp-achats-window.hpp -o moc/moc_yerith-erp-achats-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/purchase/yerith-erp-achats-window.hpp -o moc/moc_yerith-erp-achats-window.cpp
 
 moc/moc_yerith-erp-pointdevente-window.cpp: src/windows/pos/yerith-erp-pointdevente-window.hpp \
 		ui_yerith-erp-pointdevente-window.h \
@@ -4624,7 +4624,7 @@ moc/moc_yerith-erp-pointdevente-window.cpp: src/windows/pos/yerith-erp-pointdeve
 		src/utils/credit-card/yerith-erp-carte-credit-info.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/pos/yerith-erp-pointdevente-window.hpp -o moc/moc_yerith-erp-pointdevente-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/pos/yerith-erp-pointdevente-window.hpp -o moc/moc_yerith-erp-pointdevente-window.cpp
 
 moc/moc_yerith-erp-pointdevente-liststocks-window.cpp: src/windows/pos/yerith-erp-pointdevente-liststocks-window.hpp \
 		ui_yerith-erp-pointdevente-liststocks-window.h \
@@ -4832,7 +4832,7 @@ moc/moc_yerith-erp-pointdevente-liststocks-window.cpp: src/windows/pos/yerith-er
 		src/utils/yerith-erp-info-entreprise.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/pos/yerith-erp-pointdevente-liststocks-window.hpp -o moc/moc_yerith-erp-pointdevente-liststocks-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/pos/yerith-erp-pointdevente-liststocks-window.hpp -o moc/moc_yerith-erp-pointdevente-liststocks-window.cpp
 
 moc/moc_yerith-erp-calcul-salaire-EMPLOYE-window.cpp: src/windows/supplier/yerith-erp-calcul-salaire-EMPLOYE-window.hpp \
 		src/windows/yerith-erp-window-commons.hpp \
@@ -4868,7 +4868,7 @@ moc/moc_yerith-erp-calcul-salaire-EMPLOYE-window.cpp: src/windows/supplier/yerit
 		src/utils/yerith-erp-payment-processing-information.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-calcul-salaire-EMPLOYE-window.hpp -o moc/moc_yerith-erp-calcul-salaire-EMPLOYE-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-calcul-salaire-EMPLOYE-window.hpp -o moc/moc_yerith-erp-calcul-salaire-EMPLOYE-window.cpp
 
 moc/moc_yerith-erp-tableau-des-transactions-du-fournisseur-window.cpp: src/windows/supplier/yerith-erp-tableau-des-transactions-du-fournisseur-window.hpp \
 		ui_yerith-erp-tableau-des-transactions-du-fournisseur-window.h \
@@ -4904,7 +4904,7 @@ moc/moc_yerith-erp-tableau-des-transactions-du-fournisseur-window.cpp: src/windo
 		src/widgets/yerith-erp-line-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-tableau-des-transactions-du-fournisseur-window.hpp -o moc/moc_yerith-erp-tableau-des-transactions-du-fournisseur-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-tableau-des-transactions-du-fournisseur-window.hpp -o moc/moc_yerith-erp-tableau-des-transactions-du-fournisseur-window.cpp
 
 moc/moc_yerith-erp-modifier-fournisseur-window.cpp: src/windows/supplier/yerith-erp-modifier-fournisseur-window.hpp \
 		ui_yerith-erp-modifier-fournisseur-window.h \
@@ -4942,7 +4942,7 @@ moc/moc_yerith-erp-modifier-fournisseur-window.cpp: src/windows/supplier/yerith-
 		src/widgets/yerith-erp-text-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-modifier-fournisseur-window.hpp -o moc/moc_yerith-erp-modifier-fournisseur-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-modifier-fournisseur-window.hpp -o moc/moc_yerith-erp-modifier-fournisseur-window.cpp
 
 moc/moc_yerith-erp-DETAILS-DUN-GROUPE-DE-PAIE-hr-window.cpp: src/windows/supplier/yerith-erp-DETAILS-DUN-GROUPE-DE-PAIE-hr-window.hpp \
 		ui_yerith-erp-DETAILS-DUN-GROUPE-DE-PAIE-hr-window.h \
@@ -4985,7 +4985,7 @@ moc/moc_yerith-erp-DETAILS-DUN-GROUPE-DE-PAIE-hr-window.cpp: src/windows/supplie
 		src/widgets/yerith-erp-text-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-DETAILS-DUN-GROUPE-DE-PAIE-hr-window.hpp -o moc/moc_yerith-erp-DETAILS-DUN-GROUPE-DE-PAIE-hr-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-DETAILS-DUN-GROUPE-DE-PAIE-hr-window.hpp -o moc/moc_yerith-erp-DETAILS-DUN-GROUPE-DE-PAIE-hr-window.cpp
 
 moc/moc_yerith-erp-DETAILS-DUN-GROUPE-DEMPLOYES-hr-window.cpp: src/windows/supplier/yerith-erp-DETAILS-DUN-GROUPE-DEMPLOYES-hr-window.hpp \
 		ui_yerith-erp-DETAILS-DUN-GROUPE-DEMPLOYES-hr-window.h \
@@ -5028,7 +5028,7 @@ moc/moc_yerith-erp-DETAILS-DUN-GROUPE-DEMPLOYES-hr-window.cpp: src/windows/suppl
 		src/widgets/yerith-erp-text-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-DETAILS-DUN-GROUPE-DEMPLOYES-hr-window.hpp -o moc/moc_yerith-erp-DETAILS-DUN-GROUPE-DEMPLOYES-hr-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-DETAILS-DUN-GROUPE-DEMPLOYES-hr-window.hpp -o moc/moc_yerith-erp-DETAILS-DUN-GROUPE-DEMPLOYES-hr-window.cpp
 
 moc/moc_yerith-erp-GROUPES-dun-employe-hr-window.cpp: src/windows/supplier/yerith-erp-GROUPES-dun-employe-hr-window.hpp \
 		ui_yerith-erp-GROUPES-dun-employe-hr-window.h \
@@ -5071,7 +5071,7 @@ moc/moc_yerith-erp-GROUPES-dun-employe-hr-window.cpp: src/windows/supplier/yerit
 		src/windows/yerith-erp-qtable-widget-window-commons.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-GROUPES-dun-employe-hr-window.hpp -o moc/moc_yerith-erp-GROUPES-dun-employe-hr-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-GROUPES-dun-employe-hr-window.hpp -o moc/moc_yerith-erp-GROUPES-dun-employe-hr-window.cpp
 
 moc/moc_yerith-erp-creer-GROUPE-DE-PAIE-hr-window.cpp: src/windows/supplier/yerith-erp-creer-GROUPE-DE-PAIE-hr-window.hpp \
 		ui_yerith-erp-creer-GROUPE-DE-PAIE-hr-window.h \
@@ -5110,7 +5110,7 @@ moc/moc_yerith-erp-creer-GROUPE-DE-PAIE-hr-window.cpp: src/windows/supplier/yeri
 		src/widgets/yerith-erp-text-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-creer-GROUPE-DE-PAIE-hr-window.hpp -o moc/moc_yerith-erp-creer-GROUPE-DE-PAIE-hr-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-creer-GROUPE-DE-PAIE-hr-window.hpp -o moc/moc_yerith-erp-creer-GROUPE-DE-PAIE-hr-window.cpp
 
 moc/moc_yerith-erp-creer-groupe-DEMPLOYES-hr-window.cpp: src/windows/supplier/yerith-erp-creer-groupe-DEMPLOYES-hr-window.hpp \
 		ui_yerith-erp-creer-groupe-DEMPLOYES-hr-window.h \
@@ -5153,7 +5153,7 @@ moc/moc_yerith-erp-creer-groupe-DEMPLOYES-hr-window.cpp: src/windows/supplier/ye
 		src/widgets/yerith-erp-text-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-creer-groupe-DEMPLOYES-hr-window.hpp -o moc/moc_yerith-erp-creer-groupe-DEMPLOYES-hr-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-creer-groupe-DEMPLOYES-hr-window.hpp -o moc/moc_yerith-erp-creer-groupe-DEMPLOYES-hr-window.cpp
 
 moc/moc_yerith-erp-GROUPES-DEMPLOYES-hr-window.cpp: src/windows/supplier/yerith-erp-GROUPES-DEMPLOYES-hr-window.hpp \
 		ui_yerith-erp-GROUPES-DEMPLOYES-hr-window.h \
@@ -5193,7 +5193,7 @@ moc/moc_yerith-erp-GROUPES-DEMPLOYES-hr-window.cpp: src/windows/supplier/yerith-
 		src/widgets/yerith-erp-push-button.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-GROUPES-DEMPLOYES-hr-window.hpp -o moc/moc_yerith-erp-GROUPES-DEMPLOYES-hr-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-GROUPES-DEMPLOYES-hr-window.hpp -o moc/moc_yerith-erp-GROUPES-DEMPLOYES-hr-window.cpp
 
 moc/moc_yerith-erp-GROUPES-DE-PAIE-hr-window.cpp: src/windows/supplier/yerith-erp-GROUPES-DE-PAIE-hr-window.hpp \
 		ui_yerith-erp-GROUPES-DE-PAIE-hr-window.h \
@@ -5233,7 +5233,7 @@ moc/moc_yerith-erp-GROUPES-DE-PAIE-hr-window.cpp: src/windows/supplier/yerith-er
 		src/widgets/yerith-erp-push-button.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-GROUPES-DE-PAIE-hr-window.hpp -o moc/moc_yerith-erp-GROUPES-DE-PAIE-hr-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-GROUPES-DE-PAIE-hr-window.hpp -o moc/moc_yerith-erp-GROUPES-DE-PAIE-hr-window.cpp
 
 moc/moc_yerith-erp-fournisseurs-window.cpp: src/windows/supplier/yerith-erp-fournisseurs-window.hpp \
 		ui_yerith-erp-fournisseurs-window.h \
@@ -5273,7 +5273,7 @@ moc/moc_yerith-erp-fournisseurs-window.cpp: src/windows/supplier/yerith-erp-four
 		src/widgets/yerith-erp-radio-button.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-fournisseurs-window.hpp -o moc/moc_yerith-erp-fournisseurs-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-fournisseurs-window.hpp -o moc/moc_yerith-erp-fournisseurs-window.cpp
 
 moc/moc_yerith-erp-creer-fournisseur-window.cpp: src/windows/supplier/yerith-erp-creer-fournisseur-window.hpp \
 		ui_yerith-erp-creer-fournisseur-window.h \
@@ -5311,7 +5311,7 @@ moc/moc_yerith-erp-creer-fournisseur-window.cpp: src/windows/supplier/yerith-erp
 		src/widgets/yerith-erp-text-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-creer-fournisseur-window.hpp -o moc/moc_yerith-erp-creer-fournisseur-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-creer-fournisseur-window.hpp -o moc/moc_yerith-erp-creer-fournisseur-window.cpp
 
 moc/moc_yerith-erp-fournisseur-details-window.cpp: src/windows/supplier/yerith-erp-fournisseur-details-window.hpp \
 		ui_yerith-erp-fournisseur-details-window.h \
@@ -5351,7 +5351,7 @@ moc/moc_yerith-erp-fournisseur-details-window.cpp: src/windows/supplier/yerith-e
 		src/utils/yerith-erp-map-COMPLEX-ITEM.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-fournisseur-details-window.hpp -o moc/moc_yerith-erp-fournisseur-details-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/supplier/yerith-erp-fournisseur-details-window.hpp -o moc/moc_yerith-erp-fournisseur-details-window.cpp
 
 moc/moc_yerith-erp-comptabilite-window.cpp: src/windows/yerith-erp-comptabilite-window.hpp \
 		ui_yerith-erp-comptabilite-window.h \
@@ -5396,7 +5396,7 @@ moc/moc_yerith-erp-comptabilite-window.cpp: src/windows/yerith-erp-comptabilite-
 		src/windows/yerith-erp-qtable-widget-window-commons.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-comptabilite-window.hpp -o moc/moc_yerith-erp-comptabilite-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-comptabilite-window.hpp -o moc/moc_yerith-erp-comptabilite-window.cpp
 
 moc/moc_yerith-erp-recherche-conditionnelle-window.cpp: src/windows/yerith-erp-recherche-conditionnelle-window.hpp \
 		ui_yerith-erp-recherche-conditionnelle-window.h \
@@ -5604,7 +5604,7 @@ moc/moc_yerith-erp-recherche-conditionnelle-window.cpp: src/windows/yerith-erp-r
 		src/utils/yerith-erp-info-entreprise.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-recherche-conditionnelle-window.hpp -o moc/moc_yerith-erp-recherche-conditionnelle-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-recherche-conditionnelle-window.hpp -o moc/moc_yerith-erp-recherche-conditionnelle-window.cpp
 
 moc/moc_yerith-erp-qtable-widget-window-commons.cpp: src/windows/yerith-erp-qtable-widget-window-commons.hpp \
 		src/windows/yerith-erp-window-commons.hpp \
@@ -5642,7 +5642,7 @@ moc/moc_yerith-erp-qtable-widget-window-commons.cpp: src/windows/yerith-erp-qtab
 		src/utils/yerith-erp-article-vente-info.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-qtable-widget-window-commons.hpp -o moc/moc_yerith-erp-qtable-widget-window-commons.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-qtable-widget-window-commons.hpp -o moc/moc_yerith-erp-qtable-widget-window-commons.cpp
 
 moc/moc_yerith-erp-window-commons.cpp: src/windows/yerith-erp-window-commons.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -5676,7 +5676,7 @@ moc/moc_yerith-erp-window-commons.cpp: src/windows/yerith-erp-window-commons.hpp
 		src/widgets/yerith-erp-line-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-window-commons.hpp -o moc/moc_yerith-erp-window-commons.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-window-commons.hpp -o moc/moc_yerith-erp-window-commons.cpp
 
 moc/moc_yerith-erp-main-window.cpp: src/windows/yerith-erp-main-window.hpp \
 		ui_yerith-erp-main-window.h \
@@ -5713,7 +5713,7 @@ moc/moc_yerith-erp-main-window.cpp: src/windows/yerith-erp-main-window.hpp \
 		src/widgets/yerith-erp-line-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-main-window.hpp -o moc/moc_yerith-erp-main-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-main-window.hpp -o moc/moc_yerith-erp-main-window.cpp
 
 moc/moc_yerith-erp-alertes-window.cpp: src/windows/yerith-erp-alertes-window.hpp \
 		ui_yerith-erp-alertes-window.h \
@@ -5756,7 +5756,7 @@ moc/moc_yerith-erp-alertes-window.cpp: src/windows/yerith-erp-alertes-window.hpp
 		src/widgets/yerith-erp-text-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-alertes-window.hpp -o moc/moc_yerith-erp-alertes-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-alertes-window.hpp -o moc/moc_yerith-erp-alertes-window.cpp
 
 moc/moc_yerith-erp-tableaux-de-bord-window.cpp: src/windows/yerith-erp-tableaux-de-bord-window.hpp \
 		ui_yerith-erp-tableaux-de-bord-window.h \
@@ -5795,7 +5795,7 @@ moc/moc_yerith-erp-tableaux-de-bord-window.cpp: src/windows/yerith-erp-tableaux-
 		src/widgets/yerith-erp-qcheckbox.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-tableaux-de-bord-window.hpp -o moc/moc_yerith-erp-tableaux-de-bord-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-tableaux-de-bord-window.hpp -o moc/moc_yerith-erp-tableaux-de-bord-window.cpp
 
 moc/moc_yerith-erp-paiements-window.cpp: src/windows/yerith-erp-paiements-window.hpp \
 		ui_yerith-erp-paiements-window.h \
@@ -5838,7 +5838,7 @@ moc/moc_yerith-erp-paiements-window.cpp: src/windows/yerith-erp-paiements-window
 		src/widgets/yerith-erp-text-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-paiements-window.hpp -o moc/moc_yerith-erp-paiements-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-paiements-window.hpp -o moc/moc_yerith-erp-paiements-window.cpp
 
 moc/moc_yerith-erp-ventes-window.cpp: src/windows/yerith-erp-ventes-window.hpp \
 		ui_yerith-erp-ventes-window.h \
@@ -5880,7 +5880,7 @@ moc/moc_yerith-erp-ventes-window.cpp: src/windows/yerith-erp-ventes-window.hpp \
 		src/widgets/yerith-erp-push-button.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-ventes-window.hpp -o moc/moc_yerith-erp-ventes-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/windows/yerith-erp-ventes-window.hpp -o moc/moc_yerith-erp-ventes-window.cpp
 
 moc/moc_yerith-erp-test-yerith-erp-utils.cpp: src/tests/utils/yerith-erp-test-yerith-erp-utils.hpp \
 		src/include/yerith-erp-9-0-definition-oo-class-operators.hpp \
@@ -5914,7 +5914,7 @@ moc/moc_yerith-erp-test-yerith-erp-utils.cpp: src/tests/utils/yerith-erp-test-ye
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/tests/utils/yerith-erp-test-yerith-erp-utils.hpp -o moc/moc_yerith-erp-test-yerith-erp-utils.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/tests/utils/yerith-erp-test-yerith-erp-utils.hpp -o moc/moc_yerith-erp-test-yerith-erp-utils.cpp
 
 moc/moc_yerith-erp-test-yerith-erp-table-view.cpp: src/tests/yerith-erp-test-yerith-erp-table-view.hpp \
 		src/include/yerith-erp-9-0-definition-oo-class-operators.hpp \
@@ -5948,12 +5948,12 @@ moc/moc_yerith-erp-test-yerith-erp-table-view.cpp: src/tests/yerith-erp-test-yer
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/tests/yerith-erp-test-yerith-erp-table-view.hpp -o moc/moc_yerith-erp-test-yerith-erp-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/tests/yerith-erp-test-yerith-erp-table-view.hpp -o moc/moc_yerith-erp-test-yerith-erp-table-view.cpp
 
 moc/moc_yerith-erp-test-yerith-erp-windows.cpp: src/tests/yerith-erp-test-yerith-erp-windows.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/tests/yerith-erp-test-yerith-erp-windows.hpp -o moc/moc_yerith-erp-test-yerith-erp-windows.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/tests/yerith-erp-test-yerith-erp-windows.hpp -o moc/moc_yerith-erp-test-yerith-erp-windows.cpp
 
 moc/moc_yerith-erp-test-import-csv-file-data.cpp: src/tests/utils/yerith-erp-test-import-csv-file-data.hpp \
 		src/tests/utils/yerith-erp-test-utils.hpp \
@@ -5987,7 +5987,7 @@ moc/moc_yerith-erp-test-import-csv-file-data.cpp: src/tests/utils/yerith-erp-tes
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/tests/utils/yerith-erp-test-import-csv-file-data.hpp -o moc/moc_yerith-erp-test-import-csv-file-data.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/tests/utils/yerith-erp-test-import-csv-file-data.hpp -o moc/moc_yerith-erp-test-import-csv-file-data.cpp
 
 moc/moc_yerith-erp-test-utils.cpp: src/tests/utils/yerith-erp-test-utils.hpp \
 		src/imports/yerith-erp-stock-import.hpp \
@@ -6020,7 +6020,7 @@ moc/moc_yerith-erp-test-utils.cpp: src/tests/utils/yerith-erp-test-utils.hpp \
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/tests/utils/yerith-erp-test-utils.hpp -o moc/moc_yerith-erp-test-utils.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/tests/utils/yerith-erp-test-utils.hpp -o moc/moc_yerith-erp-test-utils.cpp
 
 moc/moc_yerith-erp-users.cpp: src/users/yerith-erp-users.hpp \
 		src/users/yerith-erp-user-settings.hpp \
@@ -6057,7 +6057,7 @@ moc/moc_yerith-erp-users.cpp: src/users/yerith-erp-users.hpp \
 		src/widgets/yerith-erp-line-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/users/yerith-erp-users.hpp -o moc/moc_yerith-erp-users.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/users/yerith-erp-users.hpp -o moc/moc_yerith-erp-users.cpp
 
 moc/moc_yerith-erp-user-vendeur.cpp: src/users/yerith-erp-user-vendeur.hpp \
 		src/users/yerith-erp-users.hpp \
@@ -6095,7 +6095,7 @@ moc/moc_yerith-erp-user-vendeur.cpp: src/users/yerith-erp-user-vendeur.hpp \
 		src/widgets/yerith-erp-line-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/users/yerith-erp-user-vendeur.hpp -o moc/moc_yerith-erp-user-vendeur.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/users/yerith-erp-user-vendeur.hpp -o moc/moc_yerith-erp-user-vendeur.cpp
 
 moc/moc_yerith-erp-user-gestionaire-des-stocks.cpp: src/users/yerith-erp-user-gestionaire-des-stocks.hpp \
 		src/users/yerith-erp-users.hpp \
@@ -6133,7 +6133,7 @@ moc/moc_yerith-erp-user-gestionaire-des-stocks.cpp: src/users/yerith-erp-user-ge
 		src/widgets/yerith-erp-line-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/users/yerith-erp-user-gestionaire-des-stocks.hpp -o moc/moc_yerith-erp-user-gestionaire-des-stocks.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/users/yerith-erp-user-gestionaire-des-stocks.hpp -o moc/moc_yerith-erp-user-gestionaire-des-stocks.cpp
 
 moc/moc_yerith-erp-user-manager.cpp: src/users/yerith-erp-user-manager.hpp \
 		src/users/yerith-erp-users.hpp \
@@ -6171,7 +6171,7 @@ moc/moc_yerith-erp-user-manager.cpp: src/users/yerith-erp-user-manager.hpp \
 		src/widgets/yerith-erp-line-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/users/yerith-erp-user-manager.hpp -o moc/moc_yerith-erp-user-manager.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/users/yerith-erp-user-manager.hpp -o moc/moc_yerith-erp-user-manager.cpp
 
 moc/moc_yerith-erp-user-magasinier.cpp: src/users/yerith-erp-user-magasinier.hpp \
 		src/users/yerith-erp-users.hpp \
@@ -6209,7 +6209,7 @@ moc/moc_yerith-erp-user-magasinier.cpp: src/users/yerith-erp-user-magasinier.hpp
 		src/widgets/yerith-erp-line-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/users/yerith-erp-user-magasinier.hpp -o moc/moc_yerith-erp-user-magasinier.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/users/yerith-erp-user-magasinier.hpp -o moc/moc_yerith-erp-user-magasinier.cpp
 
 moc/moc_yerith-erp-user-caissier.cpp: src/users/yerith-erp-user-caissier.hpp \
 		src/users/yerith-erp-users.hpp \
@@ -6247,7 +6247,7 @@ moc/moc_yerith-erp-user-caissier.cpp: src/users/yerith-erp-user-caissier.hpp \
 		src/widgets/yerith-erp-line-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/users/yerith-erp-user-caissier.hpp -o moc/moc_yerith-erp-user-caissier.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/users/yerith-erp-user-caissier.hpp -o moc/moc_yerith-erp-user-caissier.cpp
 
 moc/moc_yerith-erp-user-administrateur.cpp: src/users/yerith-erp-user-administrateur.hpp \
 		src/users/yerith-erp-users.hpp \
@@ -6285,18 +6285,18 @@ moc/moc_yerith-erp-user-administrateur.cpp: src/users/yerith-erp-user-administra
 		src/widgets/yerith-erp-line-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/users/yerith-erp-user-administrateur.hpp -o moc/moc_yerith-erp-user-administrateur.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/users/yerith-erp-user-administrateur.hpp -o moc/moc_yerith-erp-user-administrateur.cpp
 
 moc/moc_yerith_dynamic_taint_analysis_directives.cpp: src/dbus/yerith_dynamic_taint_analysis_directives.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/dbus/yerith_dynamic_taint_analysis_directives.hpp -o moc/moc_yerith_dynamic_taint_analysis_directives.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/dbus/yerith_dynamic_taint_analysis_directives.hpp -o moc/moc_yerith_dynamic_taint_analysis_directives.cpp
 
 moc/moc_YERITH_RUNTIME_VERIFIER.cpp: src/dbus/YERITH_RUNTIME_VERIFIER.hpp \
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/dbus/YERITH_RUNTIME_VERIFIER.hpp -o moc/moc_YERITH_RUNTIME_VERIFIER.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/dbus/YERITH_RUNTIME_VERIFIER.hpp -o moc/moc_YERITH_RUNTIME_VERIFIER.cpp
 
 moc/moc_yerith-erp-CANCEL-Modification-TIMING-Object.cpp: src/utils/yerith-erp-CANCEL-Modification-TIMING-Object.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -6326,7 +6326,7 @@ moc/moc_yerith-erp-CANCEL-Modification-TIMING-Object.cpp: src/utils/yerith-erp-C
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/utils/yerith-erp-CANCEL-Modification-TIMING-Object.hpp -o moc/moc_yerith-erp-CANCEL-Modification-TIMING-Object.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/utils/yerith-erp-CANCEL-Modification-TIMING-Object.hpp -o moc/moc_yerith-erp-CANCEL-Modification-TIMING-Object.cpp
 
 moc/moc_yerith-erp-key-emitter.cpp: src/utils/virtual-keyboard/yerith-erp-key-emitter.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -6341,7 +6341,7 @@ moc/moc_yerith-erp-key-emitter.cpp: src/utils/virtual-keyboard/yerith-erp-key-em
 		src/include/yerith-erp-9-0-definition-colour-rgb.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/utils/virtual-keyboard/yerith-erp-key-emitter.hpp -o moc/moc_yerith-erp-key-emitter.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/utils/virtual-keyboard/yerith-erp-key-emitter.hpp -o moc/moc_yerith-erp-key-emitter.cpp
 
 moc/moc_yerith-erp-spell-numbers.cpp: src/utils/yerith-erp-spell-numbers.hpp \
 		src/utils/yerith-erp-utils.hpp \
@@ -6371,7 +6371,7 @@ moc/moc_yerith-erp-spell-numbers.cpp: src/utils/yerith-erp-spell-numbers.hpp \
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/utils/yerith-erp-spell-numbers.hpp -o moc/moc_yerith-erp-spell-numbers.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/utils/yerith-erp-spell-numbers.hpp -o moc/moc_yerith-erp-spell-numbers.cpp
 
 moc/moc_yerith-erp-utils.cpp: src/utils/yerith-erp-utils.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -6401,7 +6401,7 @@ moc/moc_yerith-erp-utils.cpp: src/utils/yerith-erp-utils.hpp \
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/utils/yerith-erp-utils.hpp -o moc/moc_yerith-erp-utils.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/utils/yerith-erp-utils.hpp -o moc/moc_yerith-erp-utils.cpp
 
 moc/moc_yerith-erp-print_yerith_latex_util_pdf.cpp: src/utils/print_latex_pdf/yerith-erp-print_yerith_latex_util_pdf.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -6436,7 +6436,7 @@ moc/moc_yerith-erp-print_yerith_latex_util_pdf.cpp: src/utils/print_latex_pdf/ye
 		src/widgets/yerith-erp-line-edit.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/utils/print_latex_pdf/yerith-erp-print_yerith_latex_util_pdf.hpp -o moc/moc_yerith-erp-print_yerith_latex_util_pdf.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/utils/print_latex_pdf/yerith-erp-print_yerith_latex_util_pdf.hpp -o moc/moc_yerith-erp-print_yerith_latex_util_pdf.cpp
 
 moc/moc_yerith-erp-qtable-widget-admin-window-commons.cpp: src/admin/yerith-erp-qtable-widget-admin-window-commons.hpp \
 		src/admin/yerith-erp-admin-windows-commons.hpp \
@@ -6478,7 +6478,7 @@ moc/moc_yerith-erp-qtable-widget-admin-window-commons.cpp: src/admin/yerith-erp-
 		src/utils/yerith-erp-article-vente-info.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/yerith-erp-qtable-widget-admin-window-commons.hpp -o moc/moc_yerith-erp-qtable-widget-admin-window-commons.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/yerith-erp-qtable-widget-admin-window-commons.hpp -o moc/moc_yerith-erp-qtable-widget-admin-window-commons.cpp
 
 moc/moc_yerith-erp-admin-windows-commons.cpp: src/admin/yerith-erp-admin-windows-commons.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -6516,7 +6516,7 @@ moc/moc_yerith-erp-admin-windows-commons.cpp: src/admin/yerith-erp-admin-windows
 		src/utils/print_latex_pdf/yerith-erp-print_yerith_latex_util_pdf.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/yerith-erp-admin-windows-commons.hpp -o moc/moc_yerith-erp-admin-windows-commons.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/yerith-erp-admin-windows-commons.hpp -o moc/moc_yerith-erp-admin-windows-commons.cpp
 
 moc/moc_yerith-erp-admin-window.cpp: src/admin/yerith-erp-admin-window.hpp \
 		ui_yerith-erp-admin-window.h \
@@ -6724,7 +6724,7 @@ moc/moc_yerith-erp-admin-window.cpp: src/admin/yerith-erp-admin-window.hpp \
 		src/utils/yerith-erp-info-entreprise.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/yerith-erp-admin-window.hpp -o moc/moc_yerith-erp-admin-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/yerith-erp-admin-window.hpp -o moc/moc_yerith-erp-admin-window.cpp
 
 moc/moc_yerith-erp-admin-search-form.cpp: src/admin/yerith-erp-admin-search-form.hpp \
 		ui_yerith-erp-admin-search-form.h \
@@ -6762,7 +6762,7 @@ moc/moc_yerith-erp-admin-search-form.cpp: src/admin/yerith-erp-admin-search-form
 		src/admin/admin-actions-subjects.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/yerith-erp-admin-search-form.hpp -o moc/moc_yerith-erp-admin-search-form.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/yerith-erp-admin-search-form.hpp -o moc/moc_yerith-erp-admin-search-form.cpp
 
 moc/moc_yerith-erp-ADMIN-UPPER-TABLE-VIEW-CLASS.cpp: src/admin/widgets/table-view/yerith-erp-ADMIN-UPPER-TABLE-VIEW-CLASS.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -6794,7 +6794,7 @@ moc/moc_yerith-erp-ADMIN-UPPER-TABLE-VIEW-CLASS.cpp: src/admin/widgets/table-vie
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/widgets/table-view/yerith-erp-ADMIN-UPPER-TABLE-VIEW-CLASS.hpp -o moc/moc_yerith-erp-ADMIN-UPPER-TABLE-VIEW-CLASS.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/widgets/table-view/yerith-erp-ADMIN-UPPER-TABLE-VIEW-CLASS.hpp -o moc/moc_yerith-erp-ADMIN-UPPER-TABLE-VIEW-CLASS.cpp
 
 moc/moc_yerith-erp_web_SYSTEM_discovered_Widgets-table-view.cpp: src/admin/widgets/table-view/yerith-erp_web_SYSTEM_discovered_Widgets-table-view.hpp \
 		src/widgets/widgets-table/yerith-erp-table-widget.hpp \
@@ -6828,7 +6828,7 @@ moc/moc_yerith-erp_web_SYSTEM_discovered_Widgets-table-view.cpp: src/admin/widge
 		src/web_systems/yerith-erp-xml-parser-widget-element.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/widgets/table-view/yerith-erp_web_SYSTEM_discovered_Widgets-table-view.hpp -o moc/moc_yerith-erp_web_SYSTEM_discovered_Widgets-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/widgets/table-view/yerith-erp_web_SYSTEM_discovered_Widgets-table-view.hpp -o moc/moc_yerith-erp_web_SYSTEM_discovered_Widgets-table-view.cpp
 
 moc/moc_yerith-erp-financial-expense-table-view.cpp: src/admin/widgets/table-view/yerith-erp-financial-expense-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -6861,7 +6861,7 @@ moc/moc_yerith-erp-financial-expense-table-view.cpp: src/admin/widgets/table-vie
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/widgets/table-view/yerith-erp-financial-expense-table-view.hpp -o moc/moc_yerith-erp-financial-expense-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/widgets/table-view/yerith-erp-financial-expense-table-view.hpp -o moc/moc_yerith-erp-financial-expense-table-view.cpp
 
 moc/moc_yerith-erp-product-department-table-view.cpp: src/admin/widgets/table-view/yerith-erp-product-department-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -6894,7 +6894,7 @@ moc/moc_yerith-erp-product-department-table-view.cpp: src/admin/widgets/table-vi
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/widgets/table-view/yerith-erp-product-department-table-view.hpp -o moc/moc_yerith-erp-product-department-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/widgets/table-view/yerith-erp-product-department-table-view.hpp -o moc/moc_yerith-erp-product-department-table-view.cpp
 
 moc/moc_yerith-erp-alert-table-view.cpp: src/admin/widgets/table-view/yerith-erp-alert-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -6927,7 +6927,7 @@ moc/moc_yerith-erp-alert-table-view.cpp: src/admin/widgets/table-view/yerith-erp
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/widgets/table-view/yerith-erp-alert-table-view.hpp -o moc/moc_yerith-erp-alert-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/widgets/table-view/yerith-erp-alert-table-view.hpp -o moc/moc_yerith-erp-alert-table-view.cpp
 
 moc/moc_yerith-erp-site-table-view.cpp: src/admin/widgets/table-view/yerith-erp-site-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -6960,7 +6960,7 @@ moc/moc_yerith-erp-site-table-view.cpp: src/admin/widgets/table-view/yerith-erp-
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/widgets/table-view/yerith-erp-site-table-view.hpp -o moc/moc_yerith-erp-site-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/widgets/table-view/yerith-erp-site-table-view.hpp -o moc/moc_yerith-erp-site-table-view.cpp
 
 moc/moc_yerith-erp-user-table-view.cpp: src/admin/widgets/table-view/yerith-erp-user-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -6993,7 +6993,7 @@ moc/moc_yerith-erp-user-table-view.cpp: src/admin/widgets/table-view/yerith-erp-
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/widgets/table-view/yerith-erp-user-table-view.hpp -o moc/moc_yerith-erp-user-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/widgets/table-view/yerith-erp-user-table-view.hpp -o moc/moc_yerith-erp-user-table-view.cpp
 
 moc/moc_yerith-erp-category-table-view.cpp: src/admin/widgets/table-view/yerith-erp-category-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -7026,7 +7026,7 @@ moc/moc_yerith-erp-category-table-view.cpp: src/admin/widgets/table-view/yerith-
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/widgets/table-view/yerith-erp-category-table-view.hpp -o moc/moc_yerith-erp-category-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/widgets/table-view/yerith-erp-category-table-view.hpp -o moc/moc_yerith-erp-category-table-view.cpp
 
 moc/moc_yerith-erp-bank-account-table-view.cpp: src/admin/widgets/table-view/yerith-erp-bank-account-table-view.hpp \
 		src/include/yerith-erp-9-0-software.text-configuration.hpp \
@@ -7059,7 +7059,7 @@ moc/moc_yerith-erp-bank-account-table-view.cpp: src/admin/widgets/table-view/yer
 		src/IYRIruntimeverificationAdaptor_interface.h \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/widgets/table-view/yerith-erp-bank-account-table-view.hpp -o moc/moc_yerith-erp-bank-account-table-view.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/widgets/table-view/yerith-erp-bank-account-table-view.hpp -o moc/moc_yerith-erp-bank-account-table-view.cpp
 
 moc/moc_yerith-erp-admin-create-window.cpp: src/admin/creer/yerith-erp-admin-create-window.hpp \
 		ui_yerith-erp-admin-create-window.h \
@@ -7105,7 +7105,7 @@ moc/moc_yerith-erp-admin-create-window.cpp: src/admin/creer/yerith-erp-admin-cre
 		src/utils/print_latex_pdf/yerith-erp-print_yerith_latex_util_pdf.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/creer/yerith-erp-admin-create-window.hpp -o moc/moc_yerith-erp-admin-create-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/creer/yerith-erp-admin-create-window.hpp -o moc/moc_yerith-erp-admin-create-window.cpp
 
 moc/moc_yerith-erp-admin-lister-window.cpp: src/admin/lister/yerith-erp-admin-lister-window.hpp \
 		ui_yerith-erp-admin-lister-window.h \
@@ -7157,7 +7157,7 @@ moc/moc_yerith-erp-admin-lister-window.cpp: src/admin/lister/yerith-erp-admin-li
 		src/admin/admin-actions-subjects.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/lister/yerith-erp-admin-lister-window.hpp -o moc/moc_yerith-erp-admin-lister-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/lister/yerith-erp-admin-lister-window.hpp -o moc/moc_yerith-erp-admin-lister-window.cpp
 
 moc/moc_yerith-erp-admin-detail-window.cpp: src/admin/detail/yerith-erp-admin-detail-window.hpp \
 		ui_yerith-erp-admin-detail-window.h \
@@ -7203,7 +7203,7 @@ moc/moc_yerith-erp-admin-detail-window.cpp: src/admin/detail/yerith-erp-admin-de
 		src/admin/admin-actions-subjects.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/detail/yerith-erp-admin-detail-window.hpp -o moc/moc_yerith-erp-admin-detail-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/detail/yerith-erp-admin-detail-window.hpp -o moc/moc_yerith-erp-admin-detail-window.cpp
 
 moc/moc_yerith-erp-admin-modifier-window.cpp: src/admin/modifier/yerith-erp-admin-modifier-window.hpp \
 		ui_yerith-erp-admin-modifier-window.h \
@@ -7250,7 +7250,7 @@ moc/moc_yerith-erp-admin-modifier-window.cpp: src/admin/modifier/yerith-erp-admi
 		src/admin/admin-actions-subjects.hpp \
 		moc/moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/yerith-erp-pgi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/yerith-erp-pgi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/modifier/yerith-erp-admin-modifier-window.hpp -o moc/moc_yerith-erp-admin-modifier-window.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/jhnissi/yerith-erp-9-0/moc/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/jhnissi/yerith-erp-9-0 -I/usr/include/c++/14 -I/usr/include/x86_64-linux-gnu/c++/14 -I/usr/include/c++/14/backward -I/usr/lib/gcc/x86_64-linux-gnu/14/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include src/admin/modifier/yerith-erp-admin-modifier-window.hpp -o moc/moc_yerith-erp-admin-modifier-window.cpp
 
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:
@@ -7261,6 +7261,7 @@ qrc_yerith-erp-9-0.cpp: yerith-erp-9-0.qrc \
 		/usr/lib/qt5/bin/rcc \
 		yerith-erp-9-0-main.qml \
 		YERITH.JPG \
+		template-yri-web-dsl.spec_html \
 		yerith-erp-9-0-templates/FR_template-comptabilite.tex \
 		yerith-erp-9-0-templates/1a.tex \
 		yerith-erp-9-0-templates/EN_template-transactions-dun-client.tex \
@@ -41461,866 +41462,866 @@ obj/qrc_yerith-erp-9-0.o: qrc_yerith-erp-9-0.cpp obj/yerith-erp-9-0.gch/c++
 ####### Install
 
 install_target: first FORCE
-	@test -d $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/yerith-erp-9-0 || mkdir -p $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/yerith-erp-9-0
-	$(QINSTALL_PROGRAM) bin/$(QMAKE_TARGET) $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/yerith-erp-9-0/$(QMAKE_TARGET)
-	-$(STRIP) $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/yerith-erp-9-0/$(QMAKE_TARGET)
+	@test -d $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/yerith-erp-9-0 || mkdir -p $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/yerith-erp-9-0
+	$(QINSTALL_PROGRAM) bin/$(QMAKE_TARGET) $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/yerith-erp-9-0/$(QMAKE_TARGET)
+	-$(STRIP) $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/yerith-erp-9-0/$(QMAKE_TARGET)
 
 uninstall_target: FORCE
-	-$(DEL_FILE) $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/yerith-erp-9-0/$(QMAKE_TARGET)
-	-$(DEL_DIR) $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/yerith-erp-9-0/ 
+	-$(DEL_FILE) $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/yerith-erp-9-0/$(QMAKE_TARGET)
+	-$(DEL_DIR) $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/yerith-erp-9-0/ 
 
 
 install_sources: first FORCE
-	@test -d $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/. || mkdir -p $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/.
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/yerith-erp-9-0.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-9-0.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/YRIruntimeverification_adaptor.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./YRIruntimeverification_adaptor.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/IYRIruntimeverificationAdaptor_interface.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./IYRIruntimeverificationAdaptor_interface.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/yerith-erp-windows.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-windows.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/imports/yerith-erp-Budget_Lines-import.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-Budget_Lines-import.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/imports/yerith-erp-ALL-common-import.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-ALL-common-import.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/imports/yerith-erp-bank-account-info-raw-import.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-bank-account-info-raw-import.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/imports/yerith-erp-marchandise-import.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-marchandise-import.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/imports/yerith-erp-stock-import.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-stock-import.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/web_systems/yerith-web-systems-main-generator___KeyWords.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-web-systems-main-generator___KeyWords.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/web_systems/yerith-web-systems-main-parser_XML_Tag_Element.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-web-systems-main-parser_XML_Tag_Element.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/web_systems/yerith-web-systems-main-generator.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-web-systems-main-generator.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/web_systems/yerith-erp-xml-parser-QLIST___widget-element.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-xml-parser-QLIST___widget-element.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/web_systems/yerith-erp-xml-parser-widget-element.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-xml-parser-widget-element.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/web_systems/yerith-erp-xml-parser-widget-MAIN_WINDOW-element.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-xml-parser-widget-MAIN_WINDOW-element.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/web_systems/yerith-erp-xml-parser-widget-PUSH_BUTTON-element.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-xml-parser-widget-PUSH_BUTTON-element.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-table-view_WITH_TABWIDGET_AS_DIRECT_PARENT_movable_section.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-table-view_WITH_TABWIDGET_AS_DIRECT_PARENT_movable_section.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/yerith-erp-push-button-PASSWORD.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-push-button-PASSWORD.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/yerith-erp-progress-bar.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-progress-bar.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/yerith-erp-qgroup-box.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-qgroup-box.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/yerith-erp-qcolumn-view.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-qcolumn-view.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-table-view-with-pagination.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-table-view-with-pagination.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-table-view.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-table-view.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-comptes-doperations-comptabilite-table-view.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-comptes-doperations-comptabilite-table-view.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-paiements-table-view.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-paiements-table-view.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-stocks-table-view.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-stocks-table-view.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-ventes-table-view.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-ventes-table-view.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-mouvements_de_stocks-table-view.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-mouvements_de_stocks-table-view.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-GROUPES-DE-PAIE-HR-table-view.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-GROUPES-DE-PAIE-HR-table-view.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-fournisseurs-table-view.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-fournisseurs-table-view.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-groupes-de-clients-table-view.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-groupes-de-clients-table-view.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-clients-table-view.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-clients-table-view.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-alertes-table-view.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-alertes-table-view.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-CHARGES-FINANCIERES-table-view.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-CHARGES-FINANCIERES-table-view.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-achats-table-view.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-achats-table-view.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-marchandises-table-view.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-marchandises-table-view.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-programmes-de-fidelite-clients-table-view.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-programmes-de-fidelite-clients-table-view.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/yerith-erp-line-edit.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-line-edit.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/yerith-erp-push-button.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-push-button.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/yerith-erp-text-edit.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-text-edit.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/yerith-erp-combo-box.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-combo-box.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/yerith-erp-radio-button.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-radio-button.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/yerith-erp-qmessage-box.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-qmessage-box.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/yerith-erp-qstandard-item-model.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-qstandard-item-model.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/yerith-erp-qstandard-item.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-qstandard-item.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/yerith-erp-spinbox.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-spinbox.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/yerith-erp-datetime-edit.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-datetime-edit.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/yerith-erp-qcheckbox.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-qcheckbox.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/yerith-erp-select-db-qcheckbox.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-select-db-qcheckbox.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/widgets-table/yerith-erp-tab-MAINTENANCE-widget.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-tab-MAINTENANCE-widget.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/widgets-table/yerith-erp-admin-verif-logging-table-widget.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-verif-logging-table-widget.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/widgets-table/yerith-erp-creer-un-groupe-de-clients-table-widget.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-creer-un-groupe-de-clients-table-widget.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/widgets-table/yerith-erp-groupes-dun-EMPLOYE-table-widget.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-groupes-dun-EMPLOYE-table-widget.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/widgets-table/yerith-erp-groupes-dun-client-table-widget.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-groupes-dun-client-table-widget.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/widgets-table/yerith-erp-COMPTABILITE-table-widget.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-COMPTABILITE-table-widget.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/widgets-table/yerith-erp-point-de-vente-table-widget.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-point-de-vente-table-widget.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/widgets-table/yerith-erp-table-widget.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-table-widget.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/widgets-table/yerith-erp-qtable-widget-item.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-qtable-widget-item.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/widgets-table/yerith-erp-tab-widget.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-tab-widget.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/process/yerith-erp-process-info.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-process-info.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/process/yerith-erp-process.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-process.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/dialogs/yerith-erp-IMPRESSION_DE_DOCUMENT-dialog.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-IMPRESSION_DE_DOCUMENT-dialog.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/dialogs/yerith-erp-dialog-commons.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-dialog-commons.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/dialogs/yerith-erp-generic-select-db-field-dialog.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-generic-select-db-field-dialog.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/dialogs/yerith-erp-changer-utilisateur-dialog.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-changer-utilisateur-dialog.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/dialogs/yerith-erp-pointdevente-methode-paiement-carte-credit-dialog.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-pointdevente-methode-paiement-carte-credit-dialog.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/dialogs/yerith-erp-pointdevente-methode-paiement-comptant-entree-dialog.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-pointdevente-methode-paiement-comptant-entree-dialog.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/dialogs/yerith-erp-pointdevente-methode-paiement-dialog.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-pointdevente-methode-paiement-dialog.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/include/YERITH_TABLEAUX_DE_BORDS_analyse_comparee_jour_semaine.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./YERITH_TABLEAUX_DE_BORDS_analyse_comparee_jour_semaine.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/include/YERITH_TABLEAUX_DE_BORDS_analyse_comparee_mensuelle.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./YERITH_TABLEAUX_DE_BORDS_analyse_comparee_mensuelle.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/include/YERITH_TABLEAUX_DE_BORDS_meilleurs_stats.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./YERITH_TABLEAUX_DE_BORDS_meilleurs_stats.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/include/YERITH_TABLEAUX_DE_BORDS_zero_stats.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./YERITH_TABLEAUX_DE_BORDS_zero_stats.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/include/YERITH_TABLEAUX_DE_BORDS_zero_stats_stocks.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./YERITH_TABLEAUX_DE_BORDS_zero_stats_stocks.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/yerith-erp-comptabilite-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-comptabilite-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/crm/creer/yerith-erp-creer-groupe-de-clients-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-creer-groupe-de-clients-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/crm/creer/yerith-erp-creer-un-programme-de-fidelite-clients-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-creer-un-programme-de-fidelite-clients-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/crm/creer/yerith-erp-creer-compte-client-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-creer-compte-client-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/crm/details/yerith-erp-details-dun-groupe-de-clients-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-details-dun-groupe-de-clients-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/crm/details/yerith-erp-clients-detail-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-clients-detail-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/crm/details/yerith-erp-details-dun-programme-de-fidelite-clients-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-details-dun-programme-de-fidelite-clients-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/crm/modifier/yerith-erp-modifier-compte-client-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-modifier-compte-client-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/crm/yerith-erp-programmes-de-fidelite-clients-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-programmes-de-fidelite-clients-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/crm/yerith-erp-groupes-de-clients-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-groupes-de-clients-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/crm/yerith-erp-groupes-dun-client-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-groupes-dun-client-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/crm/yerith-erp-clients-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-clients-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/crm/yerith-erp-payer-compte-client-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-payer-compte-client-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/crm/yerith-erp-tableau-des-transactions-du-client-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-tableau-des-transactions-du-client-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/yerith-erp-entrer-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-entrer-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/stocks/yerith-erp-mouvements_de_stocks-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-mouvements_de_stocks-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/stocks/yerith-erp-modifier-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-modifier-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/stocks/yerith-erp-marchandises-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-marchandises-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/stocks/yerith-erp-sortir-liststocks-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-sortir-liststocks-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/stocks/yerith-erp-sortir-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-sortir-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/stocks/yerith-erp-historique-du-stock-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-historique-du-stock-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/stocks/yerith-erp-stock-detail-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-stock-detail-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/stocks/yerith-erp-stocks-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-stocks-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/yerith-erp-charges-financieres-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-charges-financieres-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/yerith-erp-charges-financieres-detail-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-charges-financieres-detail-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/purchase/yerith-erp-achats-detail-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-achats-detail-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/purchase/yerith-erp-achats-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-achats-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/pos/yerith-erp-pointdevente-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-pointdevente-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/pos/yerith-erp-pointdevente-liststocks-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-pointdevente-liststocks-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/supplier/yerith-erp-calcul-salaire-EMPLOYE-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-calcul-salaire-EMPLOYE-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/supplier/yerith-erp-tableau-des-transactions-du-fournisseur-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-tableau-des-transactions-du-fournisseur-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/supplier/yerith-erp-modifier-fournisseur-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-modifier-fournisseur-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/supplier/yerith-erp-DETAILS-DUN-GROUPE-DE-PAIE-hr-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-DETAILS-DUN-GROUPE-DE-PAIE-hr-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/supplier/yerith-erp-DETAILS-DUN-GROUPE-DEMPLOYES-hr-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-DETAILS-DUN-GROUPE-DEMPLOYES-hr-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/supplier/yerith-erp-GROUPES-dun-employe-hr-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-GROUPES-dun-employe-hr-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/supplier/yerith-erp-creer-GROUPE-DE-PAIE-hr-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-creer-GROUPE-DE-PAIE-hr-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/supplier/yerith-erp-creer-groupe-DEMPLOYES-hr-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-creer-groupe-DEMPLOYES-hr-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/supplier/yerith-erp-GROUPES-DEMPLOYES-hr-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-GROUPES-DEMPLOYES-hr-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/supplier/yerith-erp-GROUPES-DE-PAIE-hr-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-GROUPES-DE-PAIE-hr-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/supplier/yerith-erp-fournisseurs-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-fournisseurs-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/supplier/yerith-erp-creer-fournisseur-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-creer-fournisseur-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/supplier/yerith-erp-fournisseur-details-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-fournisseur-details-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/yerith-erp-recherche-conditionnelle-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-recherche-conditionnelle-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/yerith-erp-qtable-widget-window-commons.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-qtable-widget-window-commons.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/yerith-erp-window-commons.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-window-commons.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/yerith-erp-main-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-main-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/yerith-erp-alertes-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-alertes-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/yerith-erp-tableaux-de-bord-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-tableaux-de-bord-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/yerith-erp-paiements-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-paiements-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/yerith-erp-ventes-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-ventes-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/tests/utils/yerith-erp-test-yerith-erp-utils.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-test-yerith-erp-utils.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/tests/yerith-erp-test-yerith-erp-table-view.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-test-yerith-erp-table-view.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/tests/yerith-erp-test-yerith-erp-windows.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-test-yerith-erp-windows.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/tests/utils/yerith-erp-test-import-csv-file-data.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-test-import-csv-file-data.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/tests/utils/yerith-erp-test-utils.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-test-utils.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/users/yerith-erp-user-settings.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-user-settings.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/users/yerith-erp-users.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-users.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/users/yerith-erp-user-vendeur.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-user-vendeur.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/users/yerith-erp-user-gestionaire-des-stocks.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-user-gestionaire-des-stocks.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/users/yerith-erp-user-manager.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-user-manager.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/users/yerith-erp-user-magasinier.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-user-magasinier.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/users/yerith-erp-user-caissier.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-user-caissier.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/users/yerith-erp-user-administrateur.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-user-administrateur.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/dbus/yerith_dynamic_taint_analysis_directives.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith_dynamic_taint_analysis_directives.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/dbus/YERITH_RUNTIME_VERIFIER.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./YERITH_RUNTIME_VERIFIER.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/yri-db-runtime-verif-qmap.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yri-db-runtime-verif-qmap.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/yerith-erp-CANCEL-Modification-TIMING-Object.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-CANCEL-Modification-TIMING-Object.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/credit-card/yerith-erp-carte-credit-info.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-carte-credit-info.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/windows/yerith-erp-abstract-class-detail-view-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-abstract-class-detail-view-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/windows/yerith-erp-abstract-class-yerithsearch-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-abstract-class-yerithsearch-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/virtual-keyboard/yerith-erp-key-emitter.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-key-emitter.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/yerith-erp-spell-numbers.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-spell-numbers.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/yerith-erp-sqltable-model.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-sqltable-model.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/yerith-erp-LIST-map-COMPLEX-ITEM.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-LIST-map-COMPLEX-ITEM.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/yerith-erp-map-COMPLEX-ITEM.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-map-COMPLEX-ITEM.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/yerith-erp-payment-processing-information.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-payment-processing-information.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/yerith-erp-config.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-config.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/yerith-erp-utils.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-utils.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/yerith-erp-database.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-database.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/yerith-erp-logger.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-logger.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/yerith-erp-historique-stock.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-historique-stock.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/yerith-erp-info-entreprise.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-info-entreprise.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/yerith-erp-article-vente-info.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-article-vente-info.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/yerith-erp-database-table-column.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-database-table-column.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/yerith-erp-command-line-parser.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-command-line-parser.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/yerith-erp-style.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-style.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/print_latex_pdf/yerith-erp-print_yerith_latex_util_pdf.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-print_yerith_latex_util_pdf.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/yerith-erp-client-account-sale-info.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-client-account-sale-info.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/admin/yerith-erp-qtable-widget-admin-window-commons.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-qtable-widget-admin-window-commons.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/admin/yerith-erp-admin-windows-commons.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-windows-commons.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/admin/yerith-erp-admin-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/admin/yerith-erp-admin-search-form.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-search-form.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/admin/widgets/table-view/yerith-erp-ADMIN-UPPER-TABLE-VIEW-CLASS.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-ADMIN-UPPER-TABLE-VIEW-CLASS.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/admin/widgets/table-view/yerith-erp_web_SYSTEM_discovered_Widgets-table-view.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp_web_SYSTEM_discovered_Widgets-table-view.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/admin/widgets/table-view/yerith-erp-financial-expense-table-view.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-financial-expense-table-view.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/admin/widgets/table-view/yerith-erp-product-department-table-view.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-product-department-table-view.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/admin/widgets/table-view/yerith-erp-alert-table-view.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-alert-table-view.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/admin/widgets/table-view/yerith-erp-site-table-view.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-site-table-view.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/admin/widgets/table-view/yerith-erp-user-table-view.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-user-table-view.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/admin/widgets/table-view/yerith-erp-category-table-view.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-category-table-view.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/admin/widgets/table-view/yerith-erp-bank-account-table-view.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-bank-account-table-view.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/admin/creer/yerith-erp-admin-create-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-create-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/admin/lister/yerith-erp-admin-lister-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-lister-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/admin/detail/yerith-erp-admin-detail-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-detail-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/admin/modifier/yerith-erp-admin-modifier-window.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-modifier-window.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/include/yerith-erp-9-0-precompiled-header.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-9-0-precompiled-header.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/YRIruntimeverification_adaptor.h $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./YRIruntimeverification_adaptor.h
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/IYRIruntimeverificationAdaptor_interface.h $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./IYRIruntimeverificationAdaptor_interface.h
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/yerith-erp-windows.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-windows.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/imports/yerith-erp-Budget_Lines-import.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-Budget_Lines-import.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/imports/yerith-erp-ALL-common-import.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-ALL-common-import.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/imports/yerith-erp-bank-account-info-raw-import.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-bank-account-info-raw-import.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/imports/yerith-erp-database-table-import-info.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-database-table-import-info.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/imports/yerith-erp-marchandise-import.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-marchandise-import.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/imports/yerith-erp-stock-import.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-stock-import.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/include/yerith-erp-9-0-definition-special-qt5.7-macro.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-9-0-definition-special-qt5.7-macro.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/include/yerith-erp-9-0-definition-colour-rgb.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-9-0-definition-colour-rgb.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/include/yerith-erp-9-0-definition-user-manual.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-9-0-definition-user-manual.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/include/yerith-erp-9-0-definition-file-folder.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-9-0-definition-file-folder.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/include/yerith-erp-9-0-definition-format-date-time.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-9-0-definition-format-date-time.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/include/yerith-erp-9-0-definition-initial-focus-searchbar.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-9-0-definition-initial-focus-searchbar.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/include/yerith-erp-9-0-definition-month.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-9-0-definition-month.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/include/yerith-erp-9-0-definition-shortcut.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-9-0-definition-shortcut.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/include/yerith-erp-9-0-software.text-configuration.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-9-0-software.text-configuration.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/web_systems/yerith-web-systems-main-parser_XML_Tag_Element.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-web-systems-main-parser_XML_Tag_Element.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/web_systems/yerith-web-systems-main-generator.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-web-systems-main-generator.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/web_systems/yerith-erp-xml-parser-QLIST___widget-element.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-xml-parser-QLIST___widget-element.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/web_systems/yerith-erp-xml-parser-widget-element.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-xml-parser-widget-element.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/web_systems/yerith-erp-xml-parser-widget-MAIN_WINDOW-element.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-xml-parser-widget-MAIN_WINDOW-element.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/web_systems/yerith-erp-xml-parser-widget-PUSH_BUTTON-element.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-xml-parser-widget-PUSH_BUTTON-element.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-table-view_WITH_TABWIDGET_AS_DIRECT_PARENT_movable_section.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-table-view_WITH_TABWIDGET_AS_DIRECT_PARENT_movable_section.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/yerith-erp-push-button-PASSWORD.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-push-button-PASSWORD.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/yerith-erp-progress-bar.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-progress-bar.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/yerith-erp-qgroup-box.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-qgroup-box.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/yerith-erp-qcolumn-view.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-qcolumn-view.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/widgets-table/yerith-erp-tab-MAINTENANCE-widget.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-tab-MAINTENANCE-widget.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/widgets-table/yerith-erp-admin-verif-logging-table-widget.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-verif-logging-table-widget.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/widgets-table/yerith-erp-creer-un-groupe-de-clients-table-widget.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-creer-un-groupe-de-clients-table-widget.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/widgets-table/yerith-erp-groupes-dun-EMPLOYE-table-widget.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-groupes-dun-EMPLOYE-table-widget.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/widgets-table/yerith-erp-groupes-dun-client-table-widget.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-groupes-dun-client-table-widget.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/widgets-table/yerith-erp-COMPTABILITE-table-widget.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-COMPTABILITE-table-widget.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/widgets-table/yerith-erp-point-de-vente-table-widget.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-point-de-vente-table-widget.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/widgets-table/yerith-erp-table-widget.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-table-widget.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/widgets-table/yerith-erp-qtable-widget-item.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-qtable-widget-item.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/widgets-table/yerith-erp-tab-widget.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-tab-widget.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-table-view-with-pagination.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-table-view-with-pagination.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-table-view.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-table-view.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-comptes-doperations-comptabilite-table-view.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-comptes-doperations-comptabilite-table-view.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-paiements-table-view.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-paiements-table-view.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-stocks-table-view.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-stocks-table-view.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-ventes-table-view.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-ventes-table-view.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-mouvements_de_stocks-table-view.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-mouvements_de_stocks-table-view.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-GROUPES-DE-PAIE-HR-table-view.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-GROUPES-DE-PAIE-HR-table-view.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-fournisseurs-table-view.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-fournisseurs-table-view.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-programmes-de-fidelite-clients-table-view.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-programmes-de-fidelite-clients-table-view.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-groupes-de-clients-table-view.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-groupes-de-clients-table-view.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-clients-table-view.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-clients-table-view.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-alertes-table-view.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-alertes-table-view.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-CHARGES-FINANCIERES-table-view.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-CHARGES-FINANCIERES-table-view.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-achats-table-view.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-achats-table-view.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-marchandises-table-view.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-marchandises-table-view.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/yerith-erp-line-edit.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-line-edit.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/yerith-erp-radio-button.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-radio-button.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/yerith-erp-qmessage-box.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-qmessage-box.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/yerith-erp-push-button.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-push-button.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/yerith-erp-text-edit.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-text-edit.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/yerith-erp-combo-box.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-combo-box.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/yerith-erp-qstandard-item-model.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-qstandard-item-model.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/yerith-erp-qstandard-item.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-qstandard-item.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/yerith-erp-spinbox.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-spinbox.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/yerith-erp-datetime-edit.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-datetime-edit.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/yerith-erp-qcheckbox.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-qcheckbox.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/widgets/yerith-erp-select-db-qcheckbox.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-select-db-qcheckbox.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/process/yerith-erp-process-info.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-process-info.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/process/yerith-erp-process.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-process.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/dialogs/yerith-erp-IMPRESSION_DE_DOCUMENT-dialog.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-IMPRESSION_DE_DOCUMENT-dialog.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/dialogs/yerith-erp-dialog-commons.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-dialog-commons.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/dialogs/yerith-erp-generic-select-db-field-dialog.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-generic-select-db-field-dialog.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/dialogs/yerith-erp-changer-utilisateur-dialog.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-changer-utilisateur-dialog.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/dialogs/yerith-erp-pointdevente-methode-paiement-carte-credit-dialog.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-pointdevente-methode-paiement-carte-credit-dialog.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/dialogs/yerith-erp-pointdevente-methode-paiement-comptant-entree-dialog.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-pointdevente-methode-paiement-comptant-entree-dialog.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/dialogs/yerith-erp-pointdevente-methode-paiement-dialog.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-pointdevente-methode-paiement-dialog.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/crm/creer/yerith-erp-creer-groupe-de-clients-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-creer-groupe-de-clients-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/crm/creer/yerith-erp-creer-un-programme-de-fidelite-clients-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-creer-un-programme-de-fidelite-clients-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/crm/creer/yerith-erp-creer-compte-client-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-creer-compte-client-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/crm/modifier/yerith-erp-modifier-compte-client-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-modifier-compte-client-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/crm/details/yerith-erp-details-dun-groupe-de-clients-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-details-dun-groupe-de-clients-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/crm/details/yerith-erp-clients-detail-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-clients-detail-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/crm/details/yerith-erp-details-dun-programme-de-fidelite-clients-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-details-dun-programme-de-fidelite-clients-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/crm/yerith-erp-programmes-de-fidelite-clients-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-programmes-de-fidelite-clients-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/crm/yerith-erp-groupes-de-clients-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-groupes-de-clients-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/crm/yerith-erp-groupes-dun-client-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-groupes-dun-client-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/crm/yerith-erp-clients-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-clients-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/crm/yerith-erp-payer-compte-client-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-payer-compte-client-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/crm/yerith-erp-tableau-des-transactions-du-client-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-tableau-des-transactions-du-client-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/yerith-erp-entrer-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-entrer-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/stocks/yerith-erp-mouvements_de_stocks-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-mouvements_de_stocks-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/stocks/yerith-erp-modifier-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-modifier-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/stocks/yerith-erp-marchandises-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-marchandises-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/stocks/yerith-erp-sortir-liststocks-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-sortir-liststocks-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/stocks/yerith-erp-sortir-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-sortir-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/stocks/yerith-erp-historique-du-stock-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-historique-du-stock-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/stocks/yerith-erp-stock-detail-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-stock-detail-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/stocks/yerith-erp-stocks-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-stocks-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/yerith-erp-charges-financieres-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-charges-financieres-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/yerith-erp-charges-financieres-detail-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-charges-financieres-detail-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/purchase/yerith-erp-achats-detail-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-achats-detail-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/purchase/yerith-erp-achats-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-achats-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/pos/yerith-erp-pointdevente-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-pointdevente-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/pos/yerith-erp-pointdevente-liststocks-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-pointdevente-liststocks-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/supplier/yerith-erp-calcul-salaire-EMPLOYE-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-calcul-salaire-EMPLOYE-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/supplier/yerith-erp-tableau-des-transactions-du-fournisseur-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-tableau-des-transactions-du-fournisseur-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/supplier/yerith-erp-modifier-fournisseur-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-modifier-fournisseur-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/supplier/yerith-erp-DETAILS-DUN-GROUPE-DE-PAIE-hr-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-DETAILS-DUN-GROUPE-DE-PAIE-hr-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/supplier/yerith-erp-DETAILS-DUN-GROUPE-DEMPLOYES-hr-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-DETAILS-DUN-GROUPE-DEMPLOYES-hr-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/supplier/yerith-erp-GROUPES-dun-employe-hr-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-GROUPES-dun-employe-hr-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/supplier/yerith-erp-creer-GROUPE-DE-PAIE-hr-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-creer-GROUPE-DE-PAIE-hr-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/supplier/yerith-erp-creer-groupe-DEMPLOYES-hr-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-creer-groupe-DEMPLOYES-hr-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/supplier/yerith-erp-GROUPES-DEMPLOYES-hr-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-GROUPES-DEMPLOYES-hr-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/supplier/yerith-erp-GROUPES-DE-PAIE-hr-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-GROUPES-DE-PAIE-hr-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/supplier/yerith-erp-fournisseurs-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-fournisseurs-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/supplier/yerith-erp-creer-fournisseur-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-creer-fournisseur-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/supplier/yerith-erp-fournisseur-details-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-fournisseur-details-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/yerith-erp-comptabilite-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-comptabilite-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/yerith-erp-recherche-conditionnelle-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-recherche-conditionnelle-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/yerith-erp-qtable-widget-window-commons.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-qtable-widget-window-commons.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/yerith-erp-window-commons.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-window-commons.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/yerith-erp-main-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-main-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/yerith-erp-alertes-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-alertes-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/yerith-erp-tableaux-de-bord-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-tableaux-de-bord-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/yerith-erp-paiements-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-paiements-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/windows/yerith-erp-ventes-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-ventes-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/tests/utils/yerith-erp-test-yerith-erp-utils.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-test-yerith-erp-utils.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/tests/yerith-erp-test-yerith-erp-table-view.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-test-yerith-erp-table-view.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/tests/yerith-erp-test-yerith-erp-windows.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-test-yerith-erp-windows.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/tests/utils/yerith-erp-test-import-csv-file-data.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-test-import-csv-file-data.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/tests/utils/yerith-erp-test-utils.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-test-utils.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/users/yerith-erp-user-settings.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-user-settings.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/users/yerith-erp-users.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-users.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/users/yerith-erp-user-vendeur.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-user-vendeur.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/users/yerith-erp-user-gestionaire-des-stocks.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-user-gestionaire-des-stocks.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/users/yerith-erp-user-manager.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-user-manager.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/users/yerith-erp-user-magasinier.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-user-magasinier.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/users/yerith-erp-user-caissier.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-user-caissier.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/users/yerith-erp-user-administrateur.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-user-administrateur.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/dbus/yerith_dynamic_taint_analysis_directives.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith_dynamic_taint_analysis_directives.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/dbus/YERITH_RUNTIME_VERIFIER.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./YERITH_RUNTIME_VERIFIER.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/yri-db-runtime-verif-qmap.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yri-db-runtime-verif-qmap.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/yerith-erp-CANCEL-Modification-TIMING-Object.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-CANCEL-Modification-TIMING-Object.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/credit-card/yerith-erp-carte-credit-info.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-carte-credit-info.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/windows/yerith-erp-abstract-class-detail-view-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-abstract-class-detail-view-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/windows/yerith-erp-abstract-class-yerithsearch-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-abstract-class-yerithsearch-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/virtual-keyboard/yerith-erp-key-emitter.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-key-emitter.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/yerith-erp-spell-numbers.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-spell-numbers.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/yerith-erp-sqltable-model.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-sqltable-model.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/yerith-erp-LIST-map-COMPLEX-ITEM.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-LIST-map-COMPLEX-ITEM.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/yerith-erp-map-COMPLEX-ITEM.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-map-COMPLEX-ITEM.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/yerith-erp-payment-processing-information.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-payment-processing-information.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/yerith-erp-config.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-config.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/yerith-erp-service-stock-marchandise-data.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-service-stock-marchandise-data.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/yerith-erp-utils.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-utils.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/yerith-erp-database.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-database.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/yerith-erp-logger.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-logger.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/yerith-erp-historique-stock.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-historique-stock.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/yerith-erp-info-entreprise.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-info-entreprise.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/yerith-erp-article-vente-info.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-article-vente-info.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/yerith-erp-database-table-column.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-database-table-column.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/yerith-erp-command-line-parser.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-command-line-parser.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/yerith-erp-style.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-style.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/print_latex_pdf/yerith-erp-print_yerith_latex_util_pdf.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-print_yerith_latex_util_pdf.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/utils/yerith-erp-client-account-sale-info.cpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-client-account-sale-info.cpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/admin/yerith-erp-qtable-widget-admin-window-commons.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-qtable-widget-admin-window-commons.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/admin/yerith-erp-admin-windows-commons.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-windows-commons.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/admin/yerith-erp-admin-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/admin/yerith-erp-admin-search-form.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-search-form.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/admin/widgets/table-view/yerith-erp-ADMIN-UPPER-TABLE-VIEW-CLASS.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-ADMIN-UPPER-TABLE-VIEW-CLASS.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/admin/widgets/table-view/yerith-erp_web_SYSTEM_discovered_Widgets-table-view.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp_web_SYSTEM_discovered_Widgets-table-view.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/admin/widgets/table-view/yerith-erp-financial-expense-table-view.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-financial-expense-table-view.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/admin/widgets/table-view/yerith-erp-product-department-table-view.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-product-department-table-view.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/admin/widgets/table-view/yerith-erp-alert-table-view.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-alert-table-view.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/admin/widgets/table-view/yerith-erp-site-table-view.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-site-table-view.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/admin/widgets/table-view/yerith-erp-user-table-view.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-user-table-view.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/admin/widgets/table-view/yerith-erp-category-table-view.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-category-table-view.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/admin/widgets/table-view/yerith-erp-bank-account-table-view.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-bank-account-table-view.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/admin/creer/yerith-erp-admin-create-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-create-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/admin/lister/yerith-erp-admin-lister-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-lister-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/admin/detail/yerith-erp-admin-detail-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-detail-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/src/admin/modifier/yerith-erp-admin-modifier-window.hpp $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-modifier-window.hpp
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/yerith-erp-9-0.qrc $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-9-0.qrc
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/yerith-erp-main-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-main-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/yerith-erp-recherche-conditionnelle-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-recherche-conditionnelle-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/yerith-erp-imprimer-dialog.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-imprimer-dialog.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/yerith-erp-comptabilite-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-comptabilite-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/stocks/yerith-erp-sortir-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-sortir-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/yerith-erp-entrer-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-entrer-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/stocks/yerith-erp-mouvements_de_stocks-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-mouvements_de_stocks-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/stocks/yerith-erp-marchandises-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-marchandises-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/stocks/yerith-erp-modifier-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-modifier-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/stocks/yerith-erp-historique-du-stock-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-historique-du-stock-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/stocks/yerith-erp-stocks-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-stocks-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/stocks/yerith-erp-sortir-liststocks-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-sortir-liststocks-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/stocks/yerith-erp-stock-detail-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-stock-detail-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/pos/yerith-erp-pointdevente-liststocks-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-pointdevente-liststocks-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/pos/yerith-erp-pointdevente-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-pointdevente-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/pos/yerith-erp-pointdevente-methode-paiement-carte-credit-dialog.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-pointdevente-methode-paiement-carte-credit-dialog.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/pos/yerith-erp-pointdevente-methode-paiement-comptant-entree-dialog.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-pointdevente-methode-paiement-comptant-entree-dialog.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/pos/yerith-erp-pointdevente-methode-paiement-dialog.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-pointdevente-methode-paiement-dialog.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/purchase/yerith-erp-achats-detail-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-achats-detail-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/purchase/yerith-erp-achats-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-achats-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/yerith-erp-charges-financieres-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-charges-financieres-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/yerith-erp-charges-financieres-detail-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-charges-financieres-detail-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/supplier/yerith-erp-tableau-des-transactions-du-fournisseur-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-tableau-des-transactions-du-fournisseur-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/supplier/yerith-erp-modifier-fournisseur-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-modifier-fournisseur-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/supplier/yerith-erp-creer-fournisseur-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-creer-fournisseur-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/supplier/yerith-erp-fournisseur-details-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-fournisseur-details-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/supplier/yerith-erp-DETAILS-DUN-GROUPE-DE-PAIE-hr-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-DETAILS-DUN-GROUPE-DE-PAIE-hr-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/supplier/yerith-erp-DETAILS-DUN-GROUPE-DEMPLOYES-hr-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-DETAILS-DUN-GROUPE-DEMPLOYES-hr-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/supplier/yerith-erp-GROUPES-dun-employe-hr-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-GROUPES-dun-employe-hr-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/supplier/yerith-erp-creer-GROUPE-DE-PAIE-hr-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-creer-GROUPE-DE-PAIE-hr-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/supplier/yerith-erp-creer-groupe-DEMPLOYES-hr-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-creer-groupe-DEMPLOYES-hr-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/supplier/yerith-erp-GROUPES-DEMPLOYES-hr-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-GROUPES-DEMPLOYES-hr-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/supplier/yerith-erp-GROUPES-DE-PAIE-hr-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-GROUPES-DE-PAIE-hr-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/supplier/yerith-erp-fournisseurs-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-fournisseurs-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/crm/creer/yerith-erp-creer-un-programme-de-fidelite-clients-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-creer-un-programme-de-fidelite-clients-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/crm/creer/yerith-erp-creer-compte-client-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-creer-compte-client-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/crm/creer/yerith-erp-creer-groupe-de-clients-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-creer-groupe-de-clients-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/crm/details/yerith-erp-details-dun-groupe-de-clients-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-details-dun-groupe-de-clients-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/crm/details/yerith-erp-clients-detail-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-clients-detail-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/crm/details/yerith-erp-details-dun-programme-de-fidelite-clients-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-details-dun-programme-de-fidelite-clients-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/crm/yerith-erp-tableau-des-transactions-du-client-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-tableau-des-transactions-du-client-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/crm/modifier/yerith-erp-modifier-compte-client-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-modifier-compte-client-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/crm/modifier/yerith-erp-modifier-groupe-de-clients-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-modifier-groupe-de-clients-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/crm/modifier/yerith-erp-modifier-un-programme-de-fidelite-clients-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-modifier-un-programme-de-fidelite-clients-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/crm/yerith-erp-payer-compte-client-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-payer-compte-client-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/crm/yerith-erp-programmes-de-fidelite-clients-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-programmes-de-fidelite-clients-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/crm/yerith-erp-groupes-de-clients-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-groupes-de-clients-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/crm/yerith-erp-groupes-dun-client-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-groupes-dun-client-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/crm/yerith-erp-clients-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-clients-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/yerith-erp-paiements-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-paiements-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/yerith-erp-ventes-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-ventes-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/yerith-erp-tableaux-de-bord-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-tableaux-de-bord-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/yerith-erp-alertes-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-alertes-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/yerith-erp-changer-utilisateur-dialog.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-changer-utilisateur-dialog.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/yerith-erp-admin-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/yerith-erp-admin-search-form.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-search-form.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/yerith-erp-admin-create-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-create-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/yerith-erp-admin-lister-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-lister-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/yerith-erp-admin-detail-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-detail-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/ui/yerith-erp-admin-modifier-window.ui $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-modifier-window.ui
-	$(QINSTALL) /home/yerith-erp-pgi/yerith-erp-9-0/yerith-erp-9-0.pro $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-9-0.pro
+	@test -d $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/. || mkdir -p $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/.
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/yerith-erp-9-0.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-9-0.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/YRIruntimeverification_adaptor.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./YRIruntimeverification_adaptor.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/IYRIruntimeverificationAdaptor_interface.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./IYRIruntimeverificationAdaptor_interface.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/yerith-erp-windows.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-windows.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/imports/yerith-erp-Budget_Lines-import.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-Budget_Lines-import.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/imports/yerith-erp-ALL-common-import.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-ALL-common-import.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/imports/yerith-erp-bank-account-info-raw-import.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-bank-account-info-raw-import.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/imports/yerith-erp-marchandise-import.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-marchandise-import.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/imports/yerith-erp-stock-import.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-stock-import.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/web_systems/yerith-web-systems-main-generator___KeyWords.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-web-systems-main-generator___KeyWords.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/web_systems/yerith-web-systems-main-parser_XML_Tag_Element.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-web-systems-main-parser_XML_Tag_Element.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/web_systems/yerith-web-systems-main-generator.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-web-systems-main-generator.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/web_systems/yerith-erp-xml-parser-QLIST___widget-element.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-xml-parser-QLIST___widget-element.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/web_systems/yerith-erp-xml-parser-widget-element.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-xml-parser-widget-element.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/web_systems/yerith-erp-xml-parser-widget-MAIN_WINDOW-element.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-xml-parser-widget-MAIN_WINDOW-element.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/web_systems/yerith-erp-xml-parser-widget-PUSH_BUTTON-element.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-xml-parser-widget-PUSH_BUTTON-element.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-table-view_WITH_TABWIDGET_AS_DIRECT_PARENT_movable_section.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-table-view_WITH_TABWIDGET_AS_DIRECT_PARENT_movable_section.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/yerith-erp-push-button-PASSWORD.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-push-button-PASSWORD.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/yerith-erp-progress-bar.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-progress-bar.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/yerith-erp-qgroup-box.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-qgroup-box.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/yerith-erp-qcolumn-view.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-qcolumn-view.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-table-view-with-pagination.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-table-view-with-pagination.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-table-view.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-table-view.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-comptes-doperations-comptabilite-table-view.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-comptes-doperations-comptabilite-table-view.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-paiements-table-view.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-paiements-table-view.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-stocks-table-view.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-stocks-table-view.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-ventes-table-view.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-ventes-table-view.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-mouvements_de_stocks-table-view.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-mouvements_de_stocks-table-view.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-GROUPES-DE-PAIE-HR-table-view.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-GROUPES-DE-PAIE-HR-table-view.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-fournisseurs-table-view.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-fournisseurs-table-view.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-groupes-de-clients-table-view.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-groupes-de-clients-table-view.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-clients-table-view.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-clients-table-view.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-alertes-table-view.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-alertes-table-view.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-CHARGES-FINANCIERES-table-view.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-CHARGES-FINANCIERES-table-view.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-achats-table-view.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-achats-table-view.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-marchandises-table-view.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-marchandises-table-view.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-programmes-de-fidelite-clients-table-view.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-programmes-de-fidelite-clients-table-view.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/yerith-erp-line-edit.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-line-edit.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/yerith-erp-push-button.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-push-button.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/yerith-erp-text-edit.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-text-edit.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/yerith-erp-combo-box.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-combo-box.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/yerith-erp-radio-button.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-radio-button.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/yerith-erp-qmessage-box.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-qmessage-box.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/yerith-erp-qstandard-item-model.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-qstandard-item-model.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/yerith-erp-qstandard-item.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-qstandard-item.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/yerith-erp-spinbox.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-spinbox.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/yerith-erp-datetime-edit.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-datetime-edit.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/yerith-erp-qcheckbox.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-qcheckbox.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/yerith-erp-select-db-qcheckbox.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-select-db-qcheckbox.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/widgets-table/yerith-erp-tab-MAINTENANCE-widget.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-tab-MAINTENANCE-widget.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/widgets-table/yerith-erp-admin-verif-logging-table-widget.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-verif-logging-table-widget.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/widgets-table/yerith-erp-creer-un-groupe-de-clients-table-widget.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-creer-un-groupe-de-clients-table-widget.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/widgets-table/yerith-erp-groupes-dun-EMPLOYE-table-widget.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-groupes-dun-EMPLOYE-table-widget.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/widgets-table/yerith-erp-groupes-dun-client-table-widget.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-groupes-dun-client-table-widget.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/widgets-table/yerith-erp-COMPTABILITE-table-widget.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-COMPTABILITE-table-widget.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/widgets-table/yerith-erp-point-de-vente-table-widget.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-point-de-vente-table-widget.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/widgets-table/yerith-erp-table-widget.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-table-widget.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/widgets-table/yerith-erp-qtable-widget-item.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-qtable-widget-item.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/widgets-table/yerith-erp-tab-widget.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-tab-widget.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/process/yerith-erp-process-info.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-process-info.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/process/yerith-erp-process.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-process.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/dialogs/yerith-erp-IMPRESSION_DE_DOCUMENT-dialog.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-IMPRESSION_DE_DOCUMENT-dialog.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/dialogs/yerith-erp-dialog-commons.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-dialog-commons.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/dialogs/yerith-erp-generic-select-db-field-dialog.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-generic-select-db-field-dialog.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/dialogs/yerith-erp-changer-utilisateur-dialog.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-changer-utilisateur-dialog.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/dialogs/yerith-erp-pointdevente-methode-paiement-carte-credit-dialog.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-pointdevente-methode-paiement-carte-credit-dialog.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/dialogs/yerith-erp-pointdevente-methode-paiement-comptant-entree-dialog.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-pointdevente-methode-paiement-comptant-entree-dialog.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/dialogs/yerith-erp-pointdevente-methode-paiement-dialog.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-pointdevente-methode-paiement-dialog.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/include/YERITH_TABLEAUX_DE_BORDS_analyse_comparee_jour_semaine.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./YERITH_TABLEAUX_DE_BORDS_analyse_comparee_jour_semaine.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/include/YERITH_TABLEAUX_DE_BORDS_analyse_comparee_mensuelle.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./YERITH_TABLEAUX_DE_BORDS_analyse_comparee_mensuelle.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/include/YERITH_TABLEAUX_DE_BORDS_meilleurs_stats.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./YERITH_TABLEAUX_DE_BORDS_meilleurs_stats.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/include/YERITH_TABLEAUX_DE_BORDS_zero_stats.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./YERITH_TABLEAUX_DE_BORDS_zero_stats.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/include/YERITH_TABLEAUX_DE_BORDS_zero_stats_stocks.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./YERITH_TABLEAUX_DE_BORDS_zero_stats_stocks.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/yerith-erp-comptabilite-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-comptabilite-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/crm/creer/yerith-erp-creer-groupe-de-clients-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-creer-groupe-de-clients-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/crm/creer/yerith-erp-creer-un-programme-de-fidelite-clients-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-creer-un-programme-de-fidelite-clients-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/crm/creer/yerith-erp-creer-compte-client-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-creer-compte-client-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/crm/details/yerith-erp-details-dun-groupe-de-clients-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-details-dun-groupe-de-clients-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/crm/details/yerith-erp-clients-detail-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-clients-detail-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/crm/details/yerith-erp-details-dun-programme-de-fidelite-clients-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-details-dun-programme-de-fidelite-clients-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/crm/modifier/yerith-erp-modifier-compte-client-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-modifier-compte-client-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/crm/yerith-erp-programmes-de-fidelite-clients-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-programmes-de-fidelite-clients-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/crm/yerith-erp-groupes-de-clients-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-groupes-de-clients-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/crm/yerith-erp-groupes-dun-client-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-groupes-dun-client-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/crm/yerith-erp-clients-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-clients-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/crm/yerith-erp-payer-compte-client-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-payer-compte-client-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/crm/yerith-erp-tableau-des-transactions-du-client-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-tableau-des-transactions-du-client-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/yerith-erp-entrer-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-entrer-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/stocks/yerith-erp-mouvements_de_stocks-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-mouvements_de_stocks-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/stocks/yerith-erp-modifier-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-modifier-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/stocks/yerith-erp-marchandises-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-marchandises-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/stocks/yerith-erp-sortir-liststocks-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-sortir-liststocks-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/stocks/yerith-erp-sortir-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-sortir-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/stocks/yerith-erp-historique-du-stock-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-historique-du-stock-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/stocks/yerith-erp-stock-detail-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-stock-detail-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/stocks/yerith-erp-stocks-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-stocks-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/yerith-erp-charges-financieres-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-charges-financieres-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/yerith-erp-charges-financieres-detail-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-charges-financieres-detail-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/purchase/yerith-erp-achats-detail-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-achats-detail-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/purchase/yerith-erp-achats-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-achats-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/pos/yerith-erp-pointdevente-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-pointdevente-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/pos/yerith-erp-pointdevente-liststocks-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-pointdevente-liststocks-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/supplier/yerith-erp-calcul-salaire-EMPLOYE-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-calcul-salaire-EMPLOYE-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/supplier/yerith-erp-tableau-des-transactions-du-fournisseur-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-tableau-des-transactions-du-fournisseur-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/supplier/yerith-erp-modifier-fournisseur-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-modifier-fournisseur-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/supplier/yerith-erp-DETAILS-DUN-GROUPE-DE-PAIE-hr-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-DETAILS-DUN-GROUPE-DE-PAIE-hr-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/supplier/yerith-erp-DETAILS-DUN-GROUPE-DEMPLOYES-hr-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-DETAILS-DUN-GROUPE-DEMPLOYES-hr-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/supplier/yerith-erp-GROUPES-dun-employe-hr-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-GROUPES-dun-employe-hr-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/supplier/yerith-erp-creer-GROUPE-DE-PAIE-hr-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-creer-GROUPE-DE-PAIE-hr-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/supplier/yerith-erp-creer-groupe-DEMPLOYES-hr-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-creer-groupe-DEMPLOYES-hr-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/supplier/yerith-erp-GROUPES-DEMPLOYES-hr-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-GROUPES-DEMPLOYES-hr-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/supplier/yerith-erp-GROUPES-DE-PAIE-hr-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-GROUPES-DE-PAIE-hr-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/supplier/yerith-erp-fournisseurs-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-fournisseurs-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/supplier/yerith-erp-creer-fournisseur-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-creer-fournisseur-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/supplier/yerith-erp-fournisseur-details-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-fournisseur-details-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/yerith-erp-recherche-conditionnelle-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-recherche-conditionnelle-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/yerith-erp-qtable-widget-window-commons.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-qtable-widget-window-commons.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/yerith-erp-window-commons.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-window-commons.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/yerith-erp-main-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-main-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/yerith-erp-alertes-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-alertes-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/yerith-erp-tableaux-de-bord-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-tableaux-de-bord-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/yerith-erp-paiements-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-paiements-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/yerith-erp-ventes-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-ventes-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/tests/utils/yerith-erp-test-yerith-erp-utils.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-test-yerith-erp-utils.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/tests/yerith-erp-test-yerith-erp-table-view.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-test-yerith-erp-table-view.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/tests/yerith-erp-test-yerith-erp-windows.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-test-yerith-erp-windows.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/tests/utils/yerith-erp-test-import-csv-file-data.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-test-import-csv-file-data.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/tests/utils/yerith-erp-test-utils.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-test-utils.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/users/yerith-erp-user-settings.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-user-settings.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/users/yerith-erp-users.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-users.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/users/yerith-erp-user-vendeur.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-user-vendeur.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/users/yerith-erp-user-gestionaire-des-stocks.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-user-gestionaire-des-stocks.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/users/yerith-erp-user-manager.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-user-manager.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/users/yerith-erp-user-magasinier.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-user-magasinier.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/users/yerith-erp-user-caissier.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-user-caissier.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/users/yerith-erp-user-administrateur.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-user-administrateur.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/dbus/yerith_dynamic_taint_analysis_directives.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith_dynamic_taint_analysis_directives.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/dbus/YERITH_RUNTIME_VERIFIER.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./YERITH_RUNTIME_VERIFIER.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/yri-db-runtime-verif-qmap.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yri-db-runtime-verif-qmap.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/yerith-erp-CANCEL-Modification-TIMING-Object.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-CANCEL-Modification-TIMING-Object.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/credit-card/yerith-erp-carte-credit-info.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-carte-credit-info.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/windows/yerith-erp-abstract-class-detail-view-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-abstract-class-detail-view-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/windows/yerith-erp-abstract-class-yerithsearch-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-abstract-class-yerithsearch-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/virtual-keyboard/yerith-erp-key-emitter.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-key-emitter.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/yerith-erp-spell-numbers.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-spell-numbers.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/yerith-erp-sqltable-model.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-sqltable-model.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/yerith-erp-LIST-map-COMPLEX-ITEM.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-LIST-map-COMPLEX-ITEM.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/yerith-erp-map-COMPLEX-ITEM.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-map-COMPLEX-ITEM.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/yerith-erp-payment-processing-information.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-payment-processing-information.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/yerith-erp-config.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-config.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/yerith-erp-utils.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-utils.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/yerith-erp-database.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-database.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/yerith-erp-logger.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-logger.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/yerith-erp-historique-stock.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-historique-stock.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/yerith-erp-info-entreprise.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-info-entreprise.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/yerith-erp-article-vente-info.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-article-vente-info.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/yerith-erp-database-table-column.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-database-table-column.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/yerith-erp-command-line-parser.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-command-line-parser.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/yerith-erp-style.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-style.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/print_latex_pdf/yerith-erp-print_yerith_latex_util_pdf.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-print_yerith_latex_util_pdf.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/yerith-erp-client-account-sale-info.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-client-account-sale-info.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/admin/yerith-erp-qtable-widget-admin-window-commons.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-qtable-widget-admin-window-commons.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/admin/yerith-erp-admin-windows-commons.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-windows-commons.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/admin/yerith-erp-admin-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/admin/yerith-erp-admin-search-form.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-search-form.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/admin/widgets/table-view/yerith-erp-ADMIN-UPPER-TABLE-VIEW-CLASS.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-ADMIN-UPPER-TABLE-VIEW-CLASS.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/admin/widgets/table-view/yerith-erp_web_SYSTEM_discovered_Widgets-table-view.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp_web_SYSTEM_discovered_Widgets-table-view.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/admin/widgets/table-view/yerith-erp-financial-expense-table-view.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-financial-expense-table-view.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/admin/widgets/table-view/yerith-erp-product-department-table-view.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-product-department-table-view.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/admin/widgets/table-view/yerith-erp-alert-table-view.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-alert-table-view.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/admin/widgets/table-view/yerith-erp-site-table-view.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-site-table-view.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/admin/widgets/table-view/yerith-erp-user-table-view.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-user-table-view.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/admin/widgets/table-view/yerith-erp-category-table-view.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-category-table-view.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/admin/widgets/table-view/yerith-erp-bank-account-table-view.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-bank-account-table-view.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/admin/creer/yerith-erp-admin-create-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-create-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/admin/lister/yerith-erp-admin-lister-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-lister-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/admin/detail/yerith-erp-admin-detail-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-detail-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/admin/modifier/yerith-erp-admin-modifier-window.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-modifier-window.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/include/yerith-erp-9-0-precompiled-header.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-9-0-precompiled-header.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/YRIruntimeverification_adaptor.h $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./YRIruntimeverification_adaptor.h
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/IYRIruntimeverificationAdaptor_interface.h $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./IYRIruntimeverificationAdaptor_interface.h
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/yerith-erp-windows.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-windows.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/imports/yerith-erp-Budget_Lines-import.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-Budget_Lines-import.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/imports/yerith-erp-ALL-common-import.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-ALL-common-import.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/imports/yerith-erp-bank-account-info-raw-import.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-bank-account-info-raw-import.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/imports/yerith-erp-database-table-import-info.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-database-table-import-info.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/imports/yerith-erp-marchandise-import.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-marchandise-import.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/imports/yerith-erp-stock-import.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-stock-import.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/include/yerith-erp-9-0-definition-special-qt5.7-macro.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-9-0-definition-special-qt5.7-macro.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/include/yerith-erp-9-0-definition-colour-rgb.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-9-0-definition-colour-rgb.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/include/yerith-erp-9-0-definition-user-manual.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-9-0-definition-user-manual.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/include/yerith-erp-9-0-definition-file-folder.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-9-0-definition-file-folder.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/include/yerith-erp-9-0-definition-format-date-time.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-9-0-definition-format-date-time.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/include/yerith-erp-9-0-definition-initial-focus-searchbar.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-9-0-definition-initial-focus-searchbar.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/include/yerith-erp-9-0-definition-month.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-9-0-definition-month.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/include/yerith-erp-9-0-definition-shortcut.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-9-0-definition-shortcut.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/include/yerith-erp-9-0-software.text-configuration.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-9-0-software.text-configuration.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/web_systems/yerith-web-systems-main-parser_XML_Tag_Element.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-web-systems-main-parser_XML_Tag_Element.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/web_systems/yerith-web-systems-main-generator.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-web-systems-main-generator.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/web_systems/yerith-erp-xml-parser-QLIST___widget-element.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-xml-parser-QLIST___widget-element.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/web_systems/yerith-erp-xml-parser-widget-element.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-xml-parser-widget-element.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/web_systems/yerith-erp-xml-parser-widget-MAIN_WINDOW-element.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-xml-parser-widget-MAIN_WINDOW-element.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/web_systems/yerith-erp-xml-parser-widget-PUSH_BUTTON-element.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-xml-parser-widget-PUSH_BUTTON-element.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-table-view_WITH_TABWIDGET_AS_DIRECT_PARENT_movable_section.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-table-view_WITH_TABWIDGET_AS_DIRECT_PARENT_movable_section.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/yerith-erp-push-button-PASSWORD.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-push-button-PASSWORD.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/yerith-erp-progress-bar.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-progress-bar.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/yerith-erp-qgroup-box.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-qgroup-box.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/yerith-erp-qcolumn-view.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-qcolumn-view.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/widgets-table/yerith-erp-tab-MAINTENANCE-widget.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-tab-MAINTENANCE-widget.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/widgets-table/yerith-erp-admin-verif-logging-table-widget.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-verif-logging-table-widget.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/widgets-table/yerith-erp-creer-un-groupe-de-clients-table-widget.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-creer-un-groupe-de-clients-table-widget.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/widgets-table/yerith-erp-groupes-dun-EMPLOYE-table-widget.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-groupes-dun-EMPLOYE-table-widget.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/widgets-table/yerith-erp-groupes-dun-client-table-widget.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-groupes-dun-client-table-widget.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/widgets-table/yerith-erp-COMPTABILITE-table-widget.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-COMPTABILITE-table-widget.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/widgets-table/yerith-erp-point-de-vente-table-widget.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-point-de-vente-table-widget.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/widgets-table/yerith-erp-table-widget.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-table-widget.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/widgets-table/yerith-erp-qtable-widget-item.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-qtable-widget-item.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/widgets-table/yerith-erp-tab-widget.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-tab-widget.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-table-view-with-pagination.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-table-view-with-pagination.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-table-view.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-table-view.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-comptes-doperations-comptabilite-table-view.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-comptes-doperations-comptabilite-table-view.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-paiements-table-view.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-paiements-table-view.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-stocks-table-view.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-stocks-table-view.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-ventes-table-view.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-ventes-table-view.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-mouvements_de_stocks-table-view.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-mouvements_de_stocks-table-view.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-GROUPES-DE-PAIE-HR-table-view.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-GROUPES-DE-PAIE-HR-table-view.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-fournisseurs-table-view.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-fournisseurs-table-view.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-programmes-de-fidelite-clients-table-view.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-programmes-de-fidelite-clients-table-view.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-groupes-de-clients-table-view.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-groupes-de-clients-table-view.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-clients-table-view.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-clients-table-view.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-alertes-table-view.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-alertes-table-view.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-CHARGES-FINANCIERES-table-view.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-CHARGES-FINANCIERES-table-view.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-achats-table-view.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-achats-table-view.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/table-view/yerith-erp-marchandises-table-view.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-marchandises-table-view.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/yerith-erp-line-edit.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-line-edit.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/yerith-erp-radio-button.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-radio-button.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/yerith-erp-qmessage-box.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-qmessage-box.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/yerith-erp-push-button.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-push-button.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/yerith-erp-text-edit.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-text-edit.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/yerith-erp-combo-box.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-combo-box.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/yerith-erp-qstandard-item-model.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-qstandard-item-model.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/yerith-erp-qstandard-item.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-qstandard-item.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/yerith-erp-spinbox.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-spinbox.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/yerith-erp-datetime-edit.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-datetime-edit.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/yerith-erp-qcheckbox.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-qcheckbox.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/widgets/yerith-erp-select-db-qcheckbox.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-select-db-qcheckbox.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/process/yerith-erp-process-info.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-process-info.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/process/yerith-erp-process.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-process.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/dialogs/yerith-erp-IMPRESSION_DE_DOCUMENT-dialog.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-IMPRESSION_DE_DOCUMENT-dialog.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/dialogs/yerith-erp-dialog-commons.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-dialog-commons.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/dialogs/yerith-erp-generic-select-db-field-dialog.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-generic-select-db-field-dialog.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/dialogs/yerith-erp-changer-utilisateur-dialog.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-changer-utilisateur-dialog.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/dialogs/yerith-erp-pointdevente-methode-paiement-carte-credit-dialog.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-pointdevente-methode-paiement-carte-credit-dialog.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/dialogs/yerith-erp-pointdevente-methode-paiement-comptant-entree-dialog.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-pointdevente-methode-paiement-comptant-entree-dialog.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/dialogs/yerith-erp-pointdevente-methode-paiement-dialog.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-pointdevente-methode-paiement-dialog.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/crm/creer/yerith-erp-creer-groupe-de-clients-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-creer-groupe-de-clients-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/crm/creer/yerith-erp-creer-un-programme-de-fidelite-clients-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-creer-un-programme-de-fidelite-clients-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/crm/creer/yerith-erp-creer-compte-client-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-creer-compte-client-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/crm/modifier/yerith-erp-modifier-compte-client-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-modifier-compte-client-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/crm/details/yerith-erp-details-dun-groupe-de-clients-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-details-dun-groupe-de-clients-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/crm/details/yerith-erp-clients-detail-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-clients-detail-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/crm/details/yerith-erp-details-dun-programme-de-fidelite-clients-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-details-dun-programme-de-fidelite-clients-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/crm/yerith-erp-programmes-de-fidelite-clients-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-programmes-de-fidelite-clients-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/crm/yerith-erp-groupes-de-clients-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-groupes-de-clients-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/crm/yerith-erp-groupes-dun-client-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-groupes-dun-client-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/crm/yerith-erp-clients-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-clients-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/crm/yerith-erp-payer-compte-client-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-payer-compte-client-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/crm/yerith-erp-tableau-des-transactions-du-client-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-tableau-des-transactions-du-client-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/yerith-erp-entrer-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-entrer-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/stocks/yerith-erp-mouvements_de_stocks-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-mouvements_de_stocks-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/stocks/yerith-erp-modifier-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-modifier-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/stocks/yerith-erp-marchandises-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-marchandises-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/stocks/yerith-erp-sortir-liststocks-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-sortir-liststocks-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/stocks/yerith-erp-sortir-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-sortir-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/stocks/yerith-erp-historique-du-stock-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-historique-du-stock-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/stocks/yerith-erp-stock-detail-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-stock-detail-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/stocks/yerith-erp-stocks-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-stocks-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/yerith-erp-charges-financieres-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-charges-financieres-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/yerith-erp-charges-financieres-detail-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-charges-financieres-detail-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/purchase/yerith-erp-achats-detail-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-achats-detail-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/purchase/yerith-erp-achats-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-achats-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/pos/yerith-erp-pointdevente-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-pointdevente-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/pos/yerith-erp-pointdevente-liststocks-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-pointdevente-liststocks-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/supplier/yerith-erp-calcul-salaire-EMPLOYE-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-calcul-salaire-EMPLOYE-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/supplier/yerith-erp-tableau-des-transactions-du-fournisseur-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-tableau-des-transactions-du-fournisseur-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/supplier/yerith-erp-modifier-fournisseur-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-modifier-fournisseur-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/supplier/yerith-erp-DETAILS-DUN-GROUPE-DE-PAIE-hr-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-DETAILS-DUN-GROUPE-DE-PAIE-hr-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/supplier/yerith-erp-DETAILS-DUN-GROUPE-DEMPLOYES-hr-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-DETAILS-DUN-GROUPE-DEMPLOYES-hr-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/supplier/yerith-erp-GROUPES-dun-employe-hr-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-GROUPES-dun-employe-hr-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/supplier/yerith-erp-creer-GROUPE-DE-PAIE-hr-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-creer-GROUPE-DE-PAIE-hr-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/supplier/yerith-erp-creer-groupe-DEMPLOYES-hr-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-creer-groupe-DEMPLOYES-hr-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/supplier/yerith-erp-GROUPES-DEMPLOYES-hr-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-GROUPES-DEMPLOYES-hr-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/supplier/yerith-erp-GROUPES-DE-PAIE-hr-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-GROUPES-DE-PAIE-hr-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/supplier/yerith-erp-fournisseurs-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-fournisseurs-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/supplier/yerith-erp-creer-fournisseur-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-creer-fournisseur-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/supplier/yerith-erp-fournisseur-details-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-fournisseur-details-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/yerith-erp-comptabilite-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-comptabilite-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/yerith-erp-recherche-conditionnelle-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-recherche-conditionnelle-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/yerith-erp-qtable-widget-window-commons.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-qtable-widget-window-commons.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/yerith-erp-window-commons.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-window-commons.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/yerith-erp-main-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-main-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/yerith-erp-alertes-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-alertes-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/yerith-erp-tableaux-de-bord-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-tableaux-de-bord-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/yerith-erp-paiements-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-paiements-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/windows/yerith-erp-ventes-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-ventes-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/tests/utils/yerith-erp-test-yerith-erp-utils.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-test-yerith-erp-utils.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/tests/yerith-erp-test-yerith-erp-table-view.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-test-yerith-erp-table-view.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/tests/yerith-erp-test-yerith-erp-windows.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-test-yerith-erp-windows.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/tests/utils/yerith-erp-test-import-csv-file-data.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-test-import-csv-file-data.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/tests/utils/yerith-erp-test-utils.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-test-utils.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/users/yerith-erp-user-settings.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-user-settings.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/users/yerith-erp-users.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-users.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/users/yerith-erp-user-vendeur.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-user-vendeur.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/users/yerith-erp-user-gestionaire-des-stocks.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-user-gestionaire-des-stocks.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/users/yerith-erp-user-manager.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-user-manager.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/users/yerith-erp-user-magasinier.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-user-magasinier.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/users/yerith-erp-user-caissier.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-user-caissier.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/users/yerith-erp-user-administrateur.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-user-administrateur.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/dbus/yerith_dynamic_taint_analysis_directives.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith_dynamic_taint_analysis_directives.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/dbus/YERITH_RUNTIME_VERIFIER.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./YERITH_RUNTIME_VERIFIER.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/yri-db-runtime-verif-qmap.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yri-db-runtime-verif-qmap.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/yerith-erp-CANCEL-Modification-TIMING-Object.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-CANCEL-Modification-TIMING-Object.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/credit-card/yerith-erp-carte-credit-info.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-carte-credit-info.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/windows/yerith-erp-abstract-class-detail-view-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-abstract-class-detail-view-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/windows/yerith-erp-abstract-class-yerithsearch-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-abstract-class-yerithsearch-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/virtual-keyboard/yerith-erp-key-emitter.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-key-emitter.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/yerith-erp-spell-numbers.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-spell-numbers.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/yerith-erp-sqltable-model.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-sqltable-model.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/yerith-erp-LIST-map-COMPLEX-ITEM.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-LIST-map-COMPLEX-ITEM.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/yerith-erp-map-COMPLEX-ITEM.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-map-COMPLEX-ITEM.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/yerith-erp-payment-processing-information.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-payment-processing-information.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/yerith-erp-config.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-config.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/yerith-erp-service-stock-marchandise-data.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-service-stock-marchandise-data.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/yerith-erp-utils.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-utils.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/yerith-erp-database.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-database.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/yerith-erp-logger.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-logger.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/yerith-erp-historique-stock.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-historique-stock.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/yerith-erp-info-entreprise.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-info-entreprise.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/yerith-erp-article-vente-info.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-article-vente-info.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/yerith-erp-database-table-column.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-database-table-column.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/yerith-erp-command-line-parser.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-command-line-parser.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/yerith-erp-style.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-style.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/print_latex_pdf/yerith-erp-print_yerith_latex_util_pdf.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-print_yerith_latex_util_pdf.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/utils/yerith-erp-client-account-sale-info.cpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-client-account-sale-info.cpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/admin/yerith-erp-qtable-widget-admin-window-commons.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-qtable-widget-admin-window-commons.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/admin/yerith-erp-admin-windows-commons.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-windows-commons.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/admin/yerith-erp-admin-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/admin/yerith-erp-admin-search-form.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-search-form.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/admin/widgets/table-view/yerith-erp-ADMIN-UPPER-TABLE-VIEW-CLASS.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-ADMIN-UPPER-TABLE-VIEW-CLASS.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/admin/widgets/table-view/yerith-erp_web_SYSTEM_discovered_Widgets-table-view.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp_web_SYSTEM_discovered_Widgets-table-view.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/admin/widgets/table-view/yerith-erp-financial-expense-table-view.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-financial-expense-table-view.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/admin/widgets/table-view/yerith-erp-product-department-table-view.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-product-department-table-view.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/admin/widgets/table-view/yerith-erp-alert-table-view.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-alert-table-view.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/admin/widgets/table-view/yerith-erp-site-table-view.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-site-table-view.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/admin/widgets/table-view/yerith-erp-user-table-view.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-user-table-view.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/admin/widgets/table-view/yerith-erp-category-table-view.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-category-table-view.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/admin/widgets/table-view/yerith-erp-bank-account-table-view.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-bank-account-table-view.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/admin/creer/yerith-erp-admin-create-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-create-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/admin/lister/yerith-erp-admin-lister-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-lister-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/admin/detail/yerith-erp-admin-detail-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-detail-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/src/admin/modifier/yerith-erp-admin-modifier-window.hpp $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-modifier-window.hpp
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/yerith-erp-9-0.qrc $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-9-0.qrc
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/yerith-erp-main-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-main-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/yerith-erp-recherche-conditionnelle-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-recherche-conditionnelle-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/yerith-erp-imprimer-dialog.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-imprimer-dialog.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/yerith-erp-comptabilite-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-comptabilite-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/stocks/yerith-erp-sortir-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-sortir-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/yerith-erp-entrer-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-entrer-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/stocks/yerith-erp-mouvements_de_stocks-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-mouvements_de_stocks-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/stocks/yerith-erp-marchandises-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-marchandises-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/stocks/yerith-erp-modifier-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-modifier-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/stocks/yerith-erp-historique-du-stock-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-historique-du-stock-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/stocks/yerith-erp-stocks-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-stocks-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/stocks/yerith-erp-sortir-liststocks-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-sortir-liststocks-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/stocks/yerith-erp-stock-detail-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-stock-detail-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/pos/yerith-erp-pointdevente-liststocks-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-pointdevente-liststocks-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/pos/yerith-erp-pointdevente-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-pointdevente-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/pos/yerith-erp-pointdevente-methode-paiement-carte-credit-dialog.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-pointdevente-methode-paiement-carte-credit-dialog.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/pos/yerith-erp-pointdevente-methode-paiement-comptant-entree-dialog.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-pointdevente-methode-paiement-comptant-entree-dialog.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/pos/yerith-erp-pointdevente-methode-paiement-dialog.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-pointdevente-methode-paiement-dialog.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/purchase/yerith-erp-achats-detail-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-achats-detail-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/purchase/yerith-erp-achats-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-achats-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/yerith-erp-charges-financieres-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-charges-financieres-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/yerith-erp-charges-financieres-detail-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-charges-financieres-detail-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/supplier/yerith-erp-tableau-des-transactions-du-fournisseur-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-tableau-des-transactions-du-fournisseur-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/supplier/yerith-erp-modifier-fournisseur-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-modifier-fournisseur-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/supplier/yerith-erp-creer-fournisseur-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-creer-fournisseur-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/supplier/yerith-erp-fournisseur-details-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-fournisseur-details-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/supplier/yerith-erp-DETAILS-DUN-GROUPE-DE-PAIE-hr-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-DETAILS-DUN-GROUPE-DE-PAIE-hr-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/supplier/yerith-erp-DETAILS-DUN-GROUPE-DEMPLOYES-hr-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-DETAILS-DUN-GROUPE-DEMPLOYES-hr-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/supplier/yerith-erp-GROUPES-dun-employe-hr-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-GROUPES-dun-employe-hr-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/supplier/yerith-erp-creer-GROUPE-DE-PAIE-hr-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-creer-GROUPE-DE-PAIE-hr-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/supplier/yerith-erp-creer-groupe-DEMPLOYES-hr-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-creer-groupe-DEMPLOYES-hr-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/supplier/yerith-erp-GROUPES-DEMPLOYES-hr-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-GROUPES-DEMPLOYES-hr-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/supplier/yerith-erp-GROUPES-DE-PAIE-hr-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-GROUPES-DE-PAIE-hr-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/supplier/yerith-erp-fournisseurs-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-fournisseurs-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/crm/creer/yerith-erp-creer-un-programme-de-fidelite-clients-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-creer-un-programme-de-fidelite-clients-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/crm/creer/yerith-erp-creer-compte-client-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-creer-compte-client-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/crm/creer/yerith-erp-creer-groupe-de-clients-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-creer-groupe-de-clients-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/crm/details/yerith-erp-details-dun-groupe-de-clients-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-details-dun-groupe-de-clients-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/crm/details/yerith-erp-clients-detail-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-clients-detail-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/crm/details/yerith-erp-details-dun-programme-de-fidelite-clients-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-details-dun-programme-de-fidelite-clients-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/crm/yerith-erp-tableau-des-transactions-du-client-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-tableau-des-transactions-du-client-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/crm/modifier/yerith-erp-modifier-compte-client-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-modifier-compte-client-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/crm/modifier/yerith-erp-modifier-groupe-de-clients-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-modifier-groupe-de-clients-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/crm/modifier/yerith-erp-modifier-un-programme-de-fidelite-clients-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-modifier-un-programme-de-fidelite-clients-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/crm/yerith-erp-payer-compte-client-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-payer-compte-client-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/crm/yerith-erp-programmes-de-fidelite-clients-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-programmes-de-fidelite-clients-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/crm/yerith-erp-groupes-de-clients-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-groupes-de-clients-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/crm/yerith-erp-groupes-dun-client-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-groupes-dun-client-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/crm/yerith-erp-clients-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-clients-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/yerith-erp-paiements-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-paiements-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/yerith-erp-ventes-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-ventes-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/yerith-erp-tableaux-de-bord-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-tableaux-de-bord-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/yerith-erp-alertes-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-alertes-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/yerith-erp-changer-utilisateur-dialog.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-changer-utilisateur-dialog.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/yerith-erp-admin-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/yerith-erp-admin-search-form.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-search-form.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/yerith-erp-admin-create-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-create-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/yerith-erp-admin-lister-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-lister-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/yerith-erp-admin-detail-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-detail-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/ui/yerith-erp-admin-modifier-window.ui $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-modifier-window.ui
+	$(QINSTALL) /home/jhnissi/yerith-erp-9-0/yerith-erp-9-0.pro $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-9-0.pro
 
 uninstall_sources: FORCE
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-9-0.pro
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-modifier-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-detail-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-lister-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-create-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-search-form.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-changer-utilisateur-dialog.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-alertes-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-tableaux-de-bord-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-ventes-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-paiements-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-clients-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-groupes-dun-client-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-groupes-de-clients-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-programmes-de-fidelite-clients-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-payer-compte-client-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-modifier-un-programme-de-fidelite-clients-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-modifier-groupe-de-clients-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-modifier-compte-client-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-tableau-des-transactions-du-client-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-details-dun-programme-de-fidelite-clients-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-clients-detail-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-details-dun-groupe-de-clients-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-creer-groupe-de-clients-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-creer-compte-client-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-creer-un-programme-de-fidelite-clients-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-fournisseurs-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-GROUPES-DE-PAIE-hr-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-GROUPES-DEMPLOYES-hr-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-creer-groupe-DEMPLOYES-hr-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-creer-GROUPE-DE-PAIE-hr-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-GROUPES-dun-employe-hr-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-DETAILS-DUN-GROUPE-DEMPLOYES-hr-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-DETAILS-DUN-GROUPE-DE-PAIE-hr-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-fournisseur-details-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-creer-fournisseur-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-modifier-fournisseur-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-tableau-des-transactions-du-fournisseur-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-charges-financieres-detail-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-charges-financieres-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-achats-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-achats-detail-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-pointdevente-methode-paiement-dialog.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-pointdevente-methode-paiement-comptant-entree-dialog.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-pointdevente-methode-paiement-carte-credit-dialog.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-pointdevente-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-pointdevente-liststocks-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-stock-detail-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-sortir-liststocks-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-stocks-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-historique-du-stock-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-modifier-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-marchandises-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-mouvements_de_stocks-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-entrer-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-sortir-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-comptabilite-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-imprimer-dialog.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-recherche-conditionnelle-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-main-window.ui
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-9-0.qrc
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-modifier-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-detail-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-lister-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-create-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-bank-account-table-view.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-category-table-view.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-user-table-view.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-site-table-view.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-alert-table-view.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-product-department-table-view.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-financial-expense-table-view.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp_web_SYSTEM_discovered_Widgets-table-view.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-ADMIN-UPPER-TABLE-VIEW-CLASS.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-search-form.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-windows-commons.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-qtable-widget-admin-window-commons.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-client-account-sale-info.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-print_yerith_latex_util_pdf.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-style.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-command-line-parser.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-database-table-column.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-article-vente-info.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-info-entreprise.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-historique-stock.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-logger.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-database.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-utils.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-service-stock-marchandise-data.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-config.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-payment-processing-information.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-map-COMPLEX-ITEM.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-LIST-map-COMPLEX-ITEM.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-sqltable-model.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-spell-numbers.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-key-emitter.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-abstract-class-yerithsearch-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-abstract-class-detail-view-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-carte-credit-info.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-CANCEL-Modification-TIMING-Object.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yri-db-runtime-verif-qmap.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./YERITH_RUNTIME_VERIFIER.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith_dynamic_taint_analysis_directives.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-user-administrateur.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-user-caissier.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-user-magasinier.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-user-manager.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-user-gestionaire-des-stocks.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-user-vendeur.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-users.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-user-settings.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-test-utils.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-test-import-csv-file-data.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-test-yerith-erp-windows.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-test-yerith-erp-table-view.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-test-yerith-erp-utils.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-ventes-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-paiements-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-tableaux-de-bord-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-alertes-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-main-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-window-commons.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-qtable-widget-window-commons.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-recherche-conditionnelle-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-comptabilite-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-fournisseur-details-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-creer-fournisseur-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-fournisseurs-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-GROUPES-DE-PAIE-hr-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-GROUPES-DEMPLOYES-hr-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-creer-groupe-DEMPLOYES-hr-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-creer-GROUPE-DE-PAIE-hr-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-GROUPES-dun-employe-hr-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-DETAILS-DUN-GROUPE-DEMPLOYES-hr-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-DETAILS-DUN-GROUPE-DE-PAIE-hr-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-modifier-fournisseur-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-tableau-des-transactions-du-fournisseur-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-calcul-salaire-EMPLOYE-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-pointdevente-liststocks-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-pointdevente-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-achats-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-achats-detail-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-charges-financieres-detail-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-charges-financieres-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-stocks-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-stock-detail-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-historique-du-stock-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-sortir-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-sortir-liststocks-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-marchandises-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-modifier-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-mouvements_de_stocks-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-entrer-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-tableau-des-transactions-du-client-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-payer-compte-client-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-clients-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-groupes-dun-client-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-groupes-de-clients-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-programmes-de-fidelite-clients-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-details-dun-programme-de-fidelite-clients-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-clients-detail-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-details-dun-groupe-de-clients-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-modifier-compte-client-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-creer-compte-client-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-creer-un-programme-de-fidelite-clients-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-creer-groupe-de-clients-window.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-pointdevente-methode-paiement-dialog.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-pointdevente-methode-paiement-comptant-entree-dialog.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-pointdevente-methode-paiement-carte-credit-dialog.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-changer-utilisateur-dialog.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-generic-select-db-field-dialog.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-dialog-commons.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-IMPRESSION_DE_DOCUMENT-dialog.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-process.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-process-info.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-select-db-qcheckbox.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-qcheckbox.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-datetime-edit.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-spinbox.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-qstandard-item.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-qstandard-item-model.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-combo-box.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-text-edit.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-push-button.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-qmessage-box.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-radio-button.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-line-edit.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-marchandises-table-view.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-achats-table-view.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-CHARGES-FINANCIERES-table-view.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-alertes-table-view.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-clients-table-view.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-groupes-de-clients-table-view.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-programmes-de-fidelite-clients-table-view.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-fournisseurs-table-view.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-GROUPES-DE-PAIE-HR-table-view.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-mouvements_de_stocks-table-view.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-ventes-table-view.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-stocks-table-view.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-paiements-table-view.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-comptes-doperations-comptabilite-table-view.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-table-view.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-table-view-with-pagination.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-tab-widget.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-qtable-widget-item.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-table-widget.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-point-de-vente-table-widget.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-COMPTABILITE-table-widget.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-groupes-dun-client-table-widget.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-groupes-dun-EMPLOYE-table-widget.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-creer-un-groupe-de-clients-table-widget.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-verif-logging-table-widget.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-tab-MAINTENANCE-widget.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-qcolumn-view.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-qgroup-box.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-progress-bar.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-push-button-PASSWORD.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-table-view_WITH_TABWIDGET_AS_DIRECT_PARENT_movable_section.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-xml-parser-widget-PUSH_BUTTON-element.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-xml-parser-widget-MAIN_WINDOW-element.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-xml-parser-widget-element.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-xml-parser-QLIST___widget-element.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-web-systems-main-generator.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-web-systems-main-parser_XML_Tag_Element.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-9-0-software.text-configuration.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-9-0-definition-shortcut.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-9-0-definition-month.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-9-0-definition-initial-focus-searchbar.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-9-0-definition-format-date-time.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-9-0-definition-file-folder.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-9-0-definition-user-manual.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-9-0-definition-colour-rgb.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-9-0-definition-special-qt5.7-macro.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-stock-import.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-marchandise-import.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-database-table-import-info.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-bank-account-info-raw-import.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-ALL-common-import.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-Budget_Lines-import.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-windows.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./IYRIruntimeverificationAdaptor_interface.h
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./YRIruntimeverification_adaptor.h
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-9-0-precompiled-header.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-modifier-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-detail-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-lister-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-create-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-bank-account-table-view.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-category-table-view.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-user-table-view.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-site-table-view.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-alert-table-view.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-product-department-table-view.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-financial-expense-table-view.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp_web_SYSTEM_discovered_Widgets-table-view.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-ADMIN-UPPER-TABLE-VIEW-CLASS.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-search-form.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-windows-commons.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-qtable-widget-admin-window-commons.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-client-account-sale-info.hpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-print_yerith_latex_util_pdf.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-style.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-command-line-parser.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-database-table-column.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-article-vente-info.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-info-entreprise.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-historique-stock.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-logger.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-database.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-utils.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-config.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-payment-processing-information.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-map-COMPLEX-ITEM.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-LIST-map-COMPLEX-ITEM.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-sqltable-model.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-spell-numbers.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-key-emitter.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-abstract-class-yerithsearch-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-abstract-class-detail-view-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-carte-credit-info.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-CANCEL-Modification-TIMING-Object.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yri-db-runtime-verif-qmap.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./YERITH_RUNTIME_VERIFIER.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith_dynamic_taint_analysis_directives.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-user-administrateur.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-user-caissier.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-user-magasinier.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-user-manager.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-user-gestionaire-des-stocks.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-user-vendeur.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-users.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-user-settings.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-test-utils.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-test-import-csv-file-data.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-test-yerith-erp-windows.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-test-yerith-erp-table-view.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-test-yerith-erp-utils.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-ventes-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-paiements-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-tableaux-de-bord-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-alertes-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-main-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-window-commons.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-qtable-widget-window-commons.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-recherche-conditionnelle-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-fournisseur-details-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-creer-fournisseur-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-fournisseurs-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-GROUPES-DE-PAIE-hr-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-GROUPES-DEMPLOYES-hr-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-creer-groupe-DEMPLOYES-hr-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-creer-GROUPE-DE-PAIE-hr-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-GROUPES-dun-employe-hr-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-DETAILS-DUN-GROUPE-DEMPLOYES-hr-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-DETAILS-DUN-GROUPE-DE-PAIE-hr-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-modifier-fournisseur-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-tableau-des-transactions-du-fournisseur-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-calcul-salaire-EMPLOYE-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-pointdevente-liststocks-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-pointdevente-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-achats-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-achats-detail-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-charges-financieres-detail-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-charges-financieres-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-stocks-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-stock-detail-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-historique-du-stock-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-sortir-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-sortir-liststocks-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-marchandises-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-modifier-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-mouvements_de_stocks-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-entrer-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-tableau-des-transactions-du-client-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-payer-compte-client-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-clients-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-groupes-dun-client-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-groupes-de-clients-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-programmes-de-fidelite-clients-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-modifier-compte-client-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-details-dun-programme-de-fidelite-clients-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-clients-detail-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-details-dun-groupe-de-clients-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-creer-compte-client-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-creer-un-programme-de-fidelite-clients-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-creer-groupe-de-clients-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-comptabilite-window.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./YERITH_TABLEAUX_DE_BORDS_zero_stats_stocks.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./YERITH_TABLEAUX_DE_BORDS_zero_stats.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./YERITH_TABLEAUX_DE_BORDS_meilleurs_stats.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./YERITH_TABLEAUX_DE_BORDS_analyse_comparee_mensuelle.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./YERITH_TABLEAUX_DE_BORDS_analyse_comparee_jour_semaine.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-pointdevente-methode-paiement-dialog.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-pointdevente-methode-paiement-comptant-entree-dialog.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-pointdevente-methode-paiement-carte-credit-dialog.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-changer-utilisateur-dialog.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-generic-select-db-field-dialog.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-dialog-commons.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-IMPRESSION_DE_DOCUMENT-dialog.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-process.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-process-info.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-tab-widget.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-qtable-widget-item.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-table-widget.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-point-de-vente-table-widget.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-COMPTABILITE-table-widget.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-groupes-dun-client-table-widget.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-groupes-dun-EMPLOYE-table-widget.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-creer-un-groupe-de-clients-table-widget.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-admin-verif-logging-table-widget.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-tab-MAINTENANCE-widget.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-select-db-qcheckbox.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-qcheckbox.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-datetime-edit.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-spinbox.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-qstandard-item.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-qstandard-item-model.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-qmessage-box.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-radio-button.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-combo-box.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-text-edit.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-push-button.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-line-edit.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-programmes-de-fidelite-clients-table-view.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-marchandises-table-view.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-achats-table-view.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-CHARGES-FINANCIERES-table-view.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-alertes-table-view.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-clients-table-view.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-groupes-de-clients-table-view.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-fournisseurs-table-view.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-GROUPES-DE-PAIE-HR-table-view.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-mouvements_de_stocks-table-view.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-ventes-table-view.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-stocks-table-view.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-paiements-table-view.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-comptes-doperations-comptabilite-table-view.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-table-view.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-table-view-with-pagination.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-qcolumn-view.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-qgroup-box.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-progress-bar.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-push-button-PASSWORD.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-table-view_WITH_TABWIDGET_AS_DIRECT_PARENT_movable_section.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-xml-parser-widget-PUSH_BUTTON-element.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-xml-parser-widget-MAIN_WINDOW-element.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-xml-parser-widget-element.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-xml-parser-QLIST___widget-element.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-web-systems-main-generator.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-web-systems-main-parser_XML_Tag_Element.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-web-systems-main-generator___KeyWords.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-stock-import.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-marchandise-import.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-bank-account-info-raw-import.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-ALL-common-import.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-Budget_Lines-import.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-windows.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./IYRIruntimeverificationAdaptor_interface.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./YRIruntimeverification_adaptor.cpp
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./yerith-erp-9-0.cpp
-	-$(DEL_DIR) $(INSTALL_ROOT)/home/yerith-erp-pgi/yerith-erp-9-0/./ 
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-9-0.pro
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-modifier-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-detail-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-lister-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-create-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-search-form.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-changer-utilisateur-dialog.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-alertes-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-tableaux-de-bord-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-ventes-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-paiements-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-clients-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-groupes-dun-client-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-groupes-de-clients-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-programmes-de-fidelite-clients-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-payer-compte-client-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-modifier-un-programme-de-fidelite-clients-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-modifier-groupe-de-clients-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-modifier-compte-client-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-tableau-des-transactions-du-client-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-details-dun-programme-de-fidelite-clients-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-clients-detail-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-details-dun-groupe-de-clients-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-creer-groupe-de-clients-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-creer-compte-client-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-creer-un-programme-de-fidelite-clients-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-fournisseurs-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-GROUPES-DE-PAIE-hr-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-GROUPES-DEMPLOYES-hr-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-creer-groupe-DEMPLOYES-hr-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-creer-GROUPE-DE-PAIE-hr-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-GROUPES-dun-employe-hr-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-DETAILS-DUN-GROUPE-DEMPLOYES-hr-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-DETAILS-DUN-GROUPE-DE-PAIE-hr-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-fournisseur-details-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-creer-fournisseur-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-modifier-fournisseur-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-tableau-des-transactions-du-fournisseur-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-charges-financieres-detail-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-charges-financieres-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-achats-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-achats-detail-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-pointdevente-methode-paiement-dialog.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-pointdevente-methode-paiement-comptant-entree-dialog.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-pointdevente-methode-paiement-carte-credit-dialog.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-pointdevente-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-pointdevente-liststocks-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-stock-detail-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-sortir-liststocks-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-stocks-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-historique-du-stock-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-modifier-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-marchandises-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-mouvements_de_stocks-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-entrer-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-sortir-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-comptabilite-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-imprimer-dialog.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-recherche-conditionnelle-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-main-window.ui
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-9-0.qrc
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-modifier-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-detail-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-lister-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-create-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-bank-account-table-view.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-category-table-view.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-user-table-view.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-site-table-view.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-alert-table-view.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-product-department-table-view.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-financial-expense-table-view.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp_web_SYSTEM_discovered_Widgets-table-view.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-ADMIN-UPPER-TABLE-VIEW-CLASS.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-search-form.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-windows-commons.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-qtable-widget-admin-window-commons.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-client-account-sale-info.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-print_yerith_latex_util_pdf.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-style.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-command-line-parser.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-database-table-column.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-article-vente-info.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-info-entreprise.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-historique-stock.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-logger.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-database.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-utils.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-service-stock-marchandise-data.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-config.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-payment-processing-information.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-map-COMPLEX-ITEM.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-LIST-map-COMPLEX-ITEM.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-sqltable-model.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-spell-numbers.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-key-emitter.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-abstract-class-yerithsearch-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-abstract-class-detail-view-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-carte-credit-info.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-CANCEL-Modification-TIMING-Object.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yri-db-runtime-verif-qmap.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./YERITH_RUNTIME_VERIFIER.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith_dynamic_taint_analysis_directives.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-user-administrateur.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-user-caissier.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-user-magasinier.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-user-manager.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-user-gestionaire-des-stocks.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-user-vendeur.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-users.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-user-settings.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-test-utils.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-test-import-csv-file-data.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-test-yerith-erp-windows.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-test-yerith-erp-table-view.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-test-yerith-erp-utils.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-ventes-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-paiements-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-tableaux-de-bord-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-alertes-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-main-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-window-commons.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-qtable-widget-window-commons.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-recherche-conditionnelle-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-comptabilite-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-fournisseur-details-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-creer-fournisseur-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-fournisseurs-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-GROUPES-DE-PAIE-hr-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-GROUPES-DEMPLOYES-hr-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-creer-groupe-DEMPLOYES-hr-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-creer-GROUPE-DE-PAIE-hr-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-GROUPES-dun-employe-hr-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-DETAILS-DUN-GROUPE-DEMPLOYES-hr-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-DETAILS-DUN-GROUPE-DE-PAIE-hr-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-modifier-fournisseur-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-tableau-des-transactions-du-fournisseur-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-calcul-salaire-EMPLOYE-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-pointdevente-liststocks-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-pointdevente-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-achats-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-achats-detail-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-charges-financieres-detail-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-charges-financieres-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-stocks-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-stock-detail-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-historique-du-stock-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-sortir-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-sortir-liststocks-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-marchandises-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-modifier-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-mouvements_de_stocks-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-entrer-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-tableau-des-transactions-du-client-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-payer-compte-client-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-clients-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-groupes-dun-client-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-groupes-de-clients-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-programmes-de-fidelite-clients-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-details-dun-programme-de-fidelite-clients-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-clients-detail-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-details-dun-groupe-de-clients-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-modifier-compte-client-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-creer-compte-client-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-creer-un-programme-de-fidelite-clients-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-creer-groupe-de-clients-window.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-pointdevente-methode-paiement-dialog.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-pointdevente-methode-paiement-comptant-entree-dialog.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-pointdevente-methode-paiement-carte-credit-dialog.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-changer-utilisateur-dialog.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-generic-select-db-field-dialog.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-dialog-commons.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-IMPRESSION_DE_DOCUMENT-dialog.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-process.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-process-info.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-select-db-qcheckbox.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-qcheckbox.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-datetime-edit.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-spinbox.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-qstandard-item.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-qstandard-item-model.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-combo-box.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-text-edit.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-push-button.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-qmessage-box.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-radio-button.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-line-edit.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-marchandises-table-view.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-achats-table-view.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-CHARGES-FINANCIERES-table-view.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-alertes-table-view.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-clients-table-view.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-groupes-de-clients-table-view.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-programmes-de-fidelite-clients-table-view.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-fournisseurs-table-view.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-GROUPES-DE-PAIE-HR-table-view.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-mouvements_de_stocks-table-view.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-ventes-table-view.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-stocks-table-view.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-paiements-table-view.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-comptes-doperations-comptabilite-table-view.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-table-view.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-table-view-with-pagination.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-tab-widget.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-qtable-widget-item.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-table-widget.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-point-de-vente-table-widget.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-COMPTABILITE-table-widget.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-groupes-dun-client-table-widget.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-groupes-dun-EMPLOYE-table-widget.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-creer-un-groupe-de-clients-table-widget.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-verif-logging-table-widget.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-tab-MAINTENANCE-widget.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-qcolumn-view.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-qgroup-box.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-progress-bar.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-push-button-PASSWORD.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-table-view_WITH_TABWIDGET_AS_DIRECT_PARENT_movable_section.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-xml-parser-widget-PUSH_BUTTON-element.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-xml-parser-widget-MAIN_WINDOW-element.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-xml-parser-widget-element.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-xml-parser-QLIST___widget-element.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-web-systems-main-generator.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-web-systems-main-parser_XML_Tag_Element.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-9-0-software.text-configuration.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-9-0-definition-shortcut.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-9-0-definition-month.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-9-0-definition-initial-focus-searchbar.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-9-0-definition-format-date-time.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-9-0-definition-file-folder.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-9-0-definition-user-manual.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-9-0-definition-colour-rgb.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-9-0-definition-special-qt5.7-macro.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-stock-import.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-marchandise-import.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-database-table-import-info.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-bank-account-info-raw-import.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-ALL-common-import.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-Budget_Lines-import.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-windows.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./IYRIruntimeverificationAdaptor_interface.h
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./YRIruntimeverification_adaptor.h
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-9-0-precompiled-header.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-modifier-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-detail-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-lister-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-create-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-bank-account-table-view.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-category-table-view.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-user-table-view.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-site-table-view.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-alert-table-view.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-product-department-table-view.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-financial-expense-table-view.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp_web_SYSTEM_discovered_Widgets-table-view.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-ADMIN-UPPER-TABLE-VIEW-CLASS.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-search-form.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-windows-commons.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-qtable-widget-admin-window-commons.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-client-account-sale-info.hpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-print_yerith_latex_util_pdf.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-style.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-command-line-parser.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-database-table-column.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-article-vente-info.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-info-entreprise.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-historique-stock.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-logger.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-database.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-utils.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-config.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-payment-processing-information.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-map-COMPLEX-ITEM.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-LIST-map-COMPLEX-ITEM.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-sqltable-model.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-spell-numbers.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-key-emitter.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-abstract-class-yerithsearch-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-abstract-class-detail-view-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-carte-credit-info.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-CANCEL-Modification-TIMING-Object.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yri-db-runtime-verif-qmap.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./YERITH_RUNTIME_VERIFIER.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith_dynamic_taint_analysis_directives.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-user-administrateur.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-user-caissier.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-user-magasinier.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-user-manager.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-user-gestionaire-des-stocks.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-user-vendeur.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-users.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-user-settings.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-test-utils.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-test-import-csv-file-data.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-test-yerith-erp-windows.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-test-yerith-erp-table-view.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-test-yerith-erp-utils.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-ventes-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-paiements-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-tableaux-de-bord-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-alertes-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-main-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-window-commons.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-qtable-widget-window-commons.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-recherche-conditionnelle-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-fournisseur-details-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-creer-fournisseur-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-fournisseurs-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-GROUPES-DE-PAIE-hr-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-GROUPES-DEMPLOYES-hr-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-creer-groupe-DEMPLOYES-hr-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-creer-GROUPE-DE-PAIE-hr-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-GROUPES-dun-employe-hr-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-DETAILS-DUN-GROUPE-DEMPLOYES-hr-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-DETAILS-DUN-GROUPE-DE-PAIE-hr-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-modifier-fournisseur-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-tableau-des-transactions-du-fournisseur-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-calcul-salaire-EMPLOYE-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-pointdevente-liststocks-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-pointdevente-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-achats-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-achats-detail-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-charges-financieres-detail-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-charges-financieres-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-stocks-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-stock-detail-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-historique-du-stock-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-sortir-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-sortir-liststocks-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-marchandises-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-modifier-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-mouvements_de_stocks-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-entrer-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-tableau-des-transactions-du-client-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-payer-compte-client-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-clients-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-groupes-dun-client-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-groupes-de-clients-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-programmes-de-fidelite-clients-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-modifier-compte-client-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-details-dun-programme-de-fidelite-clients-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-clients-detail-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-details-dun-groupe-de-clients-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-creer-compte-client-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-creer-un-programme-de-fidelite-clients-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-creer-groupe-de-clients-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-comptabilite-window.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./YERITH_TABLEAUX_DE_BORDS_zero_stats_stocks.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./YERITH_TABLEAUX_DE_BORDS_zero_stats.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./YERITH_TABLEAUX_DE_BORDS_meilleurs_stats.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./YERITH_TABLEAUX_DE_BORDS_analyse_comparee_mensuelle.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./YERITH_TABLEAUX_DE_BORDS_analyse_comparee_jour_semaine.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-pointdevente-methode-paiement-dialog.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-pointdevente-methode-paiement-comptant-entree-dialog.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-pointdevente-methode-paiement-carte-credit-dialog.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-changer-utilisateur-dialog.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-generic-select-db-field-dialog.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-dialog-commons.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-IMPRESSION_DE_DOCUMENT-dialog.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-process.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-process-info.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-tab-widget.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-qtable-widget-item.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-table-widget.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-point-de-vente-table-widget.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-COMPTABILITE-table-widget.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-groupes-dun-client-table-widget.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-groupes-dun-EMPLOYE-table-widget.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-creer-un-groupe-de-clients-table-widget.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-admin-verif-logging-table-widget.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-tab-MAINTENANCE-widget.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-select-db-qcheckbox.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-qcheckbox.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-datetime-edit.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-spinbox.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-qstandard-item.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-qstandard-item-model.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-qmessage-box.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-radio-button.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-combo-box.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-text-edit.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-push-button.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-line-edit.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-programmes-de-fidelite-clients-table-view.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-marchandises-table-view.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-achats-table-view.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-CHARGES-FINANCIERES-table-view.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-alertes-table-view.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-clients-table-view.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-groupes-de-clients-table-view.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-fournisseurs-table-view.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-GROUPES-DE-PAIE-HR-table-view.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-mouvements_de_stocks-table-view.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-ventes-table-view.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-stocks-table-view.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-paiements-table-view.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-comptes-doperations-comptabilite-table-view.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-table-view.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-table-view-with-pagination.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-qcolumn-view.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-qgroup-box.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-progress-bar.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-push-button-PASSWORD.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-table-view_WITH_TABWIDGET_AS_DIRECT_PARENT_movable_section.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-xml-parser-widget-PUSH_BUTTON-element.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-xml-parser-widget-MAIN_WINDOW-element.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-xml-parser-widget-element.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-xml-parser-QLIST___widget-element.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-web-systems-main-generator.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-web-systems-main-parser_XML_Tag_Element.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-web-systems-main-generator___KeyWords.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-stock-import.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-marchandise-import.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-bank-account-info-raw-import.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-ALL-common-import.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-Budget_Lines-import.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-windows.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./IYRIruntimeverificationAdaptor_interface.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./YRIruntimeverification_adaptor.cpp
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./yerith-erp-9-0.cpp
+	-$(DEL_DIR) $(INSTALL_ROOT)/home/jhnissi/yerith-erp-9-0/./ 
 
 
 install: install_target install_sources  FORCE

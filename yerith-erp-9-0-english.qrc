@@ -3,6 +3,8 @@
 
     <file>yerith-erp-9-0-main.qml</file>
 
+    <file>template-yri-web-dsl.spec_html</file>
+
 	  <file>yerith-erp-9-0-templates/EN_template-bon_de_COMMANDE.tex</file>
 	  <file>yerith-erp-9-0-templates/EN_template-lister-admin-objects.tex</file>
 	  <file>yerith-erp-9-0-templates/EN_template-THREE_D_bardiag.tex</file>
