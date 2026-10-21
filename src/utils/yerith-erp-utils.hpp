@@ -1314,6 +1314,9 @@ public:
     static const QString FRANCAIS_STRING;
 
 
+    static QString Template_spec_html_dsl;
+
+
     static QString _1a_tex;
 
     static QString FR_template_bilan_comptable_tex;

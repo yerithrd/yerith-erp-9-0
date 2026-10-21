@@ -95,6 +95,8 @@ QString YerithUtils::_mainWorkingDirectory("");
 
 QString YerithUtils::_logFileName("");
 
+QString YerithUtils::Template_spec_html_dsl("");
+
 QString YerithUtils::_1a_tex("");
 
 QString YerithUtils::FR_template_bilan_comptable_tex("");

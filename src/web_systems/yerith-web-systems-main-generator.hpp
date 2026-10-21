@@ -29,6 +29,7 @@ public:
 
     virtual ~YERITH_WEB_SYSTEMS_MAIN_GENERATOR();
 
+    virtual void read__TexTemplateFiles();
 
     virtual inline QString Get_current_processed_UI_File___full_path()
     {

@@ -14,6 +14,8 @@
 #define FOLDER_YERITH_ERP_3_0_SQL 																":yerith-erp-9-0-sql"
 #define FOLDER_YERITH_ERP_3_0_TEMPLATES 													":yerith-erp-9-0-templates"
 
+#define FILE_YERITH_ERP_3_0_TEMPLATE_SPEC_HTML_DSL 								":template-yri-web-dsl.spec_html"
+
 #define FILE_YERITH_ERP_3_0_PUBLIC_LOG_INFO 															"yerith-erp-9-0.log"
 #define FILE_YERITH_ERP_3_0_PUBLIC_USER_PROPERTIES 											"yerith-erp-9-0.properties"
 

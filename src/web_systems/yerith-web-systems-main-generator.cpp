@@ -31,6 +31,8 @@ YERITH_WEB_SYSTEMS_MAIN_GENERATOR::YERITH_WEB_SYSTEMS_MAIN_GENERATOR()
  _last_returned_Widget_SUB_Element(0),
  _all_windows(0)
 {
+    read__TexTemplateFiles();
+
     _yri_An_xml_stream_Reader = new QXmlStreamReader;
 
     _all_windows = YerithUtils::getAllWindows();
@@ -56,6 +58,15 @@ YERITH_WEB_SYSTEMS_MAIN_GENERATOR::~YERITH_WEB_SYSTEMS_MAIN_GENERATOR()
 
 
 	_yri_file___TO___XmlWidgetElementsFOR_HTML_web_generation.clear();
+}
+
+
+void YERITH_WEB_SYSTEMS_MAIN_GENERATOR::read__TexTemplateFiles()
+{
+    QFile file_template_spec_html_dsl(FILE_YERITH_ERP_3_0_TEMPLATE_SPEC_HTML_DSL);
+
+    YerithUtils::YERITH_READ_FILE_CONTENT(file_template_spec_html_dsl,
+                                          YerithUtils::Template_spec_html_dsl);
 }
 
 
@@ -285,6 +296,8 @@ int YERITH_WEB_SYSTEMS_MAIN_GENERATOR::
 
 
     bool spec_html_dsl_CODE_FILE_writable = false;
+
+    QString cur__SPEC_HTML_DSL_code___OUT;
 
     QString cur__SPEC_HTML_DSL_code;
 
@@ -540,8 +553,12 @@ int YERITH_WEB_SYSTEMS_MAIN_GENERATOR::
 
     if (spec_html_dsl_CODE_FILE_writable)
     {
+        cur__SPEC_HTML_DSL_code___OUT = YerithUtils::Template_spec_html_dsl;
+
+        cur__SPEC_HTML_DSL_code___OUT.replace("GENERATED_SPEC_DSL_TEXT", cur__SPEC_HTML_DSL_code_STRING);
+
         current_processed_UI_File___full_path__spec_html_dsl
-                .write(cur__SPEC_HTML_DSL_code_STRING.toUtf8());
+                .write(cur__SPEC_HTML_DSL_code___OUT.toUtf8());
     }
 
 
