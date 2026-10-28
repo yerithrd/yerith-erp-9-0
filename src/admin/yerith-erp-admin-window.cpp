@@ -1264,6 +1264,11 @@ int YerithAdminWindow::process_Current_Registered_User_Interface___FILE()
 
         if (number_of_widgets_discovered > 0)
         {
+            QString cur__SPEC_HTML_DSL_code___OUT =
+                _a_YERITH_WEB_SYSTEMS_MAIN_GENERATOR_Instance->get__cur__SPEC_HTML_DSL_code___OUT();
+
+            textEdit_Spec_HTML___preview->append(cur__SPEC_HTML_DSL_code___OUT);
+
             tabWidget_maintenance_web_SYSTEM_tab->setVisible(true);
 
             tabWidget_maintenance_web_SYSTEM_tab->setTabVisible(Widget_TAB_ONE, true);

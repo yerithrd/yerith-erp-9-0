@@ -87,6 +87,12 @@ public:
     }
 
 
+    virtual inline QString get__cur__SPEC_HTML_DSL_code___OUT()
+    {
+        return _cur__SPEC_HTML_DSL_code___OUT;
+    }
+
+
 public slots:
 
     void display_recognized_UI_file_widgets(bool reset_all_qlabel_for_viewing_output = false);
@@ -150,6 +156,7 @@ public:
 
 protected:
 
+    QString                 _cur__SPEC_HTML_DSL_code___OUT;
 
     QXmlStreamAttributes    _yri_current_Widget_START_element_attributes;
 

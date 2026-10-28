@@ -20,6 +20,8 @@
 #include "src/utils/yerith-erp-utils.hpp"
 
 
+#include <QtCore/QFileInfo>
+
 
 #include "yerith-web-systems-main-generator___KeyWords.cpp"
 
@@ -234,6 +236,9 @@ void YERITH_WEB_SYSTEMS_MAIN_GENERATOR::
             else
             {
                 _all_windows->_adminWindow
+                    ->textEdit_Spec_HTML___preview->clear();
+
+                _all_windows->_adminWindow
                     ->tabWidget_maintenance_web_SYSTEM_tab
                         ->setTabVisible(YerithAdminWindow::Widget_TAB_Two, false);
             }
@@ -297,7 +302,7 @@ int YERITH_WEB_SYSTEMS_MAIN_GENERATOR::
 
     bool spec_html_dsl_CODE_FILE_writable = false;
 
-    QString cur__SPEC_HTML_DSL_code___OUT;
+    _cur__SPEC_HTML_DSL_code___OUT.clear();
 
     QString cur__SPEC_HTML_DSL_code;
 
@@ -553,12 +558,22 @@ int YERITH_WEB_SYSTEMS_MAIN_GENERATOR::
 
     if (spec_html_dsl_CODE_FILE_writable)
     {
-        cur__SPEC_HTML_DSL_code___OUT = YerithUtils::Template_spec_html_dsl;
+        QFileInfo cur__fileInfo (_current_processed_UI_File___full_path);
 
-        cur__SPEC_HTML_DSL_code___OUT.replace("GENERATED_SPEC_DSL_TEXT", cur__SPEC_HTML_DSL_code_STRING);
+        QString cur__spec_file_name_raw = cur__fileInfo.fileName();
+
+        QString cur__spec_file_name = cur__spec_file_name_raw.replace(".", "-");
+
+        QDEBUG_STRING_OUTPUT_2("spec file name", cur__spec_file_name);
+
+        _cur__SPEC_HTML_DSL_code___OUT = YerithUtils::Template_spec_html_dsl;
+
+        _cur__SPEC_HTML_DSL_code___OUT.replace("GENERATED_SPEC_DSL_NAME", cur__spec_file_name);
+
+        _cur__SPEC_HTML_DSL_code___OUT.replace("GENERATED_SPEC_DSL_TEXT", cur__SPEC_HTML_DSL_code_STRING);
 
         current_processed_UI_File___full_path__spec_html_dsl
-                .write(cur__SPEC_HTML_DSL_code___OUT.toUtf8());
+                .write(_cur__SPEC_HTML_DSL_code___OUT.toUtf8());
     }
 
 
