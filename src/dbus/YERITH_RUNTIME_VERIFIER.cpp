@@ -31,15 +31,6 @@ YERITH_RUNTIME_VERIFIER::YERITH_RUNTIME_VERIFIER()
 	QString systemYerithService = "yri.db-runtime.verif";
 
 
-//	com::yerith::rd::IYRIruntimeverification	*a_YRI_DB_RUNTIME_VERIF_tainted_analysis =
-//			new com::yerith::rd::IYRIruntimeverification(systemYerithService,
-//														"/YERITH_QVGE_sample_TaintAnalysis",
-//														QDBusConnection::systemBus(),
-//														this);
-//
-//    _YRI_DB_RUNTIME_VERIF_instances.append(a_YRI_DB_RUNTIME_VERIF_tainted_analysis);
-
-
 	com::yerith::rd::IYRIruntimeverification	*a_YRI_DB_RUNTIME_VERIF_instance_Cancellation_matter_1 =
 			new com::yerith::rd::IYRIruntimeverification(systemYerithService,
 														"/YERITH_ERP_PGI_9_0_Checking_INSERTION_cancellation_matter_1",
@@ -49,13 +40,13 @@ YERITH_RUNTIME_VERIFIER::YERITH_RUNTIME_VERIFIER()
     _YRI_DB_RUNTIME_VERIF_instances.append(a_YRI_DB_RUNTIME_VERIF_instance_Cancellation_matter_1);
 
 
-	com::yerith::rd::IYRIruntimeverification	*a_YRI_DB_RUNTIME_VERIF_instance_Paper_sample_1 =
+	com::yerith::rd::IYRIruntimeverification	*a_YRI_DB_RUNTIME_VERIF_instance_yr_missing_department_NO_DELETE =
 			new com::yerith::rd::IYRIruntimeverification(systemYerithService,
-														"/YERITH_QVGE_sample_PAPER_extended_version_PROPERY",
+														"/yr_missing_department_NO_DELETE",
 														QDBusConnection::systemBus(),
 														this);
 
-    _YRI_DB_RUNTIME_VERIF_instances.append(a_YRI_DB_RUNTIME_VERIF_instance_Paper_sample_1);
+    _YRI_DB_RUNTIME_VERIF_instances.append(a_YRI_DB_RUNTIME_VERIF_instance_yr_missing_department_NO_DELETE);
 
 
 //	com::yerith::rd::IYRIruntimeverification	*a_YRI_DB_RUNTIME_VERIF_instance =
@@ -75,14 +66,6 @@ YERITH_RUNTIME_VERIFIER::YERITH_RUNTIME_VERIFIER()
 //
 //    _YRI_DB_RUNTIME_VERIF_instances.append(a_YRI_DB_RUNTIME_VERIF_instance_1);
 //
-
-	com::yerith::rd::IYRIruntimeverification	*a_YRI_DB_RUNTIME_VERIF_instance_2 =
-			new com::yerith::rd::IYRIruntimeverification(systemYerithService,
-														"/YERITH_QVGE_sample_SAFETY_PROPERY_one",
-														QDBusConnection::systemBus(),
-														this);
-
-    _YRI_DB_RUNTIME_VERIF_instances.append(a_YRI_DB_RUNTIME_VERIF_instance_2);
 
 
 	startTimer(3000);
